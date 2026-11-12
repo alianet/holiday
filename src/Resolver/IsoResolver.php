@@ -64,6 +64,8 @@ final class IsoResolver implements ProviderResolverInterface
         }
         $this->initialized = true;
 
-        self::$MAP = include __DIR__ . '/isoData.php';
+        /** @var array<string, string> $isoData */
+        $isoData = include __DIR__ . '/isoData.php';
+        self::$MAP = $isoData;
     }
 }

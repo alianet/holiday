@@ -33,9 +33,11 @@ final class Translator implements TranslatorInterface
 
     private function addLibraryTranslations(): void
     {
-        $this->addTranslations('en', include __DIR__ . '/../../res/trans/umulmrum_holiday.en.php');
-        $this->addTranslations('de', include __DIR__ . '/../../res/trans/umulmrum_holiday.de.php');
-        $this->addTranslations('no', include __DIR__ . '/../../res/trans/umulmrum_holiday.no.php');
+        foreach (['en', 'de', 'no'] as $locale) {
+            /** @var array<string, string> $translations */
+            $translations = include __DIR__ . '/../../res/trans/umulmrum_holiday.' . $locale . '.php';
+            $this->addTranslations($locale, $translations);
+        }
     }
 
     /**
