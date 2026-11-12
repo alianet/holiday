@@ -37,7 +37,7 @@ class Norway implements HolidayProviderInterface
         $holidays->add($this->getEasterSunday($year, HolidayType::DAY_OFF | HolidayType::OFFICIAL | HolidayType::RELIGIOUS));
         $holidays->add($this->getEasterMonday($year, HolidayType::OFFICIAL | HolidayType::RELIGIOUS | HolidayType::DAY_OFF));
         $holidays->add($this->getLaborDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
-        $holidays->add($this->getConstitutionDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        $holidays->add($this->getConstitutionDay($year));
         $holidays->add($this->getAscension($year, HolidayType::OFFICIAL | HolidayType::RELIGIOUS | HolidayType::DAY_OFF));
         $holidays->add($this->getWhitSunday($year, HolidayType::OFFICIAL | HolidayType::RELIGIOUS | HolidayType::DAY_OFF));
         $holidays->add($this->getWhitMonday($year, HolidayType::OFFICIAL | HolidayType::RELIGIOUS | HolidayType::DAY_OFF));
@@ -45,7 +45,7 @@ class Norway implements HolidayProviderInterface
         $holidays->add($this->getSecondChristmasDay($year, HolidayType::OFFICIAL | HolidayType::RELIGIOUS | HolidayType::DAY_OFF));
 
         // Traditional days as well as some other days
-        $holidays->add($this->getSamiNationalDay($year, HolidayType::OFFICIAL));
+        $holidays->add($this->getSamiNationalDay($year));
         $holidays->add($this->getInternationalWomensDay($year, HolidayType::TRADITIONAL));
         $holidays->add($this->getMidsummersEve($year, HolidayType::TRADITIONAL));
         $holidays->add($this->getHalloween($year, HolidayType::TRADITIONAL));
