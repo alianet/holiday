@@ -100,6 +100,20 @@ final class MarkdownFormatterTest extends HolidayTestCase
         return [
             [
                 null,
+                new HolidayList([
+                    Holiday::create('Żółć', '2025-01-01', HolidayType::OTHER),
+                    Holiday::create('Święto', '2025-01-02', HolidayType::OTHER),
+                ]),
+                <<<'EOF'
+                    | Date       | Name   | Types |
+                    |------------|--------|-------|
+                    | 2025-01-01 | Żółć   | other |
+                    | 2025-01-02 | Święto | other |
+
+                    EOF,
+            ],
+            [
+                null,
                 new HolidayList(),
                 <<<'EOF'
                     | Date | Name | Types |

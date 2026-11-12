@@ -19,8 +19,8 @@ use Umulmrum\Holiday\Translator\TranslatorInterface;
 
 use function implode;
 use function max;
-use function mb_str_pad;
 use function mb_strlen;
+use function str_repeat;
 
 final readonly class MarkdownFormatter implements HolidayFormatterInterface
 {
@@ -111,7 +111,7 @@ final readonly class MarkdownFormatter implements HolidayFormatterInterface
             if ($index > 0) {
                 $line .= $filler . '|' . $filler;
             }
-            $line .= mb_str_pad($col, $colLengths[$index], $filler);
+            $line .= $col . str_repeat($filler, $colLengths[$index] - mb_strlen($col));
         }
         $line .= $filler . '|' . PHP_EOL;
 
