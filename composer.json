@@ -1,5 +1,5 @@
 {
-    "name": "umulmrum/holiday",
+    "name": "alianet/holiday",
     "description": "A PHP library to compute holidays. It's something :-)",
     "keywords": [
         "holiday",
@@ -13,6 +13,10 @@
         {
             "name": "Stefan Kruppa",
             "email": "stefan@umulmrum.de"
+        },
+        {
+            "name": "Mariusz Kaczanowski",
+            "email": "mariusz@alianet.pl"
         }
     ],
     "require": {
