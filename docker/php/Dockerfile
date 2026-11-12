@@ -1,6 +1,6 @@
 ARG PHP_VERSION=8.5
 
-FROM php:${PHP_VERSION}-cli AS qa
+FROM php:${PHP_VERSION}-cli AS development
 
 COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 
@@ -16,6 +16,8 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
+
+FROM development AS qa
 
 COPY composer.json ./
 ARG QA_RUN_ID=default
