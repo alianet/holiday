@@ -13,7 +13,8 @@
 require __DIR__.'/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
+use Umulmrum\Holiday\Test\GenerateTestCommand;
 
 $application = new Application();
-$application->add(new \Umulmrum\Holiday\Test\GenerateTestCommand());
+$application->addCommands([new GenerateTestCommand()]);
 $application->run();
