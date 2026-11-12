@@ -1,5 +1,8 @@
 # Holiday
 
+This project is an independently maintained fork of umulmrum/holiday, originally created by Stefan Kruppa.
+It aims to continue development, maintain compatibility, and support modern PHP versions.
+
 Holiday is a library that computes holidays in a very flexible way. It is possible to filter holiday lists by various
 criteria and format them in different ways. It is easy to add more holiday providers, filters and formatters, so even
 if this library does not perfectly fit your needs, you can simply extend it.
@@ -437,6 +440,26 @@ Contributions are highly welcome. Please follow these rules when submitting a PR
 - At the end, fix the code style by calling `composer cs` (you can omit this if you're in a hurry).
 
 By submitting a PR you agree that all your contributed code may be used under the MIT license.
+
+### Testing on multiple PHP versions
+
+With Docker and Bash installed, run tests and static analysis on PHP 8.2, 8.3, 8.4 and 8.5:
+
+```bash
+./tools/test-php-versions
+```
+
+To check a single version:
+
+```bash
+./tools/test-php-version 8.4
+```
+
+The supported versions are listed in `tools/php-versions`, matching the CI matrix.
+Each run installs dependencies for the selected PHP version in an isolated Docker image,
+runs `composer test` with PCOV coverage and `composer analyze`, then removes the image.
+Local dependencies are unchanged. The full matrix prints a PASS/FAIL summary and returns
+a nonzero exit code if any version fails.
 
 ### Adding Tests
 
