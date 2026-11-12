@@ -116,6 +116,13 @@ trait ChristianHolidaysTrait
         return Holiday::createFromDateTime(HolidayName::ASH_WEDNESDAY, $easterSunday->sub(new DateInterval('P46D')), HolidayType::RELIGIOUS | $additionalType);
     }
 
+    private function getPalmSunday(int $year, int $additionalType = HolidayType::OTHER): Holiday
+    {
+        $easterSunday = $this->getEasterSundayDate($year);
+
+        return Holiday::createFromDateTime(HolidayName::PALM_SUNDAY, $easterSunday->sub(new DateInterval('P7D')), HolidayType::RELIGIOUS | $additionalType);
+    }
+
     private function getMaundyThursday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
         $easterSunday = $this->getEasterSundayDate($year);
