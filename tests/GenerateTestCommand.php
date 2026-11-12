@@ -52,7 +52,7 @@ final class GenerateTestCommand extends Command
         $provider = $input->getArgument('provider');
         $years = $input->getOption('years');
         if ($years === []) {
-            $finalYears = [(int) (new DateTimeImmutable())->format('Y')];
+            $finalYears = [[(int) (new DateTimeImmutable())->format('Y')]];
         } else {
             $finalYears = [];
             foreach ($years as $yearEntry) {
