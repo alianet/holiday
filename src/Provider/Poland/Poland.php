@@ -49,7 +49,7 @@ class Poland implements HolidayProviderInterface
         $holidays->add($this->getAllSaintsDay($year, HolidayType::DAY_OFF));
         $holidays->add($this->getAllSoulsDay($year, HolidayType::NO_SCHOOL));
         if ($year >= 1989 || ($year >= 1937 && $year <= 1946)) {
-            $holidays->add($this->getIndependenceDay($year, HolidayType::NO_SCHOOL));
+            $holidays->add($this->getIndependenceDay($year, HolidayType::NO_SCHOOL | HolidayType::DAY_OFF));
         }
         $holidays->add($this->getChristmasDay($year, HolidayType::NO_SCHOOL));
         if ($year >= 2025) {

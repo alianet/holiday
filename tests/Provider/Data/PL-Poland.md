@@ -47,7 +47,7 @@
 | 1945-08-15 | polish_armed_forces_day | official, day_off            |
 | 1945-11-01 | all_saints_day          | day_off, religious           |
 | 1945-11-02 | all_souls_day           | religious, no_school         |
-| 1945-11-11 | independence_day        | official, no_school          |
+| 1945-11-11 | independence_day        | official, day_off, no_school |
 | 1945-12-25 | christmas_day           | religious, no_school         |
 | 1945-12-26 | second_christmas_day    | religious, no_school         |
 
@@ -85,7 +85,7 @@
 | 2011-08-15 | polish_armed_forces_day | official, day_off            |
 | 2011-11-01 | all_saints_day          | day_off, religious           |
 | 2011-11-02 | all_souls_day           | religious, no_school         |
-| 2011-11-11 | independence_day        | official, no_school          |
+| 2011-11-11 | independence_day        | official, day_off, no_school |
 | 2011-12-25 | christmas_day           | religious, no_school         |
 | 2011-12-26 | second_christmas_day    | religious, no_school         |
 
@@ -105,7 +105,7 @@
 | 2020-08-15 | polish_armed_forces_day | official, day_off            |
 | 2020-11-01 | all_saints_day          | day_off, religious           |
 | 2020-11-02 | all_souls_day           | religious, no_school         |
-| 2020-11-11 | independence_day        | official, no_school          |
+| 2020-11-11 | independence_day        | official, day_off, no_school |
 | 2020-12-25 | christmas_day           | religious, no_school         |
 | 2020-12-26 | second_christmas_day    | religious, no_school         |
 
@@ -125,7 +125,28 @@
 | 2025-08-15 | polish_armed_forces_day | official, day_off             |
 | 2025-11-01 | all_saints_day          | day_off, religious            |
 | 2025-11-02 | all_souls_day           | religious, no_school          |
-| 2025-11-11 | independence_day        | official, no_school           |
+| 2025-11-11 | independence_day        | official, day_off, no_school  |
 | 2025-12-24 | christmas_eve           | day_off, religious, no_school |
 | 2025-12-25 | christmas_day           | religious, no_school          |
 | 2025-12-26 | second_christmas_day    | religious, no_school          |
+
+# 2026
+
+| Date       | Name                    | Types                         |
+|------------|-------------------------|-------------------------------|
+| 2026-01-01 | new_year                | official, day_off             |
+| 2026-01-06 | epiphany                | official, day_off, religious  |
+| 2026-04-05 | easter_sunday           | official, day_off, religious  |
+| 2026-04-06 | easter_monday           | official, day_off, religious  |
+| 2026-05-01 | may_day                 | official, day_off             |
+| 2026-05-03 | constitution_day        | official, day_off             |
+| 2026-05-24 | whit_sunday             | day_off, religious            |
+| 2026-06-04 | corpus_christi          | day_off, religious            |
+| 2026-08-15 | assumption_day          | day_off, religious            |
+| 2026-08-15 | polish_armed_forces_day | official, day_off             |
+| 2026-11-01 | all_saints_day          | day_off, religious            |
+| 2026-11-02 | all_souls_day           | religious, no_school          |
+| 2026-11-11 | independence_day        | official, day_off, no_school  |
+| 2026-12-24 | christmas_eve           | day_off, religious, no_school |
+| 2026-12-25 | christmas_day           | religious, no_school          |
+| 2026-12-26 | second_christmas_day    | religious, no_school          |
