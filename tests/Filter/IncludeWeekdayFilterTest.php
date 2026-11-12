@@ -234,9 +234,12 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
         self::assertEquals($expectedResult, $resultDates);
     }
 
+    /**
+     * @param int|array<int|string> $weekdays
+     */
     #[DataProvider('getDataForException')]
     #[Test]
-    public function itShouldThrowExceptionOnInvalidWeekdays(mixed $weekdays): void
+    public function itShouldThrowExceptionOnInvalidWeekdays(int|array $weekdays): void
     {
         $this->thenInvalidArgumentExceptionIsExpected();
         $this->whenFilterWithInvalidWeekdayIsInstantiated($weekdays);
@@ -245,11 +248,8 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
     public static function getDataForException(): \Generator
     {
         yield [[]];
-        yield ['string'];
         yield [['array', 'of', 'strings']];
         yield [[Weekday::SATURDAY, 'other']];
-        yield [null];
-        yield [true];
         yield [-1];
         yield [7];
         yield [[3, 7]];
@@ -261,10 +261,10 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
     }
 
     /**
-     * @param int|int[] $weekdays
+     * @param int|array<int|string> $weekdays
      */
-    private function whenFilterWithInvalidWeekdayIsInstantiated($weekdays): void
+    private function whenFilterWithInvalidWeekdayIsInstantiated(int|array $weekdays): void
     {
-        new IncludeWeekdayFilter($weekdays);
+        new IncludeWeekdayFilter($weekdays); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
     }
 }

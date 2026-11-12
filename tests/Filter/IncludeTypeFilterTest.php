@@ -167,11 +167,8 @@ final class IncludeTypeFilterTest extends HolidayTestCase
         $this->expectException(InvalidArgumentException::class);
     }
 
-    /**
-     * @param int|int[] $filterType
-     */
-    private function whenFilterWithInvalidTypeIsInstantiated($filterType): void
+    private function whenFilterWithInvalidTypeIsInstantiated(mixed $filterType): void
     {
-        new IncludeTypeFilter($filterType);
+        new IncludeTypeFilter($filterType); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
     }
 }

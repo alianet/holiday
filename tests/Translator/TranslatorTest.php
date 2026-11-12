@@ -108,6 +108,7 @@ final class TranslatorTest extends HolidayTestCase
             if ($name === 'SUFFIX_COMPENSATORY') {
                 continue;
             }
+            self::assertIsString($value);
             if ($value === $this->translator->translate($value, 'en')) {
                 $this->notFoundTranslations[] = $value;
             }

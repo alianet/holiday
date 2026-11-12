@@ -15,6 +15,7 @@ use DateTimeImmutable;
 use ReflectionClass;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -28,6 +29,8 @@ use Umulmrum\Holiday\Resolver\ResolverHandler;
 
 use function array_map;
 use function file_put_contents;
+use function is_array;
+use function is_string;
 
 #[AsCommand('test:generate')]
 final class GenerateTestCommand extends Command
@@ -53,12 +56,23 @@ final class GenerateTestCommand extends Command
     private function getInput(InputInterface $input): array
     {
         $provider = $input->getArgument('provider');
+        if (!is_string($provider)) {
+            throw new InvalidArgumentException('The provider argument must be a string.');
+        }
+
         $years = $input->getOption('years');
+        if (!is_array($years)) {
+            throw new InvalidArgumentException('The years option must be an array.');
+        }
+
         if ($years === []) {
             $finalYears = [[(int) (new DateTimeImmutable())->format('Y')]];
         } else {
             $finalYears = [];
             foreach ($years as $yearEntry) {
+                if (!is_string($yearEntry)) {
+                    throw new InvalidArgumentException('Each years option must have a string value.');
+                }
                 $finalYears[] = array_map('intval', explode(',', $yearEntry));
             }
         }

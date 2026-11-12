@@ -37,12 +37,12 @@ final class HolidayCalculatorTest extends HolidayTestCase
     private HolidayList $actualResult;
 
     /**
-     * @param HolidayProviderInterface[]|string $holidayProviders
-     * @param int|int[]                         $years
+     * @param HolidayProviderInterface|string|array<HolidayProviderInterface|string> $holidayProviders
+     * @param int|int[] $years
      */
     #[DataProvider('provideDataForTestDefaultResolver')]
     #[Test]
-    public function itCalculatesWithDefaultResolver($holidayProviders, $years): void
+    public function itCalculatesWithDefaultResolver(HolidayProviderInterface|string|array $holidayProviders, int|array $years): void
     {
         $this->givenHolidayCalculator();
         $this->whenCalculateIsCalled($holidayProviders, $years);
@@ -83,7 +83,7 @@ final class HolidayCalculatorTest extends HolidayTestCase
      * @param HolidayProviderInterface|HolidayProviderInterface[]|string|string[] $holidayProviders
      * @param int|int[]                                                           $years
      */
-    private function whenCalculateIsCalled($holidayProviders, $years): void
+    private function whenCalculateIsCalled($holidayProviders, int|array $years): void
     {
         $this->actualResult = $this->holidayCalculator->calculate($holidayProviders, $years);
     }
@@ -99,7 +99,8 @@ final class HolidayCalculatorTest extends HolidayTestCase
     {
         $this->givenHolidayCalculator();
         $this->thenExpectInvalidArgumentException();
-        $this->whenCalculateIsCalled($holidayProviders, $years);
+        // @phpstan-ignore argument.type, argument.type (Intentionally invalid input to test exception handling.)
+        $this->holidayCalculator->calculate($holidayProviders, $years);
     }
 
     public static function provideDataForTestThrowExceptionOnInvalidArgument(): \Generator

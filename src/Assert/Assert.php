@@ -22,12 +22,14 @@ use function sprintf;
 trait Assert
 {
     /**
+     * @phpstan-assert int $value
+     *
      * @throws InvalidArgumentException
      */
     private function assertInt(mixed $value): void
     {
         if (false === is_int($value)) {
-            throw new InvalidArgumentException('int expected, got: ' . (string) $value);
+            throw new InvalidArgumentException('int expected, got: ' . print_r($value, true));
         }
     }
 

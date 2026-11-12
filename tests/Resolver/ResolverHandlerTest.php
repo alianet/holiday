@@ -77,7 +77,7 @@ final class ResolverHandlerTest extends HolidayTestCase
     {
         $this->givenResolverHandler([new ClassNameResolver()]);
         $this->thenExpectInvalidArgumentException();
-        $this->whenResolveIsCalled($identifier);
+        $this->subject->resolve($identifier); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
     }
 
     public static function provideDataForThrowException(): \Generator

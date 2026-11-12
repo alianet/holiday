@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Filter;
 
+use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 
 use function usort;
@@ -32,7 +33,7 @@ abstract class AbstractSortFilter implements HolidayFilterInterface
      * - -1 if argument 2 is greater
      * - 0 if the arguments are equal.
      *
-     * @return callable(mixed, mixed): int
+     * @return callable(Holiday, Holiday): int
      */
     abstract protected function getCompareFunction(): callable;
 }

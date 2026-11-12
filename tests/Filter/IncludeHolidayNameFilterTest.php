@@ -30,7 +30,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
      */
     #[DataProvider('getData')]
     #[Test]
-    public function itShouldFilterHolidays(HolidayList $holidayList, $holidayNames, array $expectedResult): void
+    public function itShouldFilterHolidays(HolidayList $holidayList, string|array $holidayNames, array $expectedResult): void
     {
         $this->givenAFilter($holidayNames);
         $this->whenFilterIsCalled($holidayList);
@@ -149,11 +149,8 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
         $this->expectException(InvalidArgumentException::class);
     }
 
-    /**
-     * @param string|string[] $holidayName
-     */
-    private function whenFilterWithInvalidHolidayNameIsInstantiated($holidayName): void
+    private function whenFilterWithInvalidHolidayNameIsInstantiated(mixed $holidayName): void
     {
-        new IncludeHolidayNameFilter($holidayName);
+        new IncludeHolidayNameFilter($holidayName); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
     }
 }
