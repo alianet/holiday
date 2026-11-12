@@ -27,6 +27,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
 
     /**
      * @param int|int[] $filterType
+     * @param string[] $expectedResult
      */
     #[DataProvider('getData')]
     #[Test]
@@ -37,86 +38,84 @@ final class IncludeTypeFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): array
+    public static function getData(): \Generator
     {
-        return [
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::TRADITIONAL),
+            ]),
+            HolidayType::DAY_OFF,
+            [],
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::TRADITIONAL | HolidayType::RELIGIOUS),
+            ]),
+            HolidayType::DAY_OFF | HolidayType::OFFICIAL,
+            [],
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
+            ]),
+            HolidayType::DAY_OFF,
             [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::TRADITIONAL),
-                ]),
-                HolidayType::DAY_OFF,
-                [],
+                '2016-01-01',
             ],
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
+                Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
+            ]),
+            HolidayType::DAY_OFF,
             [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::TRADITIONAL | HolidayType::RELIGIOUS),
-                ]),
-                HolidayType::DAY_OFF | HolidayType::OFFICIAL,
-                [],
+                '2016-01-01',
             ],
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF | HolidayType::RELIGIOUS),
+                Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
+            ]),
+            HolidayType::DAY_OFF,
             [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
-                ]),
-                HolidayType::DAY_OFF,
-                [
-                    '2016-01-01',
-                ],
+                '2016-01-01',
             ],
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF | HolidayType::TRADITIONAL),
+                Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
+            ]),
+            HolidayType::TRADITIONAL,
             [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
-                    Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
-                ]),
-                HolidayType::DAY_OFF,
-                [
-                    '2016-01-01',
-                ],
+                '2016-01-01',
+                '2016-01-02',
             ],
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
+                Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
+                Holiday::create('name', '2016-01-03', HolidayType::RELIGIOUS),
+            ]),
+            HolidayType::DAY_OFF | HolidayType::TRADITIONAL,
             [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF | HolidayType::RELIGIOUS),
-                    Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
-                ]),
-                HolidayType::DAY_OFF,
-                [
-                    '2016-01-01',
-                ],
+                '2016-01-01',
+                '2016-01-02',
             ],
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
+                Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
+                Holiday::create('name', '2016-01-03', HolidayType::RELIGIOUS),
+            ]),
+            [HolidayType::DAY_OFF, HolidayType::TRADITIONAL],
             [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF | HolidayType::TRADITIONAL),
-                    Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
-                ]),
-                HolidayType::TRADITIONAL,
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                ],
-            ],
-            [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
-                    Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
-                    Holiday::create('name', '2016-01-03', HolidayType::RELIGIOUS),
-                ]),
-                HolidayType::DAY_OFF | HolidayType::TRADITIONAL,
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                ],
-            ],
-            [
-                new HolidayList([
-                    Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
-                    Holiday::create('name', '2016-01-02', HolidayType::TRADITIONAL),
-                    Holiday::create('name', '2016-01-03', HolidayType::RELIGIOUS),
-                ]),
-                [HolidayType::DAY_OFF, HolidayType::TRADITIONAL],
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                ],
+                '2016-01-01',
+                '2016-01-02',
             ],
         ];
     }
@@ -154,15 +153,13 @@ final class IncludeTypeFilterTest extends HolidayTestCase
         $this->whenFilterWithInvalidTypeIsInstantiated($filterType);
     }
 
-    public static function getDataForException(): array
+    public static function getDataForException(): \Generator
     {
-        return [
-            ['string'],
-            [['array', 'of', 'strings']],
-            [[HolidayType::DAY_OFF, 'other']],
-            [null],
-            [true],
-        ];
+        yield ['string'];
+        yield [['array', 'of', 'strings']];
+        yield [[HolidayType::DAY_OFF, 'other']];
+        yield [null];
+        yield [true];
     }
 
     private function thenInvalidArgumentExceptionIsExpected(): void

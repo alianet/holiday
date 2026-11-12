@@ -37,13 +37,11 @@ final class NameFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): array
+    public static function getFormatData(): \Generator
     {
-        return [
-            [
-                'foo',
-                'foo',
-            ],
+        yield [
+            'foo',
+            'foo',
         ];
     }
 
@@ -75,13 +73,11 @@ final class NameFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatTranslatedData(): array
+    public static function getFormatTranslatedData(): \Generator
     {
-        return [
-            [
-                'day_off',
-                'Day off',
-            ],
+        yield [
+            'day_off',
+            'Day off',
         ];
     }
 
@@ -103,18 +99,16 @@ final class NameFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): array
+    public static function getFormatListData(): \Generator
     {
-        return [
+        yield [
             [
-                [
-                    'name',
-                    'religious',
-                ],
-                [
-                    'Very name',
-                    'Religious',
-                ],
+                'name',
+                'religious',
+            ],
+            [
+                'Very name',
+                'Religious',
             ],
         ];
     }

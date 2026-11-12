@@ -25,6 +25,7 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
 
     /**
      * @param string[] $holidays
+     * @param string[] $expectedResult
      */
     #[DataProvider('getData')]
     #[Test]
@@ -35,69 +36,67 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): array
+    public static function getData(): \Generator
     {
-        return [
+        yield [
             [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                ],
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                ],
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
             ],
             [
-                [
-                    '2016-01-01',
-                    '2016-01-01',
-                ],
-                [
-                    '2016-01-01',
-                ],
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-01',
             ],
             [
-                [
-                    '2016-01-01',
-                    '2016-01-01',
-                    '2016-01-03',
-                ],
-                [
-                    '2016-01-01',
-                    '2016-01-03',
-                ],
+                '2016-01-01',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-01',
+                '2016-01-03',
             ],
             [
-                [],
-                [],
+                '2016-01-01',
+                '2016-01-03',
+            ],
+        ];
+        yield [
+            [],
+            [],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-01',
+                '2016-01-01',
             ],
             [
-                [
-                    '2016-01-01',
-                    '2016-01-01',
-                    '2016-01-01',
-                ],
-                [
-                    '2016-01-01',
-                ],
+                '2016-01-01',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-01',
+                '2016-01-03',
+                '2016-01-03',
+                '2016-01-13',
+                '2016-01-13',
             ],
             [
-                [
-                    '2016-01-01',
-                    '2016-01-01',
-                    '2016-01-03',
-                    '2016-01-03',
-                    '2016-01-13',
-                    '2016-01-13',
-                ],
-                [
-                    '2016-01-01',
-                    '2016-01-03',
-                    '2016-01-13',
-                ],
+                '2016-01-01',
+                '2016-01-03',
+                '2016-01-13',
             ],
         ];
     }
@@ -107,6 +106,9 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
         $this->filter = new IncludeUniqueDateFilter();
     }
 
+    /**
+     * @param string[] $holidays
+     */
     private function whenFilterIsCalled(array $holidays): void
     {
         $holidayList = new HolidayList();
@@ -116,6 +118,9 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
         $this->actualResult = $holidayList->filter($this->filter);
     }
 
+    /**
+     * @param string[] $expectedResult
+     */
     private function thenACorrectlyFilteredResultShouldBeReturned(array $expectedResult): void
     {
         $resultDates = [];

@@ -35,39 +35,37 @@ final class MarkdownFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): array
+    public static function getFormatData(): \Generator
     {
-        return [
-            [
-                null,
-                Holiday::create('new_year', '2025-01-01', HolidayType::OTHER),
-                <<<'EOF'
+        yield [
+            null,
+            Holiday::create('new_year', '2025-01-01', HolidayType::OTHER),
+            <<<'EOF'
                     | Date       | Name     | Types |
                     |------------|----------|-------|
                     | 2025-01-01 | new_year | other |
 
                     EOF,
-            ],
-            [
-                null,
-                Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
-                <<<'EOF'
+        ];
+        yield [
+            null,
+            Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
+            <<<'EOF'
                     | Date       | Name          | Types                                      |
                     |------------|---------------|--------------------------------------------|
                     | 2025-12-24 | christmas_eve | official, day_off, religious, partial_only |
 
                     EOF,
-            ],
-            [
-                new TranslatorStub(),
-                Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
-                <<<'EOF'
+        ];
+        yield [
+            new TranslatorStub(),
+            Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
+            <<<'EOF'
                     | Date       | Name          | Types                                      |
                     |------------|---------------|--------------------------------------------|
                     | 2025-12-24 | Christmas Eve | Official, Day off, Religious, Partial only |
 
                     EOF,
-            ],
         ];
     }
 
@@ -95,60 +93,58 @@ final class MarkdownFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): array
+    public static function getFormatListData(): \Generator
     {
-        return [
-            [
-                null,
-                new HolidayList([
-                    Holiday::create('Żółć', '2025-01-01', HolidayType::OTHER),
-                    Holiday::create('Święto', '2025-01-02', HolidayType::OTHER),
-                ]),
-                <<<'EOF'
+        yield [
+            null,
+            new HolidayList([
+                Holiday::create('Żółć', '2025-01-01', HolidayType::OTHER),
+                Holiday::create('Święto', '2025-01-02', HolidayType::OTHER),
+            ]),
+            <<<'EOF'
                     | Date       | Name   | Types |
                     |------------|--------|-------|
                     | 2025-01-01 | Żółć   | other |
                     | 2025-01-02 | Święto | other |
 
                     EOF,
-            ],
-            [
-                null,
-                new HolidayList(),
-                <<<'EOF'
+        ];
+        yield [
+            null,
+            new HolidayList(),
+            <<<'EOF'
                     | Date | Name | Types |
                     |------|------|-------|
 
                     EOF,
-            ],
-            [
-                null,
-                new HolidayList([
-                    Holiday::create('new_year', '2025-01-01', HolidayType::OTHER),
-                    Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
-                ]),
-                <<<'EOF'
+        ];
+        yield [
+            null,
+            new HolidayList([
+                Holiday::create('new_year', '2025-01-01', HolidayType::OTHER),
+                Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
+            ]),
+            <<<'EOF'
                     | Date       | Name          | Types                                      |
                     |------------|---------------|--------------------------------------------|
                     | 2025-01-01 | new_year      | other                                      |
                     | 2025-12-24 | christmas_eve | official, day_off, religious, partial_only |
 
                     EOF,
-            ],
-            [
-                new TranslatorStub(),
-                new HolidayList([
-                    Holiday::create('new_year', '2025-01-01', HolidayType::OTHER),
-                    Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
-                ]),
-                <<<'EOF'
+        ];
+        yield [
+            new TranslatorStub(),
+            new HolidayList([
+                Holiday::create('new_year', '2025-01-01', HolidayType::OTHER),
+                Holiday::create('christmas_eve', '2025-12-24', HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::RELIGIOUS | HolidayType::PARTIAL_ONLY),
+            ]),
+            <<<'EOF'
                     | Date       | Name          | Types                                      |
                     |------------|---------------|--------------------------------------------|
                     | 2025-01-01 | New Year      | Other                                      |
                     | 2025-12-24 | Christmas Eve | Official, Day off, Religious, Partial only |
 
                     EOF,
-            ],
         ];
     }
 

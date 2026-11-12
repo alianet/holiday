@@ -49,30 +49,28 @@ final class HolidayCalculatorTest extends HolidayTestCase
         $this->thenNoExceptionShouldBeThrown();
     }
 
-    public static function provideDataForTestDefaultResolver(): array
+    public static function provideDataForTestDefaultResolver(): \Generator
     {
-        return [
+        yield [
+            Germany::class,
+            2020,
+        ];
+        yield [
+            new Hesse(),
+            [2020, 2021],
+        ];
+        yield [
             [
-                Germany::class,
-                2020,
+                new Germany(),
+                Brandenburg::class,
+                Berlin::class,
+                new Saxony(),
             ],
-            [
-                new Hesse(),
-                [2020, 2021],
-            ],
-            [
-                [
-                    new Germany(),
-                    Brandenburg::class,
-                    Berlin::class,
-                    new Saxony(),
-                ],
-                [2020],
-            ],
-            [
-                'DE',
-                2020,
-            ],
+            [2020],
+        ];
+        yield [
+            'DE',
+            2020,
         ];
     }
 
@@ -104,52 +102,50 @@ final class HolidayCalculatorTest extends HolidayTestCase
         $this->whenCalculateIsCalled($holidayProviders, $years);
     }
 
-    public static function provideDataForTestThrowExceptionOnInvalidArgument(): array
+    public static function provideDataForTestThrowExceptionOnInvalidArgument(): \Generator
     {
-        return [
+        yield [
+            null,
+            2020,
+        ];
+        yield [
+            1,
+            2020,
+        ];
+        yield [
+            'no class name',
+            2020,
+        ];
+        yield [
+            HolidayCalculator::class,
+            2020,
+        ];
+        yield [
+            new stdClass(),
+            2020,
+        ];
+        yield [
             [
-                null,
-                2020,
-            ],
-            [
-                1,
-                2020,
-            ],
-            [
-                'no class name',
-                2020,
-            ],
-            [
-                HolidayCalculator::class,
-                2020,
-            ],
-            [
+                Germany::class,
                 new stdClass(),
-                2020,
             ],
-            [
-                [
-                    Germany::class,
-                    new stdClass(),
-                ],
-                2020,
-            ],
-            [
-                Belgium::class,
-                'string',
-            ],
-            [
-                Belgium::class,
-                null,
-            ],
-            [
-                Belgium::class,
-                false,
-            ],
-            [
-                Belgium::class,
-                [2020, 'foo'],
-            ],
+            2020,
+        ];
+        yield [
+            Belgium::class,
+            'string',
+        ];
+        yield [
+            Belgium::class,
+            null,
+        ];
+        yield [
+            Belgium::class,
+            false,
+        ];
+        yield [
+            Belgium::class,
+            [2020, 'foo'],
         ];
     }
 

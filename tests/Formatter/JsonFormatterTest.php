@@ -34,12 +34,11 @@ final class JsonFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): array
+    public static function getFormatData(): \Generator
     {
-        return [
-            [
-                Holiday::create('name', '2016-03-17', HolidayType::OTHER),
-                '{
+        yield [
+            Holiday::create('name', '2016-03-17', HolidayType::OTHER),
+            '{
                     "name": "name",
                     "translatedName": "name",
                     "timestamp": 1458172800,
@@ -49,10 +48,10 @@ final class JsonFormatterTest extends HolidayTestCase
                         "other"
                     ]
                 }',
-            ],
-            [
-                Holiday::create('name', '2016-03-17', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
-                '{
+        ];
+        yield [
+            Holiday::create('name', '2016-03-17', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
+            '{
                     "name": "name",
                     "translatedName": "name",
                     "timestamp": 1458172800,
@@ -63,7 +62,6 @@ final class JsonFormatterTest extends HolidayTestCase
                         "religious"
                     ]
                 }',
-            ],
         ];
     }
 
@@ -91,12 +89,11 @@ final class JsonFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatTranslatedData(): array
+    public static function getFormatTranslatedData(): \Generator
     {
-        return [
-            [
-                Holiday::create('name', '2016-03-17', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
-                '{
+        yield [
+            Holiday::create('name', '2016-03-17', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
+            '{
                     "name": "name",
                     "translatedName": "Very name",
                     "timestamp": 1458172800,
@@ -107,7 +104,6 @@ final class JsonFormatterTest extends HolidayTestCase
                         "Religious"
                     ]
                 }',
-            ],
         ];
     }
 
@@ -125,19 +121,18 @@ final class JsonFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): array
+    public static function getFormatListData(): \Generator
     {
-        return [
-            [
-                new HolidayList(),
-                '[]',
-            ],
-            [
-                new HolidayList([
-                    Holiday::create('name', '2016-03-17', HolidayType::OTHER),
-                    Holiday::create('name', '2016-03-18', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
-                ]),
-                '[{
+        yield [
+            new HolidayList(),
+            '[]',
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-03-17', HolidayType::OTHER),
+                Holiday::create('name', '2016-03-18', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
+            ]),
+            '[{
                     "name": "name",
                     "translatedName": "name",
                     "timestamp": 1458172800,
@@ -158,7 +153,6 @@ final class JsonFormatterTest extends HolidayTestCase
                         "religious"
                     ]
                 }]',
-            ],
         ];
     }
 

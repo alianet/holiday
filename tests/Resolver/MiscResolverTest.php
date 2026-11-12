@@ -39,49 +39,47 @@ final class MiscResolverTest extends HolidayTestCase
         $this->thenTheExpectedResultShouldBeReturned($expectedResult);
     }
 
-    public static function provideDataForResolveProviders(): array
+    public static function provideDataForResolveProviders(): \Generator
     {
-        return [
-            'christian' => [
-                'Christian',
-                new ChristianHolidays(),
-            ],
-            'sunday' => [
-                'Sun',
-                new Sundays(),
-            ],
-            'monday' => [
-                'Mon',
-                new Mondays(),
-            ],
-            'tuesday' => [
-                'Tue',
-                new Tuesdays(),
-            ],
-            'wednesday' => [
-                'Wed',
-                new Wednesdays(),
-            ],
-            'thursday' => [
-                'Thu',
-                new Thursdays(),
-            ],
-            'friday' => [
-                'Fri',
-                new Fridays(),
-            ],
-            'saturday' => [
-                'Sat',
-                new Saturdays(),
-            ],
-            'wrong-case' => [
-                'christian',
-                null,
-            ],
-            'nonexisting' => [
-                'foo',
-                null,
-            ],
+        yield 'christian' => [
+            'Christian',
+            new ChristianHolidays(),
+        ];
+        yield 'sunday' => [
+            'Sun',
+            new Sundays(),
+        ];
+        yield 'monday' => [
+            'Mon',
+            new Mondays(),
+        ];
+        yield 'tuesday' => [
+            'Tue',
+            new Tuesdays(),
+        ];
+        yield 'wednesday' => [
+            'Wed',
+            new Wednesdays(),
+        ];
+        yield 'thursday' => [
+            'Thu',
+            new Thursdays(),
+        ];
+        yield 'friday' => [
+            'Fri',
+            new Fridays(),
+        ];
+        yield 'saturday' => [
+            'Sat',
+            new Saturdays(),
+        ];
+        yield 'wrong-case' => [
+            'christian',
+            null,
+        ];
+        yield 'nonexisting' => [
+            'foo',
+            null,
         ];
     }
 

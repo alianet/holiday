@@ -36,84 +36,82 @@ final class SortByNameFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): array
+    public static function getData(): \Generator
     {
-        return [
+        yield [
             [
-                [
-                    'a',
-                    'b',
-                    'c',
-                ],
-                [
-                    'a',
-                    'b',
-                    'c',
-                ],
+                'a',
+                'b',
+                'c',
             ],
             [
-                [
-                    'c',
-                    'b',
-                    'a',
-                ],
-                [
-                    'a',
-                    'b',
-                    'c',
-                ],
+                'a',
+                'b',
+                'c',
+            ],
+        ];
+        yield [
+            [
+                'c',
+                'b',
+                'a',
             ],
             [
-                [
-                    'a',
-                    'a',
-                ],
-                [
-                    'a',
-                    'a',
-                ],
+                'a',
+                'b',
+                'c',
+            ],
+        ];
+        yield [
+            [
+                'a',
+                'a',
             ],
             [
-                [
-                    'a',
-                ],
-                [
-                    'a',
-                ],
+                'a',
+                'a',
+            ],
+        ];
+        yield [
+            [
+                'a',
             ],
             [
-                [
-                    'c',
-                    'a',
-                    'a',
-                ],
-                [
-                    'a',
-                    'a',
-                    'c',
-                ],
+                'a',
+            ],
+        ];
+        yield [
+            [
+                'c',
+                'a',
+                'a',
             ],
             [
-                [],
-                [],
+                'a',
+                'a',
+                'c',
+            ],
+        ];
+        yield [
+            [],
+            [],
+        ];
+        yield [
+            [
+                'f',
+                'f',
+                'c',
+                'c',
+                'a',
+                'a',
             ],
             [
-                [
-                    'f',
-                    'f',
-                    'c',
-                    'c',
-                    'a',
-                    'a',
-                ],
-                [
-                    'a',
-                    'a',
-                    'c',
-                    'c',
-                    'f',
-                    'f',
-                ],
+                'a',
+                'a',
+                'c',
+                'c',
+                'f',
+                'f',
             ],
         ];
     }
@@ -123,6 +121,9 @@ final class SortByNameFilterTest extends HolidayTestCase
         $this->filter = new SortByNameFilter();
     }
 
+    /**
+     * @param string[] $holidays
+     */
     private function whenFilterIsCalled(array $holidays): void
     {
         $holidayList = new HolidayList();
@@ -132,6 +133,9 @@ final class SortByNameFilterTest extends HolidayTestCase
         $this->actualResult = $holidayList->filter($this->filter);
     }
 
+    /**
+     * @param string[] $expectedResult
+     */
     private function thenACorrectlyFilteredResultShouldBeReturned(array $expectedResult): void
     {
         $resultNames = [];

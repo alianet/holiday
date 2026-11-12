@@ -65,34 +65,32 @@ final class HolidayTest extends HolidayTestCase
         $this->whenHolidayIsCreatedFromConstructor($name, $date, $type);
     }
 
-    public static function provideDataForInvalidConstructorData(): array
+    public static function provideDataForInvalidConstructorData(): \Generator
     {
-        return [
-            'empty-name' => [
-                '',
-                '2024-01-01',
-                HolidayType::OTHER,
-            ],
-            'long-date' => [
-                'new_year',
-                '2024-01-01xyz',
-                HolidayType::OTHER,
-            ],
-            'invalid-date' => [
-                'new_year',
-                '2024-x1-01',
-                HolidayType::OTHER,
-            ],
-            'type-less-than-zero' => [
-                'new_year',
-                '2024-01-01',
-                -1,
-            ],
-            'type-too-big' => [
-                'new_year',
-                '2024-01-01',
-                5682052057,
-            ],
+        yield 'empty-name' => [
+            '',
+            '2024-01-01',
+            HolidayType::OTHER,
+        ];
+        yield 'long-date' => [
+            'new_year',
+            '2024-01-01xyz',
+            HolidayType::OTHER,
+        ];
+        yield 'invalid-date' => [
+            'new_year',
+            '2024-x1-01',
+            HolidayType::OTHER,
+        ];
+        yield 'type-less-than-zero' => [
+            'new_year',
+            '2024-01-01',
+            -1,
+        ];
+        yield 'type-too-big' => [
+            'new_year',
+            '2024-01-01',
+            5682052057,
         ];
     }
 
@@ -126,13 +124,11 @@ final class HolidayTest extends HolidayTestCase
         $this->thenThisTypeShouldBeSet($type);
     }
 
-    public static function getDateTimeData(): array
+    public static function getDateTimeData(): \Generator
     {
-        return [
-            ['foo', '1917-01-01', HolidayType::DAY_OFF],
-            ['bar', '1970-01-01', HolidayType::OTHER],
-            ['baz', '2000-02-29', HolidayType::BANK | HolidayType::NO_SCHOOL],
-        ];
+        yield ['foo', '1917-01-01', HolidayType::DAY_OFF];
+        yield ['bar', '1970-01-01', HolidayType::OTHER];
+        yield ['baz', '2000-02-29', HolidayType::BANK | HolidayType::NO_SCHOOL];
     }
 
     private function whenHolidayIsCreatedFromCreateFromDateTime(string $name, string $date, int $type): void
@@ -149,13 +145,11 @@ final class HolidayTest extends HolidayTestCase
         $this->thenThisDateShouldBeReturned($expectedResult);
     }
 
-    public static function getDetailedDateTimeData(): array
+    public static function getDetailedDateTimeData(): \Generator
     {
-        return [
-            ['1917-01-01', 'Europe/Berlin', new DateTimeImmutable('1917-01-01T00:00:00+0100')],
-            ['1970-01-01', 'America/Argentina/Cordoba', new DateTimeImmutable('1970-01-01T00:00:00-0300')],
-            ['2020-10-31', 'Asia/Manila', new DateTimeImmutable('2020-10-31T00:00:00+0800')],
-        ];
+        yield ['1917-01-01', 'Europe/Berlin', new DateTimeImmutable('1917-01-01T00:00:00+0100')];
+        yield ['1970-01-01', 'America/Argentina/Cordoba', new DateTimeImmutable('1970-01-01T00:00:00-0300')];
+        yield ['2020-10-31', 'Asia/Manila', new DateTimeImmutable('2020-10-31T00:00:00+0800')];
     }
 
     private function givenHolidayWithDate(string $date): void
@@ -182,17 +176,15 @@ final class HolidayTest extends HolidayTestCase
         $this->thenTheExpectedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getTypeData(): array
+    public static function getTypeData(): \Generator
     {
-        return [
-            [HolidayType::NO_SCHOOL, HolidayType::NO_SCHOOL, true],
-            [HolidayType::OTHER, HolidayType::NO_SCHOOL, false],
-            [HolidayType::NO_SCHOOL, HolidayType::OTHER, false],
-            [HolidayType::OTHER, HolidayType::OTHER, true],
-            [HolidayType::NO_SCHOOL | HolidayType::BANK, HolidayType::NO_SCHOOL, true],
-            [HolidayType::NO_SCHOOL | HolidayType::BANK, HolidayType::NO_SCHOOL | HolidayType::BANK, true],
-            [HolidayType::NO_SCHOOL | HolidayType::BANK | HolidayType::DAY_OFF, HolidayType::NO_SCHOOL | HolidayType::BANK, true],
-        ];
+        yield [HolidayType::NO_SCHOOL, HolidayType::NO_SCHOOL, true];
+        yield [HolidayType::OTHER, HolidayType::NO_SCHOOL, false];
+        yield [HolidayType::NO_SCHOOL, HolidayType::OTHER, false];
+        yield [HolidayType::OTHER, HolidayType::OTHER, true];
+        yield [HolidayType::NO_SCHOOL | HolidayType::BANK, HolidayType::NO_SCHOOL, true];
+        yield [HolidayType::NO_SCHOOL | HolidayType::BANK, HolidayType::NO_SCHOOL | HolidayType::BANK, true];
+        yield [HolidayType::NO_SCHOOL | HolidayType::BANK | HolidayType::DAY_OFF, HolidayType::NO_SCHOOL | HolidayType::BANK, true];
     }
 
     private function givenHolidayWithType(int $type): void

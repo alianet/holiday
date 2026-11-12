@@ -23,6 +23,9 @@ final class SwedenTest extends HolidayTestCase
     protected HolidayCalculator $holidayCalculator;
     protected HolidayList $actualResult;
 
+    /**
+     * @param string[] $expectedResult
+     */
     #[DataProvider('getDataForCalculateWithDeFactoHolidays')]
     #[Test]
     public function itComputesTheCorrectHolidaysWithoutDeFactoHolidays(int $year, array $expectedResult): void
@@ -32,44 +35,42 @@ final class SwedenTest extends HolidayTestCase
         $this->thenTheCorrectHolidaysShouldBeCalculated($expectedResult);
     }
 
-    public static function getDataForCalculateWithDeFactoHolidays(): array
+    public static function getDataForCalculateWithDeFactoHolidays(): \Generator
     {
-        return [
+        yield [
+            2024,
             [
-                2024,
-                [
-                    '2024-01-01',
-                    '2024-01-06',
-                    '2024-03-29',
-                    '2024-03-31',
-                    '2024-04-01',
-                    '2024-05-01',
-                    '2024-05-09',
-                    '2024-05-19',
-                    '2024-06-06',
-                    '2024-06-22',
-                    '2024-11-02',
-                    '2024-12-25',
-                    '2024-12-26',
-                ],
+                '2024-01-01',
+                '2024-01-06',
+                '2024-03-29',
+                '2024-03-31',
+                '2024-04-01',
+                '2024-05-01',
+                '2024-05-09',
+                '2024-05-19',
+                '2024-06-06',
+                '2024-06-22',
+                '2024-11-02',
+                '2024-12-25',
+                '2024-12-26',
             ],
+        ];
+        yield [
+            2025,
             [
-                2025,
-                [
-                    '2025-01-01',
-                    '2025-01-06',
-                    '2025-04-18',
-                    '2025-04-20',
-                    '2025-04-21',
-                    '2025-05-01',
-                    '2025-05-29',
-                    '2025-06-06',
-                    '2025-06-08',
-                    '2025-06-21',
-                    '2025-11-01',
-                    '2025-12-25',
-                    '2025-12-26',
-                ],
+                '2025-01-01',
+                '2025-01-06',
+                '2025-04-18',
+                '2025-04-20',
+                '2025-04-21',
+                '2025-05-01',
+                '2025-05-29',
+                '2025-06-06',
+                '2025-06-08',
+                '2025-06-21',
+                '2025-11-01',
+                '2025-12-25',
+                '2025-12-26',
             ],
         ];
     }
@@ -84,6 +85,9 @@ final class SwedenTest extends HolidayTestCase
         $this->actualResult = $this->holidayCalculator->calculate([new Sweden(false, false)], $year);
     }
 
+    /**
+     * @param string[] $expectedResult
+     */
     protected function thenTheCorrectHolidaysShouldBeCalculated(array $expectedResult): void
     {
         $actualResult = [];

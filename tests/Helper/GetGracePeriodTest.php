@@ -39,51 +39,49 @@ final class GetGracePeriodTest extends HolidayTestCase
         $this->thenItShouldReturnTheCorrectGracePeriod($expectedResult);
     }
 
-    public static function getGetGracePeriodData(): array
+    public static function getGetGracePeriodData(): \Generator
     {
-        return [
-            'no-holidays' => [
-                Germany::class,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-01 12:34:56'),
-                7,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-08 12:34:56'),
-            ],
-            'weekend' => [
-                [Saturdays::class, Sundays::class],
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-01 12:34:56'),
-                7,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-10 12:34:56'),
-            ],
-            'next-working-day-with-no-holidays' => [
-                Germany::class,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-26 12:34:56'),
-                0,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-26 12:34:56'),
-            ],
-            'next-working-day-with-holidays-and-weekend' => [
-                [Germany::class, Saturdays::class, Sundays::class],
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-12-24 12:34:56'),
-                0,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-12-28 12:34:56'),
-            ],
-            'leap-day-and-two-weekends' => [
-                [Saturdays::class, Sundays::class],
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-02-28 00:00:00'),
-                7,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-03-10 00:00:00'),
-            ],
-            'daylight-saving' => [
-                [Saturdays::class, Sundays::class],
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-24 15:48:33'),
-                2,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-28 15:48:33'),
-            ],
-            'multiple-weekends-and-holidays-with-new-year' => [
-                [BadenWuerttemberg::class, Saturdays::class, Sundays::class],
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-12-23 23:59:59'),
-                10,
-                DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2021-01-13 23:59:59'),
-            ],
+        yield 'no-holidays' => [
+            Germany::class,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-01 12:34:56'),
+            7,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-08 12:34:56'),
+        ];
+        yield 'weekend' => [
+            [Saturdays::class, Sundays::class],
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-01 12:34:56'),
+            7,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-09-10 12:34:56'),
+        ];
+        yield 'next-working-day-with-no-holidays' => [
+            Germany::class,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-26 12:34:56'),
+            0,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-26 12:34:56'),
+        ];
+        yield 'next-working-day-with-holidays-and-weekend' => [
+            [Germany::class, Saturdays::class, Sundays::class],
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-12-24 12:34:56'),
+            0,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-12-28 12:34:56'),
+        ];
+        yield 'leap-day-and-two-weekends' => [
+            [Saturdays::class, Sundays::class],
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-02-28 00:00:00'),
+            7,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-03-10 00:00:00'),
+        ];
+        yield 'daylight-saving' => [
+            [Saturdays::class, Sundays::class],
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-24 15:48:33'),
+            2,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-10-28 15:48:33'),
+        ];
+        yield 'multiple-weekends-and-holidays-with-new-year' => [
+            [BadenWuerttemberg::class, Saturdays::class, Sundays::class],
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2020-12-23 23:59:59'),
+            10,
+            DateTimeImmutable::createFromFormat('Y-m-d H:i:s', '2021-01-13 23:59:59'),
         ];
     }
 

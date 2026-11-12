@@ -44,29 +44,27 @@ final class TimestampFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): array
+    public static function getFormatData(): \Generator
     {
-        return [
-            [
-                '2016-01-01',
-                'UTC',
-                '1451606400',
-            ],
-            [
-                '2016-01-01',
-                'Europe/Berlin',
-                '1451602800',
-            ],
-            [
-                '1970-01-01',
-                'UTC',
-                '0',
-            ],
-            [
-                '1970-01-01',
-                'Europe/Berlin',
-                '-3600',
-            ],
+        yield [
+            '2016-01-01',
+            'UTC',
+            '1451606400',
+        ];
+        yield [
+            '2016-01-01',
+            'Europe/Berlin',
+            '1451602800',
+        ];
+        yield [
+            '1970-01-01',
+            'UTC',
+            '0',
+        ];
+        yield [
+            '1970-01-01',
+            'Europe/Berlin',
+            '-3600',
         ];
     }
 
@@ -109,44 +107,42 @@ final class TimestampFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): array
+    public static function getFormatListData(): \Generator
     {
-        return [
+        yield [
+            [],
+            'UTC',
+            [],
+        ];
+        yield [
             [
-                [],
-                'UTC',
-                [],
+                '2016-01-01',
             ],
+            'UTC',
             [
-                [
-                    '2016-01-01',
-                ],
-                'UTC',
-                [
-                    1451606400,
-                ],
+                1451606400,
             ],
+        ];
+        yield [
             [
-                [
-                    '2016-01-01',
-                    '1970-01-01',
-                ],
-                'UTC',
-                [
-                    1451606400,
-                    0,
-                ],
+                '2016-01-01',
+                '1970-01-01',
             ],
+            'UTC',
             [
-                [
-                    '2016-01-01',
-                    '1970-01-01',
-                ],
-                'Europe/Berlin',
-                [
-                    1451602800,
-                    -3600,
-                ],
+                1451606400,
+                0,
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '1970-01-01',
+            ],
+            'Europe/Berlin',
+            [
+                1451602800,
+                -3600,
             ],
         ];
     }

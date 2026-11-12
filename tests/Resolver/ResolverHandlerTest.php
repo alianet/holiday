@@ -52,24 +52,22 @@ final class ResolverHandlerTest extends HolidayTestCase
         $this->thenTheExpectedProvidersShouldBeReturned($expectedResult);
     }
 
-    public static function provideDataForResolveHolidayProviders(): array
+    public static function provideDataForResolveHolidayProviders(): \Generator
     {
-        return [
-            'always-resolve-class-instance' => [
-                [],
-                new Sundays(HolidayType::DAY_OFF),
-                [new Sundays(HolidayType::DAY_OFF)],
-            ],
-            'single-resolver' => [
-                [new ClassNameResolver()],
-                Brazil::class,
-                [new Brazil()],
-            ],
-            'multiple-resolvers' => [
-                [new ClassNameResolver(), new IsoResolver()],
-                [Solothurn::class, 'AT-9', new Wednesdays(HolidayType::OFFICIAL)],
-                [new Solothurn(), new Vienna(), new Wednesdays(HolidayType::OFFICIAL)],
-            ],
+        yield 'always-resolve-class-instance' => [
+            [],
+            new Sundays(HolidayType::DAY_OFF),
+            [new Sundays(HolidayType::DAY_OFF)],
+        ];
+        yield 'single-resolver' => [
+            [new ClassNameResolver()],
+            Brazil::class,
+            [new Brazil()],
+        ];
+        yield 'multiple-resolvers' => [
+            [new ClassNameResolver(), new IsoResolver()],
+            [Solothurn::class, 'AT-9', new Wednesdays(HolidayType::OFFICIAL)],
+            [new Solothurn(), new Vienna(), new Wednesdays(HolidayType::OFFICIAL)],
         ];
     }
 
@@ -82,16 +80,14 @@ final class ResolverHandlerTest extends HolidayTestCase
         $this->whenResolveIsCalled($identifier);
     }
 
-    public static function provideDataForThrowException(): array
+    public static function provideDataForThrowException(): \Generator
     {
-        return [
-            [1],
-            [null],
-            [true],
-            [new HolidayCalculator()],
-            [[new Brazil(), 'foo']],
-            [[Denmark::class, 1337]],
-        ];
+        yield [1];
+        yield [null];
+        yield [true];
+        yield [new HolidayCalculator()];
+        yield [[new Brazil(), 'foo']];
+        yield [[Denmark::class, 1337]];
     }
 
     /**

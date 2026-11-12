@@ -36,37 +36,35 @@ final class IsoResolverTest extends HolidayTestCase
         $this->thenTheExpectedResultShouldBeReturned($expectedResult);
     }
 
-    public static function provideDataForResolveProviders(): array
+    public static function provideDataForResolveProviders(): \Generator
     {
-        return [
-            'country' => [
-                'DE',
-                new Germany(),
-            ],
-            'wrong-case' => [
-                'de',
-                null,
-            ],
-            'region' => [
-                'DE-BW',
-                new BadenWuerttemberg(),
-            ],
-            'nonexisting' => [
-                'foo',
-                null,
-            ],
-            'toolong' => [
-                '12345678',
-                null,
-            ],
-            'not-implemented-region' => [
-                'IT-65',
-                new Italy(),
-            ],
-            'nonexisting-region' => [
-                'IT-foo',
-                new Italy(),
-            ],
+        yield 'country' => [
+            'DE',
+            new Germany(),
+        ];
+        yield 'wrong-case' => [
+            'de',
+            null,
+        ];
+        yield 'region' => [
+            'DE-BW',
+            new BadenWuerttemberg(),
+        ];
+        yield 'nonexisting' => [
+            'foo',
+            null,
+        ];
+        yield 'toolong' => [
+            '12345678',
+            null,
+        ];
+        yield 'not-implemented-region' => [
+            'IT-65',
+            new Italy(),
+        ];
+        yield 'nonexisting-region' => [
+            'IT-foo',
+            new Italy(),
         ];
     }
 

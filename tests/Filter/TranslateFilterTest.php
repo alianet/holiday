@@ -38,18 +38,16 @@ final class TranslateFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): array
+    public static function getData(): \Generator
     {
-        return [
+        yield [
             [
-                [
-                    Holiday::create('name', '2020-02-03', HolidayType::BANK),
-                    Holiday::create('day_off', '2020-05-23', HolidayType::DAY_OFF),
-                ],
-                [
-                    Holiday::create('Very name', '2020-02-03', HolidayType::BANK),
-                    Holiday::create('Day off', '2020-05-23', HolidayType::DAY_OFF),
-                ],
+                Holiday::create('name', '2020-02-03', HolidayType::BANK),
+                Holiday::create('day_off', '2020-05-23', HolidayType::DAY_OFF),
+            ],
+            [
+                Holiday::create('Very name', '2020-02-03', HolidayType::BANK),
+                Holiday::create('Day off', '2020-05-23', HolidayType::DAY_OFF),
             ],
         ];
     }
@@ -59,6 +57,9 @@ final class TranslateFilterTest extends HolidayTestCase
         $this->filter = new TranslateFilter(new TranslatorStub());
     }
 
+    /**
+     * @param Holiday[] $holidays
+     */
     private function whenFilterIsCalled(array $holidays): void
     {
         $this->actualResult = (new HolidayList($holidays))->filter($this->filter);

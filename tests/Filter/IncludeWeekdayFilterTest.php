@@ -28,6 +28,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
     /**
      * @param string[]  $holidays
      * @param int|int[] $weekday
+     * @param string[] $expectedResult
      */
     #[DataProvider('getData')]
     #[Test]
@@ -38,167 +39,165 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): array
+    public static function getData(): \Generator
     {
-        return [
+        yield [
             [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
-                Weekday::MONDAY,
-                [
-                    '2016-01-04',
-                ],
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
+            ],
+            Weekday::MONDAY,
+            [
+                '2016-01-04',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
+            ],
+            Weekday::TUESDAY,
+            [
+                '2016-01-05',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
+            ],
+            Weekday::WEDNESDAY,
+            [
+                '2016-01-06',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
+            ],
+            Weekday::THURSDAY,
+            [
+                '2016-01-07',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
+            ],
+            Weekday::FRIDAY,
+            [
+                '2016-01-01',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
+            ],
+            Weekday::SATURDAY,
+            [
+                '2016-01-02',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
+            ],
+            Weekday::SUNDAY,
+            [
+                '2016-01-03',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
+                '2016-01-04',
+                '2016-01-05',
+                '2016-01-06',
+                '2016-01-07',
             ],
             [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
-                Weekday::TUESDAY,
-                [
-                    '2016-01-05',
-                ],
-            ],
-            [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
-                Weekday::WEDNESDAY,
-                [
-                    '2016-01-06',
-                ],
-            ],
-            [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
-                Weekday::THURSDAY,
-                [
-                    '2016-01-07',
-                ],
-            ],
-            [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
                 Weekday::FRIDAY,
-                [
-                    '2016-01-01',
-                ],
-            ],
-            [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
                 Weekday::SATURDAY,
-                [
-                    '2016-01-02',
-                ],
-            ],
-            [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
                 Weekday::SUNDAY,
-                [
-                    '2016-01-03',
-                ],
             ],
             [
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                    '2016-01-04',
-                    '2016-01-05',
-                    '2016-01-06',
-                    '2016-01-07',
-                ],
-                [
-                    Weekday::FRIDAY,
-                    Weekday::SATURDAY,
-                    Weekday::SUNDAY,
-                ],
-                [
-                    '2016-01-01',
-                    '2016-01-02',
-                    '2016-01-03',
-                ],
+                '2016-01-01',
+                '2016-01-02',
+                '2016-01-03',
             ],
+        ];
+        yield [
+            [],
+            Weekday::MONDAY,
+            [],
+        ];
+        yield [
             [
-                [],
-                Weekday::MONDAY,
-                [],
+                '2015-12-31',
+                '2016-01-02',
+                '2016-01-06',
+                '2016-01-07',
+                '2016-01-14',
+                '2016-01-15',
+                '2016-02-04',
             ],
+            Weekday::THURSDAY,
             [
-                [
-                    '2015-12-31',
-                    '2016-01-02',
-                    '2016-01-06',
-                    '2016-01-07',
-                    '2016-01-14',
-                    '2016-01-15',
-                    '2016-02-04',
-                ],
-                Weekday::THURSDAY,
-                [
-                    '2015-12-31',
-                    '2016-01-07',
-                    '2016-01-14',
-                    '2016-02-04',
-                ],
+                '2015-12-31',
+                '2016-01-07',
+                '2016-01-14',
+                '2016-02-04',
             ],
+        ];
+        yield [
             [
-                [
-                    '2016-01-08',
-                    '2016-01-08',
-                ],
-                Weekday::FRIDAY,
-                [
-                    '2016-01-08',
-                ],
+                '2016-01-08',
+                '2016-01-08',
+            ],
+            Weekday::FRIDAY,
+            [
+                '2016-01-08',
             ],
         ];
     }
@@ -211,6 +210,9 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
         $this->filter = new IncludeWeekdayFilter($weekday);
     }
 
+    /**
+     * @param string[] $holidays
+     */
     private function whenFilterIsCalled(array $holidays): void
     {
         $holidayList = new HolidayList();
@@ -220,6 +222,9 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
         $this->actualResult = $holidayList->filter($this->filter);
     }
 
+    /**
+     * @param string[] $expectedResult
+     */
     private function thenACorrectlyFilteredResultShouldBeReturned(array $expectedResult): void
     {
         $resultDates = [];
@@ -237,19 +242,17 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
         $this->whenFilterWithInvalidWeekdayIsInstantiated($weekdays);
     }
 
-    public static function getDataForException(): array
+    public static function getDataForException(): \Generator
     {
-        return [
-            [[]],
-            ['string'],
-            [['array', 'of', 'strings']],
-            [[Weekday::SATURDAY, 'other']],
-            [null],
-            [true],
-            [-1],
-            [7],
-            [[3, 7]],
-        ];
+        yield [[]];
+        yield ['string'];
+        yield [['array', 'of', 'strings']];
+        yield [[Weekday::SATURDAY, 'other']];
+        yield [null];
+        yield [true];
+        yield [-1];
+        yield [7];
+        yield [[3, 7]];
     }
 
     private function thenInvalidArgumentExceptionIsExpected(): void

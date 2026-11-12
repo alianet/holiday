@@ -36,34 +36,32 @@ final class DateFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): array
+    public static function getFormatData(): \Generator
     {
-        return [
-            [
-                '2016-01-01',
-                'Y-m-d',
-                '2016-01-01',
-            ],
-            [
-                '2016-01-01',
-                'Y-m-d',
-                '2016-01-01',
-            ],
-            [
-                '2016-01-01',
-                Holiday::DISPLAY_DATE_FORMAT,
-                '2016-01-01',
-            ],
-            [
-                '2016-01-01',
-                Holiday::DISPLAY_DATE_FORMAT,
-                '2016-01-01',
-            ],
-            [
-                '2016-01-01',
-                'm',
-                '01',
-            ],
+        yield [
+            '2016-01-01',
+            'Y-m-d',
+            '2016-01-01',
+        ];
+        yield [
+            '2016-01-01',
+            'Y-m-d',
+            '2016-01-01',
+        ];
+        yield [
+            '2016-01-01',
+            Holiday::DISPLAY_DATE_FORMAT,
+            '2016-01-01',
+        ];
+        yield [
+            '2016-01-01',
+            Holiday::DISPLAY_DATE_FORMAT,
+            '2016-01-01',
+        ];
+        yield [
+            '2016-01-01',
+            'm',
+            '01',
         ];
     }
 
@@ -99,54 +97,52 @@ final class DateFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): array
+    public static function getFormatListData(): \Generator
     {
-        return [
+        yield [
             [
-                [
-                    '2016-01-01',
-                ],
-                'Y-m-d',
-                [
-                    '2016-01-01',
-                ],
+                '2016-01-01',
             ],
+            'Y-m-d',
             [
-                [
-                    '2016-01-01',
-                ],
-                Holiday::DISPLAY_DATE_FORMAT,
-                [
-                    '2016-01-01',
-                ],
+                '2016-01-01',
             ],
+        ];
+        yield [
             [
-                [
-                    '2016-01-01',
-                    '2013-12-24',
-                ],
-                'm',
-                [
-                    '01',
-                    '12',
-                ],
+                '2016-01-01',
             ],
+            Holiday::DISPLAY_DATE_FORMAT,
             [
-                [
-                    '2016-01-01',
-                    '2015-12-24',
-                    '2014-12-24',
-                    '2013-12-24',
-                    '2012-12-24',
-                ],
-                'Y',
-                [
-                    '2016',
-                    '2015',
-                    '2014',
-                    '2013',
-                    '2012',
-                ],
+                '2016-01-01',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2013-12-24',
+            ],
+            'm',
+            [
+                '01',
+                '12',
+            ],
+        ];
+        yield [
+            [
+                '2016-01-01',
+                '2015-12-24',
+                '2014-12-24',
+                '2013-12-24',
+                '2012-12-24',
+            ],
+            'Y',
+            [
+                '2016',
+                '2015',
+                '2014',
+                '2013',
+                '2012',
             ],
         ];
     }

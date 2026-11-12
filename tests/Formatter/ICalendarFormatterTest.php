@@ -38,19 +38,17 @@ final class ICalendarFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): array
+    public static function getFormatData(): \Generator
     {
-        return [
-            [
-                Holiday::create('name', '2016-03-11'),
-                "BEGIN:VEVENT\r\n"
-                . "UID:name-2016-03-11\r\n"
-                . "DTSTAMP:20160808T120342Z+0000\r\n"
-                . "CREATED:20160808T120342Z+0000\r\n"
-                . "SUMMARY:Very name\r\n"
-                . "DTSTART;VALUE=DATE:20160311\r\n"
-                . 'END:VEVENT',
-            ],
+        yield [
+            Holiday::create('name', '2016-03-11'),
+            "BEGIN:VEVENT\r\n"
+            . "UID:name-2016-03-11\r\n"
+            . "DTSTAMP:20160808T120342Z+0000\r\n"
+            . "CREATED:20160808T120342Z+0000\r\n"
+            . "SUMMARY:Very name\r\n"
+            . "DTSTART;VALUE=DATE:20160311\r\n"
+            . 'END:VEVENT',
         ];
     }
 
@@ -63,34 +61,32 @@ final class ICalendarFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): array
+    public static function getFormatListData(): \Generator
     {
-        return [
-            [
-                new HolidayList(),
-                "BEGIN:VCALENDAR\r\n"
-                . "VERSION:2.0\r\n"
-                . "PRODID:umulmrum/holiday\r\n"
-                . "CALSCALE:GREGORIAN\r\n"
-                . "END:VCALENDAR\r\n",
-            ],
-            [
-                new HolidayList([
-                    Holiday::create('name', '2016-03-11'),
-                ]),
-                "BEGIN:VCALENDAR\r\n"
-                . "VERSION:2.0\r\n"
-                . "PRODID:umulmrum/holiday\r\n"
-                . "CALSCALE:GREGORIAN\r\n"
-                . "BEGIN:VEVENT\r\n"
-                . "UID:name-2016-03-11\r\n"
-                . "DTSTAMP:20160808T120342Z+0000\r\n"
-                . "CREATED:20160808T120342Z+0000\r\n"
-                . "SUMMARY:Very name\r\n"
-                . "DTSTART;VALUE=DATE:20160311\r\n"
-                . "END:VEVENT\r\n"
-                . "END:VCALENDAR\r\n",
-            ],
+        yield [
+            new HolidayList(),
+            "BEGIN:VCALENDAR\r\n"
+            . "VERSION:2.0\r\n"
+            . "PRODID:umulmrum/holiday\r\n"
+            . "CALSCALE:GREGORIAN\r\n"
+            . "END:VCALENDAR\r\n",
+        ];
+        yield [
+            new HolidayList([
+                Holiday::create('name', '2016-03-11'),
+            ]),
+            "BEGIN:VCALENDAR\r\n"
+            . "VERSION:2.0\r\n"
+            . "PRODID:umulmrum/holiday\r\n"
+            . "CALSCALE:GREGORIAN\r\n"
+            . "BEGIN:VEVENT\r\n"
+            . "UID:name-2016-03-11\r\n"
+            . "DTSTAMP:20160808T120342Z+0000\r\n"
+            . "CREATED:20160808T120342Z+0000\r\n"
+            . "SUMMARY:Very name\r\n"
+            . "DTSTART;VALUE=DATE:20160311\r\n"
+            . "END:VEVENT\r\n"
+            . "END:VCALENDAR\r\n",
         ];
     }
 

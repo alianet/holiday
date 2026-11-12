@@ -32,12 +32,10 @@ final class SymfonyBridgeTranslatorTest extends HolidayTestCase
         $this->thenTheStringTranslatedBySymfonyShouldBeReturned();
     }
 
-    public static function getTranslateNameData(): array
+    public static function getTranslateNameData(): \Generator
     {
-        return [
-            [
-                'name',
-            ],
+        yield [
+            'name',
         ];
     }
 
@@ -65,12 +63,10 @@ final class SymfonyBridgeTranslatorTest extends HolidayTestCase
         $this->thenTheStringTranslatedBySymfonyShouldBeReturned();
     }
 
-    public static function getTranslateData(): array
+    public static function getTranslateData(): \Generator
     {
-        return [
-            [
-                'name',
-            ],
+        yield [
+            'name',
         ];
     }
 

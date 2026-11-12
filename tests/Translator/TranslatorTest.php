@@ -38,44 +38,42 @@ final class TranslatorTest extends HolidayTestCase
         $this->thenTheTranslatedStringShouldBeReturned($expectedResult);
     }
 
-    public static function getTranslateNameData(): array
+    public static function getTranslateNameData(): \Generator
     {
-        return [
-            [
-                'sunday',
-                'en',
-                'Sunday',
-            ],
-            [
-                'sunday',
-                'en_US',
-                'Sunday',
-            ],
-            [
-                'sunday',
-                'de',
-                'Sonntag',
-            ],
-            [
-                'sunday',
-                'unknown',
-                'Sunday',
-            ],
-            [
-                'sunday',
-                null,
-                'Sunday',
-            ],
-            [
-                'unknown',
-                'en',
-                '',
-            ],
-            [
-                'unknown',
-                'en_US',
-                '',
-            ],
+        yield [
+            'sunday',
+            'en',
+            'Sunday',
+        ];
+        yield [
+            'sunday',
+            'en_US',
+            'Sunday',
+        ];
+        yield [
+            'sunday',
+            'de',
+            'Sonntag',
+        ];
+        yield [
+            'sunday',
+            'unknown',
+            'Sunday',
+        ];
+        yield [
+            'sunday',
+            null,
+            'Sunday',
+        ];
+        yield [
+            'unknown',
+            'en',
+            '',
+        ];
+        yield [
+            'unknown',
+            'en_US',
+            '',
         ];
     }
 

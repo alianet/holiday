@@ -40,9 +40,9 @@ final class ChristianHolidaysTraitTest extends TestCase
     }
 
     /**
-     * @return iterable<array{int, string}>
+     * @return \Generator<int, array{int, string}>
      */
-    public static function providePalmSundayDates(): iterable
+    public static function providePalmSundayDates(): \Generator
     {
         yield [2008, '2008-03-16'];
         yield [2024, '2024-03-24'];

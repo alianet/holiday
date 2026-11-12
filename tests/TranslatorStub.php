@@ -36,6 +36,9 @@ final class TranslatorStub implements TranslatorInterface, \Symfony\Contracts\Tr
         };
     }
 
+    /**
+     * @param array<mixed> $parameters
+     */
     public function trans(string $id, array $parameters = [], ?string $domain = null, ?string $locale = null): string
     {
         return match ($id) {

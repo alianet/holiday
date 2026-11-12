@@ -37,74 +37,71 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): array
+    public static function getData(): \Generator
     {
-        return [
-            'not found' => [
-                new HolidayList([
-                    Holiday::create('name', '2021-01-01'),
-                ]),
-                'foo',
-                [],
+        yield 'not found' => [
+            new HolidayList([
+                Holiday::create('name', '2021-01-01'),
+            ]),
+            'foo',
+            [],
+        ];
+        yield 'single' => [
+            new HolidayList([
+                Holiday::create('name', '2021-01-01'),
+            ]),
+            'name',
+            [
+                Holiday::create('name', '2021-01-01'),
             ],
-            'single' => [
-                new HolidayList([
-                    Holiday::create('name', '2021-01-01'),
-                ]),
-                'name',
-                [
-                    Holiday::create('name', '2021-01-01'),
-                ],
+        ];
+        yield 'one match on same date' => [
+            new HolidayList([
+                Holiday::create('name', '2021-01-01'),
+                Holiday::create('foo', '2021-01-01'),
+            ]),
+            'name',
+            [
+                Holiday::create('name', '2021-01-01'),
             ],
-            'one match on same date' => [
-                new HolidayList([
-                    Holiday::create('name', '2021-01-01'),
-                    Holiday::create('foo', '2021-01-01'),
-                ]),
-                'name',
-                [
-                    Holiday::create('name', '2021-01-01'),
-                ],
+        ];
+        yield 'two matches' => [
+            new HolidayList([
+                Holiday::create('name', '2021-01-01'),
+                Holiday::create('name', '2021-01-02'),
+            ]),
+            'name',
+            [
+                Holiday::create('name', '2021-01-01'),
+                Holiday::create('name', '2021-01-02'),
             ],
-            'two matches' => [
-                new HolidayList([
-                    Holiday::create('name', '2021-01-01'),
-                    Holiday::create('name', '2021-01-02'),
-                ]),
-                'name',
-                [
-                    Holiday::create('name', '2021-01-01'),
-                    Holiday::create('name', '2021-01-02'),
-                ],
+        ];
+        yield 'multiple matches' => [
+            new HolidayList([
+                Holiday::create('foo', '2021-01-01'),
+                Holiday::create('bar', '2021-01-02'),
+                Holiday::create('name', '2021-01-03'),
+                Holiday::create('name', '2021-01-04'),
+                Holiday::create('name2', '2021-01-05'),
+                Holiday::create('name', '2021-01-06'),
+            ]),
+            'name',
+            [
+                Holiday::create('name', '2021-01-03'),
+                Holiday::create('name', '2021-01-04'),
+                Holiday::create('name', '2021-01-06'),
             ],
-            'multiple matches' => [
-                new HolidayList([
-                    Holiday::create('foo', '2021-01-01'),
-                    Holiday::create('bar', '2021-01-02'),
-                    Holiday::create('name', '2021-01-03'),
-                    Holiday::create('name', '2021-01-04'),
-                    Holiday::create('name2', '2021-01-05'),
-                    Holiday::create('name', '2021-01-06'),
-                ]),
-                'name',
-                [
-                    Holiday::create('name', '2021-01-03'),
-                    Holiday::create('name', '2021-01-04'),
-                    Holiday::create('name', '2021-01-06'),
-                ],
-            ],
-
-            'multiple distinct names' => [
-                new HolidayList([
-                    Holiday::create('name', '2021-01-01'),
-                    Holiday::create('foo', '2021-01-02'),
-                    Holiday::create('bar', '2021-01-03'),
-                ]),
-                ['name', 'bar'],
-                [
-                    Holiday::create('name', '2021-01-01'),
-                    Holiday::create('bar', '2021-01-03'),
-                ],
+        ];
+        yield 'multiple distinct names' => [
+            new HolidayList([
+                Holiday::create('name', '2021-01-01'),
+                Holiday::create('foo', '2021-01-02'),
+                Holiday::create('bar', '2021-01-03'),
+            ]),
+            ['name', 'bar'],
+            [
+                Holiday::create('name', '2021-01-01'),
+                Holiday::create('bar', '2021-01-03'),
             ],
         ];
     }
@@ -117,15 +114,13 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
         $this->whenFilterWithInvalidHolidayNameIsInstantiated($holidayName);
     }
 
-    public static function getDataForException(): array
+    public static function getDataForException(): \Generator
     {
-        return [
-            [42],
-            [null],
-            [true],
-            [['string', 1337]],
-            [[null, 'string']],
-        ];
+        yield [42];
+        yield [null];
+        yield [true];
+        yield [['string', 1337]];
+        yield [[null, 'string']];
     }
 
     /**

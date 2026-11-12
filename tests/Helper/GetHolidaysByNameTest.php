@@ -30,6 +30,10 @@ final class GetHolidaysByNameTest extends HolidayTestCase
     private GetHolidaysByName $subject;
     private HolidayList $actualResult;
 
+    /**
+     * @param array<string|Holiday> $existingHolidays
+     * @param string[] $expectedResult
+     */
     #[DataProvider('getGetHolidaysByNameData')]
     #[Test]
     public function itShouldCalculateCorrectHolidaysForAHolidayName(int $year, array $existingHolidays, string $holidayName, array $expectedResult): void
@@ -40,43 +44,41 @@ final class GetHolidaysByNameTest extends HolidayTestCase
         $this->thenItShouldReturnAListOfHolidays($expectedResult);
     }
 
-    public static function getGetHolidaysByNameData(): array
+    public static function getGetHolidaysByNameData(): \Generator
     {
-        return [
+        yield [
+            2016,
             [
-                2016,
-                [
-                    Holiday::create(HolidayName::NEW_YEAR, '2016-01-01'),
-                    Holiday::create(HolidayName::ALL_SAINTS_DAY, '2016-11-01'),
-                    Holiday::create(HolidayName::CHRISTMAS_DAY, '2016-12-25'),
-                ],
-                HolidayName::ALL_SAINTS_DAY,
-                [
-                    '2016-11-01',
-                ],
+                Holiday::create(HolidayName::NEW_YEAR, '2016-01-01'),
+                Holiday::create(HolidayName::ALL_SAINTS_DAY, '2016-11-01'),
+                Holiday::create(HolidayName::CHRISTMAS_DAY, '2016-12-25'),
             ],
+            HolidayName::ALL_SAINTS_DAY,
             [
-                2016,
-                [
-                    Holiday::create(HolidayName::NEW_YEAR, '2016-01-01'),
-                    Holiday::create(HolidayName::ALL_SAINTS_DAY, '2016-11-01'),
-                    Holiday::create(HolidayName::CHRISTMAS_DAY, '2016-12-25'),
-                ],
-                HolidayName::LABOR_DAY,
-                [],
+                '2016-11-01',
             ],
+        ];
+        yield [
+            2016,
             [
-                2016,
-                [
-                    Holiday::create(HolidayName::NEW_YEAR, '2016-01-01'),
-                    Holiday::create(HolidayName::SUNDAY, '2016-11-06'),
-                    Holiday::create(HolidayName::SUNDAY, '2016-11-13'),
-                ],
-                HolidayName::SUNDAY,
-                [
-                    '2016-11-06',
-                    '2016-11-13',
-                ],
+                Holiday::create(HolidayName::NEW_YEAR, '2016-01-01'),
+                Holiday::create(HolidayName::ALL_SAINTS_DAY, '2016-11-01'),
+                Holiday::create(HolidayName::CHRISTMAS_DAY, '2016-12-25'),
+            ],
+            HolidayName::LABOR_DAY,
+            [],
+        ];
+        yield [
+            2016,
+            [
+                Holiday::create(HolidayName::NEW_YEAR, '2016-01-01'),
+                Holiday::create(HolidayName::SUNDAY, '2016-11-06'),
+                Holiday::create(HolidayName::SUNDAY, '2016-11-13'),
+            ],
+            HolidayName::SUNDAY,
+            [
+                '2016-11-06',
+                '2016-11-13',
             ],
         ];
     }
@@ -86,11 +88,17 @@ final class GetHolidaysByNameTest extends HolidayTestCase
         $this->subject = new GetHolidaysByName($this->holidayCalculatorStub);
     }
 
+    /**
+     * @param array<string|Holiday> $existingHolidays
+     */
     private function givenHolidayCalculatorReturningHolidays(int $year, array $existingHolidays): void
     {
         $this->holidayCalculatorStub = new HolidayCalculatorStub($this->getHolidayList($existingHolidays));
     }
 
+    /**
+     * @param array<string|Holiday> $data
+     */
     private function getHolidayList(array $data): HolidayList
     {
         $holidayList = new HolidayList();
@@ -105,6 +113,9 @@ final class GetHolidaysByNameTest extends HolidayTestCase
         return $holidayList;
     }
 
+    /**
+     * @param string[] $expectedResult
+     */
     private function thenItShouldReturnAListOfHolidays(array $expectedResult): void
     {
         $actualResult = [];

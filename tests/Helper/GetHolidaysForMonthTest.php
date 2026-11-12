@@ -29,6 +29,10 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
     private GetHolidaysForMonth $subject;
     private HolidayList $actualResult;
 
+    /**
+     * @param array<string|Holiday> $existingHolidays
+     * @param string[] $expectedResult
+     */
     #[DataProvider('getGetHolidaysForMonthData')]
     #[Test]
     public function itShouldCalculateAListOfAllHolidaysInAGivenMonth(int $year, int $month, array $existingHolidays, array $expectedResult): void
@@ -39,59 +43,63 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
         $this->thenExpectedHolidaysShouldBeReturned($expectedResult);
     }
 
-    public static function getGetHolidaysForMonthData(): array
+    public static function getGetHolidaysForMonthData(): \Generator
     {
-        return [
+        yield [
+            2016,
+            2,
             [
-                2016,
-                2,
-                [
-                    '2016-01-31',
-                    '2016-02-01',
-                    '2016-02-15',
-                    '2016-02-28',
-                    '2016-02-29',
-                    '2016-03-01',
-                ],
-                [
-                    '2016-02-01',
-                    '2016-02-15',
-                    '2016-02-28',
-                    '2016-02-29',
-                ],
+                '2016-01-31',
+                '2016-02-01',
+                '2016-02-15',
+                '2016-02-28',
+                '2016-02-29',
+                '2016-03-01',
             ],
             [
-                2016,
-                11,
-                [
-                    '2016-11-01',
-                ],
-                [
-                    '2016-11-01',
-                ],
+                '2016-02-01',
+                '2016-02-15',
+                '2016-02-28',
+                '2016-02-29',
+            ],
+        ];
+        yield [
+            2016,
+            11,
+            [
+                '2016-11-01',
             ],
             [
-                2016,
-                11,
-                [
-                    '2016-10-03',
-                ],
-                [],
+                '2016-11-01',
             ],
+        ];
+        yield [
+            2016,
+            11,
             [
-                2016,
-                3,
-                [],
-                [],
+                '2016-10-03',
             ],
+            [],
+        ];
+        yield [
+            2016,
+            3,
+            [],
+            [],
         ];
     }
 
+    /**
+     * @param array<string|Holiday> $existingHolidays
+     */
     private function givenHolidayCalculatorReturningHolidays(int $year, array $existingHolidays): void
     {
         $this->holidayCalculatorStub = new HolidayCalculatorStub($this->getHolidayList($existingHolidays));
     }
 
+    /**
+     * @param array<string|Holiday> $data
+     */
     private function getHolidayList(array $data): HolidayList
     {
         $holidayList = new HolidayList();
@@ -116,6 +124,9 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
         $this->actualResult = ($this->subject)(Germany::class, $year, $month);
     }
 
+    /**
+     * @param string[] $expectedResult
+     */
     private function thenExpectedHolidaysShouldBeReturned(array $expectedResult): void
     {
         self::assertEquals($this->getHolidayList($expectedResult), $this->actualResult);

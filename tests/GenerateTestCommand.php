@@ -47,6 +47,9 @@ final class GenerateTestCommand extends Command
         return Command::SUCCESS;
     }
 
+    /**
+     * @return array{string, list<list<int>>}
+     */
     private function getInput(InputInterface $input): array
     {
         $provider = $input->getArgument('provider');
@@ -63,6 +66,9 @@ final class GenerateTestCommand extends Command
         return [$provider, $finalYears];
     }
 
+    /**
+     * @param list<list<int>> $years
+     */
     private function calculateData(string $provider, array $years): string
     {
         $calculator = new HolidayCalculator();

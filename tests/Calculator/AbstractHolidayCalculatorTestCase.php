@@ -15,6 +15,7 @@ use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\HolidayCalculator;
 use Umulmrum\Holiday\Model\HolidayList;
+use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Test\HolidayTestCase;
 
 use function sort;
@@ -24,6 +25,9 @@ abstract class AbstractHolidayCalculatorTestCase extends HolidayTestCase
     protected HolidayCalculator $holidayCalculator;
     protected HolidayList $actualResult;
 
+    /**
+     * @param string[] $expectedResult
+     */
     #[DataProvider('getData')]
     #[Test]
     public function itComputesTheCorrectHolidays(int $year, array $expectedResult): void
@@ -33,8 +37,11 @@ abstract class AbstractHolidayCalculatorTestCase extends HolidayTestCase
         $this->thenTheCorrectHolidaysShouldBeCalculated($expectedResult);
     }
 
-    abstract public static function getData(): array;
+    abstract public static function getData(): \Generator;
 
+    /**
+     * @return array<string|HolidayProviderInterface>
+     */
     abstract protected function getHolidayProviders(): array;
 
     protected function givenAHolidayCalculator(): void
@@ -47,6 +54,9 @@ abstract class AbstractHolidayCalculatorTestCase extends HolidayTestCase
         $this->actualResult = $this->holidayCalculator->calculate($this->getHolidayProviders(), $year);
     }
 
+    /**
+     * @param string[] $expectedResult
+     */
     protected function thenTheCorrectHolidaysShouldBeCalculated(array $expectedResult): void
     {
         $actualResult = [];

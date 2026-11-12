@@ -35,21 +35,19 @@ final class ClassNameResolverTest extends HolidayTestCase
         $this->thenTheExpectedResultShouldBeReturned($expectedResult);
     }
 
-    public static function provideDataForResolveProviders(): array
+    public static function provideDataForResolveProviders(): \Generator
     {
-        return [
-            [
-                Italy::class,
-                new Italy(),
-            ],
-            [
-                Bern::class,
-                new Bern(),
-            ],
-            [
-                'foo',
-                null,
-            ],
+        yield [
+            Italy::class,
+            new Italy(),
+        ];
+        yield [
+            Bern::class,
+            new Bern(),
+        ];
+        yield [
+            'foo',
+            null,
         ];
     }
 

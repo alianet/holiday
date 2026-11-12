@@ -42,7 +42,7 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenTheListShouldContainCertainHolidays($expectedHolidays);
     }
 
-    public static function getAddHolidayData(): array
+    public static function getAddHolidayData(): \Generator
     {
         $holiday1 = Holiday::create('name1', '2003-02-06', HolidayType::OFFICIAL);
         $holiday2 = Holiday::create('name2', '2003-04-07', HolidayType::OFFICIAL);
@@ -50,53 +50,51 @@ final class HolidayListTest extends HolidayTestCase
         $holiday2b = Holiday::create('name2', '2003-04-07', HolidayType::OFFICIAL | HolidayType::RELIGIOUS);
         $holiday2c = Holiday::create('name2', '2003-12-12', HolidayType::OFFICIAL | HolidayType::RELIGIOUS);
 
-        return [
+        yield [
+            [],
+            $holiday1,
             [
-                [],
                 $holiday1,
-                [
-                    $holiday1,
-                ],
             ],
+        ];
+        yield [
             [
-                [
-                    $holiday1,
-                ],
+                $holiday1,
+            ],
+            $holiday2,
+            [
+                $holiday1,
                 $holiday2,
-                [
-                    $holiday1,
-                    $holiday2,
-                ],
             ],
+        ];
+        yield [
             [
-                [
-                    $holiday2,
-                ],
-                $holiday2a,
-                [
-                    $holiday2b,
-                ],
+                $holiday2,
             ],
+            $holiday2a,
             [
-                [
-                    $holiday1,
-                    $holiday2,
-                ],
-                $holiday2a,
-                [
-                    $holiday1,
-                    $holiday2b,
-                ],
+                $holiday2b,
             ],
+        ];
+        yield [
             [
-                [
-                    $holiday2,
-                ],
+                $holiday1,
+                $holiday2,
+            ],
+            $holiday2a,
+            [
+                $holiday1,
+                $holiday2b,
+            ],
+        ];
+        yield [
+            [
+                $holiday2,
+            ],
+            $holiday2c,
+            [
+                $holiday2,
                 $holiday2c,
-                [
-                    $holiday2,
-                    $holiday2c,
-                ],
             ],
         ];
     }
@@ -138,53 +136,51 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenTheListShouldBeAsExpected($expectedResult);
     }
 
-    public static function provideDataForRemoveByName(): array
+    public static function provideDataForRemoveByName(): \Generator
     {
-        return [
-            'empty' => [
-                [],
-                'foo',
-                [],
+        yield 'empty' => [
+            [],
+            'foo',
+            [],
+        ];
+        yield 'result-will-be-empty' => [
+            [
+                Holiday::create('name1', '2024-01-01'),
             ],
-            'result-will-be-empty' => [
-                [
-                    Holiday::create('name1', '2024-01-01'),
-                ],
-                'name1',
-                [],
+            'name1',
+            [],
+        ];
+        yield 'unaffected' => [
+            [
+                Holiday::create('name1', '2024-01-01'),
             ],
-            'unaffected' => [
-                [
-                    Holiday::create('name1', '2024-01-01'),
-                ],
-                'another-name',
-                [
-                    Holiday::create('name1', '2024-01-01'),
-                ],
+            'another-name',
+            [
+                Holiday::create('name1', '2024-01-01'),
             ],
-            'retain-others' => [
-                [
-                    Holiday::create('name1', '2024-01-01'),
-                    Holiday::create('name2', '2024-01-01'),
-                    Holiday::create('name3', '2024-01-01'),
-                ],
-                'name1',
-                [
-                    Holiday::create('name2', '2024-01-01'),
-                    Holiday::create('name3', '2024-01-01'),
-                ],
+        ];
+        yield 'retain-others' => [
+            [
+                Holiday::create('name1', '2024-01-01'),
+                Holiday::create('name2', '2024-01-01'),
+                Holiday::create('name3', '2024-01-01'),
             ],
-            'remove-multiple' => [
-                [
-                    Holiday::create('name1', '2024-01-01'),
-                    Holiday::create('name1', '2024-01-01'),
-                    Holiday::create('name2', '2024-01-01'),
-                    Holiday::create('name1', '2024-01-01'),
-                ],
-                'name1',
-                [
-                    Holiday::create('name2', '2024-01-01'),
-                ],
+            'name1',
+            [
+                Holiday::create('name2', '2024-01-01'),
+                Holiday::create('name3', '2024-01-01'),
+            ],
+        ];
+        yield 'remove-multiple' => [
+            [
+                Holiday::create('name1', '2024-01-01'),
+                Holiday::create('name1', '2024-01-01'),
+                Holiday::create('name2', '2024-01-01'),
+                Holiday::create('name1', '2024-01-01'),
+            ],
+            'name1',
+            [
+                Holiday::create('name2', '2024-01-01'),
             ],
         ];
     }
@@ -194,11 +190,18 @@ final class HolidayListTest extends HolidayTestCase
         $this->holidayList->removeByName($nameToRemove);
     }
 
+    /**
+     * @param Holiday[] $expectedResult
+     */
     private function thenTheListShouldBeAsExpected(array $expectedResult): void
     {
         self::assertEquals($this->holidayList->getList(), $expectedResult);
     }
 
+    /**
+     * @param Holiday[] $presetHolidays
+     * @param Holiday[] $expectedResult
+     */
     #[DataProvider('provideDataForReplaceByNameAndDate')]
     #[Test]
     public function itShouldReplaceByNameAndDate(array $presetHolidays, Holiday $holidayToReplace, array $expectedResult): void
@@ -208,38 +211,36 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenTheListShouldBeAsExpected($expectedResult);
     }
 
-    public static function provideDataForReplaceByNameAndDate(): array
+    public static function provideDataForReplaceByNameAndDate(): \Generator
     {
-        return [
-            'empty' => [
-                [],
+        yield 'empty' => [
+            [],
+            Holiday::create('name1', '2024-01-01'),
+            [
                 Holiday::create('name1', '2024-01-01'),
-                [
-                    Holiday::create('name1', '2024-01-01'),
-                ],
             ],
-            'not-in-list' => [
-                [
-                    Holiday::create('foo', '2024-01-01'),
-                    Holiday::create('bar', '2024-01-01'),
-                    Holiday::create('name1', '2024-01-02'),
-                ],
+        ];
+        yield 'not-in-list' => [
+            [
+                Holiday::create('foo', '2024-01-01'),
+                Holiday::create('bar', '2024-01-01'),
+                Holiday::create('name1', '2024-01-02'),
+            ],
+            Holiday::create('name1', '2024-01-01'),
+            [
+                Holiday::create('foo', '2024-01-01'),
+                Holiday::create('bar', '2024-01-01'),
+                Holiday::create('name1', '2024-01-02'),
                 Holiday::create('name1', '2024-01-01'),
-                [
-                    Holiday::create('foo', '2024-01-01'),
-                    Holiday::create('bar', '2024-01-01'),
-                    Holiday::create('name1', '2024-01-02'),
-                    Holiday::create('name1', '2024-01-01'),
-                ],
             ],
-            'other-types' => [
-                [
-                    Holiday::create('name1', '2024-01-02', HolidayType::OFFICIAL | HolidayType::DAY_OFF),
-                ],
+        ];
+        yield 'other-types' => [
+            [
+                Holiday::create('name1', '2024-01-02', HolidayType::OFFICIAL | HolidayType::DAY_OFF),
+            ],
+            Holiday::create('name1', '2024-01-02', HolidayType::RELIGIOUS),
+            [
                 Holiday::create('name1', '2024-01-02', HolidayType::RELIGIOUS),
-                [
-                    Holiday::create('name1', '2024-01-02', HolidayType::RELIGIOUS),
-                ],
             ],
         ];
     }
@@ -249,6 +250,9 @@ final class HolidayListTest extends HolidayTestCase
         $this->holidayList->replaceByNameAndDate($holiday);
     }
 
+    /**
+     * @param list<Holiday> $presetHolidays
+     */
     #[DataProvider('provideDataForContainsDate')]
     #[Test]
     public function itShouldCheckIfIsHoliday(array $presetHolidays, string $date, bool $expectedResult): void
@@ -258,41 +262,39 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenItShouldReturnIfDateIsHoliday($expectedResult);
     }
 
-    public static function provideDataForContainsDate(): array
+    public static function provideDataForContainsDate(): \Generator
     {
         $holiday1 = Holiday::create('name1', '2003-02-06', HolidayType::OFFICIAL);
         $holiday2 = Holiday::create('name2', '2003-04-07', HolidayType::OFFICIAL);
 
-        return [
+        yield [
+            [],
+            '2020-10-10',
+            false,
+        ];
+        yield [
             [
-                [],
-                '2020-10-10',
-                false,
+                $holiday1,
+                $holiday2,
             ],
+            '2020-10-10',
+            false,
+        ];
+        yield [
             [
-                [
-                    $holiday1,
-                    $holiday2,
-                ],
-                '2020-10-10',
-                false,
+                $holiday1,
+                $holiday2,
             ],
+            '2003-02-06',
+            true,
+        ];
+        yield [
             [
-                [
-                    $holiday1,
-                    $holiday2,
-                ],
-                '2003-02-06',
-                true,
+                $holiday1,
+                $holiday2,
             ],
-            [
-                [
-                    $holiday1,
-                    $holiday2,
-                ],
-                '2003-04-07',
-                true,
-            ],
+            '2003-04-07',
+            true,
         ];
     }
 
