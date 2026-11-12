@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Filter;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -38,7 +39,7 @@ final class TranslateFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): \Generator
+    public static function getData(): Generator
     {
         yield [
             [

@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Filter;
 
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -27,7 +28,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
 
     /**
      * @param int|int[] $filterType
-     * @param string[] $expectedResult
+     * @param string[]  $expectedResult
      */
     #[DataProvider('getData')]
     #[Test]
@@ -38,7 +39,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): \Generator
+    public static function getData(): Generator
     {
         yield [
             new HolidayList([
@@ -47,6 +48,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
             HolidayType::DAY_OFF,
             [],
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-01-01', HolidayType::TRADITIONAL | HolidayType::RELIGIOUS),
@@ -54,6 +56,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
             HolidayType::DAY_OFF | HolidayType::OFFICIAL,
             [],
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
@@ -63,6 +66,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
@@ -73,6 +77,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF | HolidayType::RELIGIOUS),
@@ -83,6 +88,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF | HolidayType::TRADITIONAL),
@@ -94,6 +100,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
                 '2016-01-02',
             ],
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
@@ -106,6 +113,7 @@ final class IncludeTypeFilterTest extends HolidayTestCase
                 '2016-01-02',
             ],
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-01-01', HolidayType::DAY_OFF),
@@ -153,12 +161,16 @@ final class IncludeTypeFilterTest extends HolidayTestCase
         $this->whenFilterWithInvalidTypeIsInstantiated($filterType);
     }
 
-    public static function getDataForException(): \Generator
+    public static function getDataForException(): Generator
     {
         yield ['string'];
+
         yield [['array', 'of', 'strings']];
+
         yield [[HolidayType::DAY_OFF, 'other']];
+
         yield [null];
+
         yield [true];
     }
 

@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Helper;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Constant\HolidayName;
@@ -31,8 +32,8 @@ final class GetHolidaysByNameTest extends HolidayTestCase
     private HolidayList $actualResult;
 
     /**
-     * @param array<string|Holiday> $existingHolidays
-     * @param string[] $expectedResult
+     * @param array<Holiday|string> $existingHolidays
+     * @param string[]              $expectedResult
      */
     #[DataProvider('getGetHolidaysByNameData')]
     #[Test]
@@ -44,7 +45,7 @@ final class GetHolidaysByNameTest extends HolidayTestCase
         $this->thenItShouldReturnAListOfHolidays($expectedResult);
     }
 
-    public static function getGetHolidaysByNameData(): \Generator
+    public static function getGetHolidaysByNameData(): Generator
     {
         yield [
             2016,
@@ -58,6 +59,7 @@ final class GetHolidaysByNameTest extends HolidayTestCase
                 '2016-11-01',
             ],
         ];
+
         yield [
             2016,
             [
@@ -68,6 +70,7 @@ final class GetHolidaysByNameTest extends HolidayTestCase
             HolidayName::LABOR_DAY,
             [],
         ];
+
         yield [
             2016,
             [
@@ -89,7 +92,7 @@ final class GetHolidaysByNameTest extends HolidayTestCase
     }
 
     /**
-     * @param array<string|Holiday> $existingHolidays
+     * @param array<Holiday|string> $existingHolidays
      */
     private function givenHolidayCalculatorReturningHolidays(int $year, array $existingHolidays): void
     {
@@ -97,7 +100,7 @@ final class GetHolidaysByNameTest extends HolidayTestCase
     }
 
     /**
-     * @param array<string|Holiday> $data
+     * @param array<Holiday|string> $data
      */
     private function getHolidayList(array $data): HolidayList
     {

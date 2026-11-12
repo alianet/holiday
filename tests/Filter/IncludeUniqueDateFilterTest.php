@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Filter;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Filter\IncludeUniqueDateFilter;
@@ -36,7 +37,7 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): \Generator
+    public static function getData(): Generator
     {
         yield [
             [
@@ -50,6 +51,7 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
                 '2016-01-03',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -59,6 +61,7 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -70,10 +73,12 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
                 '2016-01-03',
             ],
         ];
+
         yield [
             [],
             [],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -84,6 +89,7 @@ final class IncludeUniqueDateFilterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',

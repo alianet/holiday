@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Test\Formatter;
 
 use DateTime;
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Formatter\ICalendarFormatter;
@@ -38,7 +39,7 @@ final class ICalendarFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): \Generator
+    public static function getFormatData(): Generator
     {
         yield [
             Holiday::create('name', '2016-03-11'),
@@ -61,7 +62,7 @@ final class ICalendarFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): \Generator
+    public static function getFormatListData(): Generator
     {
         yield [
             new HolidayList(),
@@ -71,6 +72,7 @@ final class ICalendarFormatterTest extends HolidayTestCase
             . "CALSCALE:GREGORIAN\r\n"
             . "END:VCALENDAR\r\n",
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-03-11'),

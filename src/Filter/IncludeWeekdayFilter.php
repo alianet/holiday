@@ -38,7 +38,7 @@ final class IncludeWeekdayFilter extends AbstractFilter
      *
      * @throws InvalidArgumentException
      */
-    public function __construct(int|array $weekdays)
+    public function __construct(array|int $weekdays)
     {
         if (is_int($weekdays)) {
             $this->assertWeekday($weekdays);

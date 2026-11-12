@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Translator;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use ReflectionClass;
@@ -38,38 +39,44 @@ final class TranslatorTest extends HolidayTestCase
         $this->thenTheTranslatedStringShouldBeReturned($expectedResult);
     }
 
-    public static function getTranslateNameData(): \Generator
+    public static function getTranslateNameData(): Generator
     {
         yield [
             'sunday',
             'en',
             'Sunday',
         ];
+
         yield [
             'sunday',
             'en_US',
             'Sunday',
         ];
+
         yield [
             'sunday',
             'de',
             'Sonntag',
         ];
+
         yield [
             'sunday',
             'unknown',
             'Sunday',
         ];
+
         yield [
             'sunday',
             null,
             'Sunday',
         ];
+
         yield [
             'unknown',
             'en',
             '',
         ];
+
         yield [
             'unknown',
             'en_US',

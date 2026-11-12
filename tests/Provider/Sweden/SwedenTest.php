@@ -11,6 +11,7 @@
 
 namespace Provider\Sweden;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\HolidayCalculator;
@@ -35,7 +36,7 @@ final class SwedenTest extends HolidayTestCase
         $this->thenTheCorrectHolidaysShouldBeCalculated($expectedResult);
     }
 
-    public static function getDataForCalculateWithDeFactoHolidays(): \Generator
+    public static function getDataForCalculateWithDeFactoHolidays(): Generator
     {
         yield [
             2024,
@@ -55,6 +56,7 @@ final class SwedenTest extends HolidayTestCase
                 '2024-12-26',
             ],
         ];
+
         yield [
             2025,
             [

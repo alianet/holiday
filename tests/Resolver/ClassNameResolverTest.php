@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Resolver;
 
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -35,16 +36,18 @@ final class ClassNameResolverTest extends HolidayTestCase
         $this->thenTheExpectedResultShouldBeReturned($expectedResult);
     }
 
-    public static function provideDataForResolveProviders(): \Generator
+    public static function provideDataForResolveProviders(): Generator
     {
         yield [
             Italy::class,
             new Italy(),
         ];
+
         yield [
             Bern::class,
             new Bern(),
         ];
+
         yield [
             'foo',
             null,

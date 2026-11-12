@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Filter;
 
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -30,14 +31,14 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
      */
     #[DataProvider('getData')]
     #[Test]
-    public function itShouldFilterHolidays(HolidayList $holidayList, string|array $holidayNames, array $expectedResult): void
+    public function itShouldFilterHolidays(HolidayList $holidayList, array|string $holidayNames, array $expectedResult): void
     {
         $this->givenAFilter($holidayNames);
         $this->whenFilterIsCalled($holidayList);
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): \Generator
+    public static function getData(): Generator
     {
         yield 'not found' => [
             new HolidayList([
@@ -46,6 +47,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
             'foo',
             [],
         ];
+
         yield 'single' => [
             new HolidayList([
                 Holiday::create('name', '2021-01-01'),
@@ -55,6 +57,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
                 Holiday::create('name', '2021-01-01'),
             ],
         ];
+
         yield 'one match on same date' => [
             new HolidayList([
                 Holiday::create('name', '2021-01-01'),
@@ -65,6 +68,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
                 Holiday::create('name', '2021-01-01'),
             ],
         ];
+
         yield 'two matches' => [
             new HolidayList([
                 Holiday::create('name', '2021-01-01'),
@@ -76,6 +80,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
                 Holiday::create('name', '2021-01-02'),
             ],
         ];
+
         yield 'multiple matches' => [
             new HolidayList([
                 Holiday::create('foo', '2021-01-01'),
@@ -92,6 +97,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
                 Holiday::create('name', '2021-01-06'),
             ],
         ];
+
         yield 'multiple distinct names' => [
             new HolidayList([
                 Holiday::create('name', '2021-01-01'),
@@ -114,12 +120,16 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
         $this->whenFilterWithInvalidHolidayNameIsInstantiated($holidayName);
     }
 
-    public static function getDataForException(): \Generator
+    public static function getDataForException(): Generator
     {
         yield [42];
+
         yield [null];
+
         yield [true];
+
         yield [['string', 1337]];
+
         yield [[null, 'string']];
     }
 

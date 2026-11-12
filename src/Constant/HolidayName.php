@@ -235,7 +235,7 @@ final class HolidayName
     public const CROWN_PRINCE_HAAKON_MAGNUS_BIRTHDAY = 'crown_prince_haakon_magnus_birthday';
     public const OLSOK_DAY = 'olsok_day';
     public const CROWN_PRINCESS_METTE_MARITS_BIRTHDAY = 'crown_princess_mette_marits_birthday';
-	
+
     // Poland
     public const CONSTITUTION_DAY = 'constitution_day';
     public const POLISH_ARMED_FORCES_DAY = 'polish_armed_forces_day';

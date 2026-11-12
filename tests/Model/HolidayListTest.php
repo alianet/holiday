@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Test\Model;
 
 use DateTime;
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -42,7 +43,7 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenTheListShouldContainCertainHolidays($expectedHolidays);
     }
 
-    public static function getAddHolidayData(): \Generator
+    public static function getAddHolidayData(): Generator
     {
         $holiday1 = Holiday::create('name1', '2003-02-06', HolidayType::OFFICIAL);
         $holiday2 = Holiday::create('name2', '2003-04-07', HolidayType::OFFICIAL);
@@ -57,6 +58,7 @@ final class HolidayListTest extends HolidayTestCase
                 $holiday1,
             ],
         ];
+
         yield [
             [
                 $holiday1,
@@ -67,6 +69,7 @@ final class HolidayListTest extends HolidayTestCase
                 $holiday2,
             ],
         ];
+
         yield [
             [
                 $holiday2,
@@ -76,6 +79,7 @@ final class HolidayListTest extends HolidayTestCase
                 $holiday2b,
             ],
         ];
+
         yield [
             [
                 $holiday1,
@@ -87,6 +91,7 @@ final class HolidayListTest extends HolidayTestCase
                 $holiday2b,
             ],
         ];
+
         yield [
             [
                 $holiday2,
@@ -136,13 +141,14 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenTheListShouldBeAsExpected($expectedResult);
     }
 
-    public static function provideDataForRemoveByName(): \Generator
+    public static function provideDataForRemoveByName(): Generator
     {
         yield 'empty' => [
             [],
             'foo',
             [],
         ];
+
         yield 'result-will-be-empty' => [
             [
                 Holiday::create('name1', '2024-01-01'),
@@ -150,6 +156,7 @@ final class HolidayListTest extends HolidayTestCase
             'name1',
             [],
         ];
+
         yield 'unaffected' => [
             [
                 Holiday::create('name1', '2024-01-01'),
@@ -159,6 +166,7 @@ final class HolidayListTest extends HolidayTestCase
                 Holiday::create('name1', '2024-01-01'),
             ],
         ];
+
         yield 'retain-others' => [
             [
                 Holiday::create('name1', '2024-01-01'),
@@ -171,6 +179,7 @@ final class HolidayListTest extends HolidayTestCase
                 Holiday::create('name3', '2024-01-01'),
             ],
         ];
+
         yield 'remove-multiple' => [
             [
                 Holiday::create('name1', '2024-01-01'),
@@ -211,7 +220,7 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenTheListShouldBeAsExpected($expectedResult);
     }
 
-    public static function provideDataForReplaceByNameAndDate(): \Generator
+    public static function provideDataForReplaceByNameAndDate(): Generator
     {
         yield 'empty' => [
             [],
@@ -220,6 +229,7 @@ final class HolidayListTest extends HolidayTestCase
                 Holiday::create('name1', '2024-01-01'),
             ],
         ];
+
         yield 'not-in-list' => [
             [
                 Holiday::create('foo', '2024-01-01'),
@@ -234,6 +244,7 @@ final class HolidayListTest extends HolidayTestCase
                 Holiday::create('name1', '2024-01-01'),
             ],
         ];
+
         yield 'other-types' => [
             [
                 Holiday::create('name1', '2024-01-02', HolidayType::OFFICIAL | HolidayType::DAY_OFF),
@@ -262,7 +273,7 @@ final class HolidayListTest extends HolidayTestCase
         $this->thenItShouldReturnIfDateIsHoliday($expectedResult);
     }
 
-    public static function provideDataForContainsDate(): \Generator
+    public static function provideDataForContainsDate(): Generator
     {
         $holiday1 = Holiday::create('name1', '2003-02-06', HolidayType::OFFICIAL);
         $holiday2 = Holiday::create('name2', '2003-04-07', HolidayType::OFFICIAL);
@@ -272,6 +283,7 @@ final class HolidayListTest extends HolidayTestCase
             '2020-10-10',
             false,
         ];
+
         yield [
             [
                 $holiday1,
@@ -280,6 +292,7 @@ final class HolidayListTest extends HolidayTestCase
             '2020-10-10',
             false,
         ];
+
         yield [
             [
                 $holiday1,
@@ -288,6 +301,7 @@ final class HolidayListTest extends HolidayTestCase
             '2003-02-06',
             true,
         ];
+
         yield [
             [
                 $holiday1,

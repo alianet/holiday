@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Compensatory;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
@@ -35,18 +36,20 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
         $this->thenHolidayListShouldLookAsExpected($initialHolidayList, $expectedHolidayList);
     }
 
-    public static function provideDataForAddAll(): \Generator
+    public static function provideDataForAddAll(): Generator
     {
         yield 'empty' => [
             new HolidayList(),
             2024,
             new HolidayList(),
         ];
+
         yield 'no-weekend-default' => [
             new HolidayList([Holiday::create('foo', '2024-06-07')]),
             2024,
             new HolidayList([Holiday::create('foo', '2024-06-07')]),
         ];
+
         yield 'compensatory-sunday' => [
             new HolidayList([Holiday::create('foo', '2024-06-09')]),
             2024,
@@ -57,6 +60,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'compensatory-saturday' => [
             new HolidayList([Holiday::create('foo', '2024-06-08')]),
             2024,
@@ -67,6 +71,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'compensatory-sunday-with-types' => [
             new HolidayList([Holiday::create('foo', '2024-06-09', HolidayType::OFFICIAL | HolidayType::HALF_DAY_OFF)]),
             2024,
@@ -77,6 +82,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'multiple' => [
             new HolidayList(
                 [
@@ -97,6 +103,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'leap-over-other-holidays' => [
             new HolidayList(
                 [
@@ -113,6 +120,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'leap-over-other-holidays-multiple' => [
             new HolidayList(
                 [
@@ -134,11 +142,13 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'no-overflow-to-next-year' => [
             new HolidayList([Holiday::create('foo', '2023-12-31')]), // Sunday
             2023,
             new HolidayList([Holiday::create('foo', '2023-12-31')]),
         ];
+
         yield 'surrender-after-lots-of-tries' => [
             new HolidayList(
                 [
@@ -184,7 +194,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
         $this->thenHolidayListShouldLookAsExpected($initialHolidayList, $expectedHolidayList);
     }
 
-    public static function provideDataForLimitToHolidays(): \Generator
+    public static function provideDataForLimitToHolidays(): Generator
     {
         yield [
             [
@@ -229,7 +239,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
         $this->thenHolidayListShouldLookAsExpected($initialHolidayList, $expectedHolidayList);
     }
 
-    public static function provideDataForSkipCustomWeekDays(): \Generator
+    public static function provideDataForSkipCustomWeekDays(): Generator
     {
         yield 'emptyWeekDays' => [
             [],
@@ -246,6 +256,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'arbitrary-days-forward' => [
             [],
             [Weekday::MONDAY, Weekday::TUESDAY],
@@ -262,6 +273,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'arbitrary-days-backward' => [
             [Weekday::MONDAY, Weekday::TUESDAY],
             [],
@@ -278,6 +290,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'arbitrary-days-both-directions' => [
             [Weekday::WEDNESDAY],
             [Weekday::FRIDAY],
@@ -297,6 +310,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'leap-over-other-holidays' => [
             [Weekday::SATURDAY],
             [Weekday::SUNDAY],
@@ -320,6 +334,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 ],
             ),
         ];
+
         yield 'no-overflow-to-previous-year' => [
             [Weekday::SATURDAY],
             [Weekday::SUNDAY],
@@ -348,7 +363,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
         $this->thenHolidayListShouldLookAsExpected($initialHolidays, $expectedHolidays);
     }
 
-    public static function provideDataForAdjacentYears(): \Generator
+    public static function provideDataForAdjacentYears(): Generator
     {
         yield 'simple-from-previous-year' => [
             new HolidayList([
@@ -373,6 +388,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 Holiday::create('baz_compensatory', '2024-01-01', HolidayType::COMPENSATORY),
             ]),
         ];
+
         yield 'from-previous-year-holiday-on-01-01' => [
             new HolidayList([
                 Holiday::create('foo', '2024-01-01'),
@@ -399,6 +415,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 Holiday::create('baz_compensatory', '2024-01-02', HolidayType::COMPENSATORY),
             ]),
         ];
+
         yield 'simple-from-following-year' => [
             new HolidayList([
                 Holiday::create('baz', '2027-01-01'),
@@ -422,6 +439,7 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
                 Holiday::create('baz_compensatory', '2027-12-31', HolidayType::COMPENSATORY),
             ]),
         ];
+
         yield 'from-following-year-holiday-on-12-31' => [
             new HolidayList([
                 Holiday::create('foo', '2027-01-01'),
@@ -452,8 +470,8 @@ final class CompensatoryDaysCalculatorTest extends HolidayTestCase
 
     /**
      * @param string[] $forTheseHolidayNamesOnly
-     * @param int[] $weekDaysToStepBackward
-     * @param int[] $weekDaysToStepForward
+     * @param int[]    $weekDaysToStepBackward
+     * @param int[]    $weekDaysToStepForward
      */
     private function givenCompensatoryDaysCalculator(
         array $forTheseHolidayNamesOnly = [],

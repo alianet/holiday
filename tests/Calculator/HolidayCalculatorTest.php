@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Calculator;
 
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -37,28 +38,30 @@ final class HolidayCalculatorTest extends HolidayTestCase
     private HolidayList $actualResult;
 
     /**
-     * @param HolidayProviderInterface|string|array<HolidayProviderInterface|string> $holidayProviders
-     * @param int|int[] $years
+     * @param array<HolidayProviderInterface|string>|HolidayProviderInterface|string $holidayProviders
+     * @param int|int[]                                                              $years
      */
     #[DataProvider('provideDataForTestDefaultResolver')]
     #[Test]
-    public function itCalculatesWithDefaultResolver(HolidayProviderInterface|string|array $holidayProviders, int|array $years): void
+    public function itCalculatesWithDefaultResolver(array|HolidayProviderInterface|string $holidayProviders, array|int $years): void
     {
         $this->givenHolidayCalculator();
         $this->whenCalculateIsCalled($holidayProviders, $years);
         $this->thenNoExceptionShouldBeThrown();
     }
 
-    public static function provideDataForTestDefaultResolver(): \Generator
+    public static function provideDataForTestDefaultResolver(): Generator
     {
         yield [
             Germany::class,
             2020,
         ];
+
         yield [
             new Hesse(),
             [2020, 2021],
         ];
+
         yield [
             [
                 new Germany(),
@@ -68,6 +71,7 @@ final class HolidayCalculatorTest extends HolidayTestCase
             ],
             [2020],
         ];
+
         yield [
             'DE',
             2020,
@@ -83,7 +87,7 @@ final class HolidayCalculatorTest extends HolidayTestCase
      * @param HolidayProviderInterface|HolidayProviderInterface[]|string|string[] $holidayProviders
      * @param int|int[]                                                           $years
      */
-    private function whenCalculateIsCalled($holidayProviders, int|array $years): void
+    private function whenCalculateIsCalled($holidayProviders, array|int $years): void
     {
         $this->actualResult = $this->holidayCalculator->calculate($holidayProviders, $years);
     }
@@ -103,28 +107,33 @@ final class HolidayCalculatorTest extends HolidayTestCase
         $this->holidayCalculator->calculate($holidayProviders, $years);
     }
 
-    public static function provideDataForTestThrowExceptionOnInvalidArgument(): \Generator
+    public static function provideDataForTestThrowExceptionOnInvalidArgument(): Generator
     {
         yield [
             null,
             2020,
         ];
+
         yield [
             1,
             2020,
         ];
+
         yield [
             'no class name',
             2020,
         ];
+
         yield [
             HolidayCalculator::class,
             2020,
         ];
+
         yield [
             new stdClass(),
             2020,
         ];
+
         yield [
             [
                 Germany::class,
@@ -132,18 +141,22 @@ final class HolidayCalculatorTest extends HolidayTestCase
             ],
             2020,
         ];
+
         yield [
             Belgium::class,
             'string',
         ];
+
         yield [
             Belgium::class,
             null,
         ];
+
         yield [
             Belgium::class,
             false,
         ];
+
         yield [
             Belgium::class,
             [2020, 'foo'],

@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Formatter;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -34,7 +35,7 @@ final class JsonFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): \Generator
+    public static function getFormatData(): Generator
     {
         yield [
             Holiday::create('name', '2016-03-17', HolidayType::OTHER),
@@ -49,6 +50,7 @@ final class JsonFormatterTest extends HolidayTestCase
                     ]
                 }',
         ];
+
         yield [
             Holiday::create('name', '2016-03-17', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
             '{
@@ -89,7 +91,7 @@ final class JsonFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatTranslatedData(): \Generator
+    public static function getFormatTranslatedData(): Generator
     {
         yield [
             Holiday::create('name', '2016-03-17', HolidayType::RELIGIOUS | HolidayType::DAY_OFF),
@@ -121,12 +123,13 @@ final class JsonFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): \Generator
+    public static function getFormatListData(): Generator
     {
         yield [
             new HolidayList(),
             '[]',
         ];
+
         yield [
             new HolidayList([
                 Holiday::create('name', '2016-03-17', HolidayType::OTHER),

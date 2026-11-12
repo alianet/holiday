@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Filter;
 
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -28,7 +29,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
     /**
      * @param string[]  $holidays
      * @param int|int[] $weekday
-     * @param string[] $expectedResult
+     * @param string[]  $expectedResult
      */
     #[DataProvider('getData')]
     #[Test]
@@ -39,7 +40,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): \Generator
+    public static function getData(): Generator
     {
         yield [
             [
@@ -56,6 +57,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-04',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -71,6 +73,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-05',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -86,6 +89,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-06',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -101,6 +105,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-07',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -116,6 +121,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -131,6 +137,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-02',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -146,6 +153,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-03',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -167,11 +175,13 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-01-03',
             ],
         ];
+
         yield [
             [],
             Weekday::MONDAY,
             [],
         ];
+
         yield [
             [
                 '2015-12-31',
@@ -190,6 +200,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
                 '2016-02-04',
             ],
         ];
+
         yield [
             [
                 '2016-01-08',
@@ -235,23 +246,28 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
     }
 
     /**
-     * @param int|array<int|string> $weekdays
+     * @param array<int|string>|int $weekdays
      */
     #[DataProvider('getDataForException')]
     #[Test]
-    public function itShouldThrowExceptionOnInvalidWeekdays(int|array $weekdays): void
+    public function itShouldThrowExceptionOnInvalidWeekdays(array|int $weekdays): void
     {
         $this->thenInvalidArgumentExceptionIsExpected();
         $this->whenFilterWithInvalidWeekdayIsInstantiated($weekdays);
     }
 
-    public static function getDataForException(): \Generator
+    public static function getDataForException(): Generator
     {
         yield [[]];
+
         yield [['array', 'of', 'strings']];
+
         yield [[Weekday::SATURDAY, 'other']];
+
         yield [-1];
+
         yield [7];
+
         yield [[3, 7]];
     }
 
@@ -261,9 +277,9 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
     }
 
     /**
-     * @param int|array<int|string> $weekdays
+     * @param array<int|string>|int $weekdays
      */
-    private function whenFilterWithInvalidWeekdayIsInstantiated(int|array $weekdays): void
+    private function whenFilterWithInvalidWeekdayIsInstantiated(array|int $weekdays): void
     {
         new IncludeWeekdayFilter($weekdays); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
     }

@@ -94,7 +94,8 @@ class Norway implements HolidayProviderInterface
     {
         $christmasDay = new DateTimeImmutable("{$year}-12-25");
         $daysToSubtract = (4 - $adventNumber) * 7;
-        $adventSunday = $christmasDay->modify("-{$daysToSubtract} days")->modify("last sunday");
+        $adventSunday = $christmasDay->modify("-{$daysToSubtract} days")->modify('last sunday');
+
         return Holiday::create($holidayName, $adventSunday->format('Y-m-d'), HolidayType::RELIGIOUS);
     }
 

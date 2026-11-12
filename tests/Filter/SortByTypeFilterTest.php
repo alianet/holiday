@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Filter;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Filter\SortByTypeFilter;
@@ -36,7 +37,7 @@ final class SortByTypeFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): \Generator
+    public static function getData(): Generator
     {
         yield [
             [
@@ -50,6 +51,7 @@ final class SortByTypeFilterTest extends HolidayTestCase
                 2,
             ],
         ];
+
         yield [
             [
                 3,
@@ -62,6 +64,7 @@ final class SortByTypeFilterTest extends HolidayTestCase
                 3,
             ],
         ];
+
         yield [
             [
                 0,
@@ -72,6 +75,7 @@ final class SortByTypeFilterTest extends HolidayTestCase
                 0,
             ],
         ];
+
         yield [
             [
                 0,
@@ -80,6 +84,7 @@ final class SortByTypeFilterTest extends HolidayTestCase
                 0,
             ],
         ];
+
         yield [
             [
                 3,
@@ -92,10 +97,12 @@ final class SortByTypeFilterTest extends HolidayTestCase
                 3,
             ],
         ];
+
         yield [
             [],
             [],
         ];
+
         yield [
             [
                 6,

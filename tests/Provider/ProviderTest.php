@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Test\Provider;
 
 use DirectoryIterator;
+use Generator;
 use LogicException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use Umulmrum\Holiday\Filter\SortByDateFilter;
@@ -39,9 +40,9 @@ final class ProviderTest extends HolidayTestCase
     }
 
     /**
-     * @return \Generator<int, array{providerCode: string, fixturePath: string}>
+     * @return Generator<int, array{providerCode: string, fixturePath: string}>
      */
-    public static function provideDataForTestProviders(): \Generator
+    public static function provideDataForTestProviders(): Generator
     {
         $dirIterator = new DirectoryIterator(__DIR__ . '/Data');
 

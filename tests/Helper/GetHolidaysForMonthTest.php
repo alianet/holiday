@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Helper;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Helper\GetHolidaysForMonth;
@@ -30,8 +31,8 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
     private HolidayList $actualResult;
 
     /**
-     * @param array<string|Holiday> $existingHolidays
-     * @param string[] $expectedResult
+     * @param array<Holiday|string> $existingHolidays
+     * @param string[]              $expectedResult
      */
     #[DataProvider('getGetHolidaysForMonthData')]
     #[Test]
@@ -43,7 +44,7 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
         $this->thenExpectedHolidaysShouldBeReturned($expectedResult);
     }
 
-    public static function getGetHolidaysForMonthData(): \Generator
+    public static function getGetHolidaysForMonthData(): Generator
     {
         yield [
             2016,
@@ -63,6 +64,7 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
                 '2016-02-29',
             ],
         ];
+
         yield [
             2016,
             11,
@@ -73,6 +75,7 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
                 '2016-11-01',
             ],
         ];
+
         yield [
             2016,
             11,
@@ -81,6 +84,7 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
             ],
             [],
         ];
+
         yield [
             2016,
             3,
@@ -90,7 +94,7 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
     }
 
     /**
-     * @param array<string|Holiday> $existingHolidays
+     * @param array<Holiday|string> $existingHolidays
      */
     private function givenHolidayCalculatorReturningHolidays(int $year, array $existingHolidays): void
     {
@@ -98,7 +102,7 @@ final class GetHolidaysForMonthTest extends HolidayTestCase
     }
 
     /**
-     * @param array<string|Holiday> $data
+     * @param array<Holiday|string> $data
      */
     private function getHolidayList(array $data): HolidayList
     {

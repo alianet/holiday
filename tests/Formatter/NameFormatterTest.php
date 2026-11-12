@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Formatter;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Formatter\NameFormatter;
@@ -37,7 +38,7 @@ final class NameFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): \Generator
+    public static function getFormatData(): Generator
     {
         yield [
             'foo',
@@ -73,7 +74,7 @@ final class NameFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatTranslatedData(): \Generator
+    public static function getFormatTranslatedData(): Generator
     {
         yield [
             'day_off',
@@ -99,7 +100,7 @@ final class NameFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): \Generator
+    public static function getFormatListData(): Generator
     {
         yield [
             [

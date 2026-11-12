@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Test\Filter;
 
 use DateTime;
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Filter\IncludeTimespanFilter;
@@ -37,7 +38,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
         $this->thenACorrectlyFilteredResultShouldBeReturned($expectedResult);
     }
 
-    public static function getData(): \Generator
+    public static function getData(): Generator
     {
         yield [
             [
@@ -51,6 +52,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-01-05',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -64,6 +66,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-01-05',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -77,6 +80,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-01-05',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -90,6 +94,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-12-31',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -103,6 +108,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-12-31',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -117,6 +123,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-12-31',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -131,6 +138,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-12-31',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -143,6 +151,7 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -151,16 +160,14 @@ final class IncludeTimespanFilterTest extends HolidayTestCase
             ],
             '2016-01-02',
             '2016-01-04',
-            [
-            ],
+            [],
         ];
+
         yield [
-            [
-            ],
+            [],
             '2016-01-01',
             '2016-12-31',
-            [
-            ],
+            [],
         ];
     }
 

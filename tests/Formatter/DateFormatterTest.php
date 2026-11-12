@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Formatter;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Formatter\DateFormatter;
@@ -36,28 +37,32 @@ final class DateFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatData(): \Generator
+    public static function getFormatData(): Generator
     {
         yield [
             '2016-01-01',
             'Y-m-d',
             '2016-01-01',
         ];
+
         yield [
             '2016-01-01',
             'Y-m-d',
             '2016-01-01',
         ];
+
         yield [
             '2016-01-01',
             Holiday::DISPLAY_DATE_FORMAT,
             '2016-01-01',
         ];
+
         yield [
             '2016-01-01',
             Holiday::DISPLAY_DATE_FORMAT,
             '2016-01-01',
         ];
+
         yield [
             '2016-01-01',
             'm',
@@ -97,7 +102,7 @@ final class DateFormatterTest extends HolidayTestCase
         $this->thenAFormattedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getFormatListData(): \Generator
+    public static function getFormatListData(): Generator
     {
         yield [
             [
@@ -108,6 +113,7 @@ final class DateFormatterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -117,6 +123,7 @@ final class DateFormatterTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',
@@ -128,6 +135,7 @@ final class DateFormatterTest extends HolidayTestCase
                 '12',
             ],
         ];
+
         yield [
             [
                 '2016-01-01',

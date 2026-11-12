@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Resolver;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Provider\Belgium\Belgium;
@@ -36,32 +37,38 @@ final class IsoResolverTest extends HolidayTestCase
         $this->thenTheExpectedResultShouldBeReturned($expectedResult);
     }
 
-    public static function provideDataForResolveProviders(): \Generator
+    public static function provideDataForResolveProviders(): Generator
     {
         yield 'country' => [
             'DE',
             new Germany(),
         ];
+
         yield 'wrong-case' => [
             'de',
             null,
         ];
+
         yield 'region' => [
             'DE-BW',
             new BadenWuerttemberg(),
         ];
+
         yield 'nonexisting' => [
             'foo',
             null,
         ];
+
         yield 'toolong' => [
             '12345678',
             null,
         ];
+
         yield 'not-implemented-region' => [
             'IT-65',
             new Italy(),
         ];
+
         yield 'nonexisting-region' => [
             'IT-foo',
             new Italy(),

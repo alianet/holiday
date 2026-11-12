@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Calculator;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\HolidayCalculator;
@@ -37,10 +38,10 @@ abstract class AbstractHolidayCalculatorTestCase extends HolidayTestCase
         $this->thenTheCorrectHolidaysShouldBeCalculated($expectedResult);
     }
 
-    abstract public static function getData(): \Generator;
+    abstract public static function getData(): Generator;
 
     /**
-     * @return array<string|HolidayProviderInterface>
+     * @return array<HolidayProviderInterface|string>
      */
     abstract protected function getHolidayProviders(): array;
 

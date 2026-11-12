@@ -14,6 +14,7 @@ namespace Umulmrum\Holiday\Test\Model;
 use DateTime;
 use DateTimeImmutable;
 use DateTimeZone;
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -65,28 +66,32 @@ final class HolidayTest extends HolidayTestCase
         $this->whenHolidayIsCreatedFromConstructor($name, $date, $type);
     }
 
-    public static function provideDataForInvalidConstructorData(): \Generator
+    public static function provideDataForInvalidConstructorData(): Generator
     {
         yield 'empty-name' => [
             '',
             '2024-01-01',
             HolidayType::OTHER,
         ];
+
         yield 'long-date' => [
             'new_year',
             '2024-01-01xyz',
             HolidayType::OTHER,
         ];
+
         yield 'invalid-date' => [
             'new_year',
             '2024-x1-01',
             HolidayType::OTHER,
         ];
+
         yield 'type-less-than-zero' => [
             'new_year',
             '2024-01-01',
             -1,
         ];
+
         yield 'type-too-big' => [
             'new_year',
             '2024-01-01',
@@ -124,10 +129,12 @@ final class HolidayTest extends HolidayTestCase
         $this->thenThisTypeShouldBeSet($type);
     }
 
-    public static function getDateTimeData(): \Generator
+    public static function getDateTimeData(): Generator
     {
         yield ['foo', '1917-01-01', HolidayType::DAY_OFF];
+
         yield ['bar', '1970-01-01', HolidayType::OTHER];
+
         yield ['baz', '2000-02-29', HolidayType::BANK | HolidayType::NO_SCHOOL];
     }
 
@@ -145,10 +152,12 @@ final class HolidayTest extends HolidayTestCase
         $this->thenThisDateShouldBeReturned($expectedResult);
     }
 
-    public static function getDetailedDateTimeData(): \Generator
+    public static function getDetailedDateTimeData(): Generator
     {
         yield ['1917-01-01', 'Europe/Berlin', new DateTimeImmutable('1917-01-01T00:00:00+0100')];
+
         yield ['1970-01-01', 'America/Argentina/Cordoba', new DateTimeImmutable('1970-01-01T00:00:00-0300')];
+
         yield ['2020-10-31', 'Asia/Manila', new DateTimeImmutable('2020-10-31T00:00:00+0800')];
     }
 
@@ -176,14 +185,20 @@ final class HolidayTest extends HolidayTestCase
         $this->thenTheExpectedResultShouldBeReturned($expectedResult);
     }
 
-    public static function getTypeData(): \Generator
+    public static function getTypeData(): Generator
     {
         yield [HolidayType::NO_SCHOOL, HolidayType::NO_SCHOOL, true];
+
         yield [HolidayType::OTHER, HolidayType::NO_SCHOOL, false];
+
         yield [HolidayType::NO_SCHOOL, HolidayType::OTHER, false];
+
         yield [HolidayType::OTHER, HolidayType::OTHER, true];
+
         yield [HolidayType::NO_SCHOOL | HolidayType::BANK, HolidayType::NO_SCHOOL, true];
+
         yield [HolidayType::NO_SCHOOL | HolidayType::BANK, HolidayType::NO_SCHOOL | HolidayType::BANK, true];
+
         yield [HolidayType::NO_SCHOOL | HolidayType::BANK | HolidayType::DAY_OFF, HolidayType::NO_SCHOOL | HolidayType::BANK, true];
     }
 

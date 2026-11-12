@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Resolver;
 
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -52,18 +53,20 @@ final class ResolverHandlerTest extends HolidayTestCase
         $this->thenTheExpectedProvidersShouldBeReturned($expectedResult);
     }
 
-    public static function provideDataForResolveHolidayProviders(): \Generator
+    public static function provideDataForResolveHolidayProviders(): Generator
     {
         yield 'always-resolve-class-instance' => [
             [],
             new Sundays(HolidayType::DAY_OFF),
             [new Sundays(HolidayType::DAY_OFF)],
         ];
+
         yield 'single-resolver' => [
             [new ClassNameResolver()],
             Brazil::class,
             [new Brazil()],
         ];
+
         yield 'multiple-resolvers' => [
             [new ClassNameResolver(), new IsoResolver()],
             [Solothurn::class, 'AT-9', new Wednesdays(HolidayType::OFFICIAL)],
@@ -80,13 +83,18 @@ final class ResolverHandlerTest extends HolidayTestCase
         $this->subject->resolve($identifier); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
     }
 
-    public static function provideDataForThrowException(): \Generator
+    public static function provideDataForThrowException(): Generator
     {
         yield [1];
+
         yield [null];
+
         yield [true];
+
         yield [new HolidayCalculator()];
+
         yield [[new Brazil(), 'foo']];
+
         yield [[Denmark::class, 1337]];
     }
 

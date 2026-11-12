@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Translator;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Model\Holiday;
@@ -32,7 +33,7 @@ final class SymfonyBridgeTranslatorTest extends HolidayTestCase
         $this->thenTheStringTranslatedBySymfonyShouldBeReturned();
     }
 
-    public static function getTranslateNameData(): \Generator
+    public static function getTranslateNameData(): Generator
     {
         yield [
             'name',
@@ -63,7 +64,7 @@ final class SymfonyBridgeTranslatorTest extends HolidayTestCase
         $this->thenTheStringTranslatedBySymfonyShouldBeReturned();
     }
 
-    public static function getTranslateData(): \Generator
+    public static function getTranslateData(): Generator
     {
         yield [
             'name',

@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Test\Provider;
 
+use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use Umulmrum\Holiday\Constant\HolidayName;
@@ -40,12 +41,14 @@ final class ChristianHolidaysTraitTest extends TestCase
     }
 
     /**
-     * @return \Generator<int, array{int, string}>
+     * @return Generator<int, array{int, string}>
      */
-    public static function providePalmSundayDates(): \Generator
+    public static function providePalmSundayDates(): Generator
     {
         yield [2008, '2008-03-16'];
+
         yield [2024, '2024-03-24'];
+
         yield [2025, '2025-04-13'];
     }
 }

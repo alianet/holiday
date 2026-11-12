@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Test\Helper;
 
 use DateTime;
+use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
@@ -19,9 +20,9 @@ use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Helper\GetNoWorkDaysForTimeSpan;
 use Umulmrum\Holiday\HolidayCalculator;
 use Umulmrum\Holiday\Model\HolidayList;
-use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\France\France;
 use Umulmrum\Holiday\Provider\Germany\BadenWuerttemberg;
+use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Weekday\Saturdays;
 use Umulmrum\Holiday\Provider\Weekday\Sundays;
 use Umulmrum\Holiday\Provider\Weekday\Thursdays;
@@ -35,7 +36,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
 
     /**
      * @param HolidayProviderInterface[] $noWorkWeekdaysProviders
-     * @param string[] $expectedResult
+     * @param string[]                   $expectedResult
      */
     #[DataProvider('getGetNoWorkdaysForTimespanData')]
     #[Test]
@@ -46,7 +47,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
         $this->thenItShouldReturnAListOfHolidays($expectedResult);
     }
 
-    public static function getGetNoWorkdaysForTimespanData(): \Generator
+    public static function getGetNoWorkdaysForTimespanData(): Generator
     {
         yield 'sunday-in-short-timespan' => [
             '2016-01-01',
@@ -56,6 +57,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield 'sundays-in-same-year' => [
             '2016-01-01',
             '2016-01-11',
@@ -69,6 +71,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
                 '2016-01-10',
             ],
         ];
+
         yield 'sundays-in-month-with-working-holidays' => [
             '2016-10-01',
             '2016-10-31',
@@ -82,6 +85,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
                 '2016-10-30',
             ],
         ];
+
         yield 'sundays-over-two-years' => [
             '2015-12-01',
             '2016-01-02',
@@ -96,6 +100,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
                 '2016-01-01',
             ],
         ];
+
         yield 'weekends-over-two-years' => [
             '2015-12-01',
             '2016-01-02',
@@ -117,6 +122,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
                 '2016-01-02',
             ],
         ];
+
         yield 'arbitrary-weekdays-over-two-years' => [
             '2015-12-02',
             '2016-01-05',
@@ -140,6 +146,7 @@ final class GetNoWorkDaysForTimeSpanTest extends HolidayTestCase
                 '2016-01-05',
             ],
         ];
+
         yield 'sundays-over-multiple-years' => [
             '2015-12-01',
             '2017-02-05',
