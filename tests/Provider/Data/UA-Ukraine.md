@@ -94,7 +94,7 @@
 | 1948-01-07 | christmas_day                              | official, day_off, religious |
 | 1948-05-01 | day_of_international_solidarity_of_workers | official, day_off            |
 | 1948-05-02 | labor_day                                  | official, day_off            |
-| 1948-05-09 | victory_day                                | official, day_off            |
+| 1948-05-09 | victory_day                                | official                     |
 
 # 1965
 

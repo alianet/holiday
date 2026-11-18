@@ -35,7 +35,11 @@ class France implements HolidayProviderInterface
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getEasterMonday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getLaborDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
-        $holidays->add($this->getVictoryDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        // The 1981 law was enacted in October, after that year's anniversary.
+        // The twentieth anniversary in 1965 was an exceptional public holiday.
+        if (($year >= 1953 && $year <= 1958) || $year === 1965 || $year >= 1982) {
+            $holidays->add($this->getVictoryDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        }
         $holidays->add($this->getAscension($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getWhitSunday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         if ($year < 2004 || $year > 2007) {

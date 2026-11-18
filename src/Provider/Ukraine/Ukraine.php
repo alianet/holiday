@@ -72,7 +72,7 @@ class Ukraine implements CompensatoryHolidayProviderInterface
             $holidays->add($this->getDayOfRemembranceAndVictoryOverNazism($year, $holidayType));
         }
         if ($year >= 1945 && $year <= 2023) {
-            $holidays->add($this->getDayOfVictoryOverNazism($year, $holidayType));
+            $holidays->add($this->getDayOfVictoryOverNazism($year, $year >= 1948 && $year <= 1964 ? HolidayType::OFFICIAL : $holidayType));
         }
         if ($year >= 1997) {
             $holidays->add($this->getConstitutionDay($year, $holidayType));

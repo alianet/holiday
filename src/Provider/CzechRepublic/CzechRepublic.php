@@ -43,7 +43,7 @@ class CzechRepublic implements HolidayProviderInterface
             $holidays->add($this->getEasterMonday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
             $holidays->add($this->getLaborDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         }
-        if ($year >= 1992) {
+        if ($year >= 1952) {
             $holidays->add($this->getVictoryDay($year, HolidayType::DAY_OFF));
         }
         if ($year >= 1990) {
@@ -77,7 +77,10 @@ class CzechRepublic implements HolidayProviderInterface
 
     protected function getVictoryDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::VICTORY_DAY, sprintf('%04d-05-08', $year), HolidayType::OFFICIAL | $additionalType);
+        // The change to 8 May took effect on 31 May 1991.
+        $date = sprintf($year >= 1992 ? '%04d-05-08' : '%04d-05-09', $year);
+
+        return Holiday::create(HolidayName::VICTORY_DAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getSaintsCyrilAndMethodiusDay(int $year, int $additionalType = HolidayType::OTHER): Holiday

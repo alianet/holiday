@@ -50,7 +50,7 @@ class Belarus implements HolidayProviderInterface
             $this->getRadonitsa($year, HolidayType::DAY_OFF),
             $this->getInternationalWomensDay($year, HolidayType::DAY_OFF),
             $this->getLaborDay($year, HolidayType::DAY_OFF),
-            $this->getVictoryDay($year, HolidayType::DAY_OFF),
+            $this->getVictoryDay($year, $year >= 1948 && $year <= 1964 ? HolidayType::OTHER : HolidayType::DAY_OFF),
             $this->getIndependenceDay($year, HolidayType::DAY_OFF),
             $this->getOctoberRevolutionDay($year, HolidayType::DAY_OFF),
             $this->getWesternChristmasDay($year, HolidayType::DAY_OFF),

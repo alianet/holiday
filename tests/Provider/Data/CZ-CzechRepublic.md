@@ -21,6 +21,7 @@
 | 1987-01-01 | new_year             | official, day_off            |
 | 1987-04-20 | easter_monday        | official, day_off, religious |
 | 1987-05-01 | labor_day            | official, day_off            |
+| 1987-05-09 | victory_day          | official, day_off            |
 | 1987-12-25 | christmas_day        | official, day_off, religious |
 | 1987-12-26 | second_christmas_day | official, day_off, religious |
 
@@ -31,6 +32,7 @@
 | 1988-01-01 | new_year                     | official, day_off            |
 | 1988-04-04 | easter_monday                | official, day_off, religious |
 | 1988-05-01 | labor_day                    | official, day_off            |
+| 1988-05-09 | victory_day                  | official, day_off            |
 | 1988-10-28 | independent_czechoslovak_day | official, day_off            |
 | 1988-12-25 | christmas_day                | official, day_off, religious |
 | 1988-12-26 | second_christmas_day         | official, day_off, religious |
@@ -42,6 +44,7 @@
 | 1989-01-01 | new_year                     | official, day_off            |
 | 1989-03-27 | easter_monday                | official, day_off, religious |
 | 1989-05-01 | labor_day                    | official, day_off            |
+| 1989-05-09 | victory_day                  | official, day_off            |
 | 1989-10-28 | independent_czechoslovak_day | official, day_off            |
 | 1989-12-25 | christmas_day                | official, day_off, religious |
 | 1989-12-26 | second_christmas_day         | official, day_off, religious |
@@ -53,6 +56,7 @@
 | 1990-01-01 | new_year                       | official, day_off            |
 | 1990-04-16 | easter_monday                  | official, day_off, religious |
 | 1990-05-01 | labor_day                      | official, day_off            |
+| 1990-05-09 | victory_day                    | official, day_off            |
 | 1990-07-05 | saints_cyril_and_methodius_day | official, day_off            |
 | 1990-07-06 | jan_hus_day                    | official, day_off            |
 | 1990-10-28 | independent_czechoslovak_day   | official, day_off            |
@@ -67,6 +71,7 @@
 | 1991-01-01 | new_year                       | official, day_off            |
 | 1991-04-01 | easter_monday                  | official, day_off, religious |
 | 1991-05-01 | labor_day                      | official, day_off            |
+| 1991-05-09 | victory_day                    | official, day_off            |
 | 1991-07-05 | saints_cyril_and_methodius_day | official, day_off            |
 | 1991-07-06 | jan_hus_day                    | official, day_off            |
 | 1991-10-28 | independent_czechoslovak_day   | official, day_off            |
