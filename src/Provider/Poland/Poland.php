@@ -33,7 +33,7 @@ class Poland implements HolidayProviderInterface
 
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
-        if ($year >= 2011) {
+        if ($year >= 2011 || ($year >= 1925 && $year <= 1960)) {
             $holidays->add($this->getEpiphany($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         }
         $holidays->add($this->getEasterSunday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -42,8 +42,14 @@ class Poland implements HolidayProviderInterface
         if ($year >= 1990 || ($year >= 1919 && $year <= 1946)) {
             $holidays->add($this->getConstitutionDay($year, HolidayType::DAY_OFF));
         }
-        if ($year >= 1945 && $year <= 2014) {
-            $holidays->add($this->getVictoryDay($year, HolidayType::DAY_OFF));
+        if ($year >= 1945 && $year <= 1950) {
+            $holidays->add($this->getVictoryDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        }
+        if ($year >= 1951 && $year <= 2014) {
+            $holidays->add($this->getVictoryDay($year, HolidayType::OFFICIAL));
+        }
+        if ($year >= 2015) {
+            $holidays->add($this->getVictoryDay($year, HolidayType::OFFICIAL));
         }
         $holidays->add($this->getWhitSunday($year, HolidayType::DAY_OFF));
         $holidays->add($this->getCorpusChristi($year, HolidayType::DAY_OFF));
@@ -77,7 +83,9 @@ class Poland implements HolidayProviderInterface
 
     private function getVictoryDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::VICTORY_DAY, sprintf('%04d-05-09', $year), HolidayType::OFFICIAL | $additionalType);
+        $date = $year >= 2015 ? sprintf('%04d-05-08', $year) : sprintf('%04d-05-09', $year);
+
+        return Holiday::create(HolidayName::VICTORY_DAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getPolishArmedForcesDay(int $year, int $additionalType = HolidayType::OTHER): Holiday

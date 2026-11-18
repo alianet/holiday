@@ -36,6 +36,7 @@
 | Date       | Name                    | Types                        |
 |------------|-------------------------|------------------------------|
 | 1945-01-01 | new_year                | official, day_off            |
+| 1945-01-06 | epiphany                | official, day_off, religious |
 | 1945-04-01 | easter_sunday           | official, day_off, religious |
 | 1945-04-02 | easter_monday           | official, day_off, religious |
 | 1945-05-01 | may_day                 | official, day_off            |
@@ -56,6 +57,7 @@
 | Date       | Name                 | Types                        |
 |------------|----------------------|------------------------------|
 | 1947-01-01 | new_year             | official, day_off            |
+| 1947-01-06 | epiphany             | official, day_off, religious |
 | 1947-04-06 | easter_sunday        | official, day_off, religious |
 | 1947-04-07 | easter_monday        | official, day_off, religious |
 | 1947-05-01 | may_day              | official, day_off            |
@@ -78,7 +80,7 @@
 | 2011-04-25 | easter_monday           | official, day_off, religious |
 | 2011-05-01 | may_day                 | official, day_off            |
 | 2011-05-03 | constitution_day        | official, day_off            |
-| 2011-05-09 | victory_day             | official, day_off            |
+| 2011-05-09 | victory_day             | official                     |
 | 2011-06-12 | whit_sunday             | day_off, religious           |
 | 2011-06-23 | corpus_christi          | day_off, religious           |
 | 2011-08-15 | assumption_day          | day_off, religious           |
@@ -99,6 +101,7 @@
 | 2020-04-13 | easter_monday           | official, day_off, religious |
 | 2020-05-01 | may_day                 | official, day_off            |
 | 2020-05-03 | constitution_day        | official, day_off            |
+| 2020-05-08 | victory_day             | official                     |
 | 2020-05-31 | whit_sunday             | day_off, religious           |
 | 2020-06-11 | corpus_christi          | day_off, religious           |
 | 2020-08-15 | assumption_day          | day_off, religious           |
@@ -119,6 +122,7 @@
 | 2025-04-21 | easter_monday           | official, day_off, religious  |
 | 2025-05-01 | may_day                 | official, day_off             |
 | 2025-05-03 | constitution_day        | official, day_off             |
+| 2025-05-08 | victory_day             | official                      |
 | 2025-06-08 | whit_sunday             | day_off, religious            |
 | 2025-06-19 | corpus_christi          | day_off, religious            |
 | 2025-08-15 | assumption_day          | day_off, religious            |
@@ -140,6 +144,7 @@
 | 2026-04-06 | easter_monday           | official, day_off, religious  |
 | 2026-05-01 | may_day                 | official, day_off             |
 | 2026-05-03 | constitution_day        | official, day_off             |
+| 2026-05-08 | victory_day             | official                      |
 | 2026-05-24 | whit_sunday             | day_off, religious            |
 | 2026-06-04 | corpus_christi          | day_off, religious            |
 | 2026-08-15 | assumption_day          | day_off, religious            |
