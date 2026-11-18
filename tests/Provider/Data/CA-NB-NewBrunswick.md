@@ -5,6 +5,7 @@
 | 1952-01-01 | new_year                 | official, day_off                          |
 | 1952-02-15 | national_day_of_mourning | official, day_off                          |
 | 1952-04-11 | good_friday              | official, day_off, religious               |
+| 1952-05-19 | victoria_day             | official, shops_closed                     |
 | 1952-07-01 | dominion_day             | official, day_off                          |
 | 1952-08-04 | new_brunswick_day        | official, day_off                          |
 | 1952-09-01 | labor_day                | official, day_off                          |
@@ -12,7 +13,6 @@
 | 1952-11-11 | remembrance_day          | official, day_off                          |
 | 1952-12-25 | christmas_day            | official, day_off, religious               |
 | 1952-12-26 | boxing_day               | official, day_off, religious, partial_only |
-| 2052-05-20 | victoria_day             | official, shops_closed                     |
 
 # 1982
 

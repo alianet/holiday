@@ -66,7 +66,7 @@ class Canada implements HolidayProviderInterface
 
     protected function getVictoriaDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTime("last monday front of {$year}-05-25");
+        $date = (new DateTime("{$year}-05-25"))->modify('last monday');
 
         return Holiday::createFromDateTime(HolidayName::VICTORIA_DAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
