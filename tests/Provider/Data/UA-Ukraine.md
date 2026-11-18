@@ -388,7 +388,7 @@
 | 2022-06-12 | whit_sunday                | official, religious               |
 | 2022-06-13 | whit_sunday_compensatory   | official, religious, compensatory |
 | 2022-06-28 | ukraine_constitution_day   | official                          |
-| 2022-07-15 | ukraine_statehood_day      | official                          |
+| 2022-07-28 | ukraine_statehood_day      | official                          |
 | 2022-08-24 | ukraine_independence_day   | official                          |
 | 2022-10-14 | defenders_of_ukraine_day   | official                          |
 | 2022-12-25 | christmas_day              | official, religious               |
@@ -408,8 +408,7 @@
 | 2023-06-04 | whit_sunday                           | official, religious               |
 | 2023-06-05 | whit_sunday_compensatory              | official, religious, compensatory |
 | 2023-06-28 | ukraine_constitution_day              | official                          |
-| 2023-07-15 | ukraine_statehood_day                 | official                          |
-| 2023-07-17 | ukraine_statehood_day_compensatory    | official, compensatory            |
+| 2023-07-28 | ukraine_statehood_day                 | official                          |
 | 2023-08-24 | ukraine_independence_day              | official                          |
 | 2023-10-01 | defenders_of_ukraine_day              | official                          |
 | 2023-10-02 | defenders_of_ukraine_day_compensatory | official, compensatory            |

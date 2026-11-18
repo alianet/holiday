@@ -132,7 +132,9 @@ class Ukraine implements CompensatoryHolidayProviderInterface
 
     protected function getStatehoodDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::UKRAINE_STATEHOOD_DAY, sprintf('%04d-07-15', $year), HolidayType::OFFICIAL | $additionalType);
+        $date = $year >= 2024 ? sprintf('%04d-07-15', $year) : sprintf('%04d-07-28', $year);
+
+        return Holiday::create(HolidayName::UKRAINE_STATEHOOD_DAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getIndependenceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
