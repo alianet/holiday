@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Geneva extends Switzerland
 {
     use ChristianHolidaysTrait;
@@ -50,6 +52,6 @@ class Geneva extends Switzerland
 
     private function getRestorationOfTheRepublic(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::GENEVA_RESTORATION_OF_THE_REPUBLIC, "{$year}-12-31", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::GENEVA_RESTORATION_OF_THE_REPUBLIC, sprintf('%04d-12-31', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Queensland extends Australia
 {
     use ChristianHolidaysTrait;
@@ -44,21 +46,21 @@ class Queensland extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::MAY_DAY,
-            new DateTimeImmutable("First Monday of {$year}-05"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-05', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
 
     protected function getKingsBirthdayQueensland(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::createFromDateTime(HolidayName::KINGS_BIRTHDAY, new DateTimeImmutable("First Monday of {$year}-10"), HolidayType::OFFICIAL | $additionalType);
+        return Holiday::createFromDateTime(HolidayName::KINGS_BIRTHDAY, new DateTimeImmutable(sprintf('First Monday of %04d-10', $year)), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getPeoplesDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
         return Holiday::createFromDateTime(
             HolidayName::PEOPLES_DAY,
-            new DateTimeImmutable("{$year}-08-10 this Wednesday"),
+            new DateTimeImmutable(sprintf('%04d-08-10 this Wednesday', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }

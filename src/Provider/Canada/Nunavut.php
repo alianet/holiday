@@ -18,6 +18,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Nunavut extends Canada
 {
     use ChristianHolidaysTrait;
@@ -38,9 +40,9 @@ class Nunavut extends Canada
     protected function getNunavutDay(int $year): Holiday
     {
         if ($year === 2000) {
-            $date = "{$year}-04-01";
+            $date = sprintf('%04d-04-01', $year);
         } else {
-            $date = "{$year}-07-09";
+            $date = sprintf('%04d-07-09', $year);
         }
 
         return Holiday::create(HolidayName::NUNAVUT_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY);

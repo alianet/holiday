@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Greenland;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -19,6 +20,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Greenland implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -26,6 +29,8 @@ class Greenland implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getMaundyThursday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -49,6 +54,6 @@ class Greenland implements HolidayProviderInterface
 
     protected function getNationalHoliday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::GREENLAND_NATIONAL_HOLIDAY, "{$year}-06-21", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::GREENLAND_NATIONAL_HOLIDAY, sprintf('%04d-06-21', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Yukon extends Canada
 {
     use ChristianHolidaysTrait;
@@ -42,7 +44,7 @@ class Yukon extends Canada
 
     protected function getDiscoveryDay(int $year): Holiday
     {
-        $date = new DateTime("Third Monday of {$year}-08");
+        $date = new DateTime(sprintf('Third Monday of %04d-08', $year));
 
         return Holiday::createFromDateTime(HolidayName::DISCOVERY_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }

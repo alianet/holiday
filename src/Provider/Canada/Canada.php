@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Canada;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -20,6 +21,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Canada implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -27,6 +30,8 @@ class Canada implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         if ($year === 1952) {
@@ -54,71 +59,71 @@ class Canada implements HolidayProviderInterface
 
     protected function getNationalDayOfMourningGeorgeVI(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NATIONAL_DAY_OF_MOURNING, "{$year}-02-15", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::NATIONAL_DAY_OF_MOURNING, sprintf('%04d-02-15', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getFamilyDay(int $year): Holiday
     {
-        $date = new DateTime("Third Monday of {$year}-02");
+        $date = new DateTime(sprintf('Third Monday of %04d-02', $year));
 
         return Holiday::createFromDateTime(HolidayName::FAMILY_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getVictoriaDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime("{$year}-05-25"))->modify('last monday');
+        $date = (new DateTime(sprintf('%04d-05-25', $year)))->modify('last monday');
 
         return Holiday::createFromDateTime(HolidayName::VICTORIA_DAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getNationalIndigenousPeopleDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NATIONAL_INDIGENOUS_PEOPLE_DAY, "{$year}-06-21", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::NATIONAL_INDIGENOUS_PEOPLE_DAY, sprintf('%04d-06-21', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getCanadaDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::CANADA_DAY, "{$year}-07-01", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::CANADA_DAY, sprintf('%04d-07-01', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getDominionDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::DOMINION_DAY, "{$year}-07-01", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::DOMINION_DAY, sprintf('%04d-07-01', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getCivicHoliday(int $year): Holiday
     {
-        $date = new DateTime("First Monday of {$year}-08");
+        $date = new DateTime(sprintf('First Monday of %04d-08', $year));
 
         return Holiday::createFromDateTime(HolidayName::CIVIC_HOLIDAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getLaborDayCanada(int $year): Holiday
     {
-        $date = new DateTime("First Monday of {$year}-09");
+        $date = new DateTime(sprintf('First Monday of %04d-09', $year));
 
         return Holiday::createFromDateTime(HolidayName::LABOR_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getNationalDayOfMourningElizabethII(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NATIONAL_DAY_OF_MOURNING, "{$year}-09-22", HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY);
+        return Holiday::create(HolidayName::NATIONAL_DAY_OF_MOURNING, sprintf('%04d-09-22', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY);
     }
 
     protected function getNationalDayForTruthAndReconciliation(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::NATIONAL_DAY_FOR_TRUTH_AND_RECONCILIATION, "{$year}-09-30", HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
+        return Holiday::create(HolidayName::NATIONAL_DAY_FOR_TRUTH_AND_RECONCILIATION, sprintf('%04d-09-30', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
     }
 
     protected function getThanksgiving(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTime("Second Monday of {$year}-10");
+        $date = new DateTime(sprintf('Second Monday of %04d-10', $year));
 
         return Holiday::createFromDateTime(HolidayName::THANKSGIVING_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
     }
 
     protected function getRemembranceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::REMEMBRANCE_DAY, "{$year}-11-11", HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
+        return Holiday::create(HolidayName::REMEMBRANCE_DAY, sprintf('%04d-11-11', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
     }
 }

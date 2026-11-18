@@ -20,6 +20,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class SouthAustralia extends Australia
 {
     use ChristianHolidaysTrait;
@@ -46,9 +48,9 @@ class SouthAustralia extends Australia
     protected function getAdelaideCupDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
         if ($year <= 2005) {
-            $date = new DateTimeImmutable("Third Monday of {$year}-05");
+            $date = new DateTimeImmutable(sprintf('Third Monday of %04d-05', $year));
         } else {
-            $date = new DateTimeImmutable("Second Monday of {$year}-03");
+            $date = new DateTimeImmutable(sprintf('Second Monday of %04d-03', $year));
         }
 
         return Holiday::createFromDateTime(
@@ -62,7 +64,7 @@ class SouthAustralia extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::LABOR_DAY,
-            new DateTimeImmutable("First Monday of {$year}-10"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-10', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -72,7 +74,7 @@ class SouthAustralia extends Australia
         if ($year <= 1992) {
             $holiday = Holiday::create(
                 HolidayName::PROCLAMATION_DAY,
-                "{$year}-12-28",
+                sprintf('%04d-12-28', $year),
                 HolidayType::OFFICIAL | $additionalType,
             );
             $holidays->add($holiday);
@@ -82,7 +84,7 @@ class SouthAustralia extends Australia
 
         $holidays->add(Holiday::create(
             HolidayName::PROCLAMATION_DAY,
-            "{$year}-12-26",
+            sprintf('%04d-12-26', $year),
             HolidayType::OFFICIAL | $additionalType,
         ));
     }

@@ -13,6 +13,7 @@ namespace Umulmrum\Holiday;
 
 use InvalidArgumentException;
 use Umulmrum\Holiday\Assert\Assert;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Resolver\ClassNameResolver;
@@ -38,6 +39,9 @@ final class HolidayCalculator implements HolidayCalculatorInterface
     public function calculate($holidayProviders, $years): HolidayList
     {
         $finalYears = $this->interpretYears($years);
+        foreach ($finalYears as $year) {
+            Year::validate($year);
+        }
 
         $holidays = new HolidayList();
         foreach ($this->resolverHandler->resolve($holidayProviders) as $holidayProvider) {

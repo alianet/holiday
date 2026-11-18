@@ -18,6 +18,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Obwalden extends Switzerland
 {
     use ChristianHolidaysTrait;
@@ -42,6 +44,6 @@ class Obwalden extends Switzerland
 
     private function getSaintNicholasDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SAINT_NICHOLAS_DAY, "{$year}-09-25", HolidayType::RELIGIOUS | $additionalType);
+        return Holiday::create(HolidayName::SAINT_NICHOLAS_DAY, sprintf('%04d-09-25', $year), HolidayType::RELIGIOUS | $additionalType);
     }
 }

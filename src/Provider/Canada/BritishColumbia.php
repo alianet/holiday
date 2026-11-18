@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class BritishColumbia extends Canada
 {
     use ChristianHolidaysTrait;
@@ -38,7 +40,7 @@ class BritishColumbia extends Canada
 
     protected function getBritishColumbiaDay(int $year): Holiday
     {
-        $date = new DateTime("First Monday of {$year}-08");
+        $date = new DateTime(sprintf('First Monday of %04d-08', $year));
 
         return Holiday::createFromDateTime(HolidayName::BRITISH_COLUMBIA_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }

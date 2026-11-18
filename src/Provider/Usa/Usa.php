@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Usa;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -22,6 +23,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Usa implements CompensatoryHolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -29,6 +32,8 @@ class Usa implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         if ($year >= 1986) {
@@ -63,7 +68,7 @@ class Usa implements CompensatoryHolidayProviderInterface
 
     private function getMartinLutherKingJrDay(int $year): Holiday
     {
-        $date = (new DateTime("Third Monday of {$year}-01"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('Third Monday of %04d-01', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::MARTIN_LUTHER_KING_JR_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
@@ -71,9 +76,9 @@ class Usa implements CompensatoryHolidayProviderInterface
     private function getWashingtonsBirthday(int $year): Holiday
     {
         if ($year >= 1971) {
-            $date = (new DateTime("Third Monday of {$year}-02"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Third Monday of %04d-02', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } else {
-            $date = "{$year}-02-22";
+            $date = sprintf('%04d-02-22', $year);
         }
 
         return Holiday::create(HolidayName::WASHINGTONS_BIRTHDAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
@@ -82,9 +87,9 @@ class Usa implements CompensatoryHolidayProviderInterface
     private function getMemorialDay(int $year): Holiday
     {
         if ($year >= 1971) {
-            $date = (new DateTime("Last Monday of {$year}-05"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Last Monday of %04d-05', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } else {
-            $date = "{$year}-05-30";
+            $date = sprintf('%04d-05-30', $year);
         }
 
         return Holiday::create(HolidayName::MEMORIAL_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
@@ -92,13 +97,13 @@ class Usa implements CompensatoryHolidayProviderInterface
 
     private function addIndependenceDay(HolidayList $holidays, int $year): void
     {
-        $holiday = Holiday::create(HolidayName::INDEPENDENCE_DAY, "{$year}-07-04", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        $holiday = Holiday::create(HolidayName::INDEPENDENCE_DAY, sprintf('%04d-07-04', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
         $holidays->add($holiday);
     }
 
     private function getLaborDayUsa(int $year): Holiday
     {
-        $date = (new DateTime("First Monday of {$year}-09"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('First Monday of %04d-09', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::LABOR_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
@@ -106,9 +111,9 @@ class Usa implements CompensatoryHolidayProviderInterface
     private function getColumbusDay(int $year): Holiday
     {
         if ($year >= 1971) {
-            $date = (new DateTime("Second Monday of {$year}-10"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Second Monday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } else {
-            $date = "{$year}-10-12";
+            $date = sprintf('%04d-10-12', $year);
         }
 
         return Holiday::create(HolidayName::COLUMBUS_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
@@ -116,15 +121,15 @@ class Usa implements CompensatoryHolidayProviderInterface
 
     private function getArmisticeDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::ARMISTICE_DAY, "{$year}-11-11", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::ARMISTICE_DAY, sprintf('%04d-11-11', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function addVeteransDay(HolidayList $holidays, int $year): void
     {
         if ($year >= 1971 && $year <= 1977) {
-            $date = (new DateTime("Fourth Monday of {$year}-10"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Fourth Monday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } else {
-            $date = "{$year}-11-11";
+            $date = sprintf('%04d-11-11', $year);
         }
 
         $holiday = Holiday::create(HolidayName::VETERANS_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
@@ -133,7 +138,7 @@ class Usa implements CompensatoryHolidayProviderInterface
 
     private function getThanksgivingDay(int $year): Holiday
     {
-        $date = (new DateTime("Fourth Thursday of {$year}-11"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('Fourth Thursday of %04d-11', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::THANKSGIVING_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }

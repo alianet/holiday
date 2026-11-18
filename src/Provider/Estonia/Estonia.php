@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Estonia;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -20,6 +21,7 @@ use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
 use function array_filter;
+use function sprintf;
 
 class Estonia implements HolidayProviderInterface
 {
@@ -28,6 +30,8 @@ class Estonia implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         return new HolidayList(array_filter([
             $this->getNewYear($year, HolidayType::DAY_OFF),
             $this->getIndependenceDay($year, HolidayType::DAY_OFF),
@@ -46,28 +50,28 @@ class Estonia implements HolidayProviderInterface
 
     protected function getMidsummersDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::MIDSUMMERS_DAY, "{$year}-06-24", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::MIDSUMMERS_DAY, sprintf('%04d-06-24', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getIndependenceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::ESTONIA_INDEPENDENCE_DAY, "{$year}-02-24", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::ESTONIA_INDEPENDENCE_DAY, sprintf('%04d-02-24', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getSpringDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SPRING_DAY, "{$year}-05-01", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::SPRING_DAY, sprintf('%04d-05-01', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getVictoryDay(int $year, int $additionalType = HolidayType::OTHER): ?Holiday
     {
-        return Holiday::create(HolidayName::ESTONIA_VICTORY_DAY, "{$year}-06-23", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::ESTONIA_VICTORY_DAY, sprintf('%04d-06-23', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getIndependenceRestorationDay(int $year, int $additionalType = HolidayType::OTHER): ?Holiday
     {
         return $year >= 1998
-            ? Holiday::create(HolidayName::INDEPENDENCE_RESTORATION_DAY, "{$year}-08-20", HolidayType::OFFICIAL | $additionalType)
+            ? Holiday::create(HolidayName::INDEPENDENCE_RESTORATION_DAY, sprintf('%04d-08-20', $year), HolidayType::OFFICIAL | $additionalType)
             : null;
     }
 }

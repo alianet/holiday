@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Sweden;
 
 use DateTimeImmutable;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -19,6 +20,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
+
+use function sprintf;
 
 class Sweden implements HolidayProviderInterface
 {
@@ -32,6 +35,8 @@ class Sweden implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         if ($this->includeDeFactoHalfHolidays) {
@@ -70,43 +75,43 @@ class Sweden implements HolidayProviderInterface
 
     protected function getTwelfthNight(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::TWELFTH_NIGHT, "{$year}-01-05", HolidayType::RELIGIOUS | $additionalType);
+        return Holiday::create(HolidayName::TWELFTH_NIGHT, sprintf('%04d-01-05', $year), HolidayType::RELIGIOUS | $additionalType);
     }
 
     protected function getWalpurgisNight(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::WALPURGIS_NIGHT, "{$year}-04-30", HolidayType::TRADITIONAL | $additionalType);
+        return Holiday::create(HolidayName::WALPURGIS_NIGHT, sprintf('%04d-04-30', $year), HolidayType::TRADITIONAL | $additionalType);
     }
 
     protected function getNationalDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SWEDEN_NATIONAL_DAY, "{$year}-06-06", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::SWEDEN_NATIONAL_DAY, sprintf('%04d-06-06', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getMidsummerEve(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTimeImmutable("{$year}-06-19 this friday");
+        $date = new DateTimeImmutable(sprintf('%04d-06-19 this friday', $year));
 
         return Holiday::createFromDateTime(HolidayName::MIDSUMMER_EVE, $date, HolidayType::TRADITIONAL | $additionalType);
     }
 
     protected function getMidsummersDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTimeImmutable("{$year}-06-20 this saturday");
+        $date = new DateTimeImmutable(sprintf('%04d-06-20 this saturday', $year));
 
         return Holiday::createFromDateTime(HolidayName::MIDSUMMERS_DAY, $date, HolidayType::TRADITIONAL | $additionalType);
     }
 
     protected function getSwedishAllSaintsEve(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTimeImmutable("{$year}-10-30 this friday");
+        $date = new DateTimeImmutable(sprintf('%04d-10-30 this friday', $year));
 
         return Holiday::createFromDateTime(HolidayName::ALL_SAINTS_EVE, $date, HolidayType::RELIGIOUS | $additionalType);
     }
 
     protected function getSwedishAllSaintsDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTimeImmutable("{$year}-10-31 this saturday");
+        $date = new DateTimeImmutable(sprintf('%04d-10-31 this saturday', $year));
 
         return Holiday::createFromDateTime(HolidayName::ALL_SAINTS_DAY, $date, HolidayType::RELIGIOUS | $additionalType);
     }

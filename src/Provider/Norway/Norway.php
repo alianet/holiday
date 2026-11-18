@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Norway;
 
 use DateTimeImmutable;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -20,6 +21,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Norway implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -27,6 +30,8 @@ class Norway implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
 
         // Public holidays (with a day off)
@@ -70,29 +75,29 @@ class Norway implements HolidayProviderInterface
 
     protected function getConstitutionDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NORWAY_CONSTITUTION_DAY, "{$year}-05-17", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::NORWAY_CONSTITUTION_DAY, sprintf('%04d-05-17', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getSamiNationalDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NORWAY_SAMI_DAY, "{$year}-02-06", HolidayType::OFFICIAL | HolidayType::OTHER);
+        return Holiday::create(HolidayName::NORWAY_SAMI_DAY, sprintf('%04d-02-06', $year), HolidayType::OFFICIAL | HolidayType::OTHER);
     }
 
     protected function getNorwegianAllSaintsDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTimeImmutable("{$year}-11-01 this sunday");
+        $date = new DateTimeImmutable(sprintf('%04d-11-01 this sunday', $year));
 
         return Holiday::createFromDateTime(HolidayName::ALL_SAINTS_DAY, $date, HolidayType::TRADITIONAL | $additionalType);
     }
 
     protected function getMidsummersEve(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::MIDSUMMER_EVE, "{$year}-06-23", HolidayType::TRADITIONAL | $additionalType);
+        return Holiday::create(HolidayName::MIDSUMMER_EVE, sprintf('%04d-06-23', $year), HolidayType::TRADITIONAL | $additionalType);
     }
 
     protected function getAdventSunday(int $year, int $adventNumber, string $holidayName): Holiday
     {
-        $christmasDay = new DateTimeImmutable("{$year}-12-25");
+        $christmasDay = new DateTimeImmutable(sprintf('%04d-12-25', $year));
         $daysToSubtract = (4 - $adventNumber) * 7;
         $adventSunday = $christmasDay->modify("-{$daysToSubtract} days")->modify('last sunday');
 
@@ -102,14 +107,14 @@ class Norway implements HolidayProviderInterface
     protected function getOfficialFlagDays(int $year): HolidayList
     {
         $flagDays = new HolidayList();
-        $flagDays->add(Holiday::create(HolidayName::PRINSESS_INGRID_ALEXANDRAS_BIRTHDAY, "{$year}-01-21", HolidayType::OFFICIAL));
-        $flagDays->add(Holiday::create(HolidayName::KING_HARALD_VS_BIRTHDAY, "{$year}-02-21", HolidayType::OFFICIAL));
-        $flagDays->add(Holiday::create(HolidayName::LIBERATION_DAY, "{$year}-05-08", HolidayType::OFFICIAL));
-        $flagDays->add(Holiday::create(HolidayName::UNION_DISSOLUTION, "{$year}-06-07", HolidayType::OFFICIAL));
-        $flagDays->add(Holiday::create(HolidayName::QUEEN_SONJAS_BIRTHDAY, "{$year}-07-04", HolidayType::OFFICIAL));
-        $flagDays->add(Holiday::create(HolidayName::CROWN_PRINCE_HAAKON_MAGNUS_BIRTHDAY, "{$year}-07-20", HolidayType::OFFICIAL));
-        $flagDays->add(Holiday::create(HolidayName::OLSOK_DAY, "{$year}-07-29", HolidayType::OFFICIAL));
-        $flagDays->add(Holiday::create(HolidayName::CROWN_PRINCESS_METTE_MARITS_BIRTHDAY, "{$year}-08-19", HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::PRINSESS_INGRID_ALEXANDRAS_BIRTHDAY, sprintf('%04d-01-21', $year), HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::KING_HARALD_VS_BIRTHDAY, sprintf('%04d-02-21', $year), HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::LIBERATION_DAY, sprintf('%04d-05-08', $year), HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::UNION_DISSOLUTION, sprintf('%04d-06-07', $year), HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::QUEEN_SONJAS_BIRTHDAY, sprintf('%04d-07-04', $year), HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::CROWN_PRINCE_HAAKON_MAGNUS_BIRTHDAY, sprintf('%04d-07-20', $year), HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::OLSOK_DAY, sprintf('%04d-07-29', $year), HolidayType::OFFICIAL));
+        $flagDays->add(Holiday::create(HolidayName::CROWN_PRINCESS_METTE_MARITS_BIRTHDAY, sprintf('%04d-08-19', $year), HolidayType::OFFICIAL));
 
         // Stortingsvalgdagen (må beregnes dynamisk, men dette er en kompleks oppgave som krever ekstra logikk)
         // For enkelthets skyld kan du legge til en placeholder her, og implementere den dynamiske beregningen senere

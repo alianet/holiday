@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Belarus;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -21,6 +22,7 @@ use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianOrthodoxHolidaysTrait;
 
 use function array_filter;
+use function sprintf;
 
 class Belarus implements HolidayProviderInterface
 {
@@ -39,6 +41,8 @@ class Belarus implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         return new HolidayList(array_filter([
             $this->getNewYear($year, HolidayType::DAY_OFF),
             $year >= 2020 ? $this->getNewYear($year, HolidayType::DAY_OFF) : null,
@@ -56,7 +60,7 @@ class Belarus implements HolidayProviderInterface
     private function getVictoryDay(int $year, int $additionalType = HolidayType::OTHER): ?Holiday
     {
         return $year >= 1945
-            ? Holiday::create(HolidayName::VICTORY_DAY, "{$year}-05-09", HolidayType::OFFICIAL | $additionalType)
+            ? Holiday::create(HolidayName::VICTORY_DAY, sprintf('%04d-05-09', $year), HolidayType::OFFICIAL | $additionalType)
             : null;
     }
 
@@ -67,14 +71,14 @@ class Belarus implements HolidayProviderInterface
         }
 
         return $year >= 1996
-            ? Holiday::create(HolidayName::BELARUS_INDEPENDENCE_DAY, "{$year}-07-03", HolidayType::OFFICIAL | $additionalType)
-            : Holiday::create(HolidayName::BELARUS_INDEPENDENCE_DAY, "{$year}-07-27", HolidayType::OFFICIAL | $additionalType);
+            ? Holiday::create(HolidayName::BELARUS_INDEPENDENCE_DAY, sprintf('%04d-07-03', $year), HolidayType::OFFICIAL | $additionalType)
+            : Holiday::create(HolidayName::BELARUS_INDEPENDENCE_DAY, sprintf('%04d-07-27', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getOctoberRevolutionDay(int $year, int $additionalType): ?Holiday
     {
         return $year >= 1995
-            ? Holiday::create(HolidayName::OCTOBER_REVOLUTION_DAY, "{$year}-11-07", HolidayType::OFFICIAL | $additionalType)
+            ? Holiday::create(HolidayName::OCTOBER_REVOLUTION_DAY, sprintf('%04d-11-07', $year), HolidayType::OFFICIAL | $additionalType)
             : null;
     }
 }

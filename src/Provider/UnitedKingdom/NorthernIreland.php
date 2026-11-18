@@ -17,6 +17,8 @@ use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 
+use function sprintf;
+
 class NorthernIreland extends UnitedKingdom
 {
     public function calculateHolidaysForYear(int $year): HolidayList
@@ -30,12 +32,12 @@ class NorthernIreland extends UnitedKingdom
 
     private function getSaintPatricksDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::SAINT_PATRICKS_DAY, "{$year}-03-17", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::SAINT_PATRICKS_DAY, sprintf('%04d-03-17', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getBattleOfTheBoyne(int $year): Holiday
     {
-        return Holiday::create(HolidayName::BATTLE_OF_THE_BOYNE, "{$year}-07-12", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::BATTLE_OF_THE_BOYNE, sprintf('%04d-07-12', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     public function getCompensatoryDaysCalculators(int $year): array

@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\UnitedKingdom;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -19,12 +20,16 @@ use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Scotland extends UnitedKingdom
 {
     use ChristianHolidaysTrait;
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year));
         $holidays->add($this->getNewYearHoliday($year));
@@ -70,24 +75,24 @@ class Scotland extends UnitedKingdom
 
     private function getNewYear(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NEW_YEAR, "{$year}-01-01", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::NEW_YEAR, sprintf('%04d-01-01', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getNewYearHoliday(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NEW_YEAR_HOLIDAY, "{$year}-01-02", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::NEW_YEAR_HOLIDAY, sprintf('%04d-01-02', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getSummerBankHoliday(int $year): Holiday
     {
-        $date = (new DateTime("First Monday of {$year}-08"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('First Monday of %04d-08', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::SUMMER_BANK_HOLIDAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getSaintAndrewsDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::SAINT_ANDREWS_DAY, "{$year}-11-30", HolidayType::OFFICIAL | HolidayType::BANK);
+        return Holiday::create(HolidayName::SAINT_ANDREWS_DAY, sprintf('%04d-11-30', $year), HolidayType::OFFICIAL | HolidayType::BANK);
     }
 
     public function getCompensatoryDaysCalculators(int $year): array

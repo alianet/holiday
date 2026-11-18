@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Manitoba extends Canada
 {
     use ChristianHolidaysTrait;
@@ -38,7 +40,7 @@ class Manitoba extends Canada
 
     protected function getLouisRielDay(int $year): Holiday
     {
-        $date = new DateTime("Third Monday of {$year}-02");
+        $date = new DateTime(sprintf('Third Monday of %04d-02', $year));
 
         return Holiday::createFromDateTime(HolidayName::LOUIS_RIEL_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }

@@ -17,6 +17,8 @@ use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Madeira extends Portugal
 {
     use ChristianHolidaysTrait;
@@ -36,6 +38,6 @@ class Madeira extends Portugal
 
     protected function getMadeiraDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::MADEIRA_DAY, "{$year}-07-01", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::MADEIRA_DAY, sprintf('%04d-07-01', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

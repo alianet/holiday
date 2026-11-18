@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\France;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -19,6 +20,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class France implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -26,6 +29,8 @@ class France implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getEasterMonday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -47,16 +52,16 @@ class France implements HolidayProviderInterface
 
     private function getVictoryDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::VICTORY_DAY, "{$year}-05-08", HolidayType::OTHER | $additionalType);
+        return Holiday::create(HolidayName::VICTORY_DAY, sprintf('%04d-05-08', $year), HolidayType::OTHER | $additionalType);
     }
 
     private function getBastilleDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::BASTILLE_DAY, "{$year}-07-14", HolidayType::OTHER | $additionalType);
+        return Holiday::create(HolidayName::BASTILLE_DAY, sprintf('%04d-07-14', $year), HolidayType::OTHER | $additionalType);
     }
 
     private function getArmisticeDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::ARMISTICE_DAY_FRANCE, "{$year}-11-11", HolidayType::OTHER | $additionalType);
+        return Holiday::create(HolidayName::ARMISTICE_DAY_FRANCE, sprintf('%04d-11-11', $year), HolidayType::OTHER | $additionalType);
     }
 }

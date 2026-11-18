@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Glarus extends Switzerland
 {
     use ChristianHolidaysTrait;
@@ -42,7 +44,7 @@ class Glarus extends Switzerland
     {
         return Holiday::createFromDateTime(
             HolidayName::NAEFELSER_FAHRT,
-            new DateTime("First Thursday of {$year}-04"),
+            new DateTime(sprintf('First Thursday of %04d-04', $year)),
             HolidayType::OFFICIAL | $additionalType
         );
     }

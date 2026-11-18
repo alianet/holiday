@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Weekday;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
@@ -23,6 +24,8 @@ abstract class Weekdays implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         return new HolidayList($this->getWeekdays($year, $this->weekday, $this->additionalType));
     }
 }

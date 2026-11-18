@@ -20,6 +20,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class NorthernTerritory extends Australia
 {
     use ChristianHolidaysTrait;
@@ -41,7 +43,7 @@ class NorthernTerritory extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::MAY_DAY,
-            new DateTimeImmutable("First Monday of {$year}-05"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-05', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -50,7 +52,7 @@ class NorthernTerritory extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::PICNIC_DAY,
-            new DateTimeImmutable("First Monday of {$year}-08"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-08', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }

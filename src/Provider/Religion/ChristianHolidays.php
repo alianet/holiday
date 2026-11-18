@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Religion;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 
@@ -20,6 +21,8 @@ class ChristianHolidays implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidayList = new HolidayList();
         $holidayList->add($this->getEpiphany($year));
         $holidayList->add($this->getCandlemas($year));

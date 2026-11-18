@@ -13,6 +13,7 @@ namespace Umulmrum\Holiday\Provider\Switzerland;
 
 use DateInterval;
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -21,6 +22,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Switzerland implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -28,6 +31,8 @@ class Switzerland implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getAscension($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -46,17 +51,17 @@ class Switzerland implements HolidayProviderInterface
 
     protected function getBerchtoldstag(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::BERCHTOLDSTAG, "{$year}-01-02", HolidayType::TRADITIONAL | $additionalType);
+        return Holiday::create(HolidayName::BERCHTOLDSTAG, sprintf('%04d-01-02', $year), HolidayType::TRADITIONAL | $additionalType);
     }
 
     private function getSwissNationalDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SWISS_NATIONAL_DAY, "{$year}-08-01", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::SWISS_NATIONAL_DAY, sprintf('%04d-08-01', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getDateForFederalDayofThanksgivingRepentanceAndPrayer(int $year): DateTime
     {
-        $dateTime = new DateTime("First Sunday of {$year}-09");
+        $dateTime = new DateTime(sprintf('First Sunday of %04d-09', $year));
         $dateTime->setTime(0, 0, 0);
 
         return $dateTime;

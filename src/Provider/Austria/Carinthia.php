@@ -17,6 +17,8 @@ use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Carinthia extends Austria
 {
     use ChristianHolidaysTrait;
@@ -34,6 +36,6 @@ class Carinthia extends Austria
 
     private function getCarinthianPlebisciteDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::CARINTHIAN_PLEBISCITE_DAY, "{$year}-10-26", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::CARINTHIAN_PLEBISCITE_DAY, sprintf('%04d-10-26', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

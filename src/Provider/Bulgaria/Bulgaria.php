@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Bulgaria;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -20,6 +21,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianOrthodoxHolidaysTrait;
+
+use function sprintf;
 
 class Bulgaria implements CompensatoryHolidayProviderInterface
 {
@@ -36,6 +39,8 @@ class Bulgaria implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         $holidays->add($this->getLiberationDay($year, HolidayType::DAY_OFF));
@@ -57,27 +62,27 @@ class Bulgaria implements CompensatoryHolidayProviderInterface
 
     protected function getLiberationDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::LIBERATION_DAY, "{$year}-03-03", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::LIBERATION_DAY, sprintf('%04d-03-03', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getEducationDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::EDUCATION_DAY, "{$year}-05-24", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::EDUCATION_DAY, sprintf('%04d-05-24', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getUnificationDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::UNIFICATION_DAY, "{$year}-09-06", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::UNIFICATION_DAY, sprintf('%04d-09-06', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getIndependenceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::INDEPENDENCE_DAY, "{$year}-09-22", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::INDEPENDENCE_DAY, sprintf('%04d-09-22', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getNationalAwakeningDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::NATIONAL_AWAKENING_DAY, "{$year}-11-01", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::NATIONAL_AWAKENING_DAY, sprintf('%04d-11-01', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     public function getCompensatoryDaysCalculators(int $year): array

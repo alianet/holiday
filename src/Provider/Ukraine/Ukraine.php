@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Ukraine;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -20,6 +21,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianOrthodoxHolidaysTrait;
+
+use function sprintf;
 
 class Ukraine implements CompensatoryHolidayProviderInterface
 {
@@ -38,6 +41,8 @@ class Ukraine implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $isMartialLaw = $year >= 2022;
         $isMartialLawAtBeginOfYear = $year >= 2023;
         $holidayType = $isMartialLaw ? HolidayType::OFFICIAL : HolidayType::OFFICIAL | HolidayType::DAY_OFF;
@@ -96,17 +101,17 @@ class Ukraine implements CompensatoryHolidayProviderInterface
             $name = HolidayName::LABOR_DAY;
         }
 
-        return Holiday::create($name, "{$year}-05-01", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create($name, sprintf('%04d-05-01', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getOldLaborDayUkraine(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::LABOR_DAY, "{$year}-05-02", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::LABOR_DAY, sprintf('%04d-05-02', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getDayOfRemembranceAndVictoryOverNazism(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::DAY_OF_REMEMBRANCE_AND_VICTORY_OVER_NAZISM, "{$year}-05-08", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::DAY_OF_REMEMBRANCE_AND_VICTORY_OVER_NAZISM, sprintf('%04d-05-08', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getDayOfVictoryOverNazism(int $year, int $additionalType = HolidayType::OTHER): Holiday
@@ -117,30 +122,30 @@ class Ukraine implements CompensatoryHolidayProviderInterface
             $name = HolidayName::VICTORY_DAY;
         }
 
-        return Holiday::create($name, "{$year}-05-09", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create($name, sprintf('%04d-05-09', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getConstitutionDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::UKRAINE_CONSTITUTION_DAY, "{$year}-06-28", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::UKRAINE_CONSTITUTION_DAY, sprintf('%04d-06-28', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getStatehoodDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::UKRAINE_STATEHOOD_DAY, "{$year}-07-15", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::UKRAINE_STATEHOOD_DAY, sprintf('%04d-07-15', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getIndependenceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::UKRAINE_INDEPENDENCE_DAY, "{$year}-08-24", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::UKRAINE_INDEPENDENCE_DAY, sprintf('%04d-08-24', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getDefendersOfUkraineDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
         if ($year >= 2023) {
-            $date = "{$year}-10-01";
+            $date = sprintf('%04d-10-01', $year);
         } else {
-            $date = "{$year}-10-14";
+            $date = sprintf('%04d-10-14', $year);
         }
 
         return Holiday::create(HolidayName::DEFENDERS_OF_UKRAINE_DAY, $date, HolidayType::OFFICIAL | $additionalType);

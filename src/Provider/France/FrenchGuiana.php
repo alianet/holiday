@@ -16,6 +16,8 @@ use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 
+use function sprintf;
+
 class FrenchGuiana extends France
 {
     public function calculateHolidaysForYear(int $year): HolidayList
@@ -28,6 +30,6 @@ class FrenchGuiana extends France
 
     private function getAbolitionOfSlavery(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::ABOLITION_OF_SLAVERY, "{$year}-06-10", HolidayType::OTHER | $additionalType);
+        return Holiday::create(HolidayName::ABOLITION_OF_SLAVERY, sprintf('%04d-06-10', $year), HolidayType::OTHER | $additionalType);
     }
 }

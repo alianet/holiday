@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Iceland;
 
 use DateTimeImmutable;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -20,6 +21,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Iceland implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -27,6 +30,8 @@ class Iceland implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getMaundyThursday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -49,13 +54,13 @@ class Iceland implements HolidayProviderInterface
 
     protected function getFirstDayOfSummer(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTimeImmutable("{$year}-04-19 this thursday");
+        $date = new DateTimeImmutable(sprintf('%04d-04-19 this thursday', $year));
 
         return Holiday::createFromDateTime(HolidayName::ICELAND_FIRST_DAY_OF_SUMMER, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getNationalDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::ICELAND_NATIONAL_DAY, "{$year}-06-17", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::ICELAND_NATIONAL_DAY, sprintf('%04d-06-17', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

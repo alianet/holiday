@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Russia;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -20,6 +21,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianOrthodoxHolidaysTrait;
 
+use function sprintf;
+
 class Russia implements CompensatoryHolidayProviderInterface
 {
     use ChristianOrthodoxHolidaysTrait;
@@ -27,6 +30,8 @@ class Russia implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         if ($year <= 1990) {
             return $holidays;
@@ -61,7 +66,7 @@ class Russia implements CompensatoryHolidayProviderInterface
         foreach ($days as $day) {
             $holidays->add(Holiday::create(
                 HolidayName::NEW_YEAR_HOLIDAY,
-                "{$year}-01-0{$day}",
+                sprintf("%04d-01-0{$day}", $year),
                 HolidayType::OFFICIAL | HolidayType::DAY_OFF
             ));
         }
@@ -69,7 +74,7 @@ class Russia implements CompensatoryHolidayProviderInterface
 
     private function getDefenderOfTheFatherlandDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::DEFENDER_OF_THE_FATHERLAND_DAY, "{$year}-02-23", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::DEFENDER_OF_THE_FATHERLAND_DAY, sprintf('%04d-02-23', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getSpringAndLabourDay(int $year): Holiday
@@ -80,12 +85,12 @@ class Russia implements CompensatoryHolidayProviderInterface
             $name = HolidayName::SPRING_AND_LABOUR_DAY;
         }
 
-        return Holiday::create($name, "{$year}-05-01", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create($name, sprintf('%04d-05-01', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getVictoryDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::VICTORY_DAY, "{$year}-05-09", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::VICTORY_DAY, sprintf('%04d-05-09', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getRussiaDay(int $year): Holiday
@@ -96,17 +101,17 @@ class Russia implements CompensatoryHolidayProviderInterface
             $name = HolidayName::RUSSIA_DAY;
         }
 
-        return Holiday::create($name, "{$year}-06-12", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create($name, sprintf('%04d-06-12', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getUnityDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::UNITY_DAY, "{$year}-11-04", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::UNITY_DAY, sprintf('%04d-11-04', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getOctoberRevolutionDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::OCTOBER_REVOLUTION_DAY, "{$year}-11-07", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::OCTOBER_REVOLUTION_DAY, sprintf('%04d-11-07', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     public function getCompensatoryDaysCalculators(int $year): array

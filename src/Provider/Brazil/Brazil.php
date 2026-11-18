@@ -3,6 +3,7 @@
 namespace Umulmrum\Holiday\Provider\Brazil;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -11,6 +12,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Brazil implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -18,6 +21,8 @@ class Brazil implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getFatTuesday($year, HolidayType::PARTIAL_ONLY | HolidayType::DAY_OFF));
@@ -46,12 +51,12 @@ class Brazil implements HolidayProviderInterface
 
     private function getTiradentes(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::TIRADENTES, "{$year}-04-21", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::TIRADENTES, sprintf('%04d-04-21', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getIndependenceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::INDEPENDENCE_DAY, "{$year}-09-07", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::INDEPENDENCE_DAY, sprintf('%04d-09-07', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getOurLadyOfAparecida(int $year): Holiday
@@ -62,30 +67,30 @@ class Brazil implements HolidayProviderInterface
             $type = HolidayType::TRADITIONAL;
         }
 
-        return Holiday::create(HolidayName::OUR_LADY_OF_APARECIDA, "{$year}-10-12", $type);
+        return Holiday::create(HolidayName::OUR_LADY_OF_APARECIDA, sprintf('%04d-10-12', $year), $type);
     }
 
     private function getElectoralDayRoundOne(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime("First Sunday of {$year}-10"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('First Sunday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::ELECTORAL_DAY_ROUND_ONE, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
     }
 
     private function getElectoralDayRoundTwo(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime("Last Sunday of {$year}-10"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('Last Sunday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::ELECTORAL_DAY_ROUND_TWO, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
     }
 
     private function getDayOfTheDead(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::DAY_OF_THE_DEAD, "{$year}-11-02", HolidayType::OFFICIAL | HolidayType::RELIGIOUS | $additionalType);
+        return Holiday::create(HolidayName::DAY_OF_THE_DEAD, sprintf('%04d-11-02', $year), HolidayType::OFFICIAL | HolidayType::RELIGIOUS | $additionalType);
     }
 
     private function getRepublicProclamationDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::REPUBLIC_PROCLAMATION_DAY, "{$year}-11-15", HolidayType::OFFICIAL | HolidayType::RELIGIOUS | $additionalType);
+        return Holiday::create(HolidayName::REPUBLIC_PROCLAMATION_DAY, sprintf('%04d-11-15', $year), HolidayType::OFFICIAL | HolidayType::RELIGIOUS | $additionalType);
     }
 }

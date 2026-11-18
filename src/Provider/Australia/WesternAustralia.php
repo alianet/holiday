@@ -21,6 +21,7 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
 use function in_array;
+use function sprintf;
 
 class WesternAustralia extends Australia
 {
@@ -43,7 +44,7 @@ class WesternAustralia extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::LABOR_DAY,
-            new DateTimeImmutable("First Monday of {$year}-03"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-03', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -52,7 +53,7 @@ class WesternAustralia extends Australia
     {
         return Holiday::createFromDateTime(
             $year >= 2012 ? HolidayName::WESTERN_AUSTRALIA_DAY : HolidayName::FOUNDATION_DAY,
-            new DateTimeImmutable("First Monday of {$year}-06"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-06', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -89,14 +90,14 @@ class WesternAustralia extends Australia
         )) {
             return Holiday::createFromDateTime(
                 HolidayName::KINGS_BIRTHDAY,
-                new DateTimeImmutable("First Monday of {$year}-10"),
+                new DateTimeImmutable(sprintf('First Monday of %04d-10', $year)),
                 HolidayType::OFFICIAL | $additionalType,
             );
         }
 
         return Holiday::createFromDateTime(
             HolidayName::KINGS_BIRTHDAY,
-            new DateTimeImmutable("Last Monday of {$year}-09"),
+            new DateTimeImmutable(sprintf('Last Monday of %04d-09', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }

@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Germany;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -19,6 +20,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Germany implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -26,6 +29,8 @@ class Germany implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getGoodFriday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -60,11 +65,11 @@ class Germany implements HolidayProviderInterface
 
     private function getGermanUnityDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::GERMAN_UNITY_DAY, "{$year}-10-03", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::GERMAN_UNITY_DAY, sprintf('%04d-10-03', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function getOldGermanUnityDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::GERMAN_UNITY_DAY, "{$year}-06-17", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::GERMAN_UNITY_DAY, sprintf('%04d-06-17', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 }

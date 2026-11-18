@@ -17,6 +17,8 @@ use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Martinique extends France
 {
     use ChristianHolidaysTrait;
@@ -32,6 +34,6 @@ class Martinique extends France
 
     private function getAbolitionOfSlavery(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::ABOLITION_OF_SLAVERY, "{$year}-05-22", HolidayType::OTHER | $additionalType);
+        return Holiday::create(HolidayName::ABOLITION_OF_SLAVERY, sprintf('%04d-05-22', $year), HolidayType::OTHER | $additionalType);
     }
 }

@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Mexico;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -22,6 +23,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Mexico implements CompensatoryHolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -29,6 +32,8 @@ class Mexico implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         $this->addConstitutionDay($holidays, $year);
@@ -48,9 +53,9 @@ class Mexico implements CompensatoryHolidayProviderInterface
     private function addConstitutionDay(HolidayList $holidays, int $year): void
     {
         if ($year >= 2006) {
-            $date = (new DateTime("First Monday of {$year}-02"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('First Monday of %04d-02', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } elseif ($year >= 1918) {
-            $date = "{$year}-02-05";
+            $date = sprintf('%04d-02-05', $year);
         } else {
             return;
         }
@@ -61,9 +66,9 @@ class Mexico implements CompensatoryHolidayProviderInterface
     private function getBirthdayOfBenitoJuarez(HolidayList $holidays, int $year): Holiday
     {
         if ($year >= 2006) {
-            $date = (new DateTime("Third Monday of {$year}-03"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Third Monday of %04d-03', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } else {
-            $date = "{$year}-02-05";
+            $date = sprintf('%04d-02-05', $year);
         }
 
         return Holiday::create(HolidayName::BIRTHDAY_OF_BENITO_JUAREZ, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
@@ -71,15 +76,15 @@ class Mexico implements CompensatoryHolidayProviderInterface
 
     private function getIndependenceDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::INDEPENDENCE_DAY, "{$year}-09-16", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::INDEPENDENCE_DAY, sprintf('%04d-09-16', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     private function addRevolutionDay(HolidayList $holidays, int $year): void
     {
         if ($year >= 2006) {
-            $date = (new DateTime("Third Monday of {$year}-11"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Third Monday of %04d-11', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } elseif ($year >= 1911) {
-            $date = "{$year}-11-20";
+            $date = sprintf('%04d-11-20', $year);
         } else {
             return;
         }

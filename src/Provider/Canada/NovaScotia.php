@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class NovaScotia extends Canada
 {
     use ChristianHolidaysTrait;
@@ -37,7 +39,7 @@ class NovaScotia extends Canada
 
     protected function getHeritageDay(int $year): Holiday
     {
-        $date = new DateTime("Third Monday of {$year}-02");
+        $date = new DateTime(sprintf('Third Monday of %04d-02', $year));
 
         return Holiday::createFromDateTime(HolidayName::NOVA_SCOTIA_HERITAGE_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }

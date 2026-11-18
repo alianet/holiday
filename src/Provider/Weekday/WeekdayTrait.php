@@ -30,8 +30,8 @@ trait WeekdayTrait
      */
     private function getWeekdays(int $year, int $weekday, int $additionalType = HolidayType::OTHER): array
     {
-        $start = $this->createDateFromString(sprintf('%s-01-01', $year));
-        $end = $this->createDateFromString(sprintf('%s-01-01', $year + 1));
+        $start = $this->createDateFromString(sprintf('%04d-01-01', $year));
+        $end = (clone $start)->modify('+1 year');
         $day = new DateTime();
         $weekdayName = Weekday::$NAME[$weekday];
         // @phpstan-ignore-next-line

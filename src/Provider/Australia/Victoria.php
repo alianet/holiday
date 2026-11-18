@@ -21,6 +21,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Victoria extends Australia
 {
     use ChristianHolidaysTrait;
@@ -47,7 +49,7 @@ class Victoria extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::LABOR_DAY,
-            new DateTimeImmutable("Second Monday of {$year}-03"),
+            new DateTimeImmutable(sprintf('Second Monday of %04d-03', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -60,7 +62,7 @@ class Victoria extends Australia
 
         return Holiday::createFromDateTime(
             HolidayName::FRIDAY_AUSTRALIAN_FOOTBALL,
-            new DateTimeImmutable("Last Friday of {$year}-09"),
+            new DateTimeImmutable(sprintf('Last Friday of %04d-09', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -69,7 +71,7 @@ class Victoria extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::MELBOURNE_CUP,
-            new DateTimeImmutable("First Tuesday of {$year}-11"),
+            new DateTimeImmutable(sprintf('First Tuesday of %04d-11', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }

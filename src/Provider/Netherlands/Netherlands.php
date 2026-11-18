@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Netherlands;
 
 use DateInterval;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -21,6 +22,8 @@ use Umulmrum\Holiday\Provider\DateCreatorTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Netherlands implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -29,6 +32,8 @@ class Netherlands implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getGoodFriday($year, HolidayType::OFFICIAL | HolidayType::GOVERNMENT_AGENCIES_CLOSED));
@@ -55,7 +60,7 @@ class Netherlands implements HolidayProviderInterface
     private function getQueensDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
         $date = ($year < 1949) ? '08-31' : '04-30';
-        $date = $this->createDateFromString("{$year}-{$date}");
+        $date = $this->createDateFromString(sprintf("%04d-{$date}", $year));
         $weekDay = $date->format('w');
         if ('0' === $weekDay) {
             if ($year < 1980) {
@@ -70,7 +75,7 @@ class Netherlands implements HolidayProviderInterface
 
     private function getKingsDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = $this->createDateFromString("{$year}-04-27");
+        $date = $this->createDateFromString(sprintf('%04d-04-27', $year));
         $weekDay = $date->format('w');
         if ('0' === $weekDay) {
             $date->sub(new DateInterval('P1D')); // Move to Saturday
@@ -81,7 +86,7 @@ class Netherlands implements HolidayProviderInterface
 
     private function getLiberationDay(int $year, int $additionalType = HolidayType::OTHER): ?Holiday
     {
-        $date = $this->createDateFromString("{$year}-05-05");
+        $date = $this->createDateFromString(sprintf('%04d-05-05', $year));
         $weekDay = $date->format('w');
 
         if ($year < 1968) {

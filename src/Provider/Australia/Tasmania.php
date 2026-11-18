@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Tasmania extends Australia
 {
     use ChristianHolidaysTrait;
@@ -41,7 +43,7 @@ class Tasmania extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::ROYAL_HOBART_REGATTA,
-            new DateTimeImmutable("Second Monday of {$year}-02"),
+            new DateTimeImmutable(sprintf('Second Monday of %04d-02', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -50,7 +52,7 @@ class Tasmania extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::EIGHT_HOURS_DAY,
-            new DateTimeImmutable("Second Monday of {$year}-03"),
+            new DateTimeImmutable(sprintf('Second Monday of %04d-03', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -59,7 +61,7 @@ class Tasmania extends Australia
     {
         return Holiday::createFromDateTime(
             $year >= 1991 ? HolidayName::RECREATION_DAY : HolidayName::FIRST_MONDAY_IN_NOVEMBER,
-            new DateTimeImmutable("First Monday of {$year}-11"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-11', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }

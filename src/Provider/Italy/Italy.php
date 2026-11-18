@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Italy;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Constant\Weekday;
@@ -23,6 +24,7 @@ use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 use Umulmrum\Holiday\Provider\Weekday\WeekdayTrait;
 
 use function in_array;
+use function sprintf;
 
 class Italy implements HolidayProviderInterface
 {
@@ -32,6 +34,8 @@ class Italy implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList($this->getWeekdays($year, Weekday::SUNDAY, HolidayType::DAY_OFF));
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         if ($year <= 1977 || $year >= 1985) {
@@ -80,25 +84,25 @@ class Italy implements HolidayProviderInterface
 
     private function getAnniversaryOfTheUnificationOfItaly(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::ANNIVERSARY_OF_THE_UNIFICATION_OF_ITALY, "{$year}-03-17", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::ANNIVERSARY_OF_THE_UNIFICATION_OF_ITALY, sprintf('%04d-03-17', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getInternationalHolocaustRemembranceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::INTERNATIONAL_HOLOCAUST_REMEMBRANCE_DAY, "{$year}-01-27", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::INTERNATIONAL_HOLOCAUST_REMEMBRANCE_DAY, sprintf('%04d-01-27', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getLiberationDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::LIBERATION_DAY, "{$year}-04-25", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::LIBERATION_DAY, sprintf('%04d-04-25', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getRepublicDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
         if ($year >= 1977 && $year <= 2000) {
-            $date = (new DateTime("First Sunday of {$year}-06"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('First Sunday of %04d-06', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } else {
-            $date = "{$year}-06-02";
+            $date = sprintf('%04d-06-02', $year);
         }
 
         return Holiday::create(HolidayName::REPUBLIC_DAY, $date, HolidayType::OFFICIAL | $additionalType);
@@ -106,6 +110,6 @@ class Italy implements HolidayProviderInterface
 
     private function getTricolourDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::TRICOLOUR_DAY, "{$year}-01-07", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::TRICOLOUR_DAY, sprintf('%04d-01-07', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

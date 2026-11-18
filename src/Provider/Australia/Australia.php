@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Australia;
 
 use DateTimeImmutable;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -21,6 +22,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Australia implements CompensatoryHolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -28,6 +31,8 @@ class Australia implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         if ($year >= 1946) {
@@ -52,17 +57,17 @@ class Australia implements CompensatoryHolidayProviderInterface
 
     protected function getAustraliaDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::AUSTRALIA_DAY, "{$year}-01-26", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::AUSTRALIA_DAY, sprintf('%04d-01-26', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getAnzacDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::ANZAC_DAY, "{$year}-04-25", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::ANZAC_DAY, sprintf('%04d-04-25', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getKingsBirthday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::createFromDateTime(HolidayName::KINGS_BIRTHDAY, new DateTimeImmutable("Second Monday of {$year}-06"), HolidayType::OFFICIAL | $additionalType);
+        return Holiday::createFromDateTime(HolidayName::KINGS_BIRTHDAY, new DateTimeImmutable(sprintf('Second Monday of %04d-06', $year)), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getNationalDayOfMourningElizabethII(int $additionalType): Holiday

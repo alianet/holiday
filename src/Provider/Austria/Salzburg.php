@@ -16,6 +16,8 @@ use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 
+use function sprintf;
+
 class Salzburg extends Austria
 {
     public function calculateHolidaysForYear(int $year): HolidayList
@@ -28,6 +30,6 @@ class Salzburg extends Austria
 
     private function getSaintRupertsDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SAINT_RUPERTS_DAY, "{$year}-09-24", HolidayType::RELIGIOUS | $additionalType);
+        return Holiday::create(HolidayName::SAINT_RUPERTS_DAY, sprintf('%04d-09-24', $year), HolidayType::RELIGIOUS | $additionalType);
     }
 }

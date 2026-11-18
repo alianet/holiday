@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class NewSouthWales extends Australia
 {
     use ChristianHolidaysTrait;
@@ -39,7 +41,7 @@ class NewSouthWales extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::BANK_HOLIDAY,
-            new DateTimeImmutable("First Monday of {$year}-08"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-08', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }
@@ -48,7 +50,7 @@ class NewSouthWales extends Australia
     {
         return Holiday::createFromDateTime(
             HolidayName::LABOR_DAY,
-            new DateTimeImmutable("First Monday of {$year}-10"),
+            new DateTimeImmutable(sprintf('First Monday of %04d-10', $year)),
             HolidayType::OFFICIAL | $additionalType,
         );
     }

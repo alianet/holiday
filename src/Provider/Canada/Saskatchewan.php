@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Saskatchewan extends Canada
 {
     use ChristianHolidaysTrait;
@@ -38,7 +40,7 @@ class Saskatchewan extends Canada
 
     protected function getSaskatchewanDay(int $year): Holiday
     {
-        $date = new DateTime("First Monday of {$year}-08");
+        $date = new DateTime(sprintf('First Monday of %04d-08', $year));
 
         return Holiday::createFromDateTime(HolidayName::SASKATCHEWAN_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }

@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\UnitedKingdom;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -21,6 +22,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class UnitedKingdom implements CompensatoryHolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -28,6 +31,8 @@ class UnitedKingdom implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         if ($year === 1968) {
@@ -89,7 +94,7 @@ class UnitedKingdom implements CompensatoryHolidayProviderInterface
             return Holiday::create(HolidayName::MAY_DAY, '1995-05-08', HolidayType::OFFICIAL | HolidayType::DAY_OFF);
         }
 
-        $date = (new DateTime("First Monday of {$year}-05"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('First Monday of %04d-05', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::MAY_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
@@ -112,7 +117,7 @@ class UnitedKingdom implements CompensatoryHolidayProviderInterface
             $holidayList->add(Holiday::create(HolidayName::SPRING_BANK_HOLIDAY, '2002-06-04', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
             $holidayList->add(Holiday::create(HolidayName::GOLDEN_JUBILEE_BANK_HOLIDAY, '2002-06-02', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         } else {
-            $date = (new DateTime("Last Monday of {$year}-05"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Last Monday of %04d-05', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
             $holidayList->add(Holiday::create(HolidayName::SPRING_BANK_HOLIDAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         }
 
@@ -136,9 +141,9 @@ class UnitedKingdom implements CompensatoryHolidayProviderInterface
         } elseif ($year === 1969) {
             $date = '1969-09-01';
         } elseif ($year >= 1965) {
-            $date = (new DateTime("Last Monday of {$year}-08"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('Last Monday of %04d-08', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         } else {
-            $date = (new DateTime("First Monday of {$year}-08"))->format(Holiday::DISPLAY_DATE_FORMAT);
+            $date = (new DateTime(sprintf('First Monday of %04d-08', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
         }
 
         return Holiday::create(HolidayName::SUMMER_BANK_HOLIDAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);

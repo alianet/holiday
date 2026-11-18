@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Latvia;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -21,6 +22,7 @@ use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
 use function array_filter;
+use function sprintf;
 
 class Latvia implements CompensatoryHolidayProviderInterface
 {
@@ -29,6 +31,8 @@ class Latvia implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         return new HolidayList(array_filter([
             $this->getNewYear($year, HolidayType::DAY_OFF),
             $this->getGoodFriday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY),
@@ -48,23 +52,23 @@ class Latvia implements CompensatoryHolidayProviderInterface
     protected function getRestorationOfIndependenceDay(int $year, int $additionalType = HolidayType::OTHER): ?Holiday
     {
         return $year >= 1990
-            ? Holiday::create(HolidayName::RESTORATION_OF_INDEPENDENCE_DAY, "{$year}-05-04", HolidayType::OFFICIAL | $additionalType)
+            ? Holiday::create(HolidayName::RESTORATION_OF_INDEPENDENCE_DAY, sprintf('%04d-05-04', $year), HolidayType::OFFICIAL | $additionalType)
             : null;
     }
 
     protected function getMidsummersEve(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::MIDSUMMER_EVE, "{$year}-06-23", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::MIDSUMMER_EVE, sprintf('%04d-06-23', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getMidsummersDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::MIDSUMMERS_DAY, "{$year}-06-24", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::MIDSUMMERS_DAY, sprintf('%04d-06-24', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getProclamationDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::PROCLAMATION_DAY_OF_THE_REPUBLIC_OF_LATVIA, "{$year}-11-18", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::PROCLAMATION_DAY_OF_THE_REPUBLIC_OF_LATVIA, sprintf('%04d-11-18', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     public function getCompensatoryDaysCalculators(int $year): array

@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\CzechRepublic;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -19,6 +20,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class CzechRepublic implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -26,6 +29,8 @@ class CzechRepublic implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         if ($year >= 2000) {
@@ -67,36 +72,36 @@ class CzechRepublic implements HolidayProviderInterface
 
     protected function getRestorationDayOfTheIndependentCzechState(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::RESTORATION_DAY_OF_THE_INDEPENDENT_CZECH_STATE, "{$year}-01-01", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::RESTORATION_DAY_OF_THE_INDEPENDENT_CZECH_STATE, sprintf('%04d-01-01', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getVictoryDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::VICTORY_DAY, "{$year}-05-08", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::VICTORY_DAY, sprintf('%04d-05-08', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getSaintsCyrilAndMethodiusDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SAINTS_CYRIL_AND_METHODIUS_DAY, "{$year}-07-05", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::SAINTS_CYRIL_AND_METHODIUS_DAY, sprintf('%04d-07-05', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getJanHusDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::JAN_HUS_DAY, "{$year}-07-06", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::JAN_HUS_DAY, sprintf('%04d-07-06', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getStatehoodDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::STATEHOOD_DAY, "{$year}-09-28", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::STATEHOOD_DAY, sprintf('%04d-09-28', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getIndependentCzechoslovakStateDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::INDEPENDENT_CZECHOSLOVAK_STATE_DAY, "{$year}-10-28", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::INDEPENDENT_CZECHOSLOVAK_STATE_DAY, sprintf('%04d-10-28', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getStruggleForFreedomDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::STRUGGLE_FOR_FREEDOM_DAY, "{$year}-11-17", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::STRUGGLE_FOR_FREEDOM_DAY, sprintf('%04d-11-17', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

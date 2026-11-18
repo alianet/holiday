@@ -318,7 +318,7 @@ helper takes holiday providers and a timespan and calculates a list of all days 
  
 ## Supported Calendars
 
-Currently only the Gregorian calendar is supported, for years < 10000.
+Currently only the Gregorian calendar is supported, for years from 1 to 9999 (inclusive).
  
 ## Supported Countries
 

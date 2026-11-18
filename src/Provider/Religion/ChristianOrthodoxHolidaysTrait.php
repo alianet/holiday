@@ -18,6 +18,7 @@ use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
 
 use function floor;
+use function sprintf;
 
 trait ChristianOrthodoxHolidaysTrait
 {
@@ -49,7 +50,7 @@ trait ChristianOrthodoxHolidaysTrait
         $day = (($d + $e + 114) % 31) + 1;
 
         /** @var DateTimeImmutable $date */
-        $date = DateTimeImmutable::createFromFormat(Holiday::DISPLAY_DATE_FORMAT, "{$year}-{$month}-{$day}");
+        $date = DateTimeImmutable::createFromFormat(Holiday::DISPLAY_DATE_FORMAT, sprintf("%04d-{$month}-{$day}", $year));
 
         return $date->add(new DateInterval('P13D'));
     }
@@ -91,6 +92,6 @@ trait ChristianOrthodoxHolidaysTrait
 
     private function getChristmasDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::CHRISTMAS_DAY, "{$year}-01-07", HolidayType::RELIGIOUS | $additionalType);
+        return Holiday::create(HolidayName::CHRISTMAS_DAY, sprintf('%04d-01-07', $year), HolidayType::RELIGIOUS | $additionalType);
     }
 }

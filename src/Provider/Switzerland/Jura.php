@@ -18,6 +18,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Jura extends Switzerland
 {
     use ChristianHolidaysTrait;
@@ -41,6 +43,6 @@ class Jura extends Switzerland
 
     private function getIndependenceDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::FEST_DER_UNABHAENGIGKEIT_JURA, "{$year}-06-23", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::FEST_DER_UNABHAENGIGKEIT_JURA, sprintf('%04d-06-23', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

@@ -11,6 +11,7 @@
 
 namespace Umulmrum\Holiday\Provider\Austria;
 
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -19,6 +20,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Austria implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -26,6 +29,8 @@ class Austria implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getEpiphany($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -65,16 +70,16 @@ class Austria implements HolidayProviderInterface
 
     private function getAustrianNationalHoliday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::AUSTRIAN_NATIONAL_HOLIDAY, "{$year}-10-26", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::AUSTRIAN_NATIONAL_HOLIDAY, sprintf('%04d-10-26', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getAustrianStatesHoliday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::AUSTRIAN_STATES_HOLIDAY, "{$year}-05-01", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::AUSTRIAN_STATES_HOLIDAY, sprintf('%04d-05-01', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getAustrianStatesHolidayNovember(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::AUSTRIAN_STATES_HOLIDAY, "{$year}-11-12", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::AUSTRIAN_STATES_HOLIDAY, sprintf('%04d-11-12', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

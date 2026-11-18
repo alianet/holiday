@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Quebec extends Canada
 {
     use ChristianHolidaysTrait;
@@ -42,13 +44,13 @@ class Quebec extends Canada
 
     protected function getNationalPatriotsDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = new DateTime("last monday front of {$year}-05-25");
+        $date = (new DateTime(sprintf('%04d-05-25', $year)))->modify('last monday');
 
         return Holiday::createFromDateTime(HolidayName::NATIONAL_PATRIOTS_DAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     protected function getSaintJeanBaptisteDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SAINT_JEAN_BAPTISTE_DAY, "{$year}-06-24", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::SAINT_JEAN_BAPTISTE_DAY, sprintf('%04d-06-24', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

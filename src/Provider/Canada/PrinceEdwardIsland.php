@@ -19,6 +19,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class PrinceEdwardIsland extends Canada
 {
     use ChristianHolidaysTrait;
@@ -41,9 +43,9 @@ class PrinceEdwardIsland extends Canada
     protected function getIslanderDay(int $year): Holiday
     {
         if ($year === 2009) {
-            $date = new DateTime("Second Monday of {$year}-02");
+            $date = new DateTime(sprintf('Second Monday of %04d-02', $year));
         } else {
-            $date = new DateTime("Third Monday of {$year}-02");
+            $date = new DateTime(sprintf('Third Monday of %04d-02', $year));
         }
 
         return Holiday::createFromDateTime(HolidayName::NOVA_SCOTIA_HERITAGE_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);

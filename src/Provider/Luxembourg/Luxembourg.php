@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Luxembourg;
 
 use DateInterval;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -20,6 +21,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Luxembourg implements HolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -27,6 +30,8 @@ class Luxembourg implements HolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         $holidays->add($this->getGoodFriday($year, HolidayType::BANK));
@@ -50,12 +55,12 @@ class Luxembourg implements HolidayProviderInterface
 
     private function getEuropeDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::EUROPE_DAY, "{$year}-05-09", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::EUROPE_DAY, sprintf('%04d-05-09', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getGrandDukesOfficialBirthday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::GRAND_DUKES_OFFICIAL_BIRTHDAY, "{$year}-06-23", HolidayType::OFFICIAL | $additionalType);
+        return Holiday::create(HolidayName::GRAND_DUKES_OFFICIAL_BIRTHDAY, sprintf('%04d-06-23', $year), HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getWhitTuesday(int $year, int $additionalType = HolidayType::OTHER): Holiday

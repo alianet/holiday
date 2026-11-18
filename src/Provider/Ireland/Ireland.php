@@ -12,6 +12,7 @@
 namespace Umulmrum\Holiday\Provider\Ireland;
 
 use DateTime;
+use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
@@ -21,6 +22,8 @@ use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class Ireland implements CompensatoryHolidayProviderInterface
 {
     use ChristianHolidaysTrait;
@@ -28,6 +31,8 @@ class Ireland implements CompensatoryHolidayProviderInterface
 
     public function calculateHolidaysForYear(int $year): HolidayList
     {
+        Year::validate($year);
+
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
         if ($year >= 2023) {
@@ -61,33 +66,33 @@ class Ireland implements CompensatoryHolidayProviderInterface
 
     private function getSaintPatricksDay(int $year, int $additionalTyoe = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::SAINT_PATRICKS_DAY, "{$year}-03-17", HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalTyoe);
+        return Holiday::create(HolidayName::SAINT_PATRICKS_DAY, sprintf('%04d-03-17', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalTyoe);
     }
 
     private function getMayDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime("First Monday of {$year}-05"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('First Monday of %04d-05', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::MAY_DAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getJuneHoliday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime("First Monday of {$year}-06"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('First Monday of %04d-06', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::JUNE_HOLIDAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getAugustHoliday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime("First Monday of {$year}-08"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('First Monday of %04d-08', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::AUGUST_HOLIDAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
 
     private function getOctoberHoliday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime("Last Monday of {$year}-10"))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = (new DateTime(sprintf('Last Monday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::OCTOBER_HOLIDAY, $date, HolidayType::OFFICIAL | $additionalType);
     }
@@ -98,9 +103,9 @@ class Ireland implements CompensatoryHolidayProviderInterface
      */
     private function getStBrigidsDayHoliday(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $dateToCheck = new DateTime("{$year}-02-01");
+        $dateToCheck = new DateTime(sprintf('%04d-02-01', $year));
         if ($dateToCheck->format('w') !== '5') {
-            $dateToCheck = new DateTime("First Monday of {$year}-2");
+            $dateToCheck = new DateTime(sprintf('First Monday of %04d-2', $year));
         }
         $date = $dateToCheck->format(Holiday::DISPLAY_DATE_FORMAT);
 

@@ -18,6 +18,8 @@ use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
+use function sprintf;
+
 class NewFoundlandAndLabrador extends Canada
 {
     use ChristianHolidaysTrait;
@@ -38,6 +40,6 @@ class NewFoundlandAndLabrador extends Canada
 
     protected function getMemorialDay(int $year): Holiday
     {
-        return Holiday::create(HolidayName::CANADA_MEMORIAL_DAY, "{$year}-07-01", HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::CANADA_MEMORIAL_DAY, sprintf('%04d-07-01', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 }
