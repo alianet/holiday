@@ -407,7 +407,8 @@ merge pull requests to support more countries (see below).
 
 ### Notes on Christian Orthodox Holiday
 
-- Calculation of the Orthodox Easter date is only exact for the years 1900 through 2099.
+- Orthodox Easter is calculated in the Julian calendar and converted to the Gregorian calendar using the offset for
+  the given century. Holidays relative to Easter use the converted date.
 
 ### Note on Holidays Way in the Past or Future
 

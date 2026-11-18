@@ -18,6 +18,7 @@ use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
 
 use function floor;
+use function intdiv;
 use function sprintf;
 
 trait ChristianOrthodoxHolidaysTrait
@@ -35,9 +36,8 @@ trait ChristianOrthodoxHolidaysTrait
     }
 
     /**
-     * Taken from https://en.wikipedia.org/wiki/Date_of_Easter#Meeus's_Julian_algorithm - only valid for years 1900
-     * through 2099. Note that the date is transformed into the Gregorian calendar to be compatible with other holiday
-     * calculations.
+     * Taken from https://en.wikipedia.org/wiki/Date_of_Easter#Meeus's_Julian_algorithm.
+     * The Julian date is transformed into the Gregorian calendar using the offset for the given century.
      */
     private function calculateEasterSunday(int $year): DateTimeImmutable
     {
@@ -52,7 +52,10 @@ trait ChristianOrthodoxHolidaysTrait
         /** @var DateTimeImmutable $date */
         $date = DateTimeImmutable::createFromFormat(Holiday::DISPLAY_DATE_FORMAT, sprintf("%04d-{$month}-{$day}", $year));
 
-        return $date->add(new DateInterval('P13D'));
+        // Easter is always after February, so this year's century correction applies.
+        $offset = intdiv($year, 100) - intdiv($year, 400) - 2;
+
+        return $date->modify("{$offset} days");
     }
 
     private function getGoodFriday(int $year, int $additionalType = HolidayType::OTHER): Holiday
