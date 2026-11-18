@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.12.0] - 2026-11-12
+
+### Added
+
+- Christmas Eve as a day off and school holiday in Poland from 2025.
+- Corpus Christi as an official day off in Austria.
+- Palm Sunday calculation in ChristianHolidaysTrait.
+- Additional Norwegian observances, Advent Sundays, and official flag days.
+- Docker tools for running tests on PHP 8.2 through 8.5, and a development image with Composer.
+
+### Changed
+
+- Rename the Composer package from `umulmrum/holiday` to `alianet/holiday` and add a maintainer.
+- Raise PHPStan analysis to the maximum level and improve type checks and PHPDoc annotations.
+- Use generators for test data providers, update development dependencies, and apply code style fixes.
+
+### Fixed
+
+- Mark Polish Independence Day as a day off in the years where it is observed.
+- Correct Norwegian holiday types and provider arguments, and refresh expected holiday data.
+- Keep Markdown table padding compatible with PHP 8.2 while preserving multibyte character alignment.
+- Fix test generator compatibility with Symfony Console 8 and default year grouping.
+- Correct test expectations for Polish holidays.
+
 ## [0.11.3] - 2025-09-24
 
 ### Added
@@ -219,7 +243,8 @@ get stuck when upgrading, please open an issue and I will try to help.
 
 (see linked diff)
 
-[Unreleased]: https://github.com/umulmrum/holiday/compare/0.11.3...master
+[Unreleased]: https://github.com/alianet/holiday/compare/0.12.0...master
+[0.12.0]: https://github.com/alianet/holiday/compare/0.11.3...0.12.0
 [0.11.3]: https://github.com/umulmrum/holiday/compare/0.11.2...0.11.3
 [0.11.2]: https://github.com/umulmrum/holiday/compare/0.11.1...0.11.2
 [0.11.1]: https://github.com/umulmrum/holiday/compare/0.11.0...0.11.1

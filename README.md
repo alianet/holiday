@@ -20,7 +20,7 @@ That's it really.
 Install the library using Composer.
 
 ```
-composer require umulmrum/holiday
+composer require alianet/holiday
 ```
 
 ## Usage Examples
