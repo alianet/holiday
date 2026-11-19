@@ -59,6 +59,11 @@ final class TranslatorTest extends HolidayTestCase
             'Sonntag',
         ];
 
+        yield ['sunday', 'pl', 'Niedziela'];
+        yield ['christmas_day', 'pl_PL', 'Boże Narodzenie'];
+        yield ['constitution_day', 'pl', 'Święto Konstytucji 3 Maja'];
+        yield ['polish_armed_forces_day', 'pl', 'Święto Wojska Polskiego'];
+
         yield [
             'sunday',
             'unknown',
@@ -87,6 +92,28 @@ final class TranslatorTest extends HolidayTestCase
     private function givenATranslator(): void
     {
         $this->translator = new Translator('en');
+    }
+
+    #[Test]
+    public function itShouldUsePolishAsTheFallbackLocale(): void
+    {
+        $translator = new Translator('pl');
+
+        self::assertSame('Nowy Rok', $translator->translate('new_year'));
+        self::assertSame('Nowy Rok', $translator->translate('new_year', 'unknown'));
+    }
+
+    #[Test]
+    public function itShouldProvidePolishTranslationsForAllEnglishKeys(): void
+    {
+        $english = require __DIR__ . '/../../res/trans/umulmrum_holiday.en.php';
+        $polish = require __DIR__ . '/../../res/trans/umulmrum_holiday.pl.php';
+        $translator = new Translator('pl', false);
+        $translator->addTranslations('pl', $polish);
+
+        foreach ($english as $key => $translation) {
+            self::assertNotSame('', $translator->translate($key), $key);
+        }
     }
 
     private function whenTranslateNameIsCalled(string $name, ?string $locale): void

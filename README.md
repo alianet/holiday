@@ -281,9 +281,9 @@ Sundays from `Brandenburg` lists.
 ### Translations
 
 Each holiday will be provided with a technical name that resembles the English name, e.g. `new_year`. To translate these
-technical names into spoken languages, use the `Translator`. This class comes with English and German names for all
-holidays, but other languages can be added (contributions welcome, but translation files can also be outside this
-library).
+technical names into spoken languages, use the `Translator`. This class comes with English, German, Norwegian and Polish
+translations of holiday names, but other languages can be added (contributions welcome, but translation files can also be
+outside this library).
 
 The `TranslateFilter` can replace the names of all holidays in a `HolidayList` at once. Use it like this:
 
