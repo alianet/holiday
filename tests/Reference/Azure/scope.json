@@ -1,0 +1,72 @@
+{
+    "fullCalendarCountries": [
+        "PL",
+        "DE",
+        "AT",
+        "CZ",
+        "PT"
+    ],
+    "ignoredSourceNames": {
+        "NO": {
+            "Søndag": "Ordinary weekly Sundays are outside holiday identity comparison."
+        },
+        "SE": {
+            "Söndag": "Ordinary weekly Sundays are outside holiday identity comparison."
+        },
+        "GB": {
+            "St. Patrick's Day [Northern Ireland] (Observed)": "Scottish or Northern Irish holiday; base GB provider represents England and Wales.",
+            "Summer Bank Holiday [Scotland]": "Scottish or Northern Irish holiday; base GB provider represents England and Wales.",
+            "Battle of the Boyne [Northern Ireland]": "Scottish or Northern Irish holiday; base GB provider represents England and Wales.",
+            "New Year Holiday [Scotland], New Year's Day (Observed)": "Scottish or Northern Irish holiday; base GB provider represents England and Wales.",
+            "St. Patrick's Day [Northern Ireland]": "Scottish or Northern Irish holiday; base GB provider represents England and Wales.",
+            "New Year Holiday [Scotland] (Observed)": "Scottish or Northern Irish holiday; base GB provider represents England and Wales.",
+            "New Year Holiday [Scotland]": "Scottish or Northern Irish holiday; base GB provider represents England and Wales.",
+            "St. Andrew's Day [Scotland]": "Scottish or Northern Irish holiday; base GB provider represents England and Wales."
+        },
+        "BR": {
+            "Páscoa": "Source includes religious holidays not represented by the Brazil provider. They are outside this shared-identity suite, not confirmed provider behavior.",
+            "Corpus Christi": "Source includes religious holidays not represented by the Brazil provider. They are outside this shared-identity suite, not confirmed provider behavior."
+        },
+        "CA": {
+            "Boxing Day": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
+            "Victoria Day": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
+            "Civic Holiday": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
+            "Family Day": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
+            "Boxing Day (Observed)": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
+            "Canada Day (Observed)": "The base CA provider has no compensatory calculator; replacement-day correctness is not covered by this shared-identity suite.",
+            "Christmas Day (Observed)": "The base CA provider has no compensatory calculator; replacement-day correctness is not covered by this shared-identity suite.",
+            "New Year's Day (Observed)": "The base CA provider has no compensatory calculator; replacement-day correctness is not covered by this shared-identity suite."
+        },
+        "CH": {
+            "Karfreitag": "Azure aggregate includes holidays not represented by the base CH provider; no cantonal coverage is claimed.",
+            "Ostern": "Azure aggregate includes holidays not represented by the base CH provider; no cantonal coverage is claimed.",
+            "Ostermontag": "Azure aggregate includes holidays not represented by the base CH provider; no cantonal coverage is claimed.",
+            "Pfingsten": "Azure aggregate includes holidays not represented by the base CH provider; no cantonal coverage is claimed.",
+            "Pfingstmontag": "Azure aggregate includes holidays not represented by the base CH provider; no cantonal coverage is claimed."
+        },
+        "DK": {
+            "Palmesøndag": "Azure includes Palm Sunday, which the DK provider does not represent. This missing identity is outside the shared subset."
+        },
+        "ES": {
+            "La Inmaculada Concepción": "Azure includes Immaculate Conception, which the ES provider does not represent. This missing identity is outside the shared subset."
+        },
+        "MX": {
+            "Transmisión del Poder Ejecutivo Federal [Change of Federal Government]": "The Mexico provider has no inauguration holiday implementation; this source identity is outside the shared subset."
+        }
+    },
+    "partiallyComparedSourceNames": {
+        "GB": {
+            "New Year Holiday [Scotland], New Year's Day (Observed)": "Keep the observed New Year applying to England and Wales; omit the Scottish-only 2 January identity."
+        }
+    },
+    "providerAliases": {
+        "UA": {
+            "day_of_international_solidarity_of_workers": "labor_day",
+            "day_of_victory_over_nazism": "victory_day"
+        }
+    },
+    "providerFilters": {
+        "CH": "Only DAY_OFF entries are compared: religious Bettag uses the same swiss_national_day identifier as 1 August.",
+        "NL": "Azure includes Liberation Day only once in five years. Its date is compared in years divisible by five; annual observances outside those years and DAY_OFF classification are not validated."
+    }
+}

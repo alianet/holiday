@@ -254,6 +254,7 @@ final class HolidayName
     public const DEFENDER_OF_THE_FATHERLAND_DAY = 'defender_of_the_fatherland_day';
     public const DEFENDER_OF_THE_FATHERLAND_DAY_COMPENSATORY = 'defender_of_the_fatherland_day_compensatory';
     public const NEW_YEAR_HOLIDAY = 'new_year_holiday';
+    public const WORLD_CUP_BANK_HOLIDAY = 'world_cup_bank_holiday';
     public const OCTOBER_REVOLUTION_DAY = 'october_revolution_day';
     public const OCTOBER_REVOLUTION_DAY_COMPENSATORY = 'october_revolution_day_compensatory';
     public const RUSSIA_DAY = 'russia_day';

@@ -1,0 +1,926 @@
+[
+    {
+        "id": "58a1da08-fb96-4d9b-8d95-b1e06278c8f3",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ebf55361-f340-4852-a7fa-547143cf9cf2",
+        "startDate": "2024-01-06",
+        "endDate": "2024-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-ST",
+                "shortName": "ST"
+            },
+            {
+                "code": "DE-BW",
+                "shortName": "BW"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "c628bb86-927f-4086-8beb-061413603d99",
+        "startDate": "2024-03-08",
+        "endDate": "2024-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "International Women's Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BE",
+                "shortName": "BE"
+            },
+            {
+                "code": "DE-MV",
+                "shortName": "MV"
+            }
+        ]
+    },
+    {
+        "id": "72299d8e-272c-44b6-8d50-86ff5cb01a9a",
+        "startDate": "2024-03-29",
+        "endDate": "2024-03-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "80e03d79-2d85-4f63-8196-28402341a431",
+        "startDate": "2024-03-31",
+        "endDate": "2024-03-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BB",
+                "shortName": "BB"
+            }
+        ]
+    },
+    {
+        "id": "bd4e0c06-a2c5-4d2a-aa92-1fb7c59025e2",
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d849751c-921e-4be1-8b30-117a610c126c",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "440aae4c-0d2b-45a4-9480-ae91b106c002",
+        "startDate": "2024-05-09",
+        "endDate": "2024-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "989514bb-91bf-40e6-80bc-b14c18f25654",
+        "startDate": "2024-05-19",
+        "endDate": "2024-05-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Sunday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BB",
+                "shortName": "BB"
+            }
+        ]
+    },
+    {
+        "id": "2407e8d2-b6bc-4d5f-b19a-52d4eba5e498",
+        "startDate": "2024-05-20",
+        "endDate": "2024-05-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3931407a-d2f7-4a89-966c-a94781f4a649",
+        "startDate": "2024-05-30",
+        "endDate": "2024-05-30",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Corpus Christi"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-HE",
+                "shortName": "HE"
+            },
+            {
+                "code": "DE-SL",
+                "shortName": "SL"
+            },
+            {
+                "code": "DE-NW",
+                "shortName": "NW"
+            },
+            {
+                "code": "DE-BW",
+                "shortName": "BW"
+            },
+            {
+                "code": "DE-RP",
+                "shortName": "RP"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "67210c1e-8bfe-4240-8e75-ccdd2f945347",
+        "startDate": "2024-08-08",
+        "endDate": "2024-08-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "High Festival of Peace"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BY-AU",
+                "shortName": "BY-AU"
+            }
+        ]
+    },
+    {
+        "id": "a0ce548d-6447-4802-948a-1c4897938626",
+        "startDate": "2024-08-15",
+        "endDate": "2024-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SL",
+                "shortName": "SL"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "14e793ec-208d-4646-8513-8493c0c70668",
+        "startDate": "2024-09-20",
+        "endDate": "2024-09-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "World Children's Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-TH",
+                "shortName": "TH"
+            }
+        ]
+    },
+    {
+        "id": "a2454b44-b3d5-4681-a345-6eae46fb9f4b",
+        "startDate": "2024-10-03",
+        "endDate": "2024-10-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of German Unity"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b08021e1-9df0-46e4-8adc-f8140b8ad1a9",
+        "startDate": "2024-10-31",
+        "endDate": "2024-10-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Reformation Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SH",
+                "shortName": "SH"
+            },
+            {
+                "code": "DE-ST",
+                "shortName": "ST"
+            },
+            {
+                "code": "DE-HH",
+                "shortName": "HH"
+            },
+            {
+                "code": "DE-HB",
+                "shortName": "HB"
+            },
+            {
+                "code": "DE-TH",
+                "shortName": "TH"
+            },
+            {
+                "code": "DE-MV",
+                "shortName": "MV"
+            },
+            {
+                "code": "DE-SN",
+                "shortName": "SN"
+            },
+            {
+                "code": "DE-NI",
+                "shortName": "NI"
+            },
+            {
+                "code": "DE-BB",
+                "shortName": "BB"
+            }
+        ]
+    },
+    {
+        "id": "5e49e26d-44a2-4751-a394-9b83c5ea47f8",
+        "startDate": "2024-11-01",
+        "endDate": "2024-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints' Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SL",
+                "shortName": "SL"
+            },
+            {
+                "code": "DE-NW",
+                "shortName": "NW"
+            },
+            {
+                "code": "DE-BW",
+                "shortName": "BW"
+            },
+            {
+                "code": "DE-RP",
+                "shortName": "RP"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "38405704-5785-47a4-92b1-1b025a5f7e3c",
+        "startDate": "2024-11-20",
+        "endDate": "2024-11-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Repentance Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SN",
+                "shortName": "SN"
+            }
+        ]
+    },
+    {
+        "id": "332d7a5e-c693-4d2d-bdf5-957dd4409c91",
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "717b466d-05f3-4810-915b-96625ca2aebf",
+        "startDate": "2024-12-26",
+        "endDate": "2024-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "27f0d8cd-76b2-47e7-89ac-a3a9f6a6b1ba",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1c80b87d-8221-4dc2-9a1a-3b0f57dce9f5",
+        "startDate": "2025-01-06",
+        "endDate": "2025-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-ST",
+                "shortName": "ST"
+            },
+            {
+                "code": "DE-BW",
+                "shortName": "BW"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "4522bbfa-eaee-4efe-b13c-dac7f67bb986",
+        "startDate": "2025-03-08",
+        "endDate": "2025-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "International Women's Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BE",
+                "shortName": "BE"
+            },
+            {
+                "code": "DE-MV",
+                "shortName": "MV"
+            }
+        ]
+    },
+    {
+        "id": "c7aef0d5-f292-4d08-b878-a25a6c05fc12",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "90718fa1-5b71-49dc-90a4-142a8aef72d8",
+        "startDate": "2025-04-20",
+        "endDate": "2025-04-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BB",
+                "shortName": "BB"
+            }
+        ]
+    },
+    {
+        "id": "12776265-e638-4112-a11f-f24bb37d8a3d",
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5db64014-1aaf-46f0-be83-d8baa826cfef",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4905efd7-e75e-4930-80b8-d35ca157e5bf",
+        "startDate": "2025-05-08",
+        "endDate": "2025-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Liberation Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BE",
+                "shortName": "BE"
+            }
+        ],
+        "tags": [
+            "OneTime"
+        ]
+    },
+    {
+        "id": "9fbbb949-8b22-4916-a16c-0a799a2dd79f",
+        "startDate": "2025-05-29",
+        "endDate": "2025-05-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "edfb560a-d5c6-493f-b1c1-06f2936347e7",
+        "startDate": "2025-06-08",
+        "endDate": "2025-06-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Sunday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BB",
+                "shortName": "BB"
+            }
+        ]
+    },
+    {
+        "id": "b52574c0-0e5d-44ff-ac6b-4e3c6d71f1d7",
+        "startDate": "2025-06-09",
+        "endDate": "2025-06-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2590b1ad-4268-4cac-a11a-5192791d0c0d",
+        "startDate": "2025-06-19",
+        "endDate": "2025-06-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Corpus Christi"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-HE",
+                "shortName": "HE"
+            },
+            {
+                "code": "DE-SL",
+                "shortName": "SL"
+            },
+            {
+                "code": "DE-NW",
+                "shortName": "NW"
+            },
+            {
+                "code": "DE-BW",
+                "shortName": "BW"
+            },
+            {
+                "code": "DE-RP",
+                "shortName": "RP"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "dc74ad4c-cea7-426a-bef2-ce38fa3435ef",
+        "startDate": "2025-08-08",
+        "endDate": "2025-08-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "High Festival of Peace"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-BY-AU",
+                "shortName": "BY-AU"
+            }
+        ]
+    },
+    {
+        "id": "e09a9106-86e9-4eeb-9c84-5d257b4f9488",
+        "startDate": "2025-08-15",
+        "endDate": "2025-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SL",
+                "shortName": "SL"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "7d63faa9-5577-4527-a192-edf54e28cd1a",
+        "startDate": "2025-09-20",
+        "endDate": "2025-09-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "World Children's Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-TH",
+                "shortName": "TH"
+            }
+        ]
+    },
+    {
+        "id": "ac964e18-2d34-497a-a9c5-b8ab065b7238",
+        "startDate": "2025-10-03",
+        "endDate": "2025-10-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of German Unity"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2514f889-8ff3-460c-b12c-c886f8b653de",
+        "startDate": "2025-10-31",
+        "endDate": "2025-10-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Reformation Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SH",
+                "shortName": "SH"
+            },
+            {
+                "code": "DE-ST",
+                "shortName": "ST"
+            },
+            {
+                "code": "DE-HH",
+                "shortName": "HH"
+            },
+            {
+                "code": "DE-HB",
+                "shortName": "HB"
+            },
+            {
+                "code": "DE-TH",
+                "shortName": "TH"
+            },
+            {
+                "code": "DE-MV",
+                "shortName": "MV"
+            },
+            {
+                "code": "DE-SN",
+                "shortName": "SN"
+            },
+            {
+                "code": "DE-NI",
+                "shortName": "NI"
+            },
+            {
+                "code": "DE-BB",
+                "shortName": "BB"
+            }
+        ]
+    },
+    {
+        "id": "0e5ed383-7890-4f12-b041-65a79aedeb5f",
+        "startDate": "2025-11-01",
+        "endDate": "2025-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints' Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SL",
+                "shortName": "SL"
+            },
+            {
+                "code": "DE-NW",
+                "shortName": "NW"
+            },
+            {
+                "code": "DE-BW",
+                "shortName": "BW"
+            },
+            {
+                "code": "DE-RP",
+                "shortName": "RP"
+            },
+            {
+                "code": "DE-BY",
+                "shortName": "BY"
+            }
+        ]
+    },
+    {
+        "id": "1d68ac36-9690-4b06-b62d-de890d5b50ef",
+        "startDate": "2025-11-19",
+        "endDate": "2025-11-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Repentance Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "DE-SN",
+                "shortName": "SN"
+            }
+        ]
+    },
+    {
+        "id": "92b270e3-247f-4f82-b79d-b5ad77a67d95",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "28bf580c-9787-4d67-ab3e-06a5e6597c1c",
+        "startDate": "2025-12-26",
+        "endDate": "2025-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    }
+]

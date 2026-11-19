@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Offline reference tests backed by OpenHolidays API, official GOV.UK bank holidays, and Azure Open Datasets, with saved data, source attribution, licenses, and checksums.
+- Azure reference coverage for 24 country providers over 2000–2020, with explicit comparison scopes and separately tracked unresolved discrepancies.
+- A shared `test:reference:update` command and source-specific commands for refreshing reference data and provenance.
+- A Docker `reference-updater` target with Python and PyArrow for converting Azure Parquet data, plus local and Docker usage instructions.
+
+### Changed
+
+- Exclude Docker tooling from distribution archives using `export-ignore`.
+
+### Fixed
+
+- Add Scotland's one-off World Cup bank holiday on 15 June 2026, including its holiday identifier and English and German translations.
+
+### Documentation
+
+- Explain that Azure's dates through 2099 come from a snapshot last modified in December 2020 and do not establish current holiday rules.
+- Document reference test limitations, excluded identities, and the distinction between calendar agreement and regression checks for known discrepancies.
+
 ## [0.12.0] - 2026-11-12
 
 ### Added

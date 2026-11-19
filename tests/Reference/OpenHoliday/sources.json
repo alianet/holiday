@@ -1,0 +1,29 @@
+{
+    "publisher": "OpenHolidays API / STÜBER SYSTEMS GmbH",
+    "license": "ODbL-1.0",
+    "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "sourcesUrl": "https://www.openholidaysapi.org/en/sources-europe/",
+    "retrievedAt": "2026-11-18T18:08:48+00:00",
+    "coverage": {
+        "from": "2024-01-01",
+        "to": "2025-12-31"
+    },
+    "files": {
+        "PL": {
+            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PL&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
+            "sha256": "63d71da2069403f8e093e28f747ce382cc47b033051b38112d0608c8612986bd"
+        },
+        "DE": {
+            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=DE&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
+            "sha256": "51ae94e1544041c8413bd5d49bb393df87fb9a5e01d891ee309ef710170ba70d"
+        },
+        "CZ": {
+            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CZ&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
+            "sha256": "70ac06773bc4019ac673d1393ddb406ac08d2349ec64bc74b634305b892d4747"
+        },
+        "AT": {
+            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AT&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
+            "sha256": "147d6dcb90343808678fb17adc799008273696a1b087e7ea5e7e54af5d4610bf"
+        }
+    }
+}

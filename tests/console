@@ -10,11 +10,23 @@
  * file that was distributed with this source code.
  */
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 use Umulmrum\Holiday\Test\GenerateTestCommand;
+use Umulmrum\Holiday\Test\Reference\Azure\UpdateReferenceDataCommand as UpdateAzureReferenceDataCommand;
+use Umulmrum\Holiday\Test\Reference\GovUk\UpdateReferenceDataCommand as UpdateGovUkReferenceDataCommand;
+use Umulmrum\Holiday\Test\Reference\OpenHoliday\UpdateReferenceDataCommand as UpdateOpenHolidaysReferenceDataCommand;
+use Umulmrum\Holiday\Test\Reference\UpdateReferenceDataCommand;
 
 $application = new Application();
-$application->addCommands([new GenerateTestCommand()]);
+$application->addCommands(
+        [
+                new GenerateTestCommand(),
+                new UpdateReferenceDataCommand(),
+                new UpdateOpenHolidaysReferenceDataCommand(),
+                new UpdateGovUkReferenceDataCommand(),
+                new UpdateAzureReferenceDataCommand()
+        ]
+);
 $application->run();

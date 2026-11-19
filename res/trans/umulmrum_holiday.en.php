@@ -165,6 +165,7 @@ return [
     'new_year' => 'New Year',
     'new_year_compensatory' => 'New Year (compensatory)',
     'new_year_holiday' => 'New Year Holiday',
+    'world_cup_bank_holiday' => 'World Cup bank holiday',
     'new_years_eve' => 'New Year\'s Eve',
     'no_school' => 'No school',
     'norway_constitution_day' => 'Constitution Day',

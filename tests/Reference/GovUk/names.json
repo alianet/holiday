@@ -1,0 +1,19 @@
+{
+    "New Year’s Day": "new_year",
+    "Good Friday": "good_friday",
+    "Easter Monday": "easter_monday",
+    "Early May bank holiday": "may_day",
+    "Early May bank holiday (VE day)": "may_day",
+    "Spring bank holiday": "spring_bank_holiday",
+    "Summer bank holiday": "summer_bank_holiday",
+    "Christmas Day": "christmas_day",
+    "Boxing Day": "boxing_day",
+    "Platinum Jubilee bank holiday": "platinum_jubilee_bank_holiday",
+    "Bank Holiday for the State Funeral of Queen Elizabeth II": "state_funeral_of_queen_elizabeth",
+    "Bank holiday for the coronation of King Charles III": "coronation_of_charles_and_camilla",
+    "2nd January": "new_year_holiday",
+    "St Andrew’s Day": "saint_andrews_day",
+    "St Patrick’s Day": "saint_patricks_day",
+    "Battle of the Boyne (Orangemen’s Day)": "battle_of_the_boyne",
+    "World Cup bank holiday": "world_cup_bank_holiday"
+}

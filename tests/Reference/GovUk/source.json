@@ -1,0 +1,21 @@
+{
+    "publisher": "GOV.UK",
+    "url": "https://www.gov.uk/bank-holidays.json",
+    "license": "Open Government Licence v3.0",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "retrievedAt": "2026-11-18T18:08:49+00:00",
+    "sha256": "2202c5669e5c6c099d3c322ca260cb88d7a0d632d877c7d9a49785fcca3a76b0",
+    "years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027,
+        2028
+    ]
+}

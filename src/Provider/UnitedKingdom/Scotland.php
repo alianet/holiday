@@ -55,6 +55,9 @@ class Scotland extends UnitedKingdom
             $holidays->add($this->getWeddingOfCharlesAndDiana());
         }
         $holidays->add($this->getSummerBankHoliday($year));
+        if ($year === 2026) {
+            $holidays->add(Holiday::create(HolidayName::WORLD_CUP_BANK_HOLIDAY, '2026-06-15', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        }
         if ($year === 2022) {
             $holidays->add($this->getStateFuneralOfQueenElizabeth());
         }

@@ -1,0 +1,404 @@
+{
+    "BY-2020": {
+        "reason": "Provider inserts getNewYear() twice from 2020 and has no 2 January entry; Azure lists 2 January. Provider date defect remains unresolved.",
+        "referenceOnly": [
+            "2020-01-02 new_year"
+        ],
+        "providerOnly": []
+    },
+    "FR-2004": {
+        "reason": "Azure lists Whit Monday during 2004–2007; the provider deliberately omits it during these years. Historical solidarity-day interpretation requires independent verification.",
+        "referenceOnly": [
+            "2004-05-31 whit_monday"
+        ],
+        "providerOnly": []
+    },
+    "FR-2005": {
+        "reason": "Azure lists Whit Monday during 2004–2007; the provider deliberately omits it during these years. Historical solidarity-day interpretation requires independent verification.",
+        "referenceOnly": [
+            "2005-05-16 whit_monday"
+        ],
+        "providerOnly": []
+    },
+    "FR-2006": {
+        "reason": "Azure lists Whit Monday during 2004–2007; the provider deliberately omits it during these years. Historical solidarity-day interpretation requires independent verification.",
+        "referenceOnly": [
+            "2006-06-05 whit_monday"
+        ],
+        "providerOnly": []
+    },
+    "FR-2007": {
+        "reason": "Azure lists Whit Monday during 2004–2007; the provider deliberately omits it during these years. Historical solidarity-day interpretation requires independent verification.",
+        "referenceOnly": [
+            "2007-05-28 whit_monday"
+        ],
+        "providerOnly": []
+    },
+    "GB-2002": {
+        "reason": "For the 2002 jubilee Azure lists spring holiday on 27 May and golden jubilee on 3 June, while the provider uses 4 June and 2 June. These two calendars disagree and neither is accepted as authoritative here.",
+        "referenceOnly": [
+            "2002-05-27 spring_bank_holiday",
+            "2002-06-03 golden_jubilee_bank_holiday"
+        ],
+        "providerOnly": [
+            "2002-06-02 golden_jubilee_bank_holiday",
+            "2002-06-04 spring_bank_holiday"
+        ]
+    },
+    "IT-2000": {
+        "reason": "Azure uses 2 June in 2000; the provider uses the first Sunday of June until 2000 inclusive. Effective year of restoration needs an official historical source.",
+        "referenceOnly": [
+            "2000-06-02 republic_day"
+        ],
+        "providerOnly": [
+            "2000-06-04 republic_day"
+        ]
+    },
+    "MX-2000": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2000-03-21 birthday_of_benito_juarez"
+        ],
+        "providerOnly": [
+            "2000-02-03 birthday_of_benito_juarez_compensatory",
+            "2000-02-04 constitution_day_compensatory",
+            "2000-02-05 birthday_of_benito_juarez"
+        ]
+    },
+    "MX-2001": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2001-03-21 birthday_of_benito_juarez"
+        ],
+        "providerOnly": [
+            "2001-02-05 birthday_of_benito_juarez"
+        ]
+    },
+    "MX-2002": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2002-03-21 birthday_of_benito_juarez"
+        ],
+        "providerOnly": [
+            "2002-02-05 birthday_of_benito_juarez"
+        ]
+    },
+    "MX-2003": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2003-03-21 birthday_of_benito_juarez"
+        ],
+        "providerOnly": [
+            "2003-02-05 birthday_of_benito_juarez"
+        ]
+    },
+    "MX-2004": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2004-03-21 birthday_of_benito_juarez",
+            "2004-04-30 birthday_of_benito_juarez_compensatory",
+            "2004-12-24 change_of_federal_government_compensatory"
+        ],
+        "providerOnly": [
+            "2004-02-05 birthday_of_benito_juarez",
+            "2004-11-19 revolution_day_compensatory"
+        ]
+    },
+    "MX-2005": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2005-03-21 birthday_of_benito_juarez",
+            "2005-05-02 birthday_of_benito_juarez_compensatory",
+            "2005-12-26 change_of_federal_government_compensatory"
+        ],
+        "providerOnly": [
+            "2005-02-03 birthday_of_benito_juarez_compensatory",
+            "2005-02-04 constitution_day_compensatory",
+            "2005-02-05 birthday_of_benito_juarez",
+            "2005-11-21 revolution_day_compensatory"
+        ]
+    },
+    "MX-2006": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2006-02-05 constitution_day",
+            "2006-03-21 birthday_of_benito_juarez"
+        ],
+        "providerOnly": [
+            "2006-02-06 constitution_day",
+            "2006-03-20 birthday_of_benito_juarez"
+        ]
+    },
+    "MX-2007": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2007-02-05 constitution_day_compensatory",
+            "2007-03-19 birthday_of_benito_juarez_compensatory",
+            "2007-03-21 birthday_of_benito_juarez",
+            "2007-11-19 revolution_day_compensatory",
+            "2007-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2007-02-05 constitution_day",
+            "2007-03-19 birthday_of_benito_juarez",
+            "2007-11-19 revolution_day"
+        ]
+    },
+    "MX-2008": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2008-02-04 constitution_day_compensatory",
+            "2008-02-05 constitution_day",
+            "2008-03-17 birthday_of_benito_juarez_compensatory",
+            "2008-03-21 birthday_of_benito_juarez",
+            "2008-11-17 revolution_day_compensatory",
+            "2008-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2008-02-04 constitution_day",
+            "2008-03-17 birthday_of_benito_juarez",
+            "2008-11-17 revolution_day"
+        ]
+    },
+    "MX-2009": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2009-02-02 constitution_day_compensatory",
+            "2009-02-05 constitution_day",
+            "2009-03-16 birthday_of_benito_juarez_compensatory",
+            "2009-03-21 birthday_of_benito_juarez",
+            "2009-11-16 revolution_day_compensatory",
+            "2009-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2009-02-02 constitution_day",
+            "2009-03-16 birthday_of_benito_juarez",
+            "2009-11-16 revolution_day"
+        ]
+    },
+    "MX-2010": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2010-02-01 constitution_day_compensatory",
+            "2010-02-05 constitution_day",
+            "2010-03-15 birthday_of_benito_juarez_compensatory",
+            "2010-03-21 birthday_of_benito_juarez",
+            "2010-04-30 birthday_of_benito_juarez_compensatory",
+            "2010-11-15 revolution_day_compensatory",
+            "2010-11-20 revolution_day",
+            "2010-12-24 change_of_federal_government_compensatory"
+        ],
+        "providerOnly": [
+            "2010-02-01 constitution_day",
+            "2010-03-15 birthday_of_benito_juarez",
+            "2010-11-15 revolution_day"
+        ]
+    },
+    "MX-2011": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2011-02-05 constitution_day",
+            "2011-02-07 constitution_day_compensatory",
+            "2011-03-21 birthday_of_benito_juarez_compensatory",
+            "2011-05-02 birthday_of_benito_juarez_compensatory",
+            "2011-11-20 revolution_day",
+            "2011-11-21 revolution_day_compensatory",
+            "2011-12-26 change_of_federal_government_compensatory"
+        ],
+        "providerOnly": [
+            "2011-02-07 constitution_day",
+            "2011-03-21 birthday_of_benito_juarez",
+            "2011-11-21 revolution_day"
+        ]
+    },
+    "MX-2012": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2012-02-05 constitution_day",
+            "2012-02-06 constitution_day_compensatory",
+            "2012-03-19 birthday_of_benito_juarez_compensatory",
+            "2012-03-21 birthday_of_benito_juarez",
+            "2012-11-19 revolution_day_compensatory",
+            "2012-11-20 revolution_day",
+            "2012-11-30 change_of_federal_government_compensatory"
+        ],
+        "providerOnly": [
+            "2012-02-06 constitution_day",
+            "2012-03-19 birthday_of_benito_juarez",
+            "2012-11-19 revolution_day"
+        ]
+    },
+    "MX-2013": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2013-02-04 constitution_day_compensatory",
+            "2013-02-05 constitution_day",
+            "2013-03-18 birthday_of_benito_juarez_compensatory",
+            "2013-03-21 birthday_of_benito_juarez",
+            "2013-11-18 revolution_day_compensatory",
+            "2013-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2013-02-04 constitution_day",
+            "2013-03-18 birthday_of_benito_juarez",
+            "2013-11-18 revolution_day"
+        ]
+    },
+    "MX-2014": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2014-02-03 constitution_day_compensatory",
+            "2014-02-05 constitution_day",
+            "2014-03-17 birthday_of_benito_juarez_compensatory",
+            "2014-03-21 birthday_of_benito_juarez",
+            "2014-11-17 revolution_day_compensatory",
+            "2014-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2014-02-03 constitution_day",
+            "2014-03-17 birthday_of_benito_juarez",
+            "2014-11-17 revolution_day"
+        ]
+    },
+    "MX-2015": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2015-02-02 constitution_day_compensatory",
+            "2015-02-05 constitution_day",
+            "2015-03-16 birthday_of_benito_juarez_compensatory",
+            "2015-03-21 birthday_of_benito_juarez",
+            "2015-11-16 revolution_day_compensatory",
+            "2015-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2015-02-02 constitution_day",
+            "2015-03-16 birthday_of_benito_juarez",
+            "2015-11-16 revolution_day"
+        ]
+    },
+    "MX-2016": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2016-02-01 constitution_day_compensatory",
+            "2016-02-05 constitution_day",
+            "2016-03-21 birthday_of_benito_juarez_compensatory",
+            "2016-05-02 birthday_of_benito_juarez_compensatory",
+            "2016-11-20 revolution_day",
+            "2016-11-21 revolution_day_compensatory",
+            "2016-12-26 change_of_federal_government_compensatory"
+        ],
+        "providerOnly": [
+            "2016-02-01 constitution_day",
+            "2016-03-21 birthday_of_benito_juarez",
+            "2016-11-21 revolution_day"
+        ]
+    },
+    "MX-2017": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2017-02-05 constitution_day",
+            "2017-02-06 constitution_day_compensatory",
+            "2017-03-20 birthday_of_benito_juarez_compensatory",
+            "2017-03-21 birthday_of_benito_juarez",
+            "2017-11-20 revolution_day_compensatory"
+        ],
+        "providerOnly": [
+            "2017-02-06 constitution_day",
+            "2017-03-20 birthday_of_benito_juarez",
+            "2017-11-20 revolution_day"
+        ]
+    },
+    "MX-2018": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2018-02-05 constitution_day_compensatory",
+            "2018-03-19 birthday_of_benito_juarez_compensatory",
+            "2018-03-21 birthday_of_benito_juarez",
+            "2018-11-19 revolution_day_compensatory",
+            "2018-11-20 revolution_day",
+            "2018-11-30 change_of_federal_government_compensatory"
+        ],
+        "providerOnly": [
+            "2018-02-05 constitution_day",
+            "2018-03-19 birthday_of_benito_juarez",
+            "2018-11-19 revolution_day"
+        ]
+    },
+    "MX-2019": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2019-02-04 constitution_day_compensatory",
+            "2019-02-05 constitution_day",
+            "2019-03-18 birthday_of_benito_juarez_compensatory",
+            "2019-03-21 birthday_of_benito_juarez",
+            "2019-11-18 revolution_day_compensatory",
+            "2019-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2019-02-04 constitution_day",
+            "2019-03-18 birthday_of_benito_juarez",
+            "2019-11-18 revolution_day"
+        ]
+    },
+    "MX-2020": {
+        "reason": "Before 2006 the provider uses 5 February for Benito Juarez birthday instead of Azure 21 March. For later years Azure retains calendar anniversaries and separate observed entries, while the provider replaces dates in place; weekend shifts also differ. This known date/representation discrepancy remains unresolved.",
+        "referenceOnly": [
+            "2020-02-03 constitution_day_compensatory",
+            "2020-02-05 constitution_day",
+            "2020-03-16 birthday_of_benito_juarez_compensatory",
+            "2020-03-21 birthday_of_benito_juarez",
+            "2020-11-16 revolution_day_compensatory",
+            "2020-11-20 revolution_day"
+        ],
+        "providerOnly": [
+            "2020-02-03 constitution_day",
+            "2020-03-16 birthday_of_benito_juarez",
+            "2020-11-16 revolution_day"
+        ]
+    },
+    "SE-2000": {
+        "reason": "Azure has Whit Monday through 2004 and national day from 2005. The provider omits Whit Monday and includes national day in all these years. Historical transition is not verified by this suite.",
+        "referenceOnly": [
+            "2000-06-12 whit_monday"
+        ],
+        "providerOnly": [
+            "2000-06-06 sweden_national_day"
+        ]
+    },
+    "SE-2001": {
+        "reason": "Azure has Whit Monday through 2004 and national day from 2005. The provider omits Whit Monday and includes national day in all these years. Historical transition is not verified by this suite.",
+        "referenceOnly": [
+            "2001-06-04 whit_monday"
+        ],
+        "providerOnly": [
+            "2001-06-06 sweden_national_day"
+        ]
+    },
+    "SE-2002": {
+        "reason": "Azure has Whit Monday through 2004 and national day from 2005. The provider omits Whit Monday and includes national day in all these years. Historical transition is not verified by this suite.",
+        "referenceOnly": [
+            "2002-05-20 whit_monday"
+        ],
+        "providerOnly": [
+            "2002-06-06 sweden_national_day"
+        ]
+    },
+    "SE-2003": {
+        "reason": "Azure has Whit Monday through 2004 and national day from 2005. The provider omits Whit Monday and includes national day in all these years. Historical transition is not verified by this suite.",
+        "referenceOnly": [
+            "2003-06-09 whit_monday"
+        ],
+        "providerOnly": [
+            "2003-06-06 sweden_national_day"
+        ]
+    },
+    "SE-2004": {
+        "reason": "Azure has Whit Monday through 2004 and national day from 2005. The provider omits Whit Monday and includes national day in all these years. Historical transition is not verified by this suite.",
+        "referenceOnly": [
+            "2004-05-31 whit_monday"
+        ],
+        "providerOnly": [
+            "2004-06-06 sweden_national_day"
+        ]
+    }
+}

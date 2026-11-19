@@ -165,6 +165,7 @@ return [
     'new_year' => 'Neujahr',
     'new_year_compensatory' => 'Neujahr (Ausgleich)',
     'new_year_holiday' => 'Neujahrsferien',
+    'world_cup_bank_holiday' => 'Feiertag zur Fußball-Weltmeisterschaft',
     'new_years_eve' => 'Silvester',
     'no_school' => 'Schulfrei',
     'norway_constitution_day' => 'Verfassungstag',

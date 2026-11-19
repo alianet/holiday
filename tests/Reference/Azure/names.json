@@ -1,0 +1,1019 @@
+{
+    "PL": {
+        "Nowy Rok": [
+            "new_year"
+        ],
+        "Święto Trzech Króli": [
+            "epiphany"
+        ],
+        "Niedziela Wielkanocna": [
+            "easter_sunday"
+        ],
+        "Poniedziałek Wielkanocny": [
+            "easter_monday"
+        ],
+        "Święto Państwowe": [
+            "may_day"
+        ],
+        "Święto Narodowe Trzeciego Maja": [
+            "constitution_day"
+        ],
+        "Zielone Świątki": [
+            "whit_sunday"
+        ],
+        "Dzień Bożego Ciała": [
+            "corpus_christi"
+        ],
+        "Wniebowzięcie Najświętszej Marii Panny": [
+            "assumption_day"
+        ],
+        "Uroczystość Wszystkich świętych": [
+            "all_saints_day"
+        ],
+        "Narodowe Święto Niepodległości": [
+            "independence_day"
+        ],
+        "Boże Narodzenie (pierwszy dzień)": [
+            "christmas_day"
+        ],
+        "Boże Narodzenie (drugi dzień)": [
+            "second_christmas_day"
+        ]
+    },
+    "DE": {
+        "Neujahr": [
+            "new_year"
+        ],
+        "Karfreitag": [
+            "good_friday"
+        ],
+        "Ostermontag": [
+            "easter_monday"
+        ],
+        "Erster Mai": [
+            "labor_day"
+        ],
+        "Christi Himmelfahrt": [
+            "ascension"
+        ],
+        "Pfingstmontag": [
+            "whit_monday"
+        ],
+        "Tag der Deutschen Einheit": [
+            "german_unity_day"
+        ],
+        "Erster Weihnachtstag": [
+            "christmas_day"
+        ],
+        "Zweiter Weihnachtstag": [
+            "second_christmas_day"
+        ],
+        "Reformationstag": [
+            "reformation_day"
+        ],
+        "Christi Himmelfahrt, Erster Mai": [
+            "ascension",
+            "labor_day"
+        ]
+    },
+    "AT": {
+        "Neujahr": [
+            "new_year"
+        ],
+        "Heilige Drei Könige": [
+            "epiphany"
+        ],
+        "Ostermontag": [
+            "easter_monday"
+        ],
+        "Staatsfeiertag": [
+            "austrian_states_holiday"
+        ],
+        "Christi Himmelfahrt": [
+            "ascension"
+        ],
+        "Pfingstmontag": [
+            "whit_monday"
+        ],
+        "Fronleichnam": [
+            "corpus_christi"
+        ],
+        "Mariä Himmelfahrt": [
+            "assumption_day"
+        ],
+        "Nationalfeiertag": [
+            "austrian_national_holiday"
+        ],
+        "Allerheiligen": [
+            "all_saints_day"
+        ],
+        "Mariä Empfängnis": [
+            "immaculate_conception"
+        ],
+        "Christtag": [
+            "christmas_day"
+        ],
+        "Stefanitag": [
+            "second_christmas_day"
+        ],
+        "Christi Himmelfahrt, Staatsfeiertag": [
+            "ascension",
+            "austrian_states_holiday"
+        ]
+    },
+    "CZ": {
+        "Den obnovy samostatného českého státu": [
+            "restoration_day_of_the_independent_czech_state"
+        ],
+        "Velký pátek": [
+            "good_friday"
+        ],
+        "Velikonoční pondělí": [
+            "easter_monday"
+        ],
+        "Svátek práce": [
+            "labor_day"
+        ],
+        "Den vítězství": [
+            "victory_day"
+        ],
+        "Den slovanských věrozvěstů Cyrila a Metoděje": [
+            "saints_cyril_and_methodius_day"
+        ],
+        "Den upálení mistra Jana Husa": [
+            "jan_hus_day"
+        ],
+        "Den české státnosti": [
+            "statehood_day"
+        ],
+        "Den vzniku samostatného československého státu": [
+            "independent_czechoslovak_day"
+        ],
+        "Den boje za svobodu a demokracii": [
+            "struggle_for_freedom_day"
+        ],
+        "Štědrý den": [
+            "christmas_eve"
+        ],
+        "1. svátek vánoční": [
+            "christmas_day"
+        ],
+        "2. svátek vánoční": [
+            "second_christmas_day"
+        ]
+    },
+    "PT": {
+        "Ano Novo": [
+            "new_year"
+        ],
+        "Sexta-feira Santa": [
+            "good_friday"
+        ],
+        "Páscoa": [
+            "easter_sunday"
+        ],
+        "Dia da Liberdade": [
+            "portugal_freedom_day"
+        ],
+        "Dia do Trabalhador": [
+            "labor_day"
+        ],
+        "Corpo de Deus": [
+            "corpus_christi"
+        ],
+        "Dia de Portugal": [
+            "portugal_day"
+        ],
+        "Assunção de Nossa Senhora": [
+            "assumption_day"
+        ],
+        "Implantação da República": [
+            "portugal_republic_day"
+        ],
+        "Dia de Todos os Santos": [
+            "all_saints_day"
+        ],
+        "Restauração da Independência": [
+            "portugal_restoration_of_independence"
+        ],
+        "Imaculada Conceição": [
+            "immaculate_conception"
+        ],
+        "Dia de Natal": [
+            "christmas_day"
+        ],
+        "Dia de Portugal, Corpo de Deus": [
+            "portugal_day",
+            "corpus_christi"
+        ]
+    },
+    "AU": {
+        "New Year's Day": [
+            "new_year"
+        ],
+        "Christmas Day": [
+            "christmas_day"
+        ],
+        "Boxing Day": [
+            "boxing_day"
+        ],
+        "Good Friday": [
+            "good_friday"
+        ],
+        "Easter Monday": [
+            "easter_monday"
+        ],
+        "Australia Day": [
+            "australia_day"
+        ],
+        "Anzac Day": [
+            "anzac_day"
+        ],
+        "Australia Day (Observed)": [
+            "australia_day_compensatory"
+        ],
+        "Boxing Day (Observed)": [
+            "boxing_day_compensatory"
+        ],
+        "Christmas Day (Observed)": [
+            "christmas_day_compensatory"
+        ],
+        "New Year's Day (Observed)": [
+            "new_year_compensatory"
+        ],
+        "Anzac Day, Easter Monday": [
+            "anzac_day",
+            "easter_monday"
+        ]
+    },
+    "CA": {
+        "New Year's Day": [
+            "new_year"
+        ],
+        "Christmas Day": [
+            "christmas_day"
+        ],
+        "Boxing Day": [],
+        "Good Friday": [
+            "good_friday"
+        ],
+        "Canada Day": [
+            "canada_day"
+        ],
+        "Labour Day": [
+            "labor_day"
+        ],
+        "Thanksgiving": [
+            "thanksgiving_day"
+        ],
+        "Victoria Day": [],
+        "Civic Holiday": [],
+        "Family Day": [],
+        "Boxing Day (Observed)": [],
+        "Canada Day (Observed)": [],
+        "Christmas Day (Observed)": [],
+        "New Year's Day (Observed)": []
+    },
+    "GB": {
+        "New Year's Day": [
+            "new_year"
+        ],
+        "Christmas Day": [
+            "christmas_day"
+        ],
+        "Boxing Day": [
+            "boxing_day"
+        ],
+        "Good Friday": [
+            "good_friday"
+        ],
+        "May Day": [
+            "may_day"
+        ],
+        "Spring Bank Holiday": [
+            "spring_bank_holiday"
+        ],
+        "Diamond Jubilee of Elizabeth II": [
+            "diamond_jubilee_bank_holiday"
+        ],
+        "Golden Jubilee of Elizabeth II": [
+            "golden_jubilee_bank_holiday"
+        ],
+        "Wedding of William and Catherine": [
+            "wedding_of_william_and_catherine"
+        ],
+        "Late Summer Bank Holiday [England, Wales, Northern Ireland]": [
+            "summer_bank_holiday"
+        ],
+        "Easter Monday [England, Wales, Northern Ireland]": [
+            "easter_monday"
+        ],
+        "Boxing Day (Observed)": [
+            "boxing_day_compensatory"
+        ],
+        "Christmas Day (Observed)": [
+            "christmas_day_compensatory"
+        ],
+        "New Year's Day (Observed)": [
+            "new_year_compensatory"
+        ],
+        "St. Patrick's Day [Northern Ireland] (Observed)": [],
+        "Summer Bank Holiday [Scotland]": [],
+        "Battle of the Boyne [Northern Ireland]": [],
+        "New Year Holiday [Scotland], New Year's Day (Observed)": [
+            "new_year_compensatory"
+        ],
+        "St. Patrick's Day [Northern Ireland]": [],
+        "New Year Holiday [Scotland] (Observed)": [],
+        "New Year Holiday [Scotland]": [],
+        "St. Andrew's Day [Scotland]": []
+    },
+    "IE": {
+        "New Year's Day": [
+            "new_year"
+        ],
+        "Christmas Day": [
+            "christmas_day"
+        ],
+        "Boxing Day": [
+            "second_christmas_day"
+        ],
+        "Easter Monday": [
+            "easter_monday"
+        ],
+        "St. Patrick's Day": [
+            "saint_patricks_day"
+        ],
+        "May Day": [
+            "may_day"
+        ],
+        "June Bank Holiday": [
+            "june_holiday"
+        ],
+        "Summer Bank Holiday": [
+            "august_holiday"
+        ],
+        "October Bank Holiday": [
+            "october_holiday"
+        ],
+        "Boxing Day (Observed)": [
+            "second_christmas_day_compensatory"
+        ],
+        "Christmas Day (Observed)": [
+            "christmas_day_compensatory"
+        ],
+        "New Year's Day (Observed)": [
+            "new_year_compensatory"
+        ],
+        "St. Patrick's Day (Observed)": [
+            "saint_patricks_day_compensatory"
+        ]
+    },
+    "US": {
+        "New Year's Day": [
+            "new_year"
+        ],
+        "Christmas Day": [
+            "christmas_day"
+        ],
+        "Independence Day": [
+            "independence_day"
+        ],
+        "Labor Day": [
+            "labor_day"
+        ],
+        "Martin Luther King Jr. Day": [
+            "martin_luther_king_jr_day"
+        ],
+        "Memorial Day": [
+            "memorial_day"
+        ],
+        "Washington's Birthday": [
+            "washingtons_birthday"
+        ],
+        "Columbus Day": [
+            "columbus_day"
+        ],
+        "Thanksgiving": [
+            "thanksgiving_day"
+        ],
+        "Veterans Day": [
+            "veterans_day"
+        ],
+        "Christmas Day (Observed)": [
+            "christmas_day_compensatory"
+        ],
+        "Independence Day (Observed)": [
+            "independence_day_compensatory"
+        ],
+        "New Year's Day (Observed)": [
+            "new_year_compensatory"
+        ],
+        "Veterans Day (Observed)": [
+            "veterans_day_compensatory"
+        ]
+    },
+    "BE": {
+        "Nieuwjaarsdag": [
+            "new_year"
+        ],
+        "Pasen": [
+            "easter_sunday"
+        ],
+        "Paasmaandag": [
+            "easter_monday"
+        ],
+        "Dag van de Arbeid": [
+            "labor_day"
+        ],
+        "O.L.H. Hemelvaart": [
+            "ascension"
+        ],
+        "Pinksteren": [
+            "whit_sunday"
+        ],
+        "Pinkstermaandag": [
+            "whit_monday"
+        ],
+        "Nationale feestdag": [
+            "belgian_national_holiday"
+        ],
+        "O.L.V. Hemelvaart": [
+            "assumption_day"
+        ],
+        "Allerheiligen": [
+            "all_saints_day"
+        ],
+        "Wapenstilstand": [
+            "armistice_day"
+        ],
+        "Kerstmis": [
+            "christmas_day"
+        ],
+        "Dag van de Arbeid, O.L.H. Hemelvaart": [
+            "labor_day",
+            "ascension"
+        ]
+    },
+    "BR": {
+        "Ano novo": [
+            "new_year"
+        ],
+        "Carnaval": [
+            "fat_tuesday"
+        ],
+        "Quarta-feira de cinzas (Início da Quaresma)": [
+            "ash_wednesday"
+        ],
+        "Sexta-feira Santa": [
+            "good_friday"
+        ],
+        "Páscoa": [],
+        "Tiradentes": [
+            "tiradentes"
+        ],
+        "Dia Mundial do Trabalho": [
+            "labor_day"
+        ],
+        "Corpus Christi": [],
+        "Independência do Brasil": [
+            "independence_day"
+        ],
+        "Nossa Senhora Aparecida": [
+            "our_lady_of_aparecida"
+        ],
+        "Finados": [
+            "day_of_the_dead"
+        ],
+        "Proclamação da República": [
+            "republic_proclamation_day"
+        ],
+        "Natal": [
+            "christmas_day"
+        ],
+        "Páscoa, Tiradentes": [
+            "tiradentes"
+        ],
+        "Sexta-feira Santa, Tiradentes": [
+            "good_friday",
+            "tiradentes"
+        ]
+    },
+    "BY": {
+        "Новый год": [
+            "new_year"
+        ],
+        "Рождество Христово (православное Рождество)": [
+            "christmas_day"
+        ],
+        "День женщин": [
+            "international_womens_day"
+        ],
+        "Радуница": [
+            "radonitsa"
+        ],
+        "Праздник труда": [
+            "labor_day"
+        ],
+        "День Победы": [
+            "victory_day"
+        ],
+        "День Независимости Республики Беларусь (День Республики)": [
+            "belarus_independence_day"
+        ],
+        "День Октябрьской революции": [
+            "october_revolution_day"
+        ],
+        "Рождество Христово (католическое Рождество)": [
+            "christmas_day"
+        ],
+        "День Победы, Радуница": [
+            "victory_day",
+            "radonitsa"
+        ]
+    },
+    "CH": {
+        "Neujahrestag": [
+            "new_year"
+        ],
+        "Karfreitag": [],
+        "Ostern": [],
+        "Ostermontag": [],
+        "Auffahrt": [
+            "ascension"
+        ],
+        "Pfingsten": [],
+        "Pfingstmontag": [],
+        "Nationalfeiertag": [
+            "swiss_national_day"
+        ],
+        "Weihnachten": [
+            "christmas_day"
+        ]
+    },
+    "DK": {
+        "Nytårsdag": [
+            "new_year"
+        ],
+        "Palmesøndag": [],
+        "Skærtorsdag": [
+            "maundy_thursday"
+        ],
+        "Langfredag": [
+            "good_friday"
+        ],
+        "Påskedag": [
+            "easter_sunday"
+        ],
+        "Anden påskedag": [
+            "easter_monday"
+        ],
+        "Store bededag": [
+            "general_prayer_day"
+        ],
+        "Kristi himmelfartsdag": [
+            "ascension"
+        ],
+        "Pinsedag": [
+            "whit_sunday"
+        ],
+        "Anden pinsedag": [
+            "whit_monday"
+        ],
+        "Juledag": [
+            "christmas_day"
+        ],
+        "Anden juledag": [
+            "second_christmas_day"
+        ]
+    },
+    "ES": {
+        "Año nuevo": [
+            "new_year"
+        ],
+        "Epifanía del Señor": [
+            "epiphany"
+        ],
+        "Día del Trabajador": [
+            "labor_day"
+        ],
+        "Asunción de la Virgen": [
+            "assumption_day"
+        ],
+        "Día de la Hispanidad": [
+            "spanish_national_day"
+        ],
+        "Todos los Santos": [
+            "all_saints_day"
+        ],
+        "Día de la constitución Española": [
+            "constitution_day"
+        ],
+        "La Inmaculada Concepción": [],
+        "Navidad": [
+            "christmas_day"
+        ]
+    },
+    "FI": {
+        "Uudenvuodenpäivä": [
+            "new_year"
+        ],
+        "Loppiainen": [
+            "epiphany"
+        ],
+        "Pitkäperjantai": [
+            "good_friday"
+        ],
+        "Pääsiäispäivä": [
+            "easter_sunday"
+        ],
+        "2. pääsiäispäivä": [
+            "easter_monday"
+        ],
+        "Vappu": [
+            "labor_day"
+        ],
+        "Helatorstai": [
+            "ascension"
+        ],
+        "Helluntaipäivä": [
+            "whit_sunday"
+        ],
+        "Juhannusaatto": [
+            "midsummer_eve"
+        ],
+        "Juhannuspäivä": [
+            "midsummers_day"
+        ],
+        "Pyhäinpäivä": [
+            "all_saints_day"
+        ],
+        "Itsenäisyyspäivä": [
+            "finland_independence_day"
+        ],
+        "Jouluaatto": [
+            "christmas_eve"
+        ],
+        "Joulupäivä": [
+            "christmas_day"
+        ],
+        "Tapaninpäivä": [
+            "second_christmas_day"
+        ],
+        "Helatorstai, Vappu": [
+            "ascension",
+            "labor_day"
+        ]
+    },
+    "FR": {
+        "Jour de l'an": [
+            "new_year"
+        ],
+        "Lundi de Pâques": [
+            "easter_monday"
+        ],
+        "Fête du Travail": [
+            "labor_day"
+        ],
+        "Armistice 1945": [
+            "victory_day"
+        ],
+        "Ascension": [
+            "ascension"
+        ],
+        "Lundi de Pentecôte": [
+            "whit_monday"
+        ],
+        "Fête nationale": [
+            "bastille_day"
+        ],
+        "Assomption": [
+            "assumption_day"
+        ],
+        "Toussaint": [
+            "all_saints_day"
+        ],
+        "Armistice 1918": [
+            "armistice_day_france"
+        ],
+        "Noël": [
+            "christmas_day"
+        ],
+        "Ascension, Fête du Travail": [
+            "ascension",
+            "labor_day"
+        ]
+    },
+    "IT": {
+        "Capodanno": [
+            "new_year"
+        ],
+        "Epifania del Signore": [
+            "epiphany"
+        ],
+        "Pasqua di Resurrezione": [
+            "easter_sunday"
+        ],
+        "Lunedì dell'Angelo": [
+            "easter_monday"
+        ],
+        "Festa della Liberazione": [
+            "liberation_day"
+        ],
+        "Festa dei Lavoratori": [
+            "labor_day"
+        ],
+        "Festa della Repubblica": [
+            "republic_day"
+        ],
+        "Assunzione della Vergine": [
+            "assumption_day"
+        ],
+        "Tutti i Santi": [
+            "all_saints_day"
+        ],
+        "Immacolata Concezione": [
+            "immaculate_conception"
+        ],
+        "Natale": [
+            "christmas_day"
+        ],
+        "Santo Stefano": [
+            "second_christmas_day"
+        ],
+        "Festa della Liberazione, Lunedì dell'Angelo": [
+            "liberation_day",
+            "easter_monday"
+        ]
+    },
+    "MX": {
+        "Año Nuevo [New Year's Day]": [
+            "new_year"
+        ],
+        "Día de la Constitución [Constitution Day]": [
+            "constitution_day"
+        ],
+        "Natalicio de Benito Juárez [Benito Juárez's birthday]": [
+            "birthday_of_benito_juarez"
+        ],
+        "Día del Trabajo [Labour Day]": [
+            "labor_day"
+        ],
+        "Día de la Independencia [Independence Day]": [
+            "independence_day"
+        ],
+        "Día de la Revolución [Revolution Day]": [
+            "revolution_day"
+        ],
+        "Transmisión del Poder Ejecutivo Federal [Change of Federal Government]": [],
+        "Navidad [Christmas]": [
+            "christmas_day"
+        ],
+        "Año Nuevo [New Year's Day] (Observed)": [
+            "new_year_compensatory"
+        ],
+        "Día de la Constitución [Constitution Day] (Observed)": [
+            "constitution_day_compensatory"
+        ],
+        "Día de la Independencia [Independence Day] (Observed)": [
+            "independence_day_compensatory"
+        ],
+        "Día de la Revolución [Revolution Day] (Observed)": [
+            "revolution_day_compensatory"
+        ],
+        "Natalicio de Benito Juárez [Benito Juárez's birthday] (Observed)": [
+            "birthday_of_benito_juarez_compensatory"
+        ],
+        "Transmisión del Poder Ejecutivo Federal [Change of Federal Government] (Observed)": [
+            "change_of_federal_government_compensatory"
+        ]
+    },
+    "NL": {
+        "Nieuwjaarsdag": [
+            "new_year"
+        ],
+        "Goede Vrijdag": [
+            "good_friday"
+        ],
+        "Eerste paasdag": [
+            "easter_sunday"
+        ],
+        "Tweede paasdag": [
+            "easter_monday"
+        ],
+        "Koninginnedag": [
+            "queens_day"
+        ],
+        "Koningsdag": [
+            "kings_day"
+        ],
+        "Bevrijdingsdag": [
+            "liberation_day"
+        ],
+        "Hemelvaart": [
+            "ascension"
+        ],
+        "Eerste Pinksterdag": [
+            "whit_sunday"
+        ],
+        "Tweede Pinksterdag": [
+            "whit_monday"
+        ],
+        "Eerste Kerstdag": [
+            "christmas_day"
+        ],
+        "Tweede Kerstdag": [
+            "second_christmas_day"
+        ],
+        "Bevrijdingsdag, Hemelvaart": [
+            "liberation_day",
+            "ascension"
+        ]
+    },
+    "NO": {
+        "Første nyttårsdag": [
+            "new_year"
+        ],
+        "Skjærtorsdag": [
+            "maundy_thursday"
+        ],
+        "Langfredag": [
+            "good_friday"
+        ],
+        "Andre påskedag": [
+            "easter_monday"
+        ],
+        "Arbeidernes dag": [
+            "labor_day"
+        ],
+        "Grunnlovsdag": [
+            "norway_constitution_day"
+        ],
+        "Kristi himmelfartsdag": [
+            "ascension"
+        ],
+        "Andre pinsedag": [
+            "whit_monday"
+        ],
+        "Første juledag": [
+            "christmas_day"
+        ],
+        "Andre juledag": [
+            "second_christmas_day"
+        ],
+        "Søndag": [],
+        "Andre juledag, Søndag": [
+            "second_christmas_day"
+        ],
+        "Arbeidernes dag, Søndag": [
+            "labor_day"
+        ],
+        "Første juledag, Søndag": [
+            "christmas_day"
+        ],
+        "Første nyttårsdag, Søndag": [
+            "new_year"
+        ],
+        "Første pinsedag, Søndag": [
+            "whit_sunday"
+        ],
+        "Første påskedag, Søndag": [
+            "easter_sunday"
+        ],
+        "Grunnlovsdag, Søndag": [
+            "norway_constitution_day"
+        ],
+        "Kristi himmelfartsdag, Arbeidernes dag": [
+            "ascension",
+            "labor_day"
+        ],
+        "Kristi himmelfartsdag, Grunnlovsdag": [
+            "ascension",
+            "norway_constitution_day"
+        ]
+    },
+    "SE": {
+        "Nyårsdagen": [
+            "new_year"
+        ],
+        "Trettondedag jul": [
+            "epiphany"
+        ],
+        "Långfredagen": [
+            "good_friday"
+        ],
+        "Annandag påsk": [
+            "easter_monday"
+        ],
+        "Första maj": [
+            "labor_day"
+        ],
+        "Kristi himmelsfärdsdag": [
+            "ascension"
+        ],
+        "Annandag pingst": [
+            "whit_monday"
+        ],
+        "Sveriges nationaldag": [
+            "sweden_national_day"
+        ],
+        "Midsommarafton": [
+            "midsummer_eve"
+        ],
+        "Midsommardagen": [
+            "midsummers_day"
+        ],
+        "Alla helgons dag": [
+            "all_saints_day"
+        ],
+        "Julafton": [
+            "christmas_eve"
+        ],
+        "Juldagen": [
+            "christmas_day"
+        ],
+        "Annandag jul": [
+            "second_christmas_day"
+        ],
+        "Nyårsafton": [
+            "new_years_eve"
+        ],
+        "Söndag": [],
+        "Annandag jul, Söndag": [
+            "second_christmas_day"
+        ],
+        "Första maj, Söndag": [
+            "labor_day"
+        ],
+        "Julafton, Söndag": [
+            "christmas_eve"
+        ],
+        "Juldagen, Söndag": [
+            "christmas_day"
+        ],
+        "Kristi himmelsfärdsdag, Första maj": [
+            "ascension",
+            "labor_day"
+        ],
+        "Nyårsafton, Söndag": [
+            "new_years_eve"
+        ],
+        "Nyårsdagen, Söndag": [
+            "new_year"
+        ],
+        "Pingstdagen, Söndag": [
+            "whit_sunday"
+        ],
+        "Påskdagen, Söndag": [
+            "easter_sunday"
+        ],
+        "Sveriges nationaldag, Söndag": [
+            "sweden_national_day"
+        ],
+        "Trettondedag jul, Söndag": [
+            "epiphany"
+        ]
+    },
+    "UA": {
+        "Новий рік": [
+            "new_year"
+        ],
+        "Різдво Христове (православне)": [
+            "christmas_day"
+        ],
+        "Міжнародний жіночий день": [
+            "international_womens_day"
+        ],
+        "Пасха (Великдень)": [
+            "easter_sunday"
+        ],
+        "Трійця": [
+            "whit_sunday"
+        ],
+        "День міжнародної солідарності трудящих": [
+            "labor_day"
+        ],
+        "День праці": [
+            "labor_day"
+        ],
+        "День перемоги": [
+            "victory_day"
+        ],
+        "День Конституції України": [
+            "ukraine_constitution_day"
+        ],
+        "День незалежності України": [
+            "ukraine_independence_day"
+        ],
+        "День захисника України": [
+            "defenders_of_ukraine_day"
+        ],
+        "Різдво Христове (католицьке)": [
+            "christmas_day"
+        ],
+        "День міжнародної солідарності трудящих, Пасха (Великдень)": [
+            "labor_day",
+            "easter_sunday"
+        ]
+    }
+}

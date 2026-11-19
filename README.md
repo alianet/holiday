@@ -479,6 +479,105 @@ Provide tests inside `tests/Provider/...` that ideally cover all edge cases. Thi
 - **Windows: Please note** On windows the generator must be run in a bash window.
 
 
+### Independent reference tests
+
+Reference tests compare provider dates and holiday identifiers with saved
+[OpenHolidays API](https://www.openholidaysapi.org/en/) responses. They currently cover
+PL, DE, DE-BE, CZ and AT for 2024 and 2025, and run without network access:
+
+```bash
+php vendor/bin/phpunit tests/Reference/OpenHoliday
+```
+
+To refresh all saved responses from OpenHolidays, GOV.UK and Azure, run from the project root with Composer
+development dependencies installed:
+
+```bash
+php tests/console test:reference:update
+```
+
+Updating requires internet access, PHP HTTPS stream support and `allow_url_fopen`.
+The command updates OpenHolidays, GOV.UK and Azure in that order. Each source downloads and
+validates its responses before replacing its data and updating retrieval time and
+SHA-256 hashes in `sources.json` (OpenHolidays) or `source.json` (GOV.UK and Azure).
+If a source fails, the command fails; previously completed updates remain on disk. The configured
+countries, date range and name mappings are preserved. Review the data diff and run
+the reference tests before committing; do not regenerate expected dates from providers.
+
+See the [reference test documentation](tests/Reference/OpenHoliday/README.md) for
+comparison scope, known classification differences, extending coverage and the ODbL
+license applicable to the downloaded data.
+
+An additional [GOV.UK reference suite](tests/Reference/GovUk/README.md) covers England
+and Wales (`GB`), Scotland (`GB-SCT`) and Northern Ireland (`GB-NIR`) for 2019–2028,
+including substitute days and exceptional bank holidays. Run or update it with:
+
+```bash
+php vendor/bin/phpunit tests/Reference/GovUk
+php tests/console test:reference:govuk:update
+```
+
+The GOV.UK data is licensed under the Open Government Licence v3.0. Its updater
+preserves the configured years and fails when the live feed no longer covers them.
+To update only OpenHolidays, use `php tests/console test:reference:openholidays:update`.
+The Docker update command below refreshes all three sources; its test command runs all suites.
+
+The [Azure Open Datasets suite](tests/Reference/Azure/README.md) covers 24 supported country codes
+for 2000–2020 (504 country/year cases) with a public Parquet snapshot, sourced from Python `holidays` and
+Wikipedia. This is an archived reference, not a current calendar feed. Its JSON
+extract is licensed under CC BY-SA 3.0; PHP tests run offline without Python.
+
+**Azure's date range does not mean the data is current.** The dataset contains dates
+from 1970 to 2099, including current and future years, but the pinned source file
+was last modified on **6 December 2020**. Later dates reflect the rules captured in
+that snapshot and may omit subsequent legal changes or one-off holidays. This is
+why our Azure tests deliberately stop at 2020. Running the update command downloads
+the same configured snapshot again; it does not obtain a newly maintained calendar.
+Use OpenHolidays and current official sources such as GOV.UK to check recent years.
+
+The original five countries retain full-calendar comparisons; the other countries
+compare explicitly mapped shared identities. There are 471 agreement cases and
+33 separately recorded unresolved discrepancies; a green test run does not mean
+all providers agree with Azure. See the suite README for exclusions and exact gaps.
+Updating Azure requires Python and PyArrow (included in the Docker target below):
+
+```bash
+php vendor/bin/phpunit tests/Reference/Azure
+php tests/console test:reference:azure:update
+```
+
+#### Reference data with Docker
+
+With Docker and Bash installed, run these commands from the project root. Build the
+reference-updater image (PHP, Python and PyArrow) and install dependencies first
+(both steps require internet access):
+
+```bash
+docker build --file docker/php/Dockerfile --target reference-updater \
+  --build-arg PHP_VERSION=8.5 --tag holiday-php:8.5 .
+
+docker run --rm --user "$(id -u):$(id -g)" \
+  --env COMPOSER_HOME=/tmp/composer \
+  --volume "$PWD:/app" --workdir /app holiday-php:8.5 \
+  composer install --no-interaction --prefer-dist
+```
+
+Refresh the data with network access, then run the reference tests offline:
+
+```bash
+docker run --rm --user "$(id -u):$(id -g)" \
+  --volume "$PWD:/app" --workdir /app holiday-php:8.5 \
+  php tests/console test:reference:update
+
+docker run --rm --network none --user "$(id -u):$(id -g)" \
+  --volume "$PWD:/app" --workdir /app holiday-php:8.5 \
+  php vendor/bin/phpunit tests/Reference --do-not-cache-result
+```
+
+The bind mount saves updated JSON files and metadata directly in your checkout.
+The container runs with your user ID so newly written files belong to your user.
+Reuse the image and installed dependencies for subsequent updates.
+
 ### How To Add a New Country or Region
 
 - Add a provider for that country or region inside `src/Provider/...`.

@@ -17,6 +17,16 @@ RUN apt-get update \
 
 WORKDIR /app
 
+FROM development AS reference-updater
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends python3 python3-venv \
+    && rm -rf /var/lib/apt/lists/* \
+    && python3 -m venv /opt/azure-reference
+COPY tests/Reference/Azure/requirements.txt /tmp/azure-reference-requirements.txt
+RUN /opt/azure-reference/bin/pip install --no-cache-dir -r /tmp/azure-reference-requirements.txt
+ENV AZURE_REFERENCE_PYTHON=/opt/azure-reference/bin/python
+
 FROM development AS qa
 
 COPY composer.json ./
