@@ -1,0 +1,812 @@
+[
+    {
+        "id": "7b215ce1-0d57-4b94-8d08-fbc985e484a5",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e2f2b1ad-2a26-463a-8d16-3ef0a33ec250",
+        "startDate": "2020-01-07",
+        "endDate": "2020-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4b8e0588-a8f0-414d-950a-3ec979977e23",
+        "startDate": "2020-02-15",
+        "endDate": "2020-02-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Sovereignty Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c06048cd-e2fa-4c97-a3fc-9423cfd1e6db",
+        "startDate": "2020-04-17",
+        "endDate": "2020-04-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3a5ceb54-6e5f-46c5-9bce-6369c0f579b4",
+        "startDate": "2020-04-18",
+        "endDate": "2020-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Saturday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "92f00f74-fb4e-4f0c-88db-4ede5c19701d",
+        "startDate": "2020-04-19",
+        "endDate": "2020-04-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fb43ead9-113c-474b-8c15-f8b7362258cc",
+        "startDate": "2020-04-20",
+        "endDate": "2020-04-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b3a74e68-5a9d-41ff-883a-59af8e8c9079",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "42daff16-05ed-4b5d-a236-31832cd2e4a6",
+        "startDate": "2020-11-11",
+        "endDate": "2020-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9a832412-171b-46f1-9a16-85dd67a715e5",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "40c843ce-f3e6-4a58-84d2-9b4b9e882c5c",
+        "startDate": "2021-01-07",
+        "endDate": "2021-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f37d6fea-2b9c-4d50-8e5d-66c51cbef791",
+        "startDate": "2021-02-15",
+        "endDate": "2021-02-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Sovereignty Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e2bde474-cfe6-4ba9-88c6-c273ae12e7a8",
+        "startDate": "2021-04-30",
+        "endDate": "2021-04-30",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0581a948-f0b5-414c-9314-679b27449fb3",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Saturday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0d5c1447-6921-4df8-b532-0c7b2ad82ea0",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "334f1331-5ae3-4282-93d5-21b63a2941af",
+        "startDate": "2021-05-02",
+        "endDate": "2021-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "255d6fb5-47eb-4faf-8331-88a304bc91b8",
+        "startDate": "2021-05-03",
+        "endDate": "2021-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1e63c936-38c8-4109-a378-e91d9b2cbc68",
+        "startDate": "2021-11-11",
+        "endDate": "2021-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "be646f65-33ce-4530-bb70-73bf23036c65",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fb4b9053-073c-4f64-91dd-41d8de3b54aa",
+        "startDate": "2022-01-07",
+        "endDate": "2022-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fa990735-cae9-46b5-ba8b-02595107feaf",
+        "startDate": "2022-02-15",
+        "endDate": "2022-02-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Sovereignty Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3a1273f5-2252-4075-858b-c454eaecbd00",
+        "startDate": "2022-04-22",
+        "endDate": "2022-04-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b67eb7f5-e95d-44b4-96e0-a00bc3185f9d",
+        "startDate": "2022-04-23",
+        "endDate": "2022-04-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Saturday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a9d5806b-089a-4520-8e88-ec177d307871",
+        "startDate": "2022-04-24",
+        "endDate": "2022-04-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a10c81ce-ff1d-4e0a-b3c5-001bb977eba2",
+        "startDate": "2022-04-25",
+        "endDate": "2022-04-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "52395a4c-005b-4bff-a84e-97d06761e62e",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8405dfa2-1282-4161-b041-9e51c087d91f",
+        "startDate": "2022-11-11",
+        "endDate": "2022-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b0abd5c5-547e-43e9-9042-4540394e1b3a",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a03efbac-15c5-45b7-b799-850456f19213",
+        "startDate": "2023-01-07",
+        "endDate": "2023-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fafc0882-6435-4c5e-bf2d-2f2e76b6473f",
+        "startDate": "2023-02-15",
+        "endDate": "2023-02-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Sovereignty Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "81435555-04d9-4155-8e99-8653c4837d1f",
+        "startDate": "2023-04-14",
+        "endDate": "2023-04-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "41d8913c-534c-4d8c-be01-40dbe70e8034",
+        "startDate": "2023-04-15",
+        "endDate": "2023-04-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Saturday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6d1749b2-c469-43ec-833d-f8c162b3771b",
+        "startDate": "2023-04-16",
+        "endDate": "2023-04-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c4bdd27f-2f77-4d4a-b7d9-56c575a6f75c",
+        "startDate": "2023-04-17",
+        "endDate": "2023-04-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ddfda89c-f650-4383-90b5-e63ec6c2c320",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6b8fefb3-7df8-4988-aa66-6560bbfc55bf",
+        "startDate": "2023-11-11",
+        "endDate": "2023-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "11a9449d-94ed-4127-9eda-f1e720c8dca0",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "624caada-2090-4566-a235-d03fcbdae00f",
+        "startDate": "2024-01-07",
+        "endDate": "2024-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "62da73f9-42de-477e-a6cc-d446e7332af1",
+        "startDate": "2024-02-15",
+        "endDate": "2024-02-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Sovereignty Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "20abf615-cf76-4003-9bcd-fe6debd9ff40",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f86f6803-0acb-40f4-b376-94bec2f88072",
+        "startDate": "2024-05-03",
+        "endDate": "2024-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e22c52a0-7124-4913-b2d5-53a1be96729a",
+        "startDate": "2024-05-04",
+        "endDate": "2024-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Saturday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "442043a0-2d66-4141-ad69-951b951c3040",
+        "startDate": "2024-05-05",
+        "endDate": "2024-05-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "94932555-cb4a-44b9-b6d3-986053b14e7f",
+        "startDate": "2024-05-06",
+        "endDate": "2024-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0ca850a5-43aa-49e8-8736-36a77d418770",
+        "startDate": "2024-11-11",
+        "endDate": "2024-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "76a38947-cdfb-4775-950b-81ffeab93d5f",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "93811894-5dcc-43eb-b55a-067633c59910",
+        "startDate": "2025-01-07",
+        "endDate": "2025-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "baec2d83-c6d1-434d-8644-b4e601e1b225",
+        "startDate": "2025-02-15",
+        "endDate": "2025-02-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Sovereignty Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b26ad982-a857-40c8-8183-6666f5f0110b",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "60393dfb-75b9-41fe-bfe3-882c69f0f9ab",
+        "startDate": "2025-04-19",
+        "endDate": "2025-04-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Saturday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0a3d4d8e-3a95-4c46-9094-2c0fb3c1db16",
+        "startDate": "2025-04-20",
+        "endDate": "2025-04-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "125387c9-eb2d-47a8-91dd-3c5b7e53b01e",
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday (Orthodox)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d70303ed-0231-482a-818c-8896b176a371",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d872aa1b-9564-4c63-a47a-00b0105fa8a4",
+        "startDate": "2025-11-11",
+        "endDate": "2025-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    }
+]

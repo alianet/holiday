@@ -1,0 +1,1370 @@
+[
+    {
+        "id": "36224fd3-4638-4120-8915-7cfbf261f156",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bfe4e5f5-056e-4455-910f-ea4cad3ce0c8",
+        "startDate": "2020-04-10",
+        "endDate": "2020-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3183bd6c-da60-467e-85f4-b205a668ff4a",
+        "startDate": "2020-04-12",
+        "endDate": "2020-04-12",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c13219a4-f907-475d-a0cc-65cdb586e8ad",
+        "startDate": "2020-04-13",
+        "endDate": "2020-04-13",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "95d9b57c-f329-4e55-aa0c-9b3eef831aad",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1dd21445-48c7-4ca9-81e3-f5d030d9fa81",
+        "startDate": "2020-05-04",
+        "endDate": "2020-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Restoration of Independence"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5378a200-1e9f-46b6-a77e-c1b6e4182e6e",
+        "startDate": "2020-05-10",
+        "endDate": "2020-05-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Mother's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "dea7f587-be7c-451c-bd5d-a2e37e26b945",
+        "startDate": "2020-05-31",
+        "endDate": "2020-05-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "75ba38d3-3bd2-4742-8611-1ccac9256b24",
+        "startDate": "2020-06-23",
+        "endDate": "2020-06-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a82b3c74-d6f1-48d0-a109-548483aa990a",
+        "startDate": "2020-06-24",
+        "endDate": "2020-06-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "506ae5bf-bea7-4a2e-8faf-749e0323a92b",
+        "startDate": "2020-11-18",
+        "endDate": "2020-11-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Proclamation of the Republic of Latvia"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a2cea80f-20cf-4534-acf5-dbe5a8a3596a",
+        "startDate": "2020-12-24",
+        "endDate": "2020-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "db90f142-45f2-4683-a763-bf0ac5409795",
+        "startDate": "2020-12-25",
+        "endDate": "2020-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b5953872-f986-4278-94dd-8fb562b60b6b",
+        "startDate": "2020-12-26",
+        "endDate": "2020-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3eebb590-f287-473e-8f06-1e73a40c27d3",
+        "startDate": "2020-12-31",
+        "endDate": "2020-12-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b884ac34-9ea0-47e0-8db6-14b639a17135",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a1613743-688a-46d6-ab4f-54fe6f03c449",
+        "startDate": "2021-04-10",
+        "endDate": "2021-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d9dae605-f35a-4851-9a91-cfe934140d9d",
+        "startDate": "2021-04-12",
+        "endDate": "2021-04-12",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0ce8d7fc-6dce-4b3e-a2fa-d21d0ba7cbbe",
+        "startDate": "2021-04-13",
+        "endDate": "2021-04-13",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "af847dce-fdf6-4806-85c3-92a5d365a0d0",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "79ce4916-57b9-4e89-ab52-3030a56ac915",
+        "startDate": "2021-05-04",
+        "endDate": "2021-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Restoration of Independence"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "44756828-012c-4837-ae5a-92e98b31af53",
+        "startDate": "2021-05-10",
+        "endDate": "2021-05-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Mother's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "818710fe-ac1e-43bd-bb76-4a1cfb56057b",
+        "startDate": "2021-05-23",
+        "endDate": "2021-05-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "42493605-2838-4960-a29c-7f2113c5a7c7",
+        "startDate": "2021-06-23",
+        "endDate": "2021-06-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cf779ad2-76be-49cc-aaf3-702c66bdb50a",
+        "startDate": "2021-06-24",
+        "endDate": "2021-06-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9b439458-15b6-4d41-9e3c-895b6209aff3",
+        "startDate": "2021-11-18",
+        "endDate": "2021-11-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Proclamation of the Republic of Latvia"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3d9cc3a0-1233-4751-8306-2414f0da2b8f",
+        "startDate": "2021-12-24",
+        "endDate": "2021-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6c81d3e8-e28b-453e-a719-bdb81da612f6",
+        "startDate": "2021-12-25",
+        "endDate": "2021-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8e9fc179-1c0a-4ad9-8059-84fbc90bb084",
+        "startDate": "2021-12-26",
+        "endDate": "2021-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d91eb53b-5d45-4a97-8541-536c2a8bb2cb",
+        "startDate": "2021-12-31",
+        "endDate": "2021-12-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "91c1ad51-6a18-4ac5-81ab-454375027945",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2cc93562-5ed6-4143-9ef0-be7aba2aab12",
+        "startDate": "2022-04-15",
+        "endDate": "2022-04-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "874a6267-e381-420c-9004-e13dc9486c4e",
+        "startDate": "2022-04-17",
+        "endDate": "2022-04-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3dcb6cb8-eb16-4739-90c7-84ebc0d49d48",
+        "startDate": "2022-04-18",
+        "endDate": "2022-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6ed39569-39e7-4833-acec-fb1cac24ba1a",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bd007ee0-36f9-4a59-b8b9-43860e9b63aa",
+        "startDate": "2022-05-04",
+        "endDate": "2022-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Restoration of Independence"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0f596d06-5919-4f4d-b351-32705790e9f8",
+        "startDate": "2022-05-08",
+        "endDate": "2022-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Mother's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f1787dfd-de94-46b6-b9b1-a6def2921822",
+        "startDate": "2022-06-05",
+        "endDate": "2022-06-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "af56291e-57b4-4b8e-be4e-dd16725cc87c",
+        "startDate": "2022-06-23",
+        "endDate": "2022-06-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e1839fad-95f3-42e1-9d62-46538f42cc01",
+        "startDate": "2022-06-24",
+        "endDate": "2022-06-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b2ef45bc-e1e2-4ea3-bebd-d79a2ec59d1a",
+        "startDate": "2022-11-18",
+        "endDate": "2022-11-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Proclamation of the Republic of Latvia"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "03b5d34c-2028-4440-aa96-0fa3a43ec471",
+        "startDate": "2022-12-24",
+        "endDate": "2022-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a96a1074-2974-4aae-a170-1b80b6eda042",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7fd5e878-086c-4836-8b60-b4ce31eb6861",
+        "startDate": "2022-12-26",
+        "endDate": "2022-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "04e2a18c-c73d-414f-b0df-c70736fa0903",
+        "startDate": "2022-12-31",
+        "endDate": "2022-12-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "48b49b8a-fda3-4c27-8275-4179ccaf7d86",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7d4182ba-2550-4119-b25a-ff726c10616a",
+        "startDate": "2023-04-07",
+        "endDate": "2023-04-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "53b8dcdb-6ccb-4aa8-8a44-751386b1a0f6",
+        "startDate": "2023-04-09",
+        "endDate": "2023-04-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5b2cb7bf-4103-4cbf-926d-28555760276d",
+        "startDate": "2023-04-10",
+        "endDate": "2023-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fd9dcdd2-c2f2-46e4-9e46-633b79e79072",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "eb0916a6-7fe1-4d88-ae06-60d375108852",
+        "startDate": "2023-05-04",
+        "endDate": "2023-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Restoration of Independence"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "48f2e1c4-e32a-4c6c-ba3d-85b3d2cddf66",
+        "startDate": "2023-05-14",
+        "endDate": "2023-05-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Mother's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a1abd2a2-7cf6-4e5d-8240-df5eec265e57",
+        "startDate": "2023-05-28",
+        "endDate": "2023-05-28",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d3e9c4fb-db29-4ef6-ad03-834e852aea59",
+        "startDate": "2023-05-29",
+        "endDate": "2023-05-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Winning the bronze medal at the 2023 Ice Hockey World Championship"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true,
+        "tags": [
+            "OneTime"
+        ]
+    },
+    {
+        "id": "536e0884-cb19-4f40-956e-84537f44c5ba",
+        "startDate": "2023-06-23",
+        "endDate": "2023-06-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2fc00b26-c110-44fd-8852-75a44e1583b3",
+        "startDate": "2023-06-24",
+        "endDate": "2023-06-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d3142641-b531-45e6-9898-64604f5b69d8",
+        "startDate": "2023-11-18",
+        "endDate": "2023-11-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Proclamation of the Republic of Latvia"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "63a982d5-d49d-4d0b-8e3a-4bba5ffb7c2d",
+        "startDate": "2023-12-24",
+        "endDate": "2023-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c9c1cb73-1ff7-4b7d-8cfa-3ddab1728814",
+        "startDate": "2023-12-25",
+        "endDate": "2023-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6430f091-e85c-4cbb-b39a-49e6ee47d442",
+        "startDate": "2023-12-26",
+        "endDate": "2023-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "95d8143a-e359-4034-afbd-699477a4517c",
+        "startDate": "2023-12-31",
+        "endDate": "2023-12-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bcd34ed8-6f13-4c25-af2f-d9b42435994b",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "00ffa0c8-6aea-422a-8737-79427e47fbbe",
+        "startDate": "2024-03-29",
+        "endDate": "2024-03-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "53f04480-328e-4ca6-b5b8-e34a70b68f20",
+        "startDate": "2024-03-31",
+        "endDate": "2024-03-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "64fd7695-cfb9-4a5b-bdaa-07c1dc654e6a",
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d763a752-d5d6-416c-946e-c4a180a0c421",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bd244319-8274-47d8-8ce0-bad6f2cb2f1f",
+        "startDate": "2024-05-04",
+        "endDate": "2024-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Restoration of Independence"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "49fe5b4f-dfad-4f5e-b658-aafc390bba50",
+        "startDate": "2024-05-12",
+        "endDate": "2024-05-12",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Mother's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9d514773-6cdb-45de-a7a0-b0d232c3e455",
+        "startDate": "2024-05-19",
+        "endDate": "2024-05-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a74b94bc-71f7-474c-84f8-4d3c61ba18d7",
+        "startDate": "2024-06-23",
+        "endDate": "2024-06-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "820d55a5-7e47-47f6-bb24-75b3be6e59e8",
+        "startDate": "2024-06-24",
+        "endDate": "2024-06-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f0f2a565-d4b3-46e1-bb11-70724aab6c2f",
+        "startDate": "2024-11-18",
+        "endDate": "2024-11-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Proclamation of the Republic of Latvia"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0c08957b-c38b-4484-81d9-0615e18e7da9",
+        "startDate": "2024-12-24",
+        "endDate": "2024-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "35631cbb-ec8d-4933-97bf-eab64dd0ced2",
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "eb712222-47b6-4318-a7b8-6357261bf04a",
+        "startDate": "2024-12-26",
+        "endDate": "2024-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f5688db4-c004-4375-882d-707317f3e4e6",
+        "startDate": "2024-12-31",
+        "endDate": "2024-12-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fbd2044d-de12-42f9-862e-4b0da04fca76",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c24a44d2-4b84-400e-8fa6-30311e21ed17",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9b970117-fb3d-4deb-9e08-8cd07446c1dd",
+        "startDate": "2025-04-20",
+        "endDate": "2025-04-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e76cb119-86a8-4535-aa91-3aed488dbf84",
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b7fba55c-ee77-4a56-92c7-42e4260bddc3",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "48309ae2-d850-473a-af8d-4f15a7bc3020",
+        "startDate": "2025-05-04",
+        "endDate": "2025-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Restoration of Independence"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1307175c-fcf8-46d4-9302-8b5cba8b0994",
+        "startDate": "2025-05-11",
+        "endDate": "2025-05-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Mother's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f8dcc8a0-53e7-42c5-bb7d-1055d0f21058",
+        "startDate": "2025-06-08",
+        "endDate": "2025-06-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fed50895-e80f-4252-ba04-d1a9ca97fcf2",
+        "startDate": "2025-06-23",
+        "endDate": "2025-06-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ded4681f-00dd-47a5-bb08-8cf3e8a8a221",
+        "startDate": "2025-06-24",
+        "endDate": "2025-06-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Midsummer Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7ae2c6f3-d51d-485f-8ab5-06a6c7d6639d",
+        "startDate": "2025-11-18",
+        "endDate": "2025-11-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Proclamation of the Republic of Latvia"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1a31b37a-4dcf-4433-a4d2-98eb4392c780",
+        "startDate": "2025-12-24",
+        "endDate": "2025-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8fe682a5-186c-47f5-82af-92866f4cd7e3",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2596f707-1384-4ee1-9eeb-0725a2ee2147",
+        "startDate": "2025-12-26",
+        "endDate": "2025-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c2039489-70fa-466d-88f1-7704d3e1f439",
+        "startDate": "2025-12-31",
+        "endDate": "2025-12-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    }
+]

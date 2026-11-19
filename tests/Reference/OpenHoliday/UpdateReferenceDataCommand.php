@@ -37,27 +37,34 @@ final class UpdateReferenceDataCommand extends Command
         }
         $pending = [];
         foreach ($manifest['files'] as $country => $source) {
-            if (!is_string($country) || preg_match('/^[A-Z]{2}$/D', $country) !== 1 || !is_array($source) || !isset($source['url']) || !is_string($source['url'])) {
+            if (!is_string($country) || preg_match('/^[A-Z]{2}$/D', $country) !== 1 || !is_array($source)) {
                 throw new RuntimeException('Invalid source manifest entry.');
             }
-            $url = $source['url'];
-            if (!str_starts_with($url, 'https://openholidaysapi.org/PublicHolidays?')) {
-                throw new RuntimeException('Unexpected reference source URL: ' . $url);
+            $urls = $source['urls'] ?? (isset($source['url']) ? [$source['url']] : null);
+            if (!is_array($urls) || !array_is_list($urls) || $urls === []) {
+                throw new RuntimeException('The source manifest entry must contain request URLs.');
             }
-            $output->writeln('Downloading ' . $country);
-            $response = $this->download !== null ? ($this->download)($url) : $this->fetch($url);
-            $records = json_decode($response, true, 512, JSON_THROW_ON_ERROR);
-            if (!is_array($records) || !array_is_list($records) || $records === []) {
-                throw new RuntimeException('Expected a non-empty holiday list for ' . $country);
-            }
-            foreach ($records as $record) {
-                if (!is_array($record) || !isset($record['startDate'], $record['endDate'], $record['name'], $record['type'], $record['nationwide'])
-                    || !is_string($record['startDate']) || !is_string($record['endDate'])
-                    || preg_match('/^\d{4}-\d{2}-\d{2}$/D', $record['startDate']) !== 1
-                    || preg_match('/^\d{4}-\d{2}-\d{2}$/D', $record['endDate']) !== 1
-                    || !is_array($record['name']) || $record['name'] === [] || $record['type'] !== 'Public' || !is_bool($record['nationwide'])) {
-                    throw new RuntimeException('Invalid holiday record for ' . $country);
+            $records = [];
+            foreach ($urls as $url) {
+                if (!is_string($url) || !str_starts_with($url, 'https://openholidaysapi.org/PublicHolidays?')) {
+                    throw new RuntimeException('Unexpected reference source URL.');
                 }
+                $output->writeln('Downloading ' . $country . ': ' . $url);
+                $response = $this->download !== null ? ($this->download)($url) : $this->fetch($url);
+                $batch = json_decode($response, true, 512, JSON_THROW_ON_ERROR);
+                if (!is_array($batch) || !array_is_list($batch) || $batch === []) {
+                    throw new RuntimeException('Expected a non-empty holiday list for ' . $country);
+                }
+                foreach ($batch as $record) {
+                    if (!is_array($record) || !isset($record['startDate'], $record['endDate'], $record['name'], $record['type'], $record['nationwide'])
+                        || !is_string($record['startDate']) || !is_string($record['endDate'])
+                        || preg_match('/^\d{4}-\d{2}-\d{2}$/D', $record['startDate']) !== 1
+                        || preg_match('/^\d{4}-\d{2}-\d{2}$/D', $record['endDate']) !== 1
+                        || !is_array($record['name']) || $record['name'] === [] || !in_array($record['type'], ['Public', 'Bank', 'Optional'], true) || !is_bool($record['nationwide'])) {
+                        throw new RuntimeException('Invalid holiday record for ' . $country);
+                    }
+                }
+                array_push($records, ...$batch);
             }
             $content = self::encode($records);
             $pending[$this->directory . '/Data/' . $country . '.json'] = $content;

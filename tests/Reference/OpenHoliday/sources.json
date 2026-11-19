@@ -3,27 +3,299 @@
     "license": "ODbL-1.0",
     "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
     "sourcesUrl": "https://www.openholidaysapi.org/en/sources-europe/",
-    "retrievedAt": "2026-11-18T18:08:48+00:00",
+    "retrievedAt": "2026-11-19T09:51:31+00:00",
     "coverage": {
-        "from": "2024-01-01",
+        "from": "2020-01-01",
         "to": "2025-12-31"
     },
     "files": {
-        "PL": {
-            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PL&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
-            "sha256": "63d71da2069403f8e093e28f747ce382cc47b033051b38112d0608c8612986bd"
+        "AD": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AD&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AD&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AD&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "6f35edee56db6d00da29ce5b2b716017e854285e40333dd4fe1f332de03ce217"
         },
-        "DE": {
-            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=DE&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
-            "sha256": "51ae94e1544041c8413bd5d49bb393df87fb9a5e01d891ee309ef710170ba70d"
-        },
-        "CZ": {
-            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CZ&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
-            "sha256": "70ac06773bc4019ac673d1393ddb406ac08d2349ec64bc74b634305b892d4747"
+        "AL": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AL&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AL&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AL&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "b788713bd3c837dcb0a49566bf9e49a6bf0d329153353a24788ac7f9d07356a6"
         },
         "AT": {
-            "url": "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AT&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31",
-            "sha256": "147d6dcb90343808678fb17adc799008273696a1b087e7ea5e7e54af5d4610bf"
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AT&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AT&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=AT&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "a4ed0bfca524cf130ecbb794b4bde22ed03640fd00b48b5fab9264f094a5e12e"
+        },
+        "BE": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BE&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BE&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BE&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "22f090ab95cb748707c3210d3a13e6ef9b8efed50e07935eda1ad1398c76ceef"
+        },
+        "BG": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BG&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BG&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BG&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "0f130771a19e3068efa63d15dfa1d40837f4c65021a0ac15a968e1cbe1cd0e54"
+        },
+        "BR": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BR&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BR&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BR&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "a618e374c7ca77f7bab1e8c0aab7bd91792f6d6a8dde8f3d6dcbdc4fb310870b"
+        },
+        "BY": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BY&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BY&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=BY&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "2a05646277132a85d97e0510226c098dd558545df177e567ad8c70941773c7cd"
+        },
+        "CH": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CH&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CH&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CH&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "5c11141d382bacbbe25f81e4ccdcf629093cf4779ff7da7b24a674df4bc419a6"
+        },
+        "CZ": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CZ&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CZ&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=CZ&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "ab12f95b2078a1630ae4ae964a9cdf8dd5eded1dcdcc080e295a1014b2ff69fc"
+        },
+        "DE": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=DE&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=DE&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=DE&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "8315883992006e781a9d3ca08523eabc17679cb32b219ddcbd7872611f417d06"
+        },
+        "EE": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=EE&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=EE&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=EE&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "63a8dc4df4c1737f5d23883ebe68e9d8ba2bff80d8a13730a2dfdf0424e88cbc"
+        },
+        "ES": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=ES&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=ES&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=ES&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "452f13c3984782c5ba0da4ef9931648a83553936b222d6acba76138893bbbf53"
+        },
+        "FR": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=FR&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=FR&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=FR&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "2640374025b17de463d390bbbfeeb3dd8a6425354820c5418763aba5562f4415"
+        },
+        "HR": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=HR&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=HR&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=HR&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "914142f375dc1b9fd319c631b48933aa828e78a65b7b9f693b3d60f5cfb89352"
+        },
+        "HU": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=HU&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=HU&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=HU&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "be07136f33cf182a48ad5b6408b636ed7f58bb606d049c135b78d3a1406ce47b"
+        },
+        "IE": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=IE&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=IE&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=IE&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "bafc29cfef8b53164829a3e398e7b3f19745d5221cc8a8926b3e8f38caf36a0c"
+        },
+        "IT": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=IT&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=IT&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=IT&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "c85ed73b283d814ee875595c3f662a52ce104f94f81ed3d02eedc7f8b4812bd8"
+        },
+        "LI": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LI&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LI&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LI&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "1ce1058d18ecc6b1905fbcd117d0e3c04bd08c5c5fb071bd903b53474da4ac9e"
+        },
+        "LT": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LT&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LT&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LT&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "76bb113f1a88edfdc6dd52d6063522517e29d1893e5d8146d3a4a844942dac67"
+        },
+        "LU": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LU&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LU&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LU&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "14cbab37cfc1525bf56ea0e3588847ce53b89b6e5199608e650231189969f48c"
+        },
+        "LV": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LV&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LV&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=LV&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "eadc6d90700c337e8eb748b1ebeecd84384c1a7e71779f6e6ad70cdfa68578a9"
+        },
+        "MC": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MC&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MC&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MC&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "8dea80bf276dc0314bd79df819e0404666e0629e1f5f001f06fc378898b4fc80"
+        },
+        "MD": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MD&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MD&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MD&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "1331cc4980b82ac52be69d26ba69677431224bfbbe9bb6066764ca2a945c62d7"
+        },
+        "MT": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MT&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MT&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MT&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "b34b24a2f0984c38e0b4602489f311047e55d7daf60c9353d09b71a61a5921f0"
+        },
+        "MX": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MX&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MX&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=MX&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "623aa7a66701961e43d7aa3a14e4fcd5f39e6e4fc9385edbf11155cc83a84462"
+        },
+        "NL": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=NL&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=NL&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=NL&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "a13f1354361662ce20209e29cf1842ec9f4588cbec27bdd392e28061f9279030"
+        },
+        "PL": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PL&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PL&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PL&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "ac0c15057951e11164a9a656dd2a9a728eb4f3020219cb42173716c5ccbd181d"
+        },
+        "PT": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PT&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PT&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=PT&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "cefa7e16a15a13b4c43c8b5e1e8c87642ae5cab489072e31d1d2d25107e39d41"
+        },
+        "RO": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=RO&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=RO&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=RO&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "1c9e3fb47d22e9536720a1b7b4b3d552d3b2ad23ec6eb9365a148616f64a98da"
+        },
+        "RS": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=RS&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=RS&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=RS&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "b6acc795a56a3edcab82a42531eb832befa70c3cf21a4f06cf319f42e136ae8c"
+        },
+        "SE": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SE&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SE&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SE&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "cf90d56e2ece5b6dcc676a00ca066ad20b03d65be73ccef118eec7831578b0a9"
+        },
+        "SI": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SI&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SI&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SI&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "57d54c2bbfd9624d3af4210c6d6e50306088594355385a2cda7e14aea3a02e34"
+        },
+        "SK": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SK&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SK&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SK&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "fa2b73d8337640883acb5d3041fa7845471021cd6ad2e85c35e5914ef714cdc0"
+        },
+        "SM": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SM&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SM&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=SM&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "c018e1add856aa4b7e27cf16236173710990b654b2a35ebaf2da7c91d070f797"
+        },
+        "VA": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=VA&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=VA&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=VA&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "37f292d212c10f846d9c9a5842786973840d46020c0292c10148fb5ce3446510"
+        },
+        "ZA": {
+            "urls": [
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=ZA&languageIsoCode=EN&validFrom=2020-01-01&validTo=2021-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=ZA&languageIsoCode=EN&validFrom=2022-01-01&validTo=2023-12-31",
+                "https://openholidaysapi.org/PublicHolidays?countryIsoCode=ZA&languageIsoCode=EN&validFrom=2024-01-01&validTo=2025-12-31"
+            ],
+            "sha256": "f72f51ab6bb1b9811ccdd677db97b5c9ddce8a65dbb86cb1ea5da72e3ce9cb48"
         }
     }
 }

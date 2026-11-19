@@ -1,5 +1,785 @@
 [
     {
+        "id": "20937e1a-f364-4a16-b1e6-900892e51ec3",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8ed37e36-f622-4231-b0bd-1cc18fe89bd8",
+        "startDate": "2020-01-06",
+        "endDate": "2020-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "73e3c457-adc3-4c77-9498-c3e8b5688c9e",
+        "startDate": "2020-04-12",
+        "endDate": "2020-04-12",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4f6ca75e-8022-4ef0-bfe6-874474a4622f",
+        "startDate": "2020-04-13",
+        "endDate": "2020-04-13",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d126e8f1-3d9a-4c41-a013-c5be6423e078",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "45a9a01e-3b36-4e69-958f-a34b1f60f0be",
+        "startDate": "2020-05-03",
+        "endDate": "2020-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Constitution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "16542dc4-0450-458e-8538-746035b23cbc",
+        "startDate": "2020-05-31",
+        "endDate": "2020-05-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1a0bb8c7-3f5e-4051-aece-87a0a35d31e2",
+        "startDate": "2020-06-11",
+        "endDate": "2020-06-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Corpus Christi"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8b48c90a-4c9d-45aa-abf3-b0625d775243",
+        "startDate": "2020-08-15",
+        "endDate": "2020-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c3603339-33e8-467d-a4d0-840bf01715ae",
+        "startDate": "2020-11-01",
+        "endDate": "2020-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a96bc379-842c-42e1-96d2-a6c39f8b2b4d",
+        "startDate": "2020-11-11",
+        "endDate": "2020-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a7b866ea-a034-4415-bc8b-ab1873b4d7dd",
+        "startDate": "2020-12-25",
+        "endDate": "2020-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "57ae68bf-b940-4363-bf67-802b3f82896d",
+        "startDate": "2020-12-26",
+        "endDate": "2020-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "770a025b-3402-484e-8e0a-7a67f7bb386b",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8995c51d-cbc3-46d1-98a6-dd16b747cb7b",
+        "startDate": "2021-01-06",
+        "endDate": "2021-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "00b55ead-d7a5-4c88-8d24-dc85faf660de",
+        "startDate": "2021-04-04",
+        "endDate": "2021-04-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e8172e79-a947-4825-a686-ed07ac39cf89",
+        "startDate": "2021-04-05",
+        "endDate": "2021-04-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "913014f8-91b6-4db5-8e64-915c24e9f147",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "17c7bff2-fdf7-4c6e-907f-509496081c94",
+        "startDate": "2021-05-03",
+        "endDate": "2021-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Constitution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "608d4a05-2afc-4723-b230-74e3fa56c64b",
+        "startDate": "2021-05-23",
+        "endDate": "2021-05-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1e46a2b4-e830-4480-a37b-8982fa0c6fd3",
+        "startDate": "2021-06-03",
+        "endDate": "2021-06-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Corpus Christi"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b50cf884-5752-44d2-957b-bf59a1891ef4",
+        "startDate": "2021-08-15",
+        "endDate": "2021-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ae081164-146b-4c17-bf5d-4b78e4fa5518",
+        "startDate": "2021-11-01",
+        "endDate": "2021-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "aa491c2b-a9ec-4829-a6c1-3302a89ff332",
+        "startDate": "2021-11-11",
+        "endDate": "2021-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "88b7b5e9-338e-4710-ab42-8d05ab489407",
+        "startDate": "2021-12-25",
+        "endDate": "2021-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e7689c9c-7e98-4b8d-9434-685d1e31e1fd",
+        "startDate": "2021-12-26",
+        "endDate": "2021-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d52fb264-e949-4db5-ba20-57a9e40b2f2c",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b624a3fc-1b57-4f67-9ab7-4caaaba1bb73",
+        "startDate": "2022-01-06",
+        "endDate": "2022-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d4692a02-51fa-42c7-aa7a-7f8db16cca58",
+        "startDate": "2022-04-17",
+        "endDate": "2022-04-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "948754d1-aa77-463b-8605-157cd034200f",
+        "startDate": "2022-04-18",
+        "endDate": "2022-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "95cfefdc-2ac8-45d8-92a2-8cbf45167643",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "01490c97-773a-40ec-b53e-528acd4e6413",
+        "startDate": "2022-05-03",
+        "endDate": "2022-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Constitution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d1bd6e94-53cf-46b3-8663-d731586d619c",
+        "startDate": "2022-06-05",
+        "endDate": "2022-06-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "194f3a83-10ed-4db3-8879-289c52a3a85e",
+        "startDate": "2022-06-16",
+        "endDate": "2022-06-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Corpus Christi"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "53dd3dbd-ce73-4a3e-9020-1f323c5e537d",
+        "startDate": "2022-08-15",
+        "endDate": "2022-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "619c2638-9994-4549-9b2d-88122c079d05",
+        "startDate": "2022-11-01",
+        "endDate": "2022-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ca479b3a-7ec4-42ae-ac85-87a5b50da0bc",
+        "startDate": "2022-11-11",
+        "endDate": "2022-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e377aca2-d046-4813-a09b-43bc3475289f",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6df3ccf5-efd2-4be6-9ee6-45722f0ff135",
+        "startDate": "2022-12-26",
+        "endDate": "2022-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9522a4c2-da21-4d04-a056-92d8694ffc0a",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a598c823-bbfa-4950-9bf2-86484a1b181b",
+        "startDate": "2023-01-06",
+        "endDate": "2023-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f68070d4-038c-41fa-936b-4b31bcaa36bd",
+        "startDate": "2023-04-09",
+        "endDate": "2023-04-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ffa1352b-076f-4ebf-bd4b-ac94d7f9f272",
+        "startDate": "2023-04-10",
+        "endDate": "2023-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9b341280-2c69-46fa-9491-6629ca756be9",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b22b4113-b65a-4b06-a793-eb6e4eab9aab",
+        "startDate": "2023-05-03",
+        "endDate": "2023-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Constitution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "688783a5-65ca-4dc5-b4db-fa93bc0201ad",
+        "startDate": "2023-05-28",
+        "endDate": "2023-05-28",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "55ef10bc-4a17-4171-8412-3253e725f58c",
+        "startDate": "2023-06-08",
+        "endDate": "2023-06-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Corpus Christi"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "dbbb1b7c-9008-4921-ba71-1c29638937e4",
+        "startDate": "2023-08-15",
+        "endDate": "2023-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "40b1d5c7-b976-40ee-a872-8d4fed5be8bc",
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "72cee06b-c376-48c5-a0da-7f091e4ec2ba",
+        "startDate": "2023-11-11",
+        "endDate": "2023-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a18e7f48-26b7-4f1d-a463-fad5593c0505",
+        "startDate": "2023-12-25",
+        "endDate": "2023-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e3967507-0b1c-4b08-a6db-28de0faee1a7",
+        "startDate": "2023-12-26",
+        "endDate": "2023-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd Day of Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
         "id": "a9b29578-37e1-4ae8-a553-ae064c984228",
         "startDate": "2024-01-01",
         "endDate": "2024-01-01",

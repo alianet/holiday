@@ -1,0 +1,1187 @@
+[
+    {
+        "id": "4550ec8a-6587-47e9-a55d-9d9eeb2c5dd6",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "306930ff-d008-4d5a-abcb-faa405ae6e62",
+        "startDate": "2020-03-21",
+        "endDate": "2020-03-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Human Rights Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "42b2355c-4c82-4ecd-ad16-132b7b4aef58",
+        "startDate": "2020-04-10",
+        "endDate": "2020-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3b0928b0-af69-4f5c-8aaa-0ea75493babb",
+        "startDate": "2020-04-13",
+        "endDate": "2020-04-13",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Family Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "32fbf3b8-4961-4df5-b39f-391d84e50d24",
+        "startDate": "2020-04-27",
+        "endDate": "2020-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Freedom Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7ea520a0-ef32-494a-b2ca-2380f1b5f3e9",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Workers' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9b1a6c98-7551-4d31-870a-fb0482074a69",
+        "startDate": "2020-06-16",
+        "endDate": "2020-06-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Youth Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "efd843e4-00c2-4798-9727-f3b84c521eee",
+        "startDate": "2020-08-09",
+        "endDate": "2020-08-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b4d45be8-6035-42ea-935a-13252c820aab",
+        "startDate": "2020-09-24",
+        "endDate": "2020-09-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "efd8f801-d48b-46db-8f69-be2df31b4886",
+        "startDate": "2020-12-16",
+        "endDate": "2020-12-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Reconciliation"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "33e41d38-ab19-4631-b94b-09bb8a327887",
+        "startDate": "2020-12-25",
+        "endDate": "2020-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e45dd9a1-00e3-40d7-ba10-6ef35154164e",
+        "startDate": "2020-12-26",
+        "endDate": "2020-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Goodwill"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "19b225d9-9eb4-421a-9186-2f545581b37e",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0dc05d50-76f1-45e2-8285-e255f6537cc3",
+        "startDate": "2021-03-21",
+        "endDate": "2021-03-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Human Rights Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2c98e2c5-0e43-43d9-9f31-5a902d39749a",
+        "startDate": "2021-03-22",
+        "endDate": "2021-03-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Human Rights Day observed"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "79224b9f-6821-497d-be77-8b185926d5ad",
+        "startDate": "2021-04-02",
+        "endDate": "2021-04-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "afbd1bc1-ed1a-4f23-b8a1-1a5004f14fe2",
+        "startDate": "2021-04-05",
+        "endDate": "2021-04-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Family Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "89ac883e-d653-40ed-b1e7-b5e5f700ea55",
+        "startDate": "2021-04-27",
+        "endDate": "2021-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Freedom Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f2fa9794-064c-489f-90f2-be00a8997905",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Workers' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "756c9b8d-aed0-443b-bf36-f6ab6f7dbbe0",
+        "startDate": "2021-06-16",
+        "endDate": "2021-06-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Youth Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e0456a5b-b65c-4a7a-8ede-6fead03ac696",
+        "startDate": "2021-08-09",
+        "endDate": "2021-08-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a7fae5f0-2b59-4bfe-93c7-d41ee82355f8",
+        "startDate": "2021-09-24",
+        "endDate": "2021-09-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5b6f4e27-1812-461e-af47-671df4e62fcd",
+        "startDate": "2021-12-16",
+        "endDate": "2021-12-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Reconciliation"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "237d54b5-4a89-4e1a-8e53-301692d494eb",
+        "startDate": "2021-12-25",
+        "endDate": "2021-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5fbf0a18-08f5-4f34-8187-c448646533a7",
+        "startDate": "2021-12-26",
+        "endDate": "2021-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Goodwill"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8151db6c-2af0-47d0-a7ee-ec1193b5ed00",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0351a4c2-8973-43b0-b85f-781b68f414f9",
+        "startDate": "2022-03-21",
+        "endDate": "2022-03-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Human Rights Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5c91896d-ba33-47d0-81d0-4fdf8435efe7",
+        "startDate": "2022-04-15",
+        "endDate": "2022-04-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "46990422-3643-4649-9fbb-f061b5da5d20",
+        "startDate": "2022-04-18",
+        "endDate": "2022-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Family Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "79cb1282-8365-4ad2-bde5-f6053412b637",
+        "startDate": "2022-04-27",
+        "endDate": "2022-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Freedom Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1b2ac55a-962e-495d-b2aa-8cd9a93f5326",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Workers' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7c3973fa-75d1-4994-8404-69df6e9bbcfa",
+        "startDate": "2022-05-02",
+        "endDate": "2022-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Workers' Day observed"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1063b973-b8f0-4ab1-919f-be30058063b7",
+        "startDate": "2022-06-16",
+        "endDate": "2022-06-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Youth Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9f743550-02f2-4bd0-8dd4-363fa6a17b44",
+        "startDate": "2022-08-09",
+        "endDate": "2022-08-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "38bdbf45-0d01-4d2d-95fd-81fc677b9feb",
+        "startDate": "2022-09-24",
+        "endDate": "2022-09-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7345b663-a4cb-4748-8a6e-6d5b2cafa359",
+        "startDate": "2022-12-16",
+        "endDate": "2022-12-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Reconciliation"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f2293641-f852-49d2-991b-2b3991896cb4",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ffa2c184-384b-473c-9df0-7e86314199ae",
+        "startDate": "2022-12-26",
+        "endDate": "2022-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Goodwill"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e5a997cf-c3de-4ea8-a6e1-7486bf561353",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2014bec4-94a3-4fac-b872-1eac72242c4d",
+        "startDate": "2023-01-02",
+        "endDate": "2023-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year’s Day observed"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b620ba84-ef4e-4321-b812-37998e21fa65",
+        "startDate": "2023-03-21",
+        "endDate": "2023-03-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Human Rights Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cc575856-a041-4584-b323-674405c53134",
+        "startDate": "2023-04-07",
+        "endDate": "2023-04-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cb9eea15-d399-414f-83e8-5ea350557b6d",
+        "startDate": "2023-04-10",
+        "endDate": "2023-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Family Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "16cc4446-6679-4d15-8b3b-3f3012afbd48",
+        "startDate": "2023-04-27",
+        "endDate": "2023-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Freedom Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "732faf59-6ca5-4c15-a91b-8ae366498377",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Workers' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f4c32572-4055-4519-8ad7-9c5af93b4c9d",
+        "startDate": "2023-06-16",
+        "endDate": "2023-06-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Youth Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "955d0c63-661c-4712-9734-dde31d3d7337",
+        "startDate": "2023-08-09",
+        "endDate": "2023-08-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "45d34574-5a04-4027-a205-846949c135e4",
+        "startDate": "2023-09-24",
+        "endDate": "2023-09-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "935f42a9-3afd-42e0-bb14-390ab7657fac",
+        "startDate": "2023-09-25",
+        "endDate": "2023-09-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day observed"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "48bc6fcc-da59-4ca6-9231-e46361eb77e7",
+        "startDate": "2023-12-16",
+        "endDate": "2023-12-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Reconciliation"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e414db68-c730-4861-88aa-15282f02e48c",
+        "startDate": "2023-12-25",
+        "endDate": "2023-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a01f9799-39d5-4f67-8438-cda7362fcd6a",
+        "startDate": "2023-12-26",
+        "endDate": "2023-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Goodwill"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3f5def54-5c7e-48ec-96cd-ab47caa692a9",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f7aaaf71-675a-4997-a4fb-0f1e9dbae58f",
+        "startDate": "2024-03-21",
+        "endDate": "2024-03-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Human Rights Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c9ca3d91-c685-4f5f-9757-5f97a1c35422",
+        "startDate": "2024-03-29",
+        "endDate": "2024-03-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "09b6275d-c408-43a9-975f-f9ed9acf5e0e",
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Family Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2db21a3a-e7fc-4773-9e94-d1d1ccd05644",
+        "startDate": "2024-04-27",
+        "endDate": "2024-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Freedom Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fe382a40-486c-4718-bc5a-b80414a2341d",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Workers' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d7183c22-77b6-4cae-addc-a9b5b33b2e37",
+        "startDate": "2024-06-16",
+        "endDate": "2024-06-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Youth Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fde31c0f-9ef1-4540-ad82-cb0b71cef6da",
+        "startDate": "2024-06-17",
+        "endDate": "2024-06-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Youth Day observed"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "96e00b56-d49e-42a9-9fe5-310e0469db85",
+        "startDate": "2024-08-09",
+        "endDate": "2024-08-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6dce2422-2131-45a3-aa6a-2ab4c2cbeccd",
+        "startDate": "2024-09-24",
+        "endDate": "2024-09-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3b94fcd3-36d2-478a-bdf6-2e22b9a2a39f",
+        "startDate": "2024-09-25",
+        "endDate": "2024-09-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day observed"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0eb7e24c-9888-44d6-854e-ed97faae4d06",
+        "startDate": "2024-12-16",
+        "endDate": "2024-12-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Reconciliation"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d7b6e66d-d238-423f-92bc-1be4b4a98b04",
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "590459f9-628b-4570-9680-585f5fceb104",
+        "startDate": "2024-12-26",
+        "endDate": "2024-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Goodwill"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b1c27ce8-2e8c-48d5-84b2-04b0bbc6678e",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ed937614-43dd-4a49-99cb-743aa55c5296",
+        "startDate": "2025-03-21",
+        "endDate": "2025-03-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Human Rights Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3d44ed21-00b1-4acd-b514-01e4a4d8f449",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "581273c6-12e8-4d08-ba63-5a1c2f8069b9",
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Family Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "95affbd2-5f5a-4087-9861-9b7e8c6708ee",
+        "startDate": "2025-04-27",
+        "endDate": "2025-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Freedom Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "93b63afa-f874-49d2-81b5-527a8c6fb0c3",
+        "startDate": "2025-04-28",
+        "endDate": "2025-04-28",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Freedom Day observed"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bb94478d-cdad-48a3-a0ff-d0f27eb622db",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Workers' Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "16a78fc8-eed4-44a3-8548-1f853a6df6eb",
+        "startDate": "2025-06-16",
+        "endDate": "2025-06-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Youth Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ecd9541b-ee66-42c6-9d2b-be9122959404",
+        "startDate": "2025-08-09",
+        "endDate": "2025-08-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "75b2e34e-ce05-48ae-a7d2-c8afb52cc470",
+        "startDate": "2025-09-24",
+        "endDate": "2025-09-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Heritage Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8e41d93d-4514-45e3-ad99-508cd0cab2e0",
+        "startDate": "2025-12-16",
+        "endDate": "2025-12-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Reconciliation"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a3fa910c-014b-4de0-895d-f499b1c471a6",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "308a343f-acc1-4d08-bb0d-172fd480fabf",
+        "startDate": "2025-12-26",
+        "endDate": "2025-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Goodwill"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    }
+]

@@ -1,0 +1,1520 @@
+[
+    {
+        "id": "30b3b3d0-0ad5-4115-9e84-930df63391e8",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3ef12a16-0781-44b0-a2b9-d80313a45ccc",
+        "startDate": "2020-03-03",
+        "endDate": "2020-03-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgaria’s Liberation from the Ottoman Empire"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6146129a-3c1f-4028-8318-1bf623743c00",
+        "startDate": "2020-04-17",
+        "endDate": "2020-04-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6ac557d6-aa10-4de6-8442-7906027bc6b2",
+        "startDate": "2020-04-18",
+        "endDate": "2020-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Holy Saturday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a329117a-5992-44e8-9dc9-e5757a49cd66",
+        "startDate": "2020-04-19",
+        "endDate": "2020-04-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7f36f1c5-2c00-4544-b34e-e66626ea99bb",
+        "startDate": "2020-04-20",
+        "endDate": "2020-04-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a016d2d8-84e2-4055-a4cf-28dbca62c93a",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c61071e9-d132-495a-be91-d65d22d8a510",
+        "startDate": "2020-05-06",
+        "endDate": "2020-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. George's Day, and the Bulgarian Army’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "41da441f-676b-48af-9485-9f736dd3baf7",
+        "startDate": "2020-05-24",
+        "endDate": "2020-05-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bda59102-2939-4335-8211-9080e12dcaf3",
+        "startDate": "2020-05-25",
+        "endDate": "2020-05-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f4c88fdc-e90c-4199-96e0-486345a3e1fa",
+        "startDate": "2020-09-06",
+        "endDate": "2020-09-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a15b76e3-9574-428e-8cb6-02584af298e1",
+        "startDate": "2020-09-07",
+        "endDate": "2020-09-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "41f43e26-e387-4363-a4fd-b9e6d90c22c6",
+        "startDate": "2020-09-22",
+        "endDate": "2020-09-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1f1fd7ff-cee3-43c9-867f-18e67ce7b6e3",
+        "startDate": "2020-12-24",
+        "endDate": "2020-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e56aa60d-a084-470d-9cd9-03af29d17966",
+        "startDate": "2020-12-25",
+        "endDate": "2020-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a948dcf5-5210-4a76-bd21-41e971eab186",
+        "startDate": "2020-12-26",
+        "endDate": "2020-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5622797d-a973-4971-be48-3f8445cde69c",
+        "startDate": "2020-12-28",
+        "endDate": "2020-12-28",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2ecb8bfb-d1a1-47fc-a9f9-37cdd8107001",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "caff6d12-2f5e-468b-b002-09081b4a4708",
+        "startDate": "2021-03-03",
+        "endDate": "2021-03-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgaria’s Liberation from the Ottoman Empire"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "efee7167-c9d0-47ee-9d26-eaeaafb2b93d",
+        "startDate": "2021-04-30",
+        "endDate": "2021-04-30",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2ebcd0e7-97a1-4d0a-a74c-f087efc52a59",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e0e6714b-a259-43c5-b22a-6c59098d517a",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Holy Saturday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9fa8fe2d-6d41-4d4b-89dc-44878181b4e3",
+        "startDate": "2021-05-02",
+        "endDate": "2021-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1cfcc9c7-db48-42c5-91fa-e90c0016631b",
+        "startDate": "2021-05-03",
+        "endDate": "2021-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "64a85127-9e3e-4d1c-b045-a2fefe615299",
+        "startDate": "2021-05-04",
+        "endDate": "2021-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Holy Saturday (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cb82f307-bae0-4552-b01c-4aba8ee95df5",
+        "startDate": "2021-05-06",
+        "endDate": "2021-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. George's Day, and the Bulgarian Army’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "361dfc2f-60c7-45da-ad02-a16632cea240",
+        "startDate": "2021-05-24",
+        "endDate": "2021-05-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1925d151-8d31-4fe8-8582-fa402af25ccd",
+        "startDate": "2021-09-06",
+        "endDate": "2021-09-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0b09ab04-a5af-48ab-851f-91fe6bea757b",
+        "startDate": "2021-09-22",
+        "endDate": "2021-09-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8a524219-2544-4f73-91e6-24e357d32490",
+        "startDate": "2021-12-24",
+        "endDate": "2021-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3085e2d0-ab79-4f83-bdf7-bbc0ea4fbcf3",
+        "startDate": "2021-12-25",
+        "endDate": "2021-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "87f568a4-98e2-489f-bdba-bdad15944244",
+        "startDate": "2021-12-26",
+        "endDate": "2021-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e0ffeac3-97e4-4fca-b6b1-db8527249fe1",
+        "startDate": "2021-12-27",
+        "endDate": "2021-12-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "477f3841-9970-4dc7-a946-6d2eb9eab4fb",
+        "startDate": "2021-12-28",
+        "endDate": "2021-12-28",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a2ed4bc7-0f07-4ce3-aef8-2c4ed4d2e15b",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "00468911-0e2d-4dd9-8460-14aca04b2a8d",
+        "startDate": "2022-03-03",
+        "endDate": "2022-03-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgaria’s Liberation from the Ottoman Empire"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6da6dcad-e854-4068-bab3-a890fdf7efa3",
+        "startDate": "2022-04-22",
+        "endDate": "2022-04-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "aaa5140e-f3d4-46fb-82f6-6066c17329a3",
+        "startDate": "2022-04-23",
+        "endDate": "2022-04-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Holy Saturday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "11eb8ba0-702e-4cff-a8c2-79880fb22c19",
+        "startDate": "2022-04-24",
+        "endDate": "2022-04-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "28c41f58-5606-496a-b0b7-c9bc30cb679f",
+        "startDate": "2022-04-25",
+        "endDate": "2022-04-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cdbe57b1-73ab-4a8e-8367-15b2b24d346a",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4ba65a88-8cba-4e4d-96f5-23bbdd2282a2",
+        "startDate": "2022-05-02",
+        "endDate": "2022-05-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "22f0392e-d315-4955-9fd1-1ab30a5d281b",
+        "startDate": "2022-05-06",
+        "endDate": "2022-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. George's Day, and the Bulgarian Army’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "73c5c483-54b6-4db5-935b-76ac5bf04bae",
+        "startDate": "2022-05-24",
+        "endDate": "2022-05-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ad91f7e0-a7df-4516-9dbe-e138319fe287",
+        "startDate": "2022-09-06",
+        "endDate": "2022-09-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4a16bbec-d882-432c-b428-ea65ac630def",
+        "startDate": "2022-09-22",
+        "endDate": "2022-09-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "229d386e-529f-48eb-83f1-6963c90d09a4",
+        "startDate": "2022-12-24",
+        "endDate": "2022-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7b226987-9f12-45b9-acdc-e68e1a65464d",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "70190658-cf42-4634-8e61-2b8cc49fa24d",
+        "startDate": "2022-12-26",
+        "endDate": "2022-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3d610824-81cb-4845-965b-6ed837f68530",
+        "startDate": "2022-12-27",
+        "endDate": "2022-12-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "aada2479-e0dd-44a9-8cdb-7635826ccad6",
+        "startDate": "2022-12-28",
+        "endDate": "2022-12-28",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0c264976-1261-4555-8bd0-74ec3cdcd899",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7a124434-fc29-4cc8-8ab9-1c158948177d",
+        "startDate": "2023-01-02",
+        "endDate": "2023-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "376c1d71-22b0-4fb3-bace-dd936b2005d3",
+        "startDate": "2023-03-03",
+        "endDate": "2023-03-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgaria’s Liberation from the Ottoman Empire"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "dc625935-7ccf-4af0-8709-ad131f1f4a4d",
+        "startDate": "2023-04-14",
+        "endDate": "2023-04-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7a24671e-1d55-49e3-816e-bd11064056ef",
+        "startDate": "2023-04-15",
+        "endDate": "2023-04-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Holy Saturday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "52c980ff-db68-4b7b-86cd-7cd9fac1f28c",
+        "startDate": "2023-04-16",
+        "endDate": "2023-04-16",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c070c3f7-8e0a-4e22-96b5-5f539eafb829",
+        "startDate": "2023-04-17",
+        "endDate": "2023-04-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c2792ef6-d856-4ea3-a3b0-f8b58c5fba67",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ce8e8654-228b-49a3-9ff2-db4589acffdf",
+        "startDate": "2023-05-06",
+        "endDate": "2023-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. George's Day, and the Bulgarian Army’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6774e31c-c6e3-43f7-9739-e6a56c445e68",
+        "startDate": "2023-05-08",
+        "endDate": "2023-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. George's Day, and the Bulgarian Army’s Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "67c35649-78b3-4b8a-96dd-a885500720a9",
+        "startDate": "2023-05-24",
+        "endDate": "2023-05-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3ef39d14-47fb-479e-95b8-2e8e796913fa",
+        "startDate": "2023-09-06",
+        "endDate": "2023-09-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0a676519-4cdf-41df-b612-e531dd47d85c",
+        "startDate": "2023-09-22",
+        "endDate": "2023-09-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0f25cc15-87ed-4ff2-8f0a-f6e21d3e8f8c",
+        "startDate": "2023-12-24",
+        "endDate": "2023-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6fb193a1-1941-461c-b8fc-5f30de0b6bdb",
+        "startDate": "2023-12-25",
+        "endDate": "2023-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ffd36b6d-add7-4960-b913-e3df4892e2c5",
+        "startDate": "2023-12-26",
+        "endDate": "2023-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0b85640a-91cf-4ded-b72b-8adb3255da7e",
+        "startDate": "2023-12-27",
+        "endDate": "2023-12-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5f48ae29-a631-4f56-8f2f-605e95002f26",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1b130ef8-b70b-45c7-b201-dfdfd8e7b6b2",
+        "startDate": "2024-03-03",
+        "endDate": "2024-03-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgaria’s Liberation from the Ottoman Empire"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "87b39e81-f899-4180-b8cf-e5ec073e2d57",
+        "startDate": "2024-03-04",
+        "endDate": "2024-03-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgaria’s Liberation from the Ottoman Empire (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1dfcc11e-fb21-4532-b694-580e6a3454b8",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c537dfa6-dc78-4286-a1e6-bc2fec365f12",
+        "startDate": "2024-05-03",
+        "endDate": "2024-05-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "84a50cfe-6129-41d2-8269-c8643f05381b",
+        "startDate": "2024-05-04",
+        "endDate": "2024-05-04",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Holy Saturday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8fbbc5fa-59d6-4392-bc26-3964ca798ddf",
+        "startDate": "2024-05-05",
+        "endDate": "2024-05-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0afddd1f-ec7f-4d8a-b090-cecac671a82f",
+        "startDate": "2024-05-06",
+        "endDate": "2024-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. George's Day, and the Bulgarian Army’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a1ec80c0-a39f-45e3-9c3b-e7f2a735d1d3",
+        "startDate": "2024-05-06",
+        "endDate": "2024-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6aaa43ee-52a8-41e2-9504-2943f8214a1d",
+        "startDate": "2024-05-24",
+        "endDate": "2024-05-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5458669c-743c-4692-b495-45e78de133fe",
+        "startDate": "2024-09-06",
+        "endDate": "2024-09-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "579bf9a5-e2fb-446c-9501-58fcab377de1",
+        "startDate": "2024-09-22",
+        "endDate": "2024-09-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e850bd5d-bc66-4c18-ad17-326a21964e2a",
+        "startDate": "2024-09-23",
+        "endDate": "2024-09-23",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ba55152c-92c8-486f-87aa-7351033209f4",
+        "startDate": "2024-12-24",
+        "endDate": "2024-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fb9a73d0-2899-414c-8e04-74057ac1a6a6",
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b13d3f57-ff46-4bcb-8208-07643f5ff6e1",
+        "startDate": "2024-12-26",
+        "endDate": "2024-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "aab042eb-e4ba-4a83-81f5-3f1455dbbebe",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d7a1f3e9-ee45-4789-8f8c-644461851c85",
+        "startDate": "2025-03-03",
+        "endDate": "2025-03-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgaria’s Liberation from the Ottoman Empire"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2dcac2d7-c172-4461-94e3-c3ce1584c99b",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "531b8d5b-8c9b-4094-8232-31a857647abf",
+        "startDate": "2025-04-19",
+        "endDate": "2025-04-19",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Holy Saturday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e0fedbd2-a35a-4043-a4cf-77c26d0482e1",
+        "startDate": "2025-04-20",
+        "endDate": "2025-04-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Sunday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "58fc99d9-bf8c-40a3-a26b-44dc317c304c",
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b497113d-6f49-4074-9bd3-2d4c172ef4c7",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a3d87254-1c54-4ce4-90e2-7429df6901a9",
+        "startDate": "2025-05-06",
+        "endDate": "2025-05-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. George's Day, and the Bulgarian Army’s Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b8d082b0-27f3-49c0-9797-3910c9f44837",
+        "startDate": "2025-05-24",
+        "endDate": "2025-05-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f1587af9-e78c-4b68-b410-2a3bf9766c2a",
+        "startDate": "2025-05-26",
+        "endDate": "2025-05-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Bulgarian Education and Culture, and Slavic Script Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "eb120d0a-9ae9-4ee7-87fb-a7784e116d4d",
+        "startDate": "2025-09-06",
+        "endDate": "2025-09-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b74a01ae-f0da-4ee0-a10f-b3d4a6195481",
+        "startDate": "2025-09-08",
+        "endDate": "2025-09-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Unification Day (Observed)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e87f67a7-112e-448c-963a-4826545f5f87",
+        "startDate": "2025-09-22",
+        "endDate": "2025-09-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Independence Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "736de274-5916-4b93-8078-963a0b1bee7b",
+        "startDate": "2025-12-24",
+        "endDate": "2025-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2cad04d7-46b3-4c15-a337-e662331c187d",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2ff127be-92bc-4c48-8202-65ad6ae8a889",
+        "startDate": "2025-12-26",
+        "endDate": "2025-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "96fbf7db-fdaa-4361-8978-5bf9b2239642",
+        "startDate": "2025-12-31",
+        "endDate": "2025-12-31",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Euro Adoption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true,
+        "tags": [
+            "OneTime"
+        ]
+    }
+]

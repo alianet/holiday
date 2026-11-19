@@ -1,0 +1,1337 @@
+[
+    {
+        "id": "2780215d-18ca-4d07-9108-f7af9a2aa95f",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7c59f251-a1bd-4bc8-bde2-1613003b34da",
+        "startDate": "2020-01-06",
+        "endDate": "2020-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c70573fc-289b-4ce1-8812-ab3e9f29a690",
+        "startDate": "2020-04-10",
+        "endDate": "2020-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "15be3888-0161-4aa9-8351-77e9196755a8",
+        "startDate": "2020-04-13",
+        "endDate": "2020-04-13",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bc2b431b-31ae-4ce1-bfcf-fcf093e86d80",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9e479b6e-cf93-46d4-8041-a695259faa9c",
+        "startDate": "2020-05-08",
+        "endDate": "2020-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Victory over fascism"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2f06618c-0497-403c-9152-a65b1cdbefe6",
+        "startDate": "2020-07-05",
+        "endDate": "2020-07-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. Cyril and Methodius Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f265ed64-ce56-46d1-ab38-cacdad2efc67",
+        "startDate": "2020-08-29",
+        "endDate": "2020-08-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Slovak National Uprising anniversary"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "316e6ea3-e8e3-4ef2-ab1b-9e0f010adfc2",
+        "startDate": "2020-09-01",
+        "endDate": "2020-09-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Constitution of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0eaf4df1-5ecd-4f88-8286-6bc19cf3fbad",
+        "startDate": "2020-09-15",
+        "endDate": "2020-09-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Our Lady of the Seven Sorrows"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "dc289e6f-6326-4ebb-9ab4-398666d2545f",
+        "startDate": "2020-11-01",
+        "endDate": "2020-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints’ Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "66abaf52-3684-4763-bd1c-46a1b55e4c14",
+        "startDate": "2020-11-17",
+        "endDate": "2020-11-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Struggle for Freedom and Democracy"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "dec24f67-8c04-4178-9810-5a8d9e9fcf72",
+        "startDate": "2020-12-24",
+        "endDate": "2020-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6c493405-82c2-4a34-8320-ea3f526f462a",
+        "startDate": "2020-12-25",
+        "endDate": "2020-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3bd508a4-ab29-44f5-a04d-e1caa0f57b0d",
+        "startDate": "2020-12-26",
+        "endDate": "2020-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Second Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cf0e0db4-0696-4002-97c8-2ad649d7c53f",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "aa7639b4-cbc1-4a6d-a94e-2774dbc95671",
+        "startDate": "2021-01-06",
+        "endDate": "2021-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "92b2e3af-f993-4af5-a9bc-ac82c40a7999",
+        "startDate": "2021-04-02",
+        "endDate": "2021-04-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "aa62b8ca-df24-4395-af2d-460e89c4f62f",
+        "startDate": "2021-04-05",
+        "endDate": "2021-04-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "914d89b8-ba99-4c10-8e4b-24e900cbad01",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "61602617-b8f7-4647-bed7-08e77cac813d",
+        "startDate": "2021-05-08",
+        "endDate": "2021-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Victory over fascism"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d4935c94-c989-40b7-b90a-95b982f1de01",
+        "startDate": "2021-07-05",
+        "endDate": "2021-07-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. Cyril and Methodius Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "33353d12-ea5e-4d9f-bcbd-2b27e14eaffb",
+        "startDate": "2021-08-29",
+        "endDate": "2021-08-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Slovak National Uprising anniversary"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ff606035-256d-4d20-9b53-911c8017074f",
+        "startDate": "2021-09-01",
+        "endDate": "2021-09-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Constitution of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "40ad23a6-a5dd-409e-a71f-c48d0a93bbe2",
+        "startDate": "2021-09-15",
+        "endDate": "2021-09-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Our Lady of the Seven Sorrows"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5e68e59b-4f4e-425d-80cb-0270c094e358",
+        "startDate": "2021-11-01",
+        "endDate": "2021-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints’ Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "763c30f1-bae9-4366-828b-7f7355321f28",
+        "startDate": "2021-11-17",
+        "endDate": "2021-11-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Struggle for Freedom and Democracy"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fe38978b-2961-40d8-a8c4-9273cec302ac",
+        "startDate": "2021-12-24",
+        "endDate": "2021-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "22c9289f-87d8-4fbe-934d-8bc318c7fdf9",
+        "startDate": "2021-12-25",
+        "endDate": "2021-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0c9d4d0c-ca3d-48d5-8b9d-c47ea97cff90",
+        "startDate": "2021-12-26",
+        "endDate": "2021-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Second Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6e22eee8-a4c5-48e8-9b2c-9b1403eb11d4",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "373ade0f-991e-4b75-8037-3fb04b51b1d5",
+        "startDate": "2022-01-06",
+        "endDate": "2022-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b8a215f4-baa9-4362-9b69-460bf44b85fb",
+        "startDate": "2022-04-15",
+        "endDate": "2022-04-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b5bb1cad-1da2-487f-9eff-87bcb90f65f4",
+        "startDate": "2022-04-18",
+        "endDate": "2022-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "876ae8f4-e834-4f08-a67f-c454b0d69476",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a6a4b574-0881-4fb7-b873-8d3b0675bb04",
+        "startDate": "2022-05-08",
+        "endDate": "2022-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Victory over fascism"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5c59774f-9758-4fef-a9a8-de02b8c60e86",
+        "startDate": "2022-07-05",
+        "endDate": "2022-07-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. Cyril and Methodius Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "89123e49-8c89-4163-80be-c1f1f6d12b62",
+        "startDate": "2022-08-29",
+        "endDate": "2022-08-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Slovak National Uprising anniversary"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3277b63b-f026-4ca8-ac0e-06869cb51843",
+        "startDate": "2022-09-01",
+        "endDate": "2022-09-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Constitution of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e0c45b2d-a2bf-4526-871f-86f6ab0d04f0",
+        "startDate": "2022-09-15",
+        "endDate": "2022-09-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Our Lady of the Seven Sorrows"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8d9085b0-5594-4f99-99a6-823fbf963a59",
+        "startDate": "2022-11-01",
+        "endDate": "2022-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints’ Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "70d1dfa5-3530-4dc4-80a5-7136874c1b61",
+        "startDate": "2022-11-17",
+        "endDate": "2022-11-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Struggle for Freedom and Democracy"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "187d4e68-e391-4f80-a0db-4d96746dd1cf",
+        "startDate": "2022-12-24",
+        "endDate": "2022-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d8d35a78-01c4-4204-8d2b-99b084fbd284",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "04684509-d404-432e-a72f-5da7f16c6cb7",
+        "startDate": "2022-12-26",
+        "endDate": "2022-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Second Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "096ae8a9-f136-427e-915b-54178635f2a1",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d99801f1-ec63-4df6-92a6-c82adfe97fc3",
+        "startDate": "2023-01-06",
+        "endDate": "2023-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1700a309-ffb1-4cad-8076-ca4b8a5ee669",
+        "startDate": "2023-04-07",
+        "endDate": "2023-04-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e756e782-e557-4d26-9000-37105ba037ae",
+        "startDate": "2023-04-10",
+        "endDate": "2023-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ed61617b-0e79-4c61-9f29-76fdc5989869",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "77a79300-9500-4e0c-9737-986fca05f098",
+        "startDate": "2023-05-08",
+        "endDate": "2023-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Victory over fascism"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5a7efb14-e559-4020-8875-046b9e4635c0",
+        "startDate": "2023-07-05",
+        "endDate": "2023-07-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. Cyril and Methodius Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "06af1371-f3a3-4ff1-a582-fe8c15e26224",
+        "startDate": "2023-08-29",
+        "endDate": "2023-08-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Slovak National Uprising anniversary"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4a2c57f3-3f1c-40b1-b9da-81d6113e5437",
+        "startDate": "2023-09-01",
+        "endDate": "2023-09-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Constitution of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "beebecaa-883a-484a-85c7-ef6524fc2a98",
+        "startDate": "2023-09-15",
+        "endDate": "2023-09-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Our Lady of the Seven Sorrows"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0c23f511-606f-4523-9000-4f0756a3c857",
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints’ Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fd1de97f-f7c6-4d11-86fd-06184bd73a48",
+        "startDate": "2023-11-17",
+        "endDate": "2023-11-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Struggle for Freedom and Democracy"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c0e624f3-2f5e-42e7-9468-0894c87138a2",
+        "startDate": "2023-12-24",
+        "endDate": "2023-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "557a1a13-a995-4958-879c-f717eddb5dc3",
+        "startDate": "2023-12-25",
+        "endDate": "2023-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d6863a0c-5408-46d9-a911-a172c1c83902",
+        "startDate": "2023-12-26",
+        "endDate": "2023-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Second Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "789d0ef3-3379-4869-9e5b-6af552556fc3",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d8210344-8702-4542-a175-1ace87cc4d4a",
+        "startDate": "2024-01-06",
+        "endDate": "2024-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8d2a2fae-74a0-4c0a-9bbe-1fbdd9b5eee3",
+        "startDate": "2024-03-29",
+        "endDate": "2024-03-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8f647c2d-88b4-4efe-bcb3-15c864effae7",
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d7c03e0f-51d4-40e3-a1fa-c56a9e3fad4d",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5d3dae88-4f2b-47ee-8c5c-bb9c00bed0b5",
+        "startDate": "2024-05-08",
+        "endDate": "2024-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Victory over fascism"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1b8d6959-70a8-4887-b6c3-f72e82f68e11",
+        "startDate": "2024-07-05",
+        "endDate": "2024-07-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. Cyril and Methodius Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e5963514-c3ac-445b-85cc-1a7bbe6eba5f",
+        "startDate": "2024-08-29",
+        "endDate": "2024-08-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Slovak National Uprising anniversary"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cb154038-9bc3-48e1-8d8b-815f8a42b979",
+        "startDate": "2024-09-01",
+        "endDate": "2024-09-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Constitution of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fde90696-3be9-4f8d-ac43-99dcf3e4a90c",
+        "startDate": "2024-09-15",
+        "endDate": "2024-09-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Our Lady of the Seven Sorrows"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "696d5409-1331-47a2-93f2-dc403857437e",
+        "startDate": "2024-11-01",
+        "endDate": "2024-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints’ Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6315b57d-2f10-4148-be6b-eb4a0b9e3522",
+        "startDate": "2024-11-17",
+        "endDate": "2024-11-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Struggle for Freedom and Democracy"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0015fe9c-ab4a-4317-927b-634a7d147d94",
+        "startDate": "2024-12-24",
+        "endDate": "2024-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "256b25a3-823d-4f96-ae6c-f710c7cf81a9",
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "15e05473-c8a9-4dc6-8808-8f4575b6313c",
+        "startDate": "2024-12-26",
+        "endDate": "2024-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Second Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "915a2e98-b466-4787-9429-ed1cebdeca32",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Slovak Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7437cc54-3ffe-4df5-a386-7af30a2db2d8",
+        "startDate": "2025-01-06",
+        "endDate": "2025-01-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Epiphany"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "bd7fd5a7-6836-4ef4-a7bb-e6f0d9230706",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "60aa831a-aa0e-4578-8bcf-d736bef59d5f",
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ffd83f25-8335-4c04-9816-ca29039048af",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3c8d7a4f-392e-476c-a3c3-ddc0c05a3945",
+        "startDate": "2025-05-08",
+        "endDate": "2025-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Victory over fascism"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "840d2788-d033-42d2-a780-6d23ebb98a5b",
+        "startDate": "2025-07-05",
+        "endDate": "2025-07-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "St. Cyril and Methodius Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f23ce324-831c-4a18-98f0-a7c70002e98b",
+        "startDate": "2025-08-29",
+        "endDate": "2025-08-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Slovak National Uprising anniversary"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0fdc5978-0478-49a4-b35f-c2781b7dfc4d",
+        "startDate": "2025-09-15",
+        "endDate": "2025-09-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Our Lady of the Seven Sorrows"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "413cfbbb-df2f-442e-8201-57333c96458e",
+        "startDate": "2025-11-01",
+        "endDate": "2025-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints’ Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "408bc6e9-c2a6-4228-b2c6-91153b7bbd04",
+        "startDate": "2025-11-17",
+        "endDate": "2025-11-17",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of Struggle for Freedom and Democracy"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "40675b93-1f90-45b0-99d7-579e19dd122d",
+        "startDate": "2025-12-24",
+        "endDate": "2025-12-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Eve"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d3e65eb8-9dc1-475a-8647-2e9a043142a2",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6cb73908-5832-4eec-9193-410b9b0cd021",
+        "startDate": "2025-12-26",
+        "endDate": "2025-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Second Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    }
+]

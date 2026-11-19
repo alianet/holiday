@@ -462,6 +462,10 @@ runs `composer test` with PCOV coverage and `composer analyze`, then removes the
 Local dependencies are unchanged. The full matrix prints a PASS/FAIL summary and returns
 a nonzero exit code if any version fails.
 
+QA builds share a persistent BuildKit cache for Composer downloads and limit HTTP
+downloads to two concurrent requests. Failed installs are retried twice, after
+15 and 30 seconds, to handle temporary download errors such as HTTP 429.
+
 ### Adding Tests
 
 Provide tests inside `tests/Provider/...` that ideally cover all edge cases. This can be done as follows:
@@ -483,7 +487,9 @@ Provide tests inside `tests/Provider/...` that ideally cover all edge cases. Thi
 
 Reference tests compare provider dates and holiday identifiers with saved
 [OpenHolidays API](https://www.openholidaysapi.org/en/) responses. They currently cover
-PL, DE, DE-BE, CZ and AT for 2024 and 2025, and run without network access:
+PL, DE, DE-BE, CZ and AT for 2024 and 2025. Saved reference data is available for
+all 36 countries currently listed by OpenHolidays, covering 2020–2025.
+Tests run without network access:
 
 ```bash
 php vendor/bin/phpunit tests/Reference/OpenHoliday

@@ -1,0 +1,812 @@
+[
+    {
+        "id": "3f8a9d45-58f5-4a7d-8d63-6778486010f7",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2d6a03b5-8414-4adc-8b14-f1ab68278e3c",
+        "startDate": "2020-01-07",
+        "endDate": "2020-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox Christmas)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "68df92be-50e6-472f-8990-7e18c278f47c",
+        "startDate": "2020-03-08",
+        "endDate": "2020-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cc4f75b2-5c90-449e-a33a-ee17909e1077",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "acbd869c-7bd3-406f-a638-b6b612e47871",
+        "startDate": "2020-05-09",
+        "endDate": "2020-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f1fd72c5-160c-4e89-9394-f2c3d037a2f9",
+        "startDate": "2020-05-14",
+        "endDate": "2020-05-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Radunitsa"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0fef6aad-804f-4e21-8753-e3ce2d6d9541",
+        "startDate": "2020-07-03",
+        "endDate": "2020-07-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7478fa29-5ed5-4b8d-af42-bc3e5803462b",
+        "startDate": "2020-11-07",
+        "endDate": "2020-11-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "October Revolution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "af9445ff-6aa2-4ac5-90b5-5e766b00fb11",
+        "startDate": "2020-12-25",
+        "endDate": "2020-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Catholic Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "88dfb8ce-d21d-4273-b9a5-570d78b4c46f",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d307108f-e9d7-465a-8352-83de52c06748",
+        "startDate": "2021-01-07",
+        "endDate": "2021-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox Christmas)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fcac964d-46c2-45ed-81c4-712cdfc455e4",
+        "startDate": "2021-03-08",
+        "endDate": "2021-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d7d0397c-0b04-43f1-a225-2e0c9641c60a",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "b43d8ae4-68ed-49cc-97e7-97284f10b07c",
+        "startDate": "2021-05-09",
+        "endDate": "2021-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "999b5756-5904-4e15-a6fa-a8e3ee2e62b4",
+        "startDate": "2021-05-14",
+        "endDate": "2021-05-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Radunitsa"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3c1bdce6-13ce-4ebd-a668-2fe1dfb3d1be",
+        "startDate": "2021-07-03",
+        "endDate": "2021-07-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "40244302-90b5-40bb-b074-79a39aa4c1a4",
+        "startDate": "2021-11-07",
+        "endDate": "2021-11-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "October Revolution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e1d449b8-8820-4945-8c9b-d4a5f97933dc",
+        "startDate": "2021-12-25",
+        "endDate": "2021-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Catholic Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0afb5032-d8d1-40fc-be22-8254413a2145",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1995862e-33af-47df-bd44-5dcc44bb224f",
+        "startDate": "2022-01-07",
+        "endDate": "2022-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox Christmas)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "eae44852-779e-47e3-b702-df020b83fec3",
+        "startDate": "2022-03-08",
+        "endDate": "2022-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f0eba5a3-854e-4d3b-a266-d50d2bfe7dba",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cb9e9d3f-4dde-4237-be5c-1076971e8351",
+        "startDate": "2022-05-09",
+        "endDate": "2022-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a6e7f3c1-c817-4ed2-8054-c204f7086065",
+        "startDate": "2022-05-14",
+        "endDate": "2022-05-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Radunitsa"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "75d614f0-e38a-41a5-ad60-235c2831d008",
+        "startDate": "2022-07-03",
+        "endDate": "2022-07-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4d299730-6afa-4752-8f0d-5b7e9255463a",
+        "startDate": "2022-11-07",
+        "endDate": "2022-11-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "October Revolution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "062d20ef-61e8-4860-b527-66c76f9c0bf6",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Catholic Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4fceaa9b-dd73-44fc-9cf1-1c69339e409a",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "922a5a44-2a22-42a7-b574-0eaf75f1e6ab",
+        "startDate": "2023-01-07",
+        "endDate": "2023-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox Christmas)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6b1303c9-c6fe-4835-bf7f-18d5dc07ad59",
+        "startDate": "2023-03-08",
+        "endDate": "2023-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9317cc84-a5a3-4d18-8da1-dc2123d3be8d",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7486b663-1c24-4046-8a02-94fb1488e547",
+        "startDate": "2023-05-09",
+        "endDate": "2023-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2d818418-77af-4ebf-b39e-cab0c306c855",
+        "startDate": "2023-05-14",
+        "endDate": "2023-05-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Radunitsa"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "772baed5-8b6c-4d8c-9a77-7435d0df55ff",
+        "startDate": "2023-07-03",
+        "endDate": "2023-07-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "10759e38-1e7b-49cb-a8fd-380c1edf8b2b",
+        "startDate": "2023-11-07",
+        "endDate": "2023-11-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "October Revolution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a37afc79-15c5-47cc-bc52-b8b8070447c0",
+        "startDate": "2023-12-25",
+        "endDate": "2023-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Catholic Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6c4a1714-9a09-4a2a-98c9-2c84161eb94c",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "73f0c14c-856a-477e-a96a-f3a3e734dadc",
+        "startDate": "2024-01-07",
+        "endDate": "2024-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox Christmas)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1eddf983-c6f9-4b93-a319-ee25ba809ac9",
+        "startDate": "2024-03-08",
+        "endDate": "2024-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d2f90e16-334f-438a-b07e-3187332b628e",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "222fc9bb-228f-4115-be5d-89aa26f03111",
+        "startDate": "2024-05-09",
+        "endDate": "2024-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "347538fa-3fbf-4b07-badd-bb1272311e01",
+        "startDate": "2024-05-14",
+        "endDate": "2024-05-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Radunitsa"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9f5e30cd-ebf4-4f20-ad15-b1ff948cb414",
+        "startDate": "2024-07-03",
+        "endDate": "2024-07-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "6d8498b9-b9ec-41a4-811c-d712effaa06b",
+        "startDate": "2024-11-07",
+        "endDate": "2024-11-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "October Revolution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "0e49a774-e9a5-4b73-80db-a5336ad501da",
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Catholic Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f2d42f11-a818-45de-bd82-709350d60d96",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "31100520-2614-4448-9865-ef467948f0e7",
+        "startDate": "2025-01-07",
+        "endDate": "2025-01-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas (Orthodox Christmas)"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "feea32e6-a594-477c-80d6-c95600c6081c",
+        "startDate": "2025-03-08",
+        "endDate": "2025-03-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Women's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2faac135-ab55-4ec5-af30-7644a61c3eca",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d3becbb3-fc13-4142-ba59-a14d105b1261",
+        "startDate": "2025-05-09",
+        "endDate": "2025-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "070a7849-6f09-4d0c-ad31-dff791f868d4",
+        "startDate": "2025-05-14",
+        "endDate": "2025-05-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Radunitsa"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "240c2a7d-8a21-40ac-90b6-1459a474703f",
+        "startDate": "2025-07-03",
+        "endDate": "2025-07-03",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Day of the Republic"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "336d1b9b-0a30-4ffa-9bac-8d12a55f21f5",
+        "startDate": "2025-11-07",
+        "endDate": "2025-11-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "October Revolution Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2f6b8dbe-aa08-4d05-8ed1-7b01f164ab44",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Catholic Christmas"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    }
+]

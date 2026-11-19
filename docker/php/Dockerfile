@@ -31,8 +31,17 @@ FROM development AS qa
 
 COPY composer.json ./
 ARG QA_RUN_ID=default
-RUN test -n "${QA_RUN_ID}" \
-    && composer install --no-interaction --prefer-dist --no-scripts
+RUN --mount=type=cache,target=/tmp/composer-cache,sharing=locked \
+    test -n "${QA_RUN_ID}" \
+    && export COMPOSER_CACHE_DIR=/tmp/composer-cache COMPOSER_MAX_PARALLEL_HTTP=2 \
+    && attempt=1 \
+    && until composer install --no-interaction --prefer-dist --no-scripts; do \
+        if [ "$attempt" -ge 3 ]; then exit 1; fi; \
+        delay=$((attempt * 15)); \
+        echo "Composer install failed; retrying in ${delay}s..."; \
+        sleep "$delay"; \
+        attempt=$((attempt + 1)); \
+    done
 
 COPY . .
 

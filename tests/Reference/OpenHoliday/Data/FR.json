@@ -1,0 +1,2120 @@
+[
+    {
+        "id": "a767e23c-166c-479b-b6ce-15e8a1b9dff0",
+        "startDate": "2020-01-01",
+        "endDate": "2020-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "102b5b60-8793-4d51-a2fe-02c83da46361",
+        "startDate": "2020-04-10",
+        "endDate": "2020-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "c7e96514-ceb6-4dd9-860e-0120e138a445",
+        "startDate": "2020-04-13",
+        "endDate": "2020-04-13",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c536aa0e-a6e0-4c7f-9158-13c3c3c248e3",
+        "startDate": "2020-04-27",
+        "endDate": "2020-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-YT",
+                "shortName": "YT"
+            }
+        ]
+    },
+    {
+        "id": "952210c4-8fd2-4fdd-b7b9-5d672974a2f5",
+        "startDate": "2020-05-01",
+        "endDate": "2020-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1ccbd134-ef38-42f5-9e46-56c8c28546c3",
+        "startDate": "2020-05-08",
+        "endDate": "2020-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "db2f7545-33da-47fe-aa32-756f37e99765",
+        "startDate": "2020-05-21",
+        "endDate": "2020-05-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "938d8ab3-06af-4827-b4bc-3ca6201bc3b6",
+        "startDate": "2020-05-22",
+        "endDate": "2020-05-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MQ",
+                "shortName": "MQ"
+            }
+        ]
+    },
+    {
+        "id": "8bdb5d49-af83-45f4-ac67-bdd1c470bf2a",
+        "startDate": "2020-05-27",
+        "endDate": "2020-05-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MF",
+                "shortName": "MF"
+            },
+            {
+                "code": "FR-GP",
+                "shortName": "GP"
+            }
+        ]
+    },
+    {
+        "id": "a34d20d1-86fb-4c0c-bc34-29beb26783ac",
+        "startDate": "2020-06-01",
+        "endDate": "2020-06-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f826ad64-fed3-4f1d-9319-7c3a42cd9b84",
+        "startDate": "2020-06-10",
+        "endDate": "2020-06-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GY",
+                "shortName": "GY"
+            }
+        ]
+    },
+    {
+        "id": "351175a0-ee3d-4810-b04f-7444696414b5",
+        "startDate": "2020-07-14",
+        "endDate": "2020-07-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "8219e74a-0f26-4bbb-bbce-4448c5a8ba5f",
+        "startDate": "2020-08-15",
+        "endDate": "2020-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3e66560b-51ce-4426-b473-3fa1720568d1",
+        "startDate": "2020-10-09",
+        "endDate": "2020-10-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-BL",
+                "shortName": "BL"
+            }
+        ]
+    },
+    {
+        "id": "e7e5e3c2-54a6-4193-8473-e41b86b52258",
+        "startDate": "2020-11-01",
+        "endDate": "2020-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7a30b4ea-3b1c-4fb8-ba80-215d99ecc72c",
+        "startDate": "2020-11-11",
+        "endDate": "2020-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ae9e6a8a-0250-4964-a96c-7e0db3ae44b3",
+        "startDate": "2020-12-20",
+        "endDate": "2020-12-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-RU",
+                "shortName": "RU"
+            }
+        ]
+    },
+    {
+        "id": "4e79e7fc-9692-4fb6-98f0-7672a1484f23",
+        "startDate": "2020-12-25",
+        "endDate": "2020-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "80bc17d1-00fd-4876-805b-98b3a0f91a1a",
+        "startDate": "2020-12-26",
+        "endDate": "2020-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd day of Christmas"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "f5239f84-70f0-478d-a1b6-359a1d528ccb",
+        "startDate": "2021-01-01",
+        "endDate": "2021-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9c016f03-0d49-468a-9381-50e860b3c943",
+        "startDate": "2021-04-02",
+        "endDate": "2021-04-02",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "e2393493-78dd-4882-bc02-c271734e9451",
+        "startDate": "2021-04-05",
+        "endDate": "2021-04-05",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "dba1c8f2-ffa9-445f-b7b6-ed14a973ee4a",
+        "startDate": "2021-04-27",
+        "endDate": "2021-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-YT",
+                "shortName": "YT"
+            }
+        ]
+    },
+    {
+        "id": "c4c635bb-1d8a-4c3d-9214-6bed9597c408",
+        "startDate": "2021-05-01",
+        "endDate": "2021-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ee6c6e8f-cc7a-49c9-8923-73cb551db2c3",
+        "startDate": "2021-05-08",
+        "endDate": "2021-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "572cbe12-cc3f-4eb6-be9a-a0d6410d9772",
+        "startDate": "2021-05-13",
+        "endDate": "2021-05-13",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7a50188d-d32f-4b07-8b53-39f83732b8dc",
+        "startDate": "2021-05-22",
+        "endDate": "2021-05-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MQ",
+                "shortName": "MQ"
+            }
+        ]
+    },
+    {
+        "id": "111e5fd9-ab26-495d-94e0-fcecc42c0337",
+        "startDate": "2021-05-24",
+        "endDate": "2021-05-24",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "171d0afa-0713-4152-8c43-d46019114b39",
+        "startDate": "2021-05-27",
+        "endDate": "2021-05-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MF",
+                "shortName": "MF"
+            },
+            {
+                "code": "FR-GP",
+                "shortName": "GP"
+            }
+        ]
+    },
+    {
+        "id": "f6f3b2c2-ff1a-4b70-acbb-575a59dfe1e1",
+        "startDate": "2021-06-10",
+        "endDate": "2021-06-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GY",
+                "shortName": "GY"
+            }
+        ]
+    },
+    {
+        "id": "a8851a48-2e49-4221-993d-7b00338f29d9",
+        "startDate": "2021-07-14",
+        "endDate": "2021-07-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c2bae7e2-9c97-4eb3-90d8-fe8d03d10bdc",
+        "startDate": "2021-08-15",
+        "endDate": "2021-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2a2cc561-b62c-4ce5-8cc7-727571787468",
+        "startDate": "2021-10-09",
+        "endDate": "2021-10-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-BL",
+                "shortName": "BL"
+            }
+        ]
+    },
+    {
+        "id": "6e2bfafe-b8c7-4a0d-a030-789fc01a2e15",
+        "startDate": "2021-11-01",
+        "endDate": "2021-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "fe5f4745-5b2e-434d-8742-2955852414eb",
+        "startDate": "2021-11-11",
+        "endDate": "2021-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "619a1237-1527-40f3-ae9c-fb7ada843c08",
+        "startDate": "2021-12-20",
+        "endDate": "2021-12-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-RU",
+                "shortName": "RU"
+            }
+        ]
+    },
+    {
+        "id": "7a12620d-551f-4b6a-8704-1b4769cd419a",
+        "startDate": "2021-12-25",
+        "endDate": "2021-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "46977f6a-223f-4bd1-b7a7-73a9de959670",
+        "startDate": "2021-12-26",
+        "endDate": "2021-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd day of Christmas"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "4cf663c8-8522-4cbb-9f05-21529c9a90ad",
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ac1b8ae4-e67b-4ce2-a318-9109b9b6dbae",
+        "startDate": "2022-04-15",
+        "endDate": "2022-04-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "9b799e11-94dd-439b-aaa8-290c00fe340f",
+        "startDate": "2022-04-18",
+        "endDate": "2022-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a6dd827d-c943-42a8-b377-32f72bce5409",
+        "startDate": "2022-04-27",
+        "endDate": "2022-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-YT",
+                "shortName": "YT"
+            }
+        ]
+    },
+    {
+        "id": "18a76d0e-b96c-432a-a2b3-464547bdd7b8",
+        "startDate": "2022-05-01",
+        "endDate": "2022-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "37e5f639-9707-42c2-8b87-c29e224d0c61",
+        "startDate": "2022-05-08",
+        "endDate": "2022-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "896ba4e9-24fb-48fa-9ec9-80787b46684a",
+        "startDate": "2022-05-22",
+        "endDate": "2022-05-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MQ",
+                "shortName": "MQ"
+            }
+        ]
+    },
+    {
+        "id": "312d7693-e6b3-413d-843a-b949fa591ea6",
+        "startDate": "2022-05-26",
+        "endDate": "2022-05-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7f6a2677-3903-4cb6-bd59-7e6b9ce052ee",
+        "startDate": "2022-05-27",
+        "endDate": "2022-05-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MF",
+                "shortName": "MF"
+            },
+            {
+                "code": "FR-GP",
+                "shortName": "GP"
+            }
+        ]
+    },
+    {
+        "id": "f3db3d07-d67e-46d4-8ee1-4d182e3ddea7",
+        "startDate": "2022-06-06",
+        "endDate": "2022-06-06",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "9b019433-0f07-49c9-b5ea-503a973592aa",
+        "startDate": "2022-06-10",
+        "endDate": "2022-06-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GY",
+                "shortName": "GY"
+            }
+        ]
+    },
+    {
+        "id": "4be6ab5f-aa14-49e9-99f1-48af07068030",
+        "startDate": "2022-07-14",
+        "endDate": "2022-07-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a647ce2c-7eba-4bcd-bda9-7140d13e24b0",
+        "startDate": "2022-08-15",
+        "endDate": "2022-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "98f38e3e-447b-4310-90b4-09e74c5568cd",
+        "startDate": "2022-10-09",
+        "endDate": "2022-10-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-BL",
+                "shortName": "BL"
+            }
+        ]
+    },
+    {
+        "id": "2658713b-669d-4763-b12d-16af4a0992c9",
+        "startDate": "2022-11-01",
+        "endDate": "2022-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2f928126-1506-489c-b53d-2133dd7cf9e1",
+        "startDate": "2022-11-11",
+        "endDate": "2022-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "faa52ce1-7a41-4cc9-a000-2c508d8136ca",
+        "startDate": "2022-12-20",
+        "endDate": "2022-12-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-RU",
+                "shortName": "RU"
+            }
+        ]
+    },
+    {
+        "id": "425a2f54-c0c5-47df-9c90-5505a678ad40",
+        "startDate": "2022-12-25",
+        "endDate": "2022-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d152e044-277d-4047-b74a-99a356f9531e",
+        "startDate": "2022-12-26",
+        "endDate": "2022-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd day of Christmas"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "6f50e9f0-0723-4f97-a70a-74cdc9322d31",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c58345c3-34da-4d9a-a250-e9cf70d58b7e",
+        "startDate": "2023-04-07",
+        "endDate": "2023-04-07",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "ddd9056a-df6e-4dad-931f-4a3bfabf3ff3",
+        "startDate": "2023-04-10",
+        "endDate": "2023-04-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "50e8989d-fc3b-4deb-b37a-446ba3f4f987",
+        "startDate": "2023-04-27",
+        "endDate": "2023-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-YT",
+                "shortName": "YT"
+            }
+        ]
+    },
+    {
+        "id": "e2734f3c-aa0f-43a8-ab58-ebe2735e045b",
+        "startDate": "2023-05-01",
+        "endDate": "2023-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7459097c-8637-4204-bbe4-b254c015fcd8",
+        "startDate": "2023-05-08",
+        "endDate": "2023-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "1f096324-7577-44ad-a5b0-f7bbe7f3730b",
+        "startDate": "2023-05-18",
+        "endDate": "2023-05-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "586277da-de59-4bde-a0e8-b4ea600cdf93",
+        "startDate": "2023-05-22",
+        "endDate": "2023-05-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MQ",
+                "shortName": "MQ"
+            }
+        ]
+    },
+    {
+        "id": "1ec41aee-51c6-4a2d-a293-bc3eceeb1004",
+        "startDate": "2023-05-27",
+        "endDate": "2023-05-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MF",
+                "shortName": "MF"
+            },
+            {
+                "code": "FR-GP",
+                "shortName": "GP"
+            }
+        ]
+    },
+    {
+        "id": "5f17a187-16f4-452d-adcd-61bc1800e667",
+        "startDate": "2023-05-29",
+        "endDate": "2023-05-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3fa188ad-9d0f-444d-af03-b1d88d5aa9e3",
+        "startDate": "2023-06-10",
+        "endDate": "2023-06-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GY",
+                "shortName": "GY"
+            }
+        ]
+    },
+    {
+        "id": "9a54d9f4-befe-4d59-9b36-c1fc5ec9566c",
+        "startDate": "2023-07-14",
+        "endDate": "2023-07-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "28c54870-3091-48ec-84a1-7fe37730e966",
+        "startDate": "2023-08-15",
+        "endDate": "2023-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f963a86a-05dd-4559-9305-062e688f3ba3",
+        "startDate": "2023-10-09",
+        "endDate": "2023-10-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-BL",
+                "shortName": "BL"
+            }
+        ]
+    },
+    {
+        "id": "564f5348-916b-43e6-ba82-2ab653662216",
+        "startDate": "2023-11-01",
+        "endDate": "2023-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "7419b82c-61f1-4ee1-9bb0-1f7bdb08e5e3",
+        "startDate": "2023-11-11",
+        "endDate": "2023-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "00a623bc-e9f9-41ba-a8c4-527e458be2f1",
+        "startDate": "2023-12-20",
+        "endDate": "2023-12-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-RU",
+                "shortName": "RU"
+            }
+        ]
+    },
+    {
+        "id": "25753733-87e2-40fe-adf7-beb4d11969ac",
+        "startDate": "2023-12-25",
+        "endDate": "2023-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a7805816-e67c-4c5b-b563-6fe202d09cd1",
+        "startDate": "2023-12-26",
+        "endDate": "2023-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd day of Christmas"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "bd7b0891-0e49-4a38-9479-6b0a800ad912",
+        "startDate": "2024-01-01",
+        "endDate": "2024-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c807bb25-29b7-4c12-81de-59c327b6554c",
+        "startDate": "2024-03-29",
+        "endDate": "2024-03-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "8cf2ddc6-07af-4635-89df-830af2464d84",
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "191486fc-ccb6-4644-9e81-50a543789744",
+        "startDate": "2024-04-27",
+        "endDate": "2024-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-YT",
+                "shortName": "YT"
+            }
+        ]
+    },
+    {
+        "id": "0cc3f861-dde3-43ed-b734-516868c6458d",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "4f5861d1-32e8-4d91-96e3-17cf7397718a",
+        "startDate": "2024-05-08",
+        "endDate": "2024-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "96a2634d-6ebc-4f49-9a5a-9491a34771c6",
+        "startDate": "2024-05-09",
+        "endDate": "2024-05-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "3d661d96-1563-41e6-b923-ca062e4d8d59",
+        "startDate": "2024-05-20",
+        "endDate": "2024-05-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "eac8ebfe-b7ce-4bb6-a2c0-b3fce0f94934",
+        "startDate": "2024-05-22",
+        "endDate": "2024-05-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MQ",
+                "shortName": "MQ"
+            }
+        ]
+    },
+    {
+        "id": "9613ed36-2bb0-444a-926e-11835305054f",
+        "startDate": "2024-05-27",
+        "endDate": "2024-05-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MF",
+                "shortName": "MF"
+            },
+            {
+                "code": "FR-GP",
+                "shortName": "GP"
+            }
+        ]
+    },
+    {
+        "id": "7a4dbd16-600e-4784-9a30-d2cc5f2e730e",
+        "startDate": "2024-06-10",
+        "endDate": "2024-06-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GY",
+                "shortName": "GY"
+            }
+        ]
+    },
+    {
+        "id": "5ec6bb1a-ff0e-4d20-88f0-f49161bdd80f",
+        "startDate": "2024-07-14",
+        "endDate": "2024-07-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "d405ef27-7ac3-4549-91c9-edc7ce325482",
+        "startDate": "2024-08-15",
+        "endDate": "2024-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "2f9b6e3a-49c8-47b9-b704-1f26e4e0a41f",
+        "startDate": "2024-10-09",
+        "endDate": "2024-10-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-BL",
+                "shortName": "BL"
+            }
+        ]
+    },
+    {
+        "id": "1680bb68-6c6d-4239-b4da-e5f18657e020",
+        "startDate": "2024-11-01",
+        "endDate": "2024-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "278733c2-e776-49b5-8a3a-33e8668a2a6f",
+        "startDate": "2024-11-11",
+        "endDate": "2024-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "eadc9848-c0fd-441d-910d-dbf941f47de5",
+        "startDate": "2024-12-20",
+        "endDate": "2024-12-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-RU",
+                "shortName": "RU"
+            }
+        ]
+    },
+    {
+        "id": "52a102c3-d3fd-469d-91b9-71c680b178d4",
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "5cfb5459-a92c-4cf4-90c3-c038498d9474",
+        "startDate": "2024-12-26",
+        "endDate": "2024-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd day of Christmas"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "3d6af0ec-7c20-42ab-a0cd-4404c069a1c6",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "New Year's Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "32cff2a5-f2ef-4910-9cba-03a83e3f4e6f",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-18",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Good Friday"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    },
+    {
+        "id": "f5575292-d03a-48d6-95a4-e17ef9e31950",
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-21",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Easter Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "a4d6da33-e5ec-45f6-a6f2-26ac389aeb8b",
+        "startDate": "2025-04-27",
+        "endDate": "2025-04-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-YT",
+                "shortName": "YT"
+            }
+        ]
+    },
+    {
+        "id": "48043275-4043-4bf3-9510-6f313e96118c",
+        "startDate": "2025-05-01",
+        "endDate": "2025-05-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Labour Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c8ad9b73-ba89-4025-b4c7-55ff644a1dd5",
+        "startDate": "2025-05-08",
+        "endDate": "2025-05-08",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Victory Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "e432a8cc-3888-4cf5-96fe-7f72d0f0a0e9",
+        "startDate": "2025-05-22",
+        "endDate": "2025-05-22",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MQ",
+                "shortName": "MQ"
+            }
+        ]
+    },
+    {
+        "id": "df55ccf1-7126-44d3-b592-935cce010b95",
+        "startDate": "2025-05-27",
+        "endDate": "2025-05-27",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-MF",
+                "shortName": "MF"
+            },
+            {
+                "code": "FR-GP",
+                "shortName": "GP"
+            }
+        ]
+    },
+    {
+        "id": "65c2ea36-ed05-4743-a35d-1c9598b5b6fd",
+        "startDate": "2025-05-29",
+        "endDate": "2025-05-29",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Ascension Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "40ffc560-e02e-498f-946b-45a0af904619",
+        "startDate": "2025-06-09",
+        "endDate": "2025-06-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Pentecost Monday"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "f596ae48-f1d4-4fc7-a410-2a42713ce560",
+        "startDate": "2025-06-10",
+        "endDate": "2025-06-10",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GY",
+                "shortName": "GY"
+            }
+        ]
+    },
+    {
+        "id": "bad3a91b-d075-4ed0-9e53-aa6e8b5439de",
+        "startDate": "2025-07-14",
+        "endDate": "2025-07-14",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "National Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "cd5f2e29-8a47-476b-ad32-53260ff79698",
+        "startDate": "2025-08-15",
+        "endDate": "2025-08-15",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Assumption Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "52497c4d-ead0-4950-a81b-3c758098d11e",
+        "startDate": "2025-10-09",
+        "endDate": "2025-10-09",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-BL",
+                "shortName": "BL"
+            }
+        ]
+    },
+    {
+        "id": "9f0f48b1-79cd-4ac9-a66f-99121bdf9e35",
+        "startDate": "2025-11-01",
+        "endDate": "2025-11-01",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "All Saints Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c899f9d3-45f4-4463-8dce-247081f02fe3",
+        "startDate": "2025-11-11",
+        "endDate": "2025-11-11",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Armistice Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "ad993bd7-6590-4cb2-ae30-5f38e002fc65",
+        "startDate": "2025-12-20",
+        "endDate": "2025-12-20",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Abolition of slavery"
+            }
+        ],
+        "regionalScope": "Regional",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-RU",
+                "shortName": "RU"
+            }
+        ]
+    },
+    {
+        "id": "6333278b-6a85-45c4-9e63-c7442cd273c1",
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-25",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "Christmas Day"
+            }
+        ],
+        "regionalScope": "National",
+        "temporalScope": "FullDay",
+        "nationwide": true
+    },
+    {
+        "id": "c10e0270-f8b4-455c-a7c1-2312c141b5ad",
+        "startDate": "2025-12-26",
+        "endDate": "2025-12-26",
+        "type": "Public",
+        "name": [
+            {
+                "language": "EN",
+                "text": "2nd day of Christmas"
+            }
+        ],
+        "regionalScope": "Local",
+        "temporalScope": "FullDay",
+        "nationwide": false,
+        "subdivisions": [
+            {
+                "code": "FR-GE-BR",
+                "shortName": "GE-BR"
+            },
+            {
+                "code": "FR-GE-HR",
+                "shortName": "GE-HR"
+            },
+            {
+                "code": "FR-GE-MO",
+                "shortName": "GE-MO"
+            }
+        ]
+    }
+]
