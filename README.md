@@ -495,17 +495,18 @@ Tests run without network access:
 php vendor/bin/phpunit tests/Reference/OpenHoliday
 ```
 
-To refresh all saved responses from OpenHolidays, GOV.UK and Azure, run from the project root with Composer
-development dependencies installed:
+To refresh saved responses from OpenHolidays, GOV.UK and Azure, and regenerate US state
+calendars, run from the project root with Composer development dependencies installed:
 
 ```bash
 php tests/console test:reference:update
 ```
 
 Updating requires internet access, PHP HTTPS stream support and `allow_url_fopen`.
-The command updates OpenHolidays, GOV.UK and Azure in that order. Each source downloads and
-validates its responses before replacing its data and updating retrieval time and
-SHA-256 hashes in `sources.json` (OpenHolidays) or `source.json` (GOV.UK and Azure).
+The command updates OpenHolidays, GOV.UK, Azure and US state calendars in that order.
+Download sources validate their responses before replacing data and updating retrieval time
+and SHA-256 hashes in `sources.json` (OpenHolidays) or `source.json` (GOV.UK and Azure).
+The US exporter records its pinned package version, generation time and JSON hash.
 If a source fails, the command fails; previously completed updates remain on disk. The configured
 countries, date range and name mappings are preserved. Review the data diff and run
 the reference tests before committing; do not regenerate expected dates from providers.
@@ -526,7 +527,7 @@ php tests/console test:reference:govuk:update
 The GOV.UK data is licensed under the Open Government Licence v3.0. Its updater
 preserves the configured years and fails when the live feed no longer covers them.
 To update only OpenHolidays, use `php tests/console test:reference:openholidays:update`.
-The Docker update command below refreshes all three sources; its test command runs all suites.
+The Docker update command below refreshes all four sources; its test command runs all suites.
 
 The [Azure Open Datasets suite](tests/Reference/Azure/README.md) covers 24 supported country codes
 for 2000–2020 (504 country/year cases) with a public Parquet snapshot, sourced from Python `holidays` and
@@ -551,6 +552,14 @@ Updating Azure requires Python and PyArrow (included in the Docker target below)
 php vendor/bin/phpunit tests/Reference/Azure
 php tests/console test:reference:azure:update
 ```
+
+The [US state reference calendars](tests/Reference/Usa/README.md) cover all 50 states
+and DC for 2020–2026 using pinned MIT-licensed `python-holidays` data. They include
+actual and observed dates. Updating requires the Python dependencies bundled in the
+Docker target; offline PHP tests check snapshot integrity and coverage. State
+providers are not implemented yet, so this suite does not compare state holidays
+with the PHP library. Update this source separately with
+`php tests/console test:reference:usa:update`.
 
 #### Reference data with Docker
 

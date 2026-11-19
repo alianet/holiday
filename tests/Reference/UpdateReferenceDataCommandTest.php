@@ -40,9 +40,15 @@ final class UpdateReferenceDataCommandTest extends HolidayTestCase
 
             return Command::SUCCESS;
         });
-        $tester = new CommandTester(new UpdateReferenceDataCommand($openHolidays, $govUk, $azure));
+        $usa = $this->createMock(Command::class);
+        $usa->expects(self::once())->method('run')->willReturnCallback(static function (InputInterface $input, OutputInterface $output): int {
+            $output->writeln('US states updated');
+
+            return Command::SUCCESS;
+        });
+        $tester = new CommandTester(new UpdateReferenceDataCommand($openHolidays, $govUk, $azure, $usa));
         self::assertSame(Command::SUCCESS, $tester->execute([]));
-        self::assertStringContainsString("OpenHolidays updated\nGOV.UK updated\nAzure updated\nAll reference data updated.", $tester->getDisplay());
+        self::assertStringContainsString("OpenHolidays updated\nGOV.UK updated\nAzure updated\nUS states updated\nAll reference data updated.", $tester->getDisplay());
     }
 
     public function testStopsWhenFirstSourceFails(): void
@@ -93,6 +99,19 @@ final class UpdateReferenceDataCommandTest extends HolidayTestCase
         $azure = $this->createMock(Command::class);
         $azure->expects(self::once())->method('run')->willReturn(Command::FAILURE);
         $tester = new CommandTester(new UpdateReferenceDataCommand($openHolidays, $govUk, $azure));
+        self::assertSame(Command::FAILURE, $tester->execute([]));
+        self::assertStringNotContainsString('All reference data updated', $tester->getDisplay());
+    }
+
+    public function testPropagatesUsaFailure(): void
+    {
+        $commands = [];
+        for ($index = 0; $index < 4; ++$index) {
+            $command = $this->createMock(Command::class);
+            $command->expects(self::once())->method('run')->willReturn($index === 3 ? Command::FAILURE : Command::SUCCESS);
+            $commands[] = $command;
+        }
+        $tester = new CommandTester(new UpdateReferenceDataCommand(...$commands));
         self::assertSame(Command::FAILURE, $tester->execute([]));
         self::assertStringNotContainsString('All reference data updated', $tester->getDisplay());
     }

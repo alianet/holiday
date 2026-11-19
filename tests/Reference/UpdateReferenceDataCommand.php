@@ -19,18 +19,19 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Umulmrum\Holiday\Test\Reference\Azure\UpdateReferenceDataCommand as UpdateAzureCommand;
 use Umulmrum\Holiday\Test\Reference\GovUk\UpdateReferenceDataCommand as UpdateGovUkCommand;
 use Umulmrum\Holiday\Test\Reference\OpenHoliday\UpdateReferenceDataCommand as UpdateOpenHolidaysCommand;
+use Umulmrum\Holiday\Test\Reference\Usa\UpdateReferenceDataCommand as UpdateUsaCommand;
 
-#[AsCommand('test:reference:update', 'Update all reference calendars: OpenHolidays, GOV.UK and Azure.')]
+#[AsCommand('test:reference:update', 'Update all reference calendars: OpenHolidays, GOV.UK, Azure and US states.')]
 final class UpdateReferenceDataCommand extends Command
 {
-    public function __construct(private readonly Command $openHolidays = new UpdateOpenHolidaysCommand(), private readonly Command $govUk = new UpdateGovUkCommand(), private readonly Command $azure = new UpdateAzureCommand())
+    public function __construct(private readonly Command $openHolidays = new UpdateOpenHolidaysCommand(), private readonly Command $govUk = new UpdateGovUkCommand(), private readonly Command $azure = new UpdateAzureCommand(), private readonly Command $usa = new UpdateUsaCommand())
     {
         parent::__construct();
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        foreach ([$this->openHolidays, $this->govUk, $this->azure] as $command) {
+        foreach ([$this->openHolidays, $this->govUk, $this->azure, $this->usa] as $command) {
             $status = $command->run(new ArrayInput([]), $output);
             if ($status !== Command::SUCCESS) {
                 return $status;

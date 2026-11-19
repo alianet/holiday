@@ -25,6 +25,9 @@ RUN apt-get update \
     && python3 -m venv /opt/azure-reference
 COPY tests/Reference/Azure/requirements.txt /tmp/azure-reference-requirements.txt
 RUN /opt/azure-reference/bin/pip install --no-cache-dir -r /tmp/azure-reference-requirements.txt
+COPY tests/Reference/Usa/requirements.txt /tmp/usa-reference-requirements.txt
+RUN /opt/azure-reference/bin/pip install --no-cache-dir -r /tmp/usa-reference-requirements.txt
+ENV USA_REFERENCE_PYTHON=/opt/azure-reference/bin/python
 ENV AZURE_REFERENCE_PYTHON=/opt/azure-reference/bin/python
 
 FROM development AS qa
