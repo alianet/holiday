@@ -42,7 +42,16 @@ jobs:
                 composer install --no-progress --prefer-dist --optimize-autoloader
 
             - name: "Run functional tests"
-              run: "composer test"
+              run: "composer test -- --coverage-clover coverage.xml"
+
+            - name: "Upload coverage to Codecov"
+              if: matrix.php-version == '8.5'
+              uses: "codecov/codecov-action@v7.1.1"
+              with:
+                  token: "${{ secrets.CODECOV_TOKEN }}"
+                  files: "coverage.xml"
+                  disable_search: true
+                  fail_ci_if_error: true
 
             - name: "Run static code analysis"
               run: "composer analyze"

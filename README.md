@@ -7,7 +7,7 @@ Holiday is a library that computes holidays in a very flexible way. It is possib
 criteria and format them in different ways. It is easy to add more holiday providers, filters and formatters, so even
 if this library does not perfectly fit your needs, you can simply extend it.
 
-[![Latest Stable Version](https://poser.pugx.org/alianet/holiday/v/stable)](https://packagist.org/packages/alianet/holiday) [![Latest Unstable Version](https://poser.pugx.org/alianet/holiday/v/unstable)](https://packagist.org/packages/alianet/holiday) [![License](https://poser.pugx.org/alianet/holiday/license)](https://packagist.org/packages/alianet/holiday)
+[![Latest Stable Version](https://poser.pugx.org/alianet/holiday/v/stable)](https://packagist.org/packages/alianet/holiday) [![Latest Unstable Version](https://poser.pugx.org/alianet/holiday/v/unstable)](https://packagist.org/packages/alianet/holiday) [![License](https://poser.pugx.org/alianet/holiday/license)](https://packagist.org/packages/alianet/holiday) [![codecov](https://codecov.io/gh/alianet/holiday/branch/master/graph/badge.svg)](https://codecov.io/gh/alianet/holiday)
 
 ## Requirements
 
@@ -443,6 +443,10 @@ Contributions are highly welcome. Please follow these rules when submitting a PR
 By submitting a PR you agree that all your contributed code may be used under the MIT license.
 
 ### Testing on multiple PHP versions
+
+GitHub Actions generates Clover coverage reports and uploads the PHP 8.5 report to
+[Codecov](https://codecov.io/gh/alianet/holiday). To enable uploads, activate the repository
+in Codecov and add its upload token as the `CODECOV_TOKEN` GitHub Actions repository secret.
 
 With Docker and Bash installed, run tests and static analysis on PHP 8.2, 8.3, 8.4 and 8.5:
 
