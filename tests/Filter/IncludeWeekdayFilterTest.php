@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -15,6 +17,7 @@ use Generator;
 use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
+use TypeError;
 use Umulmrum\Holiday\Constant\Weekday;
 use Umulmrum\Holiday\Filter\IncludeWeekdayFilter;
 use Umulmrum\Holiday\Model\Holiday;
@@ -218,7 +221,7 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
      */
     private function givenAnIncludeWeekDayFilter($weekday): void
     {
-        $this->filter = new IncludeWeekdayFilter($weekday);
+        $this->filter = new IncludeWeekdayFilter(...(is_array($weekday) ? $weekday : [$weekday]));
     }
 
     /**
@@ -260,15 +263,35 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
     {
         yield [[]];
 
-        yield [['array', 'of', 'strings']];
-
-        yield [[Weekday::SATURDAY, 'other']];
-
         yield [-1];
 
         yield [7];
 
         yield [[3, 7]];
+    }
+
+    public function testRejectsAnArrayOfStringsAsASingleArgument(): void
+    {
+        $this->expectException(TypeError::class);
+        new IncludeWeekdayFilter(['Monday', 'Friday']); // @phpstan-ignore argument.type (Intentionally invalid input.)
+    }
+
+    /** @param list<int|string> $weekdays */
+    #[DataProvider('getStringWeekdays')]
+    public function testRejectsStringWeekdays(array $weekdays): void
+    {
+        $this->expectException(TypeError::class);
+        new IncludeWeekdayFilter(...$weekdays); // @phpstan-ignore argument.type (Intentionally invalid input.)
+    }
+
+    /** @return Generator<string, array{list<int|string>}> */
+    public static function getStringWeekdays(): Generator
+    {
+        yield 'weekday names' => [['Monday', 'Friday']];
+
+        yield 'numeric strings' => [['1', '5']];
+
+        yield 'mixed integers and strings' => [[Weekday::MONDAY, '5']];
     }
 
     private function thenInvalidArgumentExceptionIsExpected(): void
@@ -281,6 +304,6 @@ final class IncludeWeekdayFilterTest extends HolidayTestCase
      */
     private function whenFilterWithInvalidWeekdayIsInstantiated(array|int $weekdays): void
     {
-        new IncludeWeekdayFilter($weekdays); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
+        new IncludeWeekdayFilter(...(is_array($weekdays) ? $weekdays : [$weekdays])); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
     }
 }

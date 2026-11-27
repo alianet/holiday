@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -16,13 +18,10 @@ use Umulmrum\Holiday\Assert\Assert;
 use Umulmrum\Holiday\Model\Holiday;
 
 use function array_flip;
-use function is_array;
-use function is_int;
 
 /**
  * IncludeWeekdayFilter retains all holidays that are on a weekday passed as constructor argument.
- * Either a single weekday may be passed as an integer (use constants in the Weekday class), or an array of integers to
- * retain more than one weekday.
+ * Pass weekdays as separate arguments using constants in the Weekday class.
  */
 final class IncludeWeekdayFilter extends AbstractFilter
 {
@@ -34,31 +33,19 @@ final class IncludeWeekdayFilter extends AbstractFilter
     private readonly array $weekdays;
 
     /**
-     * @param int|int[] $weekdays
-     *
      * @throws InvalidArgumentException
      */
-    public function __construct(array|int $weekdays)
+    public function __construct(int ...$weekdays)
     {
-        if (is_int($weekdays)) {
-            $this->assertWeekday($weekdays);
-            $tempWeekdays = [
-                $weekdays,
-            ];
-        } elseif (is_array($weekdays)) {
-            $this->assertArrayNotEmpty($weekdays);
-            foreach ($weekdays as $weekday) {
-                $this->assertWeekday($weekday);
-            }
-            $tempWeekdays = $weekdays;
-        } else {
-            throw new InvalidArgumentException('Argument must be either an integer or an array of integers.');
+        $this->assertArrayNotEmpty($weekdays);
+        foreach ($weekdays as $weekday) {
+            $this->assertWeekday($weekday);
         }
-        $this->weekdays = array_flip($tempWeekdays);
+        $this->weekdays = array_flip($weekdays);
     }
 
     protected function isIncluded(Holiday $holiday): bool
     {
-        return true === isset($this->weekdays[(int) $holiday->getDate()->format('w')]);
+        return isset($this->weekdays[(int) $holiday->getDate()->format('w')]);
     }
 }

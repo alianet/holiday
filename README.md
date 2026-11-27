@@ -231,6 +231,15 @@ $holidays
 ;
 ```
 
+`IncludeWeekdayFilter`, `IncludeHolidayNameFilter`, and `IncludeTypeFilter` accept
+separate values, for example `new IncludeWeekdayFilter(Weekday::MONDAY, Weekday::FRIDAY)`.
+Unpack an existing array with `new IncludeWeekdayFilter(...$weekdays)`.
+Constructors use typed variadic parameters (`int` for weekdays/types, `string` for
+names). Invalid argument types raise `TypeError`; PHP may coerce scalar values when
+the calling file does not enable `strict_types`. Weekdays outside 0–6 raise
+`InvalidArgumentException`.
+Weekday filters require at least one value. Empty name/type filters match nothing.
+
 See the complete list of built-in filters under `src/Filter` or use them as examples to create your own (extend
 `AbstractFilter` or implement `HolidayFilterInterface`).
 

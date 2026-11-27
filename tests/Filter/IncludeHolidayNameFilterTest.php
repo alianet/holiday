@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -12,9 +14,9 @@
 namespace Umulmrum\Holiday\Test\Filter;
 
 use Generator;
-use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
+use TypeError;
 use Umulmrum\Holiday\Filter\IncludeHolidayNameFilter;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
@@ -116,7 +118,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
     #[Test]
     public function itShouldThrowExceptionOnInvalidHolidayNames(mixed $holidayName): void
     {
-        $this->thenInvalidArgumentExceptionIsExpected();
+        $this->thenTypeErrorIsExpected();
         $this->whenFilterWithInvalidHolidayNameIsInstantiated($holidayName);
     }
 
@@ -138,7 +140,7 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
      */
     private function givenAFilter($holidayNames): void
     {
-        $this->filter = new IncludeHolidayNameFilter($holidayNames);
+        $this->filter = new IncludeHolidayNameFilter(...(is_array($holidayNames) ? $holidayNames : [$holidayNames]));
     }
 
     private function whenFilterIsCalled(HolidayList $holidayList): void
@@ -154,13 +156,13 @@ final class IncludeHolidayNameFilterTest extends HolidayTestCase
         self::assertEquals($expectedResult, $this->actualResult->getList());
     }
 
-    private function thenInvalidArgumentExceptionIsExpected(): void
+    private function thenTypeErrorIsExpected(): void
     {
-        $this->expectException(InvalidArgumentException::class);
+        $this->expectException(TypeError::class);
     }
 
     private function whenFilterWithInvalidHolidayNameIsInstantiated(mixed $holidayName): void
     {
-        new IncludeHolidayNameFilter($holidayName); // @phpstan-ignore argument.type (Intentionally invalid input to test exception handling.)
+        new IncludeHolidayNameFilter(...(is_array($holidayName) ? $holidayName : [$holidayName])); // @phpstan-ignore argument.type, new.resultUnused (Constructor is invoked only to verify TypeError for invalid input.)
     }
 }
