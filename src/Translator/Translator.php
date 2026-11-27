@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -67,7 +69,7 @@ final class Translator implements TranslatorInterface
 
     private function getBaseLanguage(string $locale): string
     {
-        if (false === $pos = strpos($locale, '_')) {
+        if (!$pos = strpos($locale, '_')) {
             return $locale;
         }
 

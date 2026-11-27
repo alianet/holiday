@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -33,10 +35,10 @@ final class IncludeUniqueDateFilter extends AbstractFilter
     protected function isIncluded(Holiday $holiday): bool
     {
         $found = isset($this->foundTimestamps[$holiday->getSimpleDate()]);
-        if (false === $found) {
+        if (!$found) {
             $this->foundTimestamps[$holiday->getSimpleDate()] = true;
         }
 
-        return false === $found;
+        return !$found;
     }
 }

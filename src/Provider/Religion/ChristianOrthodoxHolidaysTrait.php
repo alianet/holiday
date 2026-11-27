@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -28,7 +30,7 @@ trait ChristianOrthodoxHolidaysTrait
 
     private function getEasterSundayDate(int $year): DateTimeImmutable
     {
-        if (false === isset($this->easterCache[$year])) {
+        if (!isset($this->easterCache[$year])) {
             $this->easterCache[$year] = $this->calculateEasterSunday($year);
         }
 

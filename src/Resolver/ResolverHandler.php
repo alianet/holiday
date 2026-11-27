@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -72,7 +74,7 @@ final class ResolverHandler implements ResolverHandlerInterface
             return $identifier;
         }
 
-        if (false === is_string($identifier)) {
+        if (!is_string($identifier)) {
             throw new InvalidArgumentException('Argument must either be an instance of HolidayProviderInterface,
                 a string containing a class name or an array of these types. Got: ' . print_r($identifier, true));
         }

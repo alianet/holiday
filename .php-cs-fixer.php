@@ -1,13 +1,22 @@
 <?php
-$finder = (new PhpCsFixer\Finder())
+
+declare(strict_types=1);
+use PhpCsFixer\Config;
+use PhpCsFixer\Finder;
+
+$finder = (new Finder())
     ->notPath('isoData.php')
     ->in(__DIR__ . '/src')
     ->in(__DIR__ . '/tests')
+    ->in(__DIR__ . '/res')
+    ->append([__FILE__, __DIR__ . '/tests/console'])
 ;
 
-return (new PhpCsFixer\Config())
+return (new Config())
+    ->setRiskyAllowed(true)
     ->setRules([
         '@PER-CS' => true,
+        'declare_strict_types' => true,
         '@PHP8x2Migration' => true,
         '@PhpCsFixer' => true,
         'concat_space' => ['spacing' => 'one'],

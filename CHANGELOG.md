@@ -19,6 +19,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- Enable strict scalar typing in all project PHP files and enforce declarations with PHP CS Fixer.
+
+- **Breaking:** `IncludeWeekdayFilter`, `IncludeHolidayNameFilter`, and `IncludeTypeFilter` now accept variadic values. Unpack existing arrays with `...$values`; single values remain valid. Parameters are typed (`int` for weekdays/types, `string` for names); invalid types raise `TypeError` under standard PHP typing rules. Out-of-range weekdays raise `InvalidArgumentException`.
+
 - Exclude Docker tooling from distribution archives using `export-ignore`.
 
 ### Fixed

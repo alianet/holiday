@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -53,7 +55,7 @@ final readonly class GetNoWorkDaysForTimeSpan
                 new Sundays(HolidayType::DAY_OFF),
             ];
         }
-        if (false === is_array($holidayProviders)) {
+        if (!is_array($holidayProviders)) {
             $holidayProviders = [$holidayProviders];
         }
         $holidayProviders = array_merge($holidayProviders, $noWork);

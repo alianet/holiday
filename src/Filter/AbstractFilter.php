@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -25,7 +27,7 @@ abstract class AbstractFilter implements HolidayFilterInterface
     {
         $count = $holidayList->count();
         for ($index = $count - 1; $index >= 0; --$index) {
-            if (false === $this->isIncluded($holidayList->getList()[$index])) {
+            if (!$this->isIncluded($holidayList->getList()[$index])) {
                 $holidayList->removeByIndex($index);
             }
         }

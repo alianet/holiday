@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -20,12 +22,12 @@ final class ClassNameResolver implements ProviderResolverInterface
 {
     public function resolveHolidayProvider(string $identifier): ?HolidayProviderInterface
     {
-        if (false === class_exists($identifier)) {
+        if (!class_exists($identifier)) {
             return null;
         }
 
         $holidayProvider = new $identifier();
-        if (false === $holidayProvider instanceof HolidayProviderInterface) {
+        if (!$holidayProvider instanceof HolidayProviderInterface) {
             throw new InvalidArgumentException(sprintf('Class does not implement HolidayProviderInterface: %s', $identifier));
         }
 

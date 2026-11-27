@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Umulmrum\Holiday\Test\Filter;
 
 use PHPUnit\Framework\Attributes\Test;

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of the umulmrum/holiday package.
  *
@@ -28,7 +30,7 @@ trait Assert
      */
     private function assertInt(mixed $value): void
     {
-        if (false === is_int($value)) {
+        if (!is_int($value)) {
             throw new InvalidArgumentException('int expected, got: ' . print_r($value, true));
         }
     }
@@ -41,7 +43,7 @@ trait Assert
     private function assertIntArray(array $value): void
     {
         foreach ($value as $item) {
-            if (false === is_int($item)) {
+            if (!is_int($item)) {
                 throw new InvalidArgumentException('array of int expected, got: ' . print_r($value, true));
             }
         }
