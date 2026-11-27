@@ -138,6 +138,7 @@ final class HolidayName
     public const FRENCH_COMMUNITY_HOLIDAY = 'french_community_day';
 
     // Brazil
+    public const BLACK_CONSCIOUSNESS_DAY = 'black_consciousness_day';
     public const DAY_OF_THE_DEAD = 'day_of_the_dead';
     public const ELECTORAL_DAY_ROUND_ONE = 'electoral_day_round_one';
     public const ELECTORAL_DAY_ROUND_TWO = 'electoral_day_round_two';

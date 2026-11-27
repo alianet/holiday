@@ -408,6 +408,7 @@ return [
     'remembrance_day' => 'Minnesdagen',
     'repentance_and_prayer_day' => 'Bots- og bønnedagen',
     'republic_day' => 'Republikkdagen',
+    'black_consciousness_day' => 'Dagen for svart bevissthet',
     'republic_proclamation_day' => 'Dagen for proklamasjonen av republikken',
     'restoration_day_of_the_independent_czech_state' => 'Dagen for gjenopprettelsen av den selvstendige tsjekkiske staten',
     'restoration_of_independence_day' => 'Dagen for gjenopprettelsen av uavhengigheten',

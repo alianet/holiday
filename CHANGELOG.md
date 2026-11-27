@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Update Brazil's calendar with Black Consciousness Day from 2024 and partial-only Corpus Christi, correct the 2020 election dates, and fix Christmas and Republic Proclamation Day types.
+
 ### Changed
 
 - Move the ISO provider map to `IsoProviderMap::MAP` and remove manual initialization from `IsoResolver`.

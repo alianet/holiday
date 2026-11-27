@@ -408,6 +408,7 @@ return [
     'remembrance_day' => 'Remembrance Day',
     'repentance_and_prayer_day' => 'Repentance and Prayer Day',
     'republic_day' => 'Republic Day',
+    'black_consciousness_day' => 'Black Consciousness Day',
     'republic_proclamation_day' => 'Republic Proclamation Day',
     'restoration_day_of_the_independent_czech_state' => 'Restoration Day of the Independent Czech State',
     'restoration_of_independence_day' => 'Restoration of Independence Day',

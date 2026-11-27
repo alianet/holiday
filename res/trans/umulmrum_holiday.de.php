@@ -408,6 +408,7 @@ return [
     'remembrance_day' => 'Gedenktag',
     'repentance_and_prayer_day' => 'Buß- und Bettag',
     'republic_day' => 'Tag der Republik',
+    'black_consciousness_day' => 'Tag des Schwarzen Bewusstseins',
     'republic_proclamation_day' => 'Tag der Ausrufung der Republik',
     'restoration_day_of_the_independent_czech_state' => 'Tag der Erneuerung des selbständigen tschechischen Staates',
     'restoration_of_independence_day' => 'Tag der Wiederherstellung der Unabhängigkeit',

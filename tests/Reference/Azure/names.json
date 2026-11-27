@@ -475,7 +475,9 @@
         "Dia Mundial do Trabalho": [
             "labor_day"
         ],
-        "Corpus Christi": [],
+        "Corpus Christi": [
+            "corpus_christi"
+        ],
         "Independência do Brasil": [
             "independence_day"
         ],

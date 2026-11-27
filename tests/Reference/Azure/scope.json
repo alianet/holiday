@@ -24,8 +24,7 @@
             "St. Andrew's Day [Scotland]": "Scottish or Northern Irish holiday; base GB provider represents England and Wales."
         },
         "BR": {
-            "Páscoa": "Source includes religious holidays not represented by the Brazil provider. They are outside this shared-identity suite, not confirmed provider behavior.",
-            "Corpus Christi": "Source includes religious holidays not represented by the Brazil provider. They are outside this shared-identity suite, not confirmed provider behavior."
+            "Páscoa": "Source includes religious holidays not represented by the Brazil provider. They are outside this shared-identity suite, not confirmed provider behavior."
         },
         "CA": {
             "Boxing Day": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",

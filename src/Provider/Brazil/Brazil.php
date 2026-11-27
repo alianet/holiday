@@ -33,6 +33,7 @@ class Brazil implements HolidayProviderInterface
         if ($year >= 1889) {
             $holidays->add($this->getTiradentes($year, HolidayType::DAY_OFF));
         }
+        $holidays->add($this->getCorpusChristi($year, HolidayType::PARTIAL_ONLY | HolidayType::DAY_OFF));
         $holidays->add($this->getLaborDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         if ($year >= 1949) {
             $holidays->add($this->getIndependenceDay($year, HolidayType::DAY_OFF));
@@ -46,7 +47,11 @@ class Brazil implements HolidayProviderInterface
         if ($year >= 1890) {
             $holidays->add($this->getRepublicProclamationDay($year, HolidayType::DAY_OFF));
         }
-        $holidays->add($this->getChristmasDay($year, HolidayType::DAY_OFF));
+        // Law 14.759/2023 took effect after November 20, 2023.
+        if ($year >= 2024) {
+            $holidays->add(Holiday::create(HolidayName::BLACK_CONSCIOUSNESS_DAY, sprintf('%04d-11-20', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        }
+        $holidays->add($this->getChristmasDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
 
         return $holidays;
     }
@@ -74,14 +79,14 @@ class Brazil implements HolidayProviderInterface
 
     private function getElectoralDayRoundOne(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime(sprintf('First Sunday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = $year === 2020 ? '2020-11-15' : (new DateTime(sprintf('First Sunday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::ELECTORAL_DAY_ROUND_ONE, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
     }
 
     private function getElectoralDayRoundTwo(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        $date = (new DateTime(sprintf('Last Sunday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
+        $date = $year === 2020 ? '2020-11-29' : (new DateTime(sprintf('Last Sunday of %04d-10', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
 
         return Holiday::create(HolidayName::ELECTORAL_DAY_ROUND_TWO, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | $additionalType);
     }
@@ -93,6 +98,6 @@ class Brazil implements HolidayProviderInterface
 
     private function getRepublicProclamationDay(int $year, int $additionalType = HolidayType::OTHER): Holiday
     {
-        return Holiday::create(HolidayName::REPUBLIC_PROCLAMATION_DAY, sprintf('%04d-11-15', $year), HolidayType::OFFICIAL | HolidayType::RELIGIOUS | $additionalType);
+        return Holiday::create(HolidayName::REPUBLIC_PROCLAMATION_DAY, sprintf('%04d-11-15', $year), HolidayType::OFFICIAL | $additionalType);
     }
 }

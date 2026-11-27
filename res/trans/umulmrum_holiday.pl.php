@@ -409,6 +409,7 @@ return [
     'remembrance_day' => 'Dzień Pamięci',
     'repentance_and_prayer_day' => 'Dzień Pokuty i Modlitwy',
     'republic_day' => 'Dzień Republiki',
+    'black_consciousness_day' => 'Dzień Świadomości Czarnoskórych',
     'republic_proclamation_day' => 'Dzień Proklamowania Republiki',
     'restoration_day_of_the_independent_czech_state' => 'Dzień Odnowienia Niepodległego Państwa Czeskiego',
     'restoration_of_independence_day' => 'Dzień Przywrócenia Niepodległości',
