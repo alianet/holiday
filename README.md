@@ -362,7 +362,7 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 - Poland
 - Portugal (incl. Azores, Madeira, without municipal holidays)
 - Russia
-- Spain (common holidays only yet)
+- Spain (17 autonomous communities, Ceuta and Melilla; regional calendars for 2008–2027, excluding municipal and island holidays)
 - Sweden
 - Switzerland (incl. Aargau, Appenzell-Ausserrhoden, Appenzell-Innerrhoden, Basel Landschaft, Basel Stadt, Bern, Fribourg, Geneva, Glarus, Grisons, Jura, Lucerne, Neuchatel, Nidwalden, Obwalden, Schaffhausen, Schwyz, Solothurn, St Gallen, Thurgau, Ticino, Uri, Valais, Vaud, Zuerich, Zug)
 - Turkey (without Islamic holidays yet)
@@ -372,6 +372,54 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 
 To create your own holiday providers have a look at the existing code, it should be self-explanatory. I will happily
 merge pull requests to support more countries (see below).
+
+### Notes on Spanish regional holidays
+
+`ES` provides national holiday dates before regional substitutions. Immaculate
+Conception (8 December) and the official status of All Saints’ Day are included
+from 1989, following [Real Decreto 1346/1989](https://www.boe.es/buscar/doc.php?id=BOE-A-1989-26070).
+Earlier national behavior is retained; this does not claim historical completeness.
+
+Use a regional code for the published regional calendar, including the substitute
+dates selected for that year. These providers support **2008–2027** and throw
+`InvalidArgumentException` outside that range. Future years require a published
+calendar; regional choices are not extrapolated.
+
+| Code | Region | Named provider (`Provider\Spain\…`) |
+|------|--------|------------------------------------|
+| ES-AN | Andalusia | Andalusia |
+| ES-AR | Aragon | Aragon |
+| ES-AS | Asturias | Asturias |
+| ES-CB | Cantabria | Cantabria |
+| ES-CE | Ceuta | Ceuta |
+| ES-CL | Castile and León | CastileAndLeon |
+| ES-CM | Castilla-La Mancha | CastillaLaMancha |
+| ES-CN | Canary Islands | CanaryIslands |
+| ES-CT | Catalonia | Catalonia |
+| ES-EX | Extremadura | Extremadura |
+| ES-GA | Galicia | Galicia |
+| ES-IB | Balearic Islands | BalearicIslands |
+| ES-MC | Murcia | Murcia |
+| ES-MD | Madrid | Madrid |
+| ES-ML | Melilla | Melilla |
+| ES-NC | Navarre | Navarre |
+| ES-PV | Basque Country | BasqueCountry |
+| ES-RI | La Rioja | LaRioja |
+| ES-VC | Valencian Community | ValencianCommunity |
+
+```php
+$holidays = $calculator->calculate('ES-MD', 2027);
+```
+
+The calendars reproduce the annual BOE annexes, including listed recoverable
+holidays (whose hours must be made up) and `COMPENSATORY` on substitute dates.
+A moved date replaces the original date; there is no general rule that every
+Sunday holiday produces a Monday off. Working-time arrangements for recoverable
+holidays are not modeled. Municipal holidays, island-specific holidays and the
+Aran variant of the Catalan calendar are excluded. This also excludes holidays
+classified as local in Ceuta, Melilla and Navarre, even where they apply broadly.
+The Canary Islands provider consequently has 11 entries before island holidays.
+See the [source notes](tests/Reference/Spain/README.md) for provenance and updates.
 
 ### Notes on US state holidays
 

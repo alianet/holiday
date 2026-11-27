@@ -609,7 +609,9 @@
         "Día de la constitución Española": [
             "constitution_day"
         ],
-        "La Inmaculada Concepción": [],
+        "La Inmaculada Concepción": [
+            "immaculate_conception"
+        ],
         "Navidad": [
             "christmas_day"
         ]

@@ -47,9 +47,6 @@
         "DK": {
             "Palmesøndag": "Azure includes Palm Sunday, which the DK provider does not represent. This missing identity is outside the shared subset."
         },
-        "ES": {
-            "La Inmaculada Concepción": "Azure includes Immaculate Conception, which the ES provider does not represent. This missing identity is outside the shared subset."
-        },
         "MX": {
             "Transmisión del Poder Ejecutivo Federal [Change of Federal Government]": "The Mexico provider has no inauguration holiday implementation; this source identity is outside the shared subset."
         }

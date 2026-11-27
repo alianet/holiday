@@ -42,12 +42,15 @@ class Spain implements HolidayProviderInterface
             $holidays->add($this->getLaborDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         }
         $holidays->add($this->getAssumptionDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
-        $holidays->add($this->getAllSaintsDay($year, HolidayType::DAY_OFF));
+        $holidays->add($this->getAllSaintsDay($year, ($year >= 1989 ? HolidayType::OFFICIAL : HolidayType::OTHER) | HolidayType::DAY_OFF));
         if ($year >= 1892) {
             $holidays->add($this->getSpanishNationalDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         }
         if ($year >= 1983) {
             $holidays->add($this->getSpanishConstitutionDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        }
+        if ($year >= 1989) {
+            $holidays->add($this->getImmaculateConception($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         }
         $holidays->add($this->getChristmasDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
 

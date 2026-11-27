@@ -166,6 +166,25 @@ final class IsoProviderMap
 
         // Spain
         'ES' => Provider\Spain\Spain::class,
+        'ES-AN' => Provider\Spain\Andalusia::class,
+        'ES-AR' => Provider\Spain\Aragon::class,
+        'ES-AS' => Provider\Spain\Asturias::class,
+        'ES-CB' => Provider\Spain\Cantabria::class,
+        'ES-CE' => Provider\Spain\Ceuta::class,
+        'ES-CL' => Provider\Spain\CastileAndLeon::class,
+        'ES-CM' => Provider\Spain\CastillaLaMancha::class,
+        'ES-CN' => Provider\Spain\CanaryIslands::class,
+        'ES-CT' => Provider\Spain\Catalonia::class,
+        'ES-EX' => Provider\Spain\Extremadura::class,
+        'ES-GA' => Provider\Spain\Galicia::class,
+        'ES-IB' => Provider\Spain\BalearicIslands::class,
+        'ES-MC' => Provider\Spain\Murcia::class,
+        'ES-MD' => Provider\Spain\Madrid::class,
+        'ES-ML' => Provider\Spain\Melilla::class,
+        'ES-NC' => Provider\Spain\Navarre::class,
+        'ES-PV' => Provider\Spain\BasqueCountry::class,
+        'ES-RI' => Provider\Spain\LaRioja::class,
+        'ES-VC' => Provider\Spain\ValencianCommunity::class,
 
         // Sweden
         'SE' => Provider\Sweden\Sweden::class,

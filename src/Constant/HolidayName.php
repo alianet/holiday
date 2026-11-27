@@ -268,6 +268,54 @@ final class HolidayName
 
     // Spain
     public const SPANISH_NATIONAL_DAY = 'spanish_national_day';
+    public const ALL_SAINTS_DAY_COMPENSATORY = 'all_saints_day_compensatory';
+    public const ANDALUSIA_DAY = 'andalusia_day';
+    public const ANDALUSIA_DAY_COMPENSATORY = 'andalusia_day_compensatory';
+    public const ARAGON_DAY = 'aragon_day';
+    public const ARAGON_DAY_COMPENSATORY = 'aragon_day_compensatory';
+    public const ASSUMPTION_DAY_COMPENSATORY = 'assumption_day_compensatory';
+    public const ASTURIAS_DAY = 'asturias_day';
+    public const ASTURIAS_DAY_COMPENSATORY = 'asturias_day_compensatory';
+    public const BALEARIC_ISLANDS_DAY = 'balearic_islands_day';
+    public const BALEARIC_ISLANDS_DAY_COMPENSATORY = 'balearic_islands_day_compensatory';
+    public const BASQUE_COUNTRY_DAY = 'basque_country_day';
+    public const BASQUE_GOVERNMENT_ANNIVERSARY = 'basque_government_anniversary';
+    public const CANARY_ISLANDS_DAY = 'canary_islands_day';
+    public const CANARY_ISLANDS_DAY_COMPENSATORY = 'canary_islands_day_compensatory';
+    public const CANTABRIAN_INSTITUTIONS_DAY = 'cantabrian_institutions_day';
+    public const CASTILE_AND_LEON_DAY = 'castile_and_leon_day';
+    public const CASTILE_AND_LEON_DAY_COMPENSATORY = 'castile_and_leon_day_compensatory';
+    public const CASTILLA_LA_MANCHA_DAY = 'castilla_la_mancha_day';
+    public const CASTILLA_LA_MANCHA_DAY_COMPENSATORY = 'castilla_la_mancha_day_compensatory';
+    public const CATALONIA_DAY = 'catalonia_day';
+    public const CEUTA_DAY = 'ceuta_day';
+    public const CIRCUMNAVIGATION_ANNIVERSARY = 'circumnavigation_anniversary';
+    public const CONSTITUTION_DAY_COMPENSATORY = 'constitution_day_compensatory';
+    public const EID_AL_ADHA = 'eid_al_adha';
+    public const EID_AL_FITR = 'eid_al_fitr';
+    public const EPIPHANY_COMPENSATORY = 'epiphany_compensatory';
+    public const EXTREMADURA_DAY = 'extremadura_day';
+    public const EXTREMADURA_DAY_COMPENSATORY = 'extremadura_day_compensatory';
+    public const FALLAS_MONDAY = 'fallas_monday';
+    public const GALICIAN_LITERATURE_DAY = 'galician_literature_day';
+    public const GALICIAN_NATIONAL_DAY = 'galician_national_day';
+    public const IMMACULATE_CONCEPTION_COMPENSATORY = 'immaculate_conception_compensatory';
+    public const LA_RIOJA_DAY = 'la_rioja_day';
+    public const LA_RIOJA_DAY_COMPENSATORY = 'la_rioja_day_compensatory';
+    public const LABOR_AND_MADRID_DAY_COMPENSATORY = 'labor_and_madrid_day_compensatory';
+    public const LABOR_DAY_COMPENSATORY = 'labor_day_compensatory';
+    public const MADRID_DAY = 'madrid_day';
+    public const MADRID_DAY_COMPENSATORY = 'madrid_day_compensatory';
+    public const MELILLA_STATUTE_DAY = 'melilla_statute_day';
+    public const MURCIA_DAY = 'murcia_day';
+    public const MURCIA_DAY_COMPENSATORY = 'murcia_day_compensatory';
+    public const OUR_LADY_OF_AFRICA = 'our_lady_of_africa';
+    public const OUR_LADY_OF_BIEN_APARECIDA = 'our_lady_of_bien_aparecida';
+    public const SAINT_JAMES_DAY = 'saint_james_day';
+    public const SAINT_JOHNS_DAY = 'saint_johns_day';
+    public const SAINT_JOSEPHS_DAY_COMPENSATORY = 'saint_josephs_day_compensatory';
+    public const SPANISH_NATIONAL_DAY_COMPENSATORY = 'spanish_national_day_compensatory';
+    public const VALENCIAN_COMMUNITY_DAY = 'valencian_community_day';
 
     // Sweden
     public const MIDSUMMER_EVE = 'midsummer_eve';

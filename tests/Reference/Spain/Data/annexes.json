@@ -1,0 +1,8736 @@
+{
+  "2008": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-07",
+      "label": "Lunes siguiente a la Epifanía de Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CN": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Fiesta del Estatuto de Autonomía Día de las Illes Balears",
+      "regions": {
+        "IB": "***FR"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "CM": "**",
+        "VC": "**",
+        "GA": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-20",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-21",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "03-24",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge, Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Com. Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de la Región de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol.- Día Nacional de Galicia",
+      "regions": {
+        "GA": "**",
+        "MD": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de la Ciudad Autónoma de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-13",
+      "label": "Lunes siguiente a la Fiesta Nacional de España",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CB": "**",
+        "CL": "**",
+        "EX": "**",
+        "MC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban. Segunda Fiesta de Navidad",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2009": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-09",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-10",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-13",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Com. Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge, Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "06-01",
+      "label": "Día de la Región Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-11",
+      "label": "Corpus Christi",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol",
+      "regions": {
+        "GA": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de la Ciudad Autónoma de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunidad Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-02",
+      "label": "Lunes siguiente a Todos los Santos",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "EX": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-07",
+      "label": "Lunes siguiente al Día de la Constitución Español",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "EX": "**",
+        "GA": "**",
+        "MC": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban. Segunda Fiesta de Navidad",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2010": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Por traslado del Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-01",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-02",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-05",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Comunidad Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge, Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de la Región de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "06-03",
+      "label": "Fiesta del Corpus Christi",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-26",
+      "label": "Lunes siguiente a Santiago Apóstol",
+      "regions": {}
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-16",
+      "label": "Lunes siguiente a la Asunción de la Virgen",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de la Ciudad Autónoma de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunidad Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-17",
+      "label": "Pascua del Sacrificio",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "11-17",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    }
+  ],
+  "2011": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "CM": "**",
+        "VC": "**",
+        "GA": "**",
+        "MC": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-21",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-22",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge, Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Comunidad Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "04-25",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Lunes siguiente a la Fiesta del Trabajo- Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CB": "**",
+        "VC": "**",
+        "EX": "**",
+        "MD": "***",
+        "MC": "**",
+        "CE": "**"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de la Región de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-13",
+      "label": "Lunes de Pascua Granada",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "06-23",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***",
+        "MD": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol",
+      "regions": {
+        "CL": "**",
+        "GA": "**",
+        "MD": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "10-25",
+      "label": "Día del País Vasco-Euskadiko Eguna",
+      "regions": {
+        "PV": "***"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-06",
+      "label": "Festividad de la Pascua del Sacrificio (Eidul Adha)",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "11-07",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "Lunes siguiente a la Natividad del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CL": "**",
+        "CT": "**",
+        "EX": "**",
+        "NC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    }
+  ],
+  "2012": [
+    {
+      "date": "01-02",
+      "label": "Lunes siguiente al Año Nuevo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "EX": "**",
+        "CE": "**"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "CL": "**",
+        "VC": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "RI": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-05",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-06",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-09",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Comunidad Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge, Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de la Región de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-07",
+      "label": "Fiesta del Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol",
+      "regions": {
+        "CB": "**"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Día Nacional de Galicia",
+      "regions": {
+        "GA": "**"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunidad Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "10-25",
+      "label": "Día del País Vasco-Euskadiko Eguna",
+      "regions": {
+        "PV": "***"
+      }
+    },
+    {
+      "date": "10-26",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "10-27",
+      "label": "Festividad de la Pascua del Sacrificio (Eidul-Adha)",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "CT": "***"
+      }
+    }
+  ],
+  "2013": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-07",
+      "label": "Lunes siguiente a la Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-18",
+      "label": "Traslado de San José",
+      "regions": {
+        "MD": "**"
+      }
+    },
+    {
+      "date": "03-18",
+      "label": "Lunes de Fallas",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**",
+        "MC": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-28",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-29",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-01",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Comunidad Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge - Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Celebración de las Fiestas del Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de la Región de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-10",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "GA": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol",
+      "regions": {
+        "CB": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Día Nacional de Galicia",
+      "regions": {
+        "GA": "**"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-09",
+      "label": "Lunes siguiente al Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-09",
+      "label": "Lunes siguiente al Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Día Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunidad Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "10-15",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "10-15",
+      "label": "Festividad de la Pascua del Sacrificio (Eidul-Adha)",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "10-25",
+      "label": "Día del País Vasco-Euskadiko Eguna",
+      "regions": {
+        "PV": "***"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-09",
+      "label": "Lunes siguiente a La Inmaculada Concepción",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "EX": "**",
+        "MC": "**",
+        "RI": "**",
+        "CE": "**"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban – Segunda Fiesta de Navidad",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2014": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**",
+        "MC": "**",
+        "NC": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-17",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-18",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-21",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "CM": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge, Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Comunidad Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-19",
+      "label": "Fiesta del Corpus Christi",
+      "regions": {
+        "CM": "***",
+        "MD": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol",
+      "regions": {
+        "CB": "**"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Día Nacional de Galicia",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Día Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "Festividad de la Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-04",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "10-06",
+      "label": "Festividad de la Pascua del Sacrificio (DUL-HIY-YA)",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunidad Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-13",
+      "label": "Lunes siguiente a la Fiesta Nacional de España",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "EX": "**",
+        "CE": "**"
+      }
+    },
+    {
+      "date": "10-25",
+      "label": "Día del País Vasco-Euskadiko Eguna",
+      "regions": {
+        "PV": "***"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban – Segunda Fiesta de Navidad",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2015": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-20",
+      "label": "Día siguiente a San José",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "04-02",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-03",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-06",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CB": "***",
+        "CM": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Comunidad Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge, Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "06-04",
+      "label": "Fiesta del Corpus Christi",
+      "regions": {
+        "CM": "***",
+        "MD": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol-Día Nacional de Galicia",
+      "regions": {
+        "GA": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "Festividad de la Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "09-25",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "09-25",
+      "label": "Festividad de la Pascua del Sacrificio (EidulAdha)",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-02",
+      "label": "Lunes siguiente a Todos los Santos",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "CE": "**"
+      }
+    },
+    {
+      "date": "12-07",
+      "label": "Lunes siguiente al día de la Constitución Española",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "EX": "**",
+        "MC": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "Segunda Fiesta de Navidad-San Esteban",
+      "regions": {
+        "CT": "***"
+      }
+    }
+  ],
+  "2016": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-29",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**",
+        "MC": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-24",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-25",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "03-28",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge – Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de la Comunidad Autónoma",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Lunes siguiente a la Fiesta del Trabajo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CN": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**"
+      }
+    },
+    {
+      "date": "05-16",
+      "label": "Lunes de Pascua Granada",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-26",
+      "label": "Fiesta del Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Festividad del Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de la Región de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "GA": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol-Día Nacional de Galicia",
+      "regions": {
+        "GA": "**",
+        "MD": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de la Ciudad Autónoma de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-12",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "09-12",
+      "label": "Festividad de la Pascua del Sacrificio - EidulAdha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "Festividad de la Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-07",
+      "label": "80º Aniversario del primer Gobierno Vasco",
+      "regions": {
+        "PV": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "Lunes siguiente a la Natividad del Señor – San Esteban",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    }
+  ],
+  "2017": [
+    {
+      "date": "01-02",
+      "label": "Lunes siguiente a Año Nuevo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "MC": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-20",
+      "label": "Lunes siguiente a San José",
+      "regions": {
+        "EX": "**",
+        "MD": "**"
+      }
+    },
+    {
+      "date": "04-13",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-14",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-17",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-24",
+      "label": "Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-24",
+      "label": "Día de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-15",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol / Día Nacional de Galicia",
+      "regions": {
+        "GA": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-01",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "09-01",
+      "label": "Festividad de la Pascua del Sacrificio – Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "Festividad de la Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "CT": "***"
+      }
+    }
+  ],
+  "2018": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**",
+        "MC": "**"
+      }
+    },
+    {
+      "date": "03-29",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-30",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-02",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge Fiesta de Castilla y León",
+      "regions": {
+        "AR": "***",
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol / Día Nacional de Galicia",
+      "regions": {
+        "GA": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "08-22",
+      "label": "Fiesta del Sacrificio (Aid El Kebir) Festividad de la Pascua del Sacrificio – Eidul Adha",
+      "regions": {
+        "CE": "***",
+        "ML": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "Festividad de la Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "La Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "CT": "***"
+      }
+    }
+  ],
+  "2019": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-07",
+      "label": "Lunes siguiente a Epifanía",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CN": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de las Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**",
+        "GA": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "04-18",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-19",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-22",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CB": "***",
+        "CM": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge / Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-10",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-10",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-20",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol / Día Nacional de Galicia",
+      "regions": {
+        "CB": "**",
+        "GA": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "08-12",
+      "label": "Fiesta del Sacrificio – Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "08-12",
+      "label": "Fiesta del Sacrificio (Aid El Kebir)",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-09",
+      "label": "Lunes siguiente al Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-09",
+      "label": "Lunes siguiente al Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-09",
+      "label": "Lunes siguiente a la Inmaculada Concepción",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CB": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "RI": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2020": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "CM": "**",
+        "VC": "**",
+        "GA": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "03-13",
+      "label": "Estatuto de Autonomía de la Ciudad de Melilla",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "04-09",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-10",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-13",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CB": "***",
+        "CM": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-11",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "VC": "***",
+        "GA": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol / Día Nacional de Galicia",
+      "regions": {
+        "GA": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "07-31",
+      "label": "Fiesta del Sacrificio - Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "07-31",
+      "label": "Fiesta del Sacrificio - Aid El Kebir",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Estremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-02",
+      "label": "Lunes siguiente a Todos los Santos",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**"
+      }
+    },
+    {
+      "date": "12-07",
+      "label": "Lunes siguiente al Día de la Constitución Española",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2021": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de les Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-13",
+      "label": "Estatuto de Autonomía de la Ciudad de Melilla",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "04-01",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-02",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-05",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "VC": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-03",
+      "label": "Lunes siguiente al Día de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-03",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "07-20",
+      "label": "Fiesta del Sacrificio-Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "07-21",
+      "label": "Fiesta del Sacrificio-Aid Al Adha",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-16",
+      "label": "Lunes siguiente a la Asunción de la Virgen",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CN": "**",
+        "CL": "**"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "VC": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    }
+  ],
+  "2022": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "VC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de les Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "VC": "**"
+      }
+    },
+    {
+      "date": "04-14",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "VC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-15",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-18",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Lunes siguiente a la Fiesta del Trabajo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "EX": "**",
+        "MC": "**"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-03",
+      "label": "Fiesta del Eid Fitr",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-06",
+      "label": "Lunes de Pascua Granada",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-16",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "GA": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "07-09",
+      "label": "Fiesta del Sacrificio-Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "07-11",
+      "label": "Fiesta del Sacrificio-Aid Al Adha",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol/Día Nacional de Galicia",
+      "regions": {
+        "GA": "***",
+        "MD": "***",
+        "NC": "***",
+        "PV": "***"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-05",
+      "label": "Nuestra Señora de África",
+      "regions": {
+        "CE": "**"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-06",
+      "label": "V Centenario Vuelta al Mundo",
+      "regions": {
+        "PV": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "Lunes siguiente a la Natividad del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "RI": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "CT": "***"
+      }
+    }
+  ],
+  "2023": [
+    {
+      "date": "01-02",
+      "label": "Lunes siguiente a Año Nuevo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "MC": "**"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "VC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-21",
+      "label": "Martes de Carnaval",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de les Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-20",
+      "label": "Lunes siguiente a San José",
+      "regions": {
+        "MD": "**"
+      }
+    },
+    {
+      "date": "04-06",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-07",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-10",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "04-21",
+      "label": "Fiesta del Eid Fitr",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "04-24",
+      "label": "Lunes siguiente a San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-08",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "06-29",
+      "label": "Fiesta del Sacrificio-Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "06-29",
+      "label": "Fiesta del Sacrificio-Aid Al Adha",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol/Día Nacional de Galicia",
+      "regions": {
+        "CL": "**",
+        "GA": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-05",
+      "label": "Nuestra Señora de África",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "CT": "***"
+      }
+    }
+  ],
+  "2024": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "VC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-13",
+      "label": "Martes de Carnaval",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de les Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "MC": "**",
+        "VC": "**"
+      }
+    },
+    {
+      "date": "03-28",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-29",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-01",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CB": "***",
+        "CT": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-10",
+      "label": "Lunes siguiente al Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-17",
+      "label": "Fiesta del Sacrificio-Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "06-17",
+      "label": "Fiesta del Sacrificio-Aid Al Adha",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol/Día Nacional de Galicia",
+      "regions": {
+        "CB": "**",
+        "GA": "**",
+        "MD": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "08-05",
+      "label": "Nuestra Señora de África",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-09",
+      "label": "Lunes siguiente al Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-09",
+      "label": "Lunes siguiente a la Inmaculada Concepción",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "EX": "**",
+        "MC": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "CT": "***"
+      }
+    }
+  ],
+  "2025": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "VC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de les Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "MC": "**",
+        "VC": "**"
+      }
+    },
+    {
+      "date": "03-31",
+      "label": "Fiesta del Eid Fitr",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "04-17",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-18",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-21",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "CT": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-06",
+      "label": "Fiesta del Sacrificio - Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "06-06",
+      "label": "Fiesta del Sacrificio - Aid Al Adha",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-19",
+      "label": "Fiesta del Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol/Día Nacional de Galicia",
+      "regions": {
+        "GA": "**",
+        "MD": "**",
+        "NC": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-05",
+      "label": "Nuestra Señora de África",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-13",
+      "label": "Lunes siguiente al día de la Fiesta Nacional de España",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CL": "**",
+        "EX": "**"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2026": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "VC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "02-28",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-02",
+      "label": "Lunes siguiente al Día de les Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "GA": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "VC": "**"
+      }
+    },
+    {
+      "date": "03-20",
+      "label": "Fiesta del Eid Fitr",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "04-02",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "04-03",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "04-06",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CM": "***",
+        "CT": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-02",
+      "label": "Fiesta de la Comunidad de Madrid",
+      "regions": {
+        "MD": "***"
+      }
+    },
+    {
+      "date": "05-27",
+      "label": "Fiesta Sacrificio-Eidul Adha",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "05-27",
+      "label": "Fiesta Sacrificio-Aid al Adha",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "05-30",
+      "label": "Día de Canarias",
+      "regions": {
+        "CN": "***"
+      }
+    },
+    {
+      "date": "06-04",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "San Juan",
+      "regions": {
+        "CT": "***",
+        "GA": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "07-25",
+      "label": "Santiago Apóstol/Día Nacional de Galicia",
+      "regions": {
+        "GA": "**",
+        "PV": "**"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-05",
+      "label": "Nuestra Señora de África",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "08-15",
+      "label": "Asunción de la Virgen",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "09-02",
+      "label": "Día de Ceuta",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-02",
+      "label": "Día siguiente a Todos los Santos",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CN": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "NC": "**"
+      }
+    },
+    {
+      "date": "12-07",
+      "label": "Lunes siguiente al Día de la Constitución Española",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CB": "**",
+        "CL": "**",
+        "EX": "**",
+        "MD": "**",
+        "MC": "**",
+        "RI": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-26",
+      "label": "San Esteban",
+      "regions": {
+        "IB": "***",
+        "CT": "***"
+      }
+    }
+  ],
+  "2027": [
+    {
+      "date": "01-01",
+      "label": "Año Nuevo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "01-06",
+      "label": "Epifanía del Señor",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "CT": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "VC": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de Andalucía",
+      "regions": {
+        "AN": "***"
+      }
+    },
+    {
+      "date": "03-01",
+      "label": "Día de les Illes Balears",
+      "regions": {
+        "IB": "***"
+      }
+    },
+    {
+      "date": "03-10",
+      "label": "Fiesta del Eid Fitr",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "03-19",
+      "label": "San José",
+      "regions": {
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "VC": "**"
+      }
+    },
+    {
+      "date": "03-25",
+      "label": "Jueves Santo",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "IB": "**",
+        "CN": "**",
+        "CB": "**",
+        "CM": "**",
+        "CL": "**",
+        "EX": "**",
+        "GA": "**",
+        "MD": "**",
+        "MC": "**",
+        "NC": "**",
+        "PV": "**",
+        "RI": "**",
+        "CE": "**",
+        "ML": "**"
+      }
+    },
+    {
+      "date": "03-26",
+      "label": "Viernes Santo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "03-29",
+      "label": "Lunes de Pascua",
+      "regions": {
+        "IB": "***",
+        "CT": "***",
+        "NC": "***",
+        "PV": "***",
+        "RI": "***",
+        "VC": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "San Jorge/Día de Aragón",
+      "regions": {
+        "AR": "***"
+      }
+    },
+    {
+      "date": "04-23",
+      "label": "Fiesta de Castilla y León",
+      "regions": {
+        "CL": "***"
+      }
+    },
+    {
+      "date": "05-01",
+      "label": "Fiesta del Trabajo",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Día de las Letras Gallegas",
+      "regions": {
+        "GA": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Eidul Adha-Fiesta Sacrificio",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "05-17",
+      "label": "Fiesta Sacrificio-Aid Al Adha",
+      "regions": {
+        "ML": "***"
+      }
+    },
+    {
+      "date": "05-27",
+      "label": "Corpus Christi",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "05-31",
+      "label": "Día de Castilla-La Mancha",
+      "regions": {
+        "CM": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de la Región de Murcia",
+      "regions": {
+        "MC": "***"
+      }
+    },
+    {
+      "date": "06-09",
+      "label": "Día de La Rioja",
+      "regions": {
+        "RI": "***"
+      }
+    },
+    {
+      "date": "06-24",
+      "label": "Día de San Juan",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "07-28",
+      "label": "Día de las Instituciones de Cantabria",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "08-05",
+      "label": "Nuestra Señora de África",
+      "regions": {
+        "CE": "***"
+      }
+    },
+    {
+      "date": "08-16",
+      "label": "Lunes siguiente a asunción de la Virgen",
+      "regions": {
+        "AN": "**",
+        "AR": "**",
+        "AS": "**",
+        "CN": "**",
+        "CL": "**",
+        "MD": "**"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Asturias",
+      "regions": {
+        "AS": "***"
+      }
+    },
+    {
+      "date": "09-08",
+      "label": "Día de Extremadura",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "09-11",
+      "label": "Fiesta Nacional de Cataluña",
+      "regions": {
+        "CT": "***"
+      }
+    },
+    {
+      "date": "09-15",
+      "label": "La Bien Aparecida",
+      "regions": {
+        "CB": "***"
+      }
+    },
+    {
+      "date": "10-07",
+      "label": "Aniversario 1er Gobierno Euskadi",
+      "regions": {
+        "PV": "***"
+      }
+    },
+    {
+      "date": "10-09",
+      "label": "Día de la Comunitat Valenciana",
+      "regions": {
+        "VC": "***"
+      }
+    },
+    {
+      "date": "10-11",
+      "label": "Sustitución 15 de agosto",
+      "regions": {
+        "EX": "***"
+      }
+    },
+    {
+      "date": "10-12",
+      "label": "Fiesta Nacional de España",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "11-01",
+      "label": "Todos los Santos",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-06",
+      "label": "Día de la Constitución Española",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-08",
+      "label": "Inmaculada Concepción",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    },
+    {
+      "date": "12-25",
+      "label": "Natividad del Señor",
+      "regions": {
+        "AN": "*",
+        "AR": "*",
+        "AS": "*",
+        "IB": "*",
+        "CN": "*",
+        "CB": "*",
+        "CM": "*",
+        "CL": "*",
+        "CT": "*",
+        "EX": "*",
+        "GA": "*",
+        "MD": "*",
+        "MC": "*",
+        "NC": "*",
+        "PV": "*",
+        "RI": "*",
+        "VC": "*",
+        "CE": "*",
+        "ML": "*"
+      }
+    }
+  ]
+}

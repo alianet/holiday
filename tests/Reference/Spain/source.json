@@ -1,0 +1,141 @@
+{
+  "publisher": "Agencia Estatal Boletín Oficial del Estado",
+  "retrievedAt": "2026-11-27",
+  "scope": "Annual national and autonomous-community annexes; excludes municipal and island calendars and Aran-specific substitutions.",
+  "sources": [
+    {
+      "year": 2008,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-18306",
+      "htmlSha256": "47c86a5b630e6fd9586d6ffb23b7bec21c04d3f1e4172290509e11607dc3b9f2",
+      "pdfUrl": "https://www.boe.es/boe/dias/2007/10/20/pdfs/A42708-42709.pdf",
+      "pdfSha256": "6f521c1c8d520edd3d3629d619f94f42ad1b7beddeaa7dc72b447231e6e3285f",
+      "notes": ""
+    },
+    {
+      "year": 2009,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-18411",
+      "htmlSha256": "59410b9d24a01b626413db0f18f0f325aa7da7cf99b26de23ec826b5a14364c3",
+      "pdfUrl": "https://www.boe.es/boe/dias/2008/11/15/pdfs/A45391-45392.pdf",
+      "pdfSha256": "5ec573b1936e787cd80ae360f6170ec4df18e79f3561713cdde1e5667ee25393",
+      "notes": ""
+    },
+    {
+      "year": 2010,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-18477",
+      "htmlSha256": "1fbaca1244bc17359f160abe6cc4f0c66a53808809ddc46dd6e7c619d4f31d42",
+      "pdfUrl": "https://www.boe.es/boe/dias/2009/11/20/pdfs/BOE-A-2009-18477.pdf",
+      "pdfSha256": "00cb3f128e066ba230827bc42a07f51f24f2c2d5d7c9ee5295f26634507fa91a",
+      "notes": ""
+    },
+    {
+      "year": 2011,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15722",
+      "htmlSha256": "386d3c70ac56ec929b3afb63fbf333b0a7411e63a76ed4db41dccd31ec5e4cb7",
+      "pdfUrl": "https://www.boe.es/boe/dias/2010/10/15/pdfs/BOE-A-2010-15722.pdf",
+      "pdfSha256": "5674795badeb875f71156f909b88fe83be95b721b875511effb2c072a5ffbab0",
+      "notes": ""
+    },
+    {
+      "year": 2012,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-16116",
+      "htmlSha256": "70f8caae5ce291cbe432f7fa8584021ebcf11576cd3a19cdfb560add5c9b3d00",
+      "pdfUrl": "https://www.boe.es/boe/dias/2011/10/14/pdfs/BOE-A-2011-16116.pdf",
+      "pdfSha256": "d24e68c58879beec36097bb4fa93731dc123cd4c5233d49f54e8102dc7126649",
+      "notes": ""
+    },
+    {
+      "year": 2013,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13644",
+      "htmlSha256": "e392801a69673577d6ddb070968e2c33cd92d0922f96a503cd6dac61f91bae85",
+      "notes": ""
+    },
+    {
+      "year": 2014,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-12147",
+      "htmlSha256": "906219b46d389c277d4d4b4d310977418d844a89fb7d6647ae5a0c5e98332418",
+      "notes": ""
+    },
+    {
+      "year": 2015,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-10823",
+      "htmlSha256": "b50d6c4506a6ca6aecfb97f00c5f36f1b3e9ea2b464a2597820deba1d61e02d6",
+      "notes": ""
+    },
+    {
+      "year": 2016,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-11348",
+      "htmlSha256": "4ad3df9d748cd4f3d6b4795717f5b34cdc8e5ab272f3392a0a9ec778d42330e7",
+      "pdfUrl": "https://www.boe.es/boe/dias/2015/10/22/pdfs/BOE-A-2015-11348.pdf",
+      "pdfSha256": "82babd63d293174b8c45f84e3583c6c9cbae3a45861b117e3876e7cf27d8e4bf",
+      "notes": ""
+    },
+    {
+      "year": 2017,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-9244",
+      "htmlSha256": "eea01b33c25dda0741c5c511ef6d821480df30f120a49dba7870339726adb275",
+      "pdfUrl": "https://www.boe.es/boe/dias/2016/10/08/pdfs/BOE-A-2016-9244.pdf",
+      "pdfSha256": "9a6ddc881ef4365259c0054cc058d5dd44d4398d81ef6d82a2195bc64684b2ff",
+      "notes": ""
+    },
+    {
+      "year": 2018,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-11639",
+      "htmlSha256": "9e298d10e9d381d9f15cb345365faf9cd1137a19514f97edc0976d1ebc7b0d26",
+      "notes": ""
+    },
+    {
+      "year": 2019,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-14369",
+      "htmlSha256": "16910811f91f0918206450f84b313b35af5cee0b3a9041e16859fc1ffa003923",
+      "notes": ""
+    },
+    {
+      "year": 2020,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-14552",
+      "htmlSha256": "f310191245abbf8bd18f5f2395533ddd1d841d611810db634ba17a0aac6b85bf",
+      "notes": "NOTAS ACLARATORIAS: 1. En la Comunidad Autónoma de Canarias, el Decreto 83/2019, de 22 de mayo, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2020 ( B.O.C. de 6 de junio de 2019) dispone que: En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 24 de septiembre, festividad de Nuestra Señora de los Reyes; en Fuerteventura: el 18 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 8 de septiembre, festividad de Nuestra Señora del Pino; en La Gomera: el 5 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote: el 15 de septiembre, festividad de Nuestra Señora de los Dolores; en Tenerife: el 7 de septiembre, festividad de la Bajada de la Virgen del Socorro. 2. En la Comunidad Autónoma de Cataluña, la Orden TSF/116/2019, de 7 de junio, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2020 ( D.O.G.C. de 14 de junio de 2019) dispone que: \"En el territorio de Arán, de acuerdo con el Decreto 152/1997, de 25 de junio, y el Decreto 146/1998, de 23 de junio, que modifican el Decreto 177/1980, de 3 de octubre, sobre el calendario de fiestas fijas y suplentes, la fiesta del día 26 de diciembre (San Esteban) queda sustituida por la de 17 de junio (Fiesta de Arán)»."
+    },
+    {
+      "year": 2021,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-13343",
+      "htmlSha256": "aa844af6471fd0d814787f20e60c5bec02838415d4acdc617a96654ac611aaba",
+      "notes": "Notas aclaratorias: 1. En la Comunidad Autónoma de Canarias, el Decreto 110/2020, de 1 de octubre, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2021, y se abre el plazo para fijar las fiestas locales (BOC de 13 de octubre de 2020) dispone que: En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 3 de julio, festividad de la Bajada de la Virgen de los Reyes; en Fuerteventura: el 17 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 8 de septiembre, festividad de Nuestra Señora del Pino; en La Gomera: el 4 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote: el 15 de septiembre, festividad de Nuestra Señora de los Volcanes; en Tenerife: el 2 de febrero, festividad de la Virgen de la Candelaria. 2. En la Comunidad Autónoma de Cataluña, la Orden TSF/81/2020, de 14 de junio, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2021 (DOGC de 17 de junio de 2020) dispone que: «En el territorio de Arán, de acuerdo con el Decreto 152/1997, de 25 de junio, y el Decreto 146/1998, de 23 de junio, que modifican el Decreto 177/1980, de 3 de octubre, sobre el calendario de fiestas fijas y suplentes, la fiesta del día 5 de abril (Lunes de Pascua Florida) queda sustituida por la de 17 de junio (Fiesta de Arán)». 3. En la Comunitat Valenciana, el Decreto 158/2020, de 23 de octubre, del Consell, de determinación del calendario laboral en el ámbito territorial de la Comunitat Valenciana (DOGV de 28 de octubre de 2020) dispone que «[…] Y con carácter retribuido y recuperable se establece la siguiente fiesta: 24 de junio, San Juan»."
+    },
+    {
+      "year": 2022,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17113",
+      "htmlSha256": "ecc225f1de2c51bd6e93e2e9b70016926205f8ee397b910b1904e9d24b4353b9",
+      "notes": "Notas aclaratorias: 1. En la Comunidad Autónoma de Canarias, el Decreto 66/2021, de 23 de junio, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2022, y se abre plazo para fijar las fiestas locales (BOC de 5 de julio de 2021) dispone que: En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote, La Graciosa y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 24 de septiembre, festividad de Nuestra Señora de los Reyes; en Fuerteventura: el 16 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 8 de septiembre, festividad de Nuestra Señora del Pino; en La Gomera: el 3 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote y La Graciosa: el 15 de septiembre, festividad de Nuestra Señora de los Volcanes; en Tenerife: el 2 de febrero, festividad de la Virgen de la Candelaria. 2. En la Comunidad Autónoma de Cataluña, la Orden EMT/138/2021, de 25 de junio, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2022 (DOGC de 30 de junio de 2021) dispone que: «En el territorio de Arán, de acuerdo con el Decreto 152/1997, de 25 de junio, y el Decreto 146/1998, de 23 de junio, que modifican el Decreto 177/1980, de 3 de octubre, sobre el calendario de fiestas fijas y suplentes, la fiesta del día 26 de diciembre (San Esteban) queda sustituida por la de 17 de junio (Fiesta de Arán)»."
+    },
+    {
+      "year": 2023,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-16755",
+      "htmlSha256": "fe4448170ed7fa5a8085b9252c57bc19f5a040728146e75c20d687069004d532",
+      "notes": "Notas aclaratorias: 1. En la Comunidad Autónoma de Canarias, el Decreto 156/2022, de 30 de junio, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2023, y se abre plazo para fijar las fiestas locales (BOC de 12 de julio de 2022) dispone que: «En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 25 de septiembre, festividad de Nuestra Señora de los Reyes; en Fuerteventura: el 15 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 8 de septiembre, festividad de Nuestra Señora del Pino; en La Gomera: el 9 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote y La Graciosa: el 15 de septiembre, festividad de Nuestra Señora de los Volcanes; en Tenerife: el 2 de febrero, festividad de la Virgen de la Candelaria». 2. En la Comunidad Autónoma de Cataluña, la Orden EMT/81/2022, de 21 de abril, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2023 (DOGC de 28 de abril de 2022) dispone que: «En el territorio de Arán, de acuerdo con el Decreto 152/1997, de 25 de junio, y el Decreto 146/1998, de 23 de junio, que modifican el Decreto 177/1980, de 3 de octubre, sobre el calendario de fiestas fijas y suplentes, la fiesta del día 26 de diciembre (San Esteban) queda sustituida por la de 17 de junio (Fiesta de Arán)». Asimismo, dispone que: «de las trece fiestas mencionadas en el apartado a) (las transcritas en el cuadro precedente) habrá una, a escoger entre el 6 de enero (Reyes), el 10 de abril (lunes de Pascua Florida), el 24 de junio (San Juan) y el 26 de diciembre (San Esteban), que tendrá el carácter, de recuperable. Las otras doce serán de carácter retribuido y no recuperable». 3. En la Ciudad Autónoma de Ceuta, el Decreto de la Presidenta Acctal. de la Ciudad de Ceuta, por el que se determina el calendario de fiestas laborales de la ciudad de Ceuta para el año 2023, dispone que «[…] se añade una fiesta más, con carácter recuperable, al máximo de catorce, por no coincidir con domingo un suficiente número de fiestas nacionales para poder establecer una de las fiestas tradicionales de la ciudad de Ceuta, siendo la siguiente: Día 2 de septiembre: Día de Ceuta»."
+    },
+    {
+      "year": 2024,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22014",
+      "htmlSha256": "7da8453082c313adef2aa284c7c5e98e00eed54fe05496b8d3188d7a6be94fa8",
+      "notes": "Notas aclaratorias: 1. En la Comunidad Autónoma de Canarias, el Decreto 363/2023, de 11 de septiembre, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2024, y se abre plazo para fijar las fiestas locales (BOC de 18 de septiembre de 2023) dispone que: «En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote, La Graciosa y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 24 de septiembre, festividad de Nuestra Señora de los Reyes; en Fuerteventura: el 20 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 9 de septiembre, lunes posterior a la festividad de Nuestra Señora del Pino; en La Gomera: el 7 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote y La Graciosa: el 16 de septiembre, festividad de Nuestra Señora de los Volcanes; en Tenerife: el 2 de febrero, festividad de la Virgen de la Candelaria». 2. En la Comunidad Autónoma de Cataluña, la Orden EMT/153/2023, de 29 de mayo, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2024 (DOGC de 13 de junio de 2023) dispone que: «En el territorio de Arán, la fiesta del día 26 de diciembre (San Esteban) queda sustituida por la de 17 de junio (Fiesta de Arán), lunes». Asimismo, dispone que: «De las trece fiestas mencionadas en el apartado a) [las transcritas en el cuadro precedente] habrá una, a escoger entre el 6 de enero, el 1 de abril, el 24 de junio y el 26 de diciembre, que tendrá el carácter, de recuperable. Las otras doce serán de carácter retribuido y no recuperable». 3. En la Comunitat Valenciana, el Decreto 164/2023, de 29 de septiembre, del Consell, por el que se determina el calendario laboral de aplicación en el ámbito territorial de la Comunitat Valenciana para el año 2024 (DOGV de 4 de octubre de 2023) dispone que: «[…] Con carácter retribuido y recuperable se establece la siguiente fiesta: 24 de junio, San Juan»."
+    },
+    {
+      "year": 2025,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21316",
+      "htmlSha256": "fc3047c47560edd4d28d015ddf371baad66846881a7205c80307f82b454b7300",
+      "notes": "Notas aclaratorias: 1. En la Comunidad Autónoma de Canarias, el Decreto 143/2024, de 16 de septiembre, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2025, y se abre plazo para fijar las fiestas locales (BOC de 23 de septiembre de 2024) dispone que: «En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote, La Graciosa y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 5 de julio, festividad de la Bajada de la Virgen de los Reyes; en Fuerteventura: el 19 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 8 de septiembre, festividad de Nuestra Señora del Pino; en La Gomera: el 6 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote y La Graciosa: el 15 de septiembre, festividad de Nuestra Señora de los Volcanes; en Tenerife: el 3 de febrero, festividad de la Virgen de la Candelaria». 2. En la Comunidad Autónoma de Cataluña, la Orden EMT/85/2024, de 23 de abril, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2025 (DOGC de 26 de abril de 2024) dispone que: «En el territorio de Arán, la fiesta del día 26 de diciembre (San Esteban) queda sustituida por la de 17 de junio (Fiesta de Arán), martes». Asimismo, dispone que: «De las trece fiestas mencionadas en el apartado a) [las transcritas en el cuadro precedente] habrá una, a escoger entre el 6 de enero, el 21 de abril, el 24 de junio y el 26 de diciembre, que tendrá el carácter de recuperable. Las otras doce serán de carácter retribuido y no recuperable». 3. En la Comunitat Valenciana, el Decreto 100/2024, de 2 de agosto, del Consell, por el que se determina el calendario laboral de aplicación en el ámbito territorial de la Comunitat Valenciana para el año 2025 (DOGV de 12 de agosto de 2024) dispone que: «[…] Con carácter retribuido y recuperable se establece la siguiente fiesta: 24 de junio, San Juan»."
+    },
+    {
+      "year": 2026,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21667",
+      "htmlSha256": "7728567f2742abae91e208870e17c77d16b969696a4ff382c91ec62d9d94f709",
+      "notes": "Notas aclaratorias: 1. En la Comunidad Autónoma de Canarias, el Decreto 61/2025, de 28 de abril, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2026 (BOC de 5 de mayo de 2025) dispone que: «En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote, La Graciosa y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 24 de septiembre, festividad de Nuestra Señora de los Reyes; en Fuerteventura: el 18 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 8 de septiembre, festividad de Nuestra Señora del Pino; en La Gomera: el 5 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote y La Graciosa: el 15 de septiembre, festividad de Nuestra Señora de los Volcanes; en Tenerife: el 2 de febrero, festividad de la Virgen de la Candelaria». 2. En la Comunidad Autónoma de Cataluña, la Orden EMT/66/2025, de 30 de abril, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2026 (DOGC de 6 de mayo de 2025) dispone que: «En el territorio de Arán, la fiesta del día 26 de diciembre (Sant Esteve) queda sustituida por la de 17 de junio (Fiesta de Arán), miércoles»."
+    },
+    {
+      "year": 2027,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21254",
+      "htmlSha256": "68d2842296d03c8f00388fbb79c237750efd58568f92981536a073a410cc0bc4",
+      "notes": "Notas aclaratorias: 1. En la Comunidad Autónoma de Canarias, el Decreto 115/2026, de 29 de junio, por el que se determina el calendario de fiestas laborales de la Comunidad Autónoma de Canarias para el año 2027 (BOC de 3 de julio de 2026) dispone que: «En las islas de El Hierro, Fuerteventura, Gran Canaria, La Gomera, La Palma, Lanzarote y La Graciosa, y Tenerife, las fiestas laborales serán, además, las siguientes: en El Hierro: el 24 de septiembre, festividad de Nuestra Señora de los Reyes; en Fuerteventura: el 17 de septiembre, festividad de Nuestra Señora de la Peña; en Gran Canaria: el 8 de septiembre, festividad de Nuestra Señora del Pino; en La Gomera: el 4 de octubre, festividad de Nuestra Señora de Guadalupe; en La Palma: el 5 de agosto, festividad de Nuestra Señora de Las Nieves; en Lanzarote y La Graciosa: el 15 de septiembre, festividad de Nuestra Señora de los Volcanes; en Tenerife: el 2 de febrero, festividad de la Virgen de la Candelaria». 2. En la Comunidad Autónoma de Cataluña, la Orden EMT/52/2026, de 25 de marzo, por la que se establece el calendario oficial de fiestas laborales en Cataluña para el año 2027 (DOGC de 1 de abril de 2026) dispone que: «En el territorio de Arán, la fiesta del día 29 de marzo (Pasqua Florida) queda sustituida por la de 17 de junio (Fiesta de Arán), jueves»."
+    }
+  ]
+}
