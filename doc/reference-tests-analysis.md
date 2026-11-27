@@ -90,3 +90,11 @@ Analiza była statyczna i dotyczyła stanu katalogu roboczego, w tym lokalnych
 zmian dotyczących USA. Nie zmieniano testów ani danych referencyjnych.
 Nie potwierdzono wyników uruchomieniem testów: lokalnie brakuje PHP,
 a próba dostępu do demona Dockera zakończyła się odmową dostępu.
+
+## Dependencje Korony — aktualizacja 27.11.2026
+
+Dodano [osobne referencje JE/GG/IM](../tests/Reference/CrownDependencies/README.md)
+dla 2020–2027. Ręczne tabele dat są niezależne od wyników providerów;
+rozróżniono bezpośrednie listy roczne i daty wynikające z aktów prawnych.
+Brakuje pełnych list rocznych GG/IM i pełnego tekstu aktu koronacyjnego GG.
+GG obejmuje tylko wyspę Guernsey; Alderney i Sark pozostają osobnymi zadaniami.

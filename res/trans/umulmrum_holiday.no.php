@@ -12,6 +12,13 @@ declare(strict_types=1);
  */
 
 return [
+    'tynwald_day' => 'Tynwald-dagen',
+    'tt_bank_holiday' => 'TT-bankfridag',
+    've_day_75' => '75-årsdagen for seieren i Europa',
+    'code_of_1771_anniversary' => '250-årsdagen for lovboken av 1771',
+    'royal_visit' => 'Kongelig besøk',
+    'tynwald_day_compensatory' => 'Tynwald-dagen (erstatningsdag)',
+
     'abolition_of_slavery' => 'Avskaffelsen av slaveriet',
     'adelaide_cup_day' => 'Adelaide Cup-dagen',
     'advent_sunday_1' => 'Første søndag i advent',

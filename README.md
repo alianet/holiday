@@ -348,6 +348,9 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 - Finland
 - France (incl. Bas-Rhin, French Guiana, Guadeloupe, Haut-Rhin, Martinique, Mayotte (`FR-YT`), Moselle, Reunion, Saint-Barthélemy (`FR-BL`), Saint-Martin (`FR-MF`))
 - Germany (incl. Baden-Wuerttemberg, Bavaria, Berlin, Brandenburg, Bremen, Hamburg, Hesse, Lower Saxony, Mecklenburg-Vorpommern, North-rhine Westphalia, Rhineland Palatinate, Saarland, Saxony, Saxony-Anhalt, Schleswig-Holstein, Thuringia)
+- Guernsey (GG: island of Guernsey only; 2020–2027 rules and known exceptions)
+- Isle of Man (2020–2027)
+- Jersey (2020–2027)
 - Greenland
 - Iceland
 - Ireland
@@ -385,8 +388,14 @@ merge pull requests to support more countries (see below).
 | IE | `Ireland\Ireland` | Ireland, an independent country |
 
 Provider names are relative to `Umulmrum\Holiday\Provider`. GB does not combine
-all UK jurisdictions. Dependencies of the Crown and overseas territories require
-their own calendars; they are outside these providers. Unimplemented regional
+all UK jurisdictions. Crown dependencies have separate providers: `JE` →
+`Jersey\Jersey`, `GG` → `Guernsey\Guernsey` (island only, excluding Alderney
+and Sark), `IM` → `IsleOfMan\IsleOfMan`. These support **2020–2027** and reject
+other years. They return bank/public/customary holiday status without automatic
+`DAY_OFF` entitlement. GG does not cover the entire Bailiwick. Annual-list audit
+gaps and known exceptions are recorded in the
+[Crown dependency source audit](tests/Reference/CrownDependencies/README.md).
+Overseas territories remain outside these providers. Unimplemented regional
 codes still use the resolver's country fallback.
 
 UK observed dates are independently checked for **2019–2028**, including weekend

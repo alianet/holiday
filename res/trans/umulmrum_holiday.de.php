@@ -12,6 +12,13 @@ declare(strict_types=1);
  */
 
 return [
+    'tynwald_day' => 'Tynwald-Tag',
+    'tt_bank_holiday' => 'TT-Bankfeiertag',
+    've_day_75' => '75. Jahrestag des Sieges in Europa',
+    'code_of_1771_anniversary' => '250. Jahrestag des Kodex von 1771',
+    'royal_visit' => 'Königlicher Besuch',
+    'tynwald_day_compensatory' => 'Tynwald-Tag (Ersatzfeiertag)',
+
     'abolition_of_slavery' => 'Abschaffung der Sklaverei',
     'adelaide_cup_day' => 'Tag des Adelaide Cup',
     'advent_sunday_1' => 'Erster Adventssonntag',

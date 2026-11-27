@@ -12,7 +12,7 @@ produktową, a nie statystycznym rankingiem popularności PHP w krajach.
 
 | Kolejność | Kraj lub terytorium | Rodzaj prac | Zakres pierwszego wdrożenia i uzasadnienie |
 |---|---|---|---|
-| 1 | Jersey (`JE`), Guernsey (`GG`), Wyspa Man (`IM`) | Nowe kalendarze | Osobne providery, mapowania ISO, dni zastępcze i wyjątki roczne. Domknięcie obsługi wokół rynku brytyjskiego. Przed implementacją Guernsey ustalić zakres poszczególnych wysp. Dependencje Korony mają własne kalendarze; nie należy utożsamiać ich z UK. |
+| 1 | Dependencje Korony — dalszy audyt | Częściowo wdrożone | JE, GG (tylko wyspa Guernsey), IM: osobne providery i ISO, reguły 2020–2027 i znane wyjątki. Pozyskać brakujące roczne listy GG/IM oraz pełny tekst koronacyjnego aktu GG; osobno opracować Alderney i Sark bez wymyślonych kodów ISO. Granice dowodów: `tests/Reference/CrownDependencies/README.md`. |
 | 2 | Japonia (`JP`) | Nowy kraj | Święta ogólnokrajowe, dni zastępcze i wyjątki roczne. Najsilniej uzasadniona danymi PHP luka w obecnej liście krajów. |
 | 3 | Hiszpania — Wyspy Kanaryjskie i Baleary | Uzupełnienie regionów | Dodać kalendarze poszczególnych wysp. Istniejące providery obejmują poziom wspólnot autonomicznych, a README jawnie wyklucza święta wysp. |
 | 4 | Brazylia (`BR`) | Audyt i rozbudowa | Sprawdzić istniejące pokrycie; następnie uzupełnić brakujące stany oraz rozróżnienie świąt i dni fakultatywnych. Duży potencjalny zasięg. |

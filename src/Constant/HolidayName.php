@@ -19,6 +19,13 @@ final class HolidayName
 
     // Common
     public const FATHERS_DAY = 'fathers_day';
+    public const TYNWALD_DAY = 'tynwald_day';
+    public const TT_BANK_HOLIDAY = 'tt_bank_holiday';
+    public const VE_DAY_75 = 've_day_75';
+    public const CODE_OF_1771_ANNIVERSARY = 'code_of_1771_anniversary';
+    public const ROYAL_VISIT = 'royal_visit';
+    public const TYNWALD_DAY_COMPENSATORY = self::TYNWALD_DAY . self::SUFFIX_COMPENSATORY;
+
     public const NEW_YEAR = 'new_year';
     public const NEW_YEAR_COMPENSATORY = self::NEW_YEAR . self::SUFFIX_COMPENSATORY;
     public const INTERNATIONAL_WOMENS_DAY = 'international_womens_day';

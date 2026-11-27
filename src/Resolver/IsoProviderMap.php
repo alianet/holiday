@@ -24,6 +24,11 @@ final class IsoProviderMap
 {
     /** @var array<string, class-string<HolidayProviderInterface>> */
     public const MAP = [
+        // Crown dependencies: GG is scoped to the island of Guernsey, not the Bailiwick.
+        'JE' => Provider\Jersey\Jersey::class,
+        'GG' => Provider\Guernsey\Guernsey::class,
+        'IM' => Provider\IsleOfMan\IsleOfMan::class,
+
         // Australia
         'AU' => Provider\Australia\Australia::class,
         'AU-ACT' => Provider\Australia\AustralianCapitalTerritory::class,

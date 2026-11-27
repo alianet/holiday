@@ -12,6 +12,12 @@ declare(strict_types=1);
  */
 
 return [
+    'tynwald_day' => 'Tynwald Day',
+    'tt_bank_holiday' => 'TT Bank Holiday',
+    've_day_75' => '75th Anniversary of VE Day',
+    'code_of_1771_anniversary' => '250th Anniversary of the Code of 1771',
+    'royal_visit' => 'Royal Visit',
+    'tynwald_day_compensatory' => 'Tynwald Day (compensatory)',
     'abolition_of_slavery' => 'Abolition of Slavery',
     'adelaide_cup_day' => 'Adelaide Cup Day',
     'advent_sunday_1' => 'First Sunday of Advent',
