@@ -137,6 +137,9 @@ final class IsoProviderMap
         'IT' => Provider\Italy\Italy::class,
         'IT-32' => Provider\Italy\SouthTyrol::class,
 
+        // Japan
+        'JP' => Provider\Japan\Japan::class,
+
         // Latvia
         'LV' => Provider\Latvia\Latvia::class,
 

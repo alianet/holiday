@@ -355,6 +355,7 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 - Iceland
 - Ireland
 - Italy (incl. South Tyrol)
+- Japan (1980–2099; substitute and citizens’ holidays included; future equinox dates are predictions; [official reference tests for 1980–2027](tests/Reference/Japan/README.md))
 - Latvia
 - Liechtenstein
 - Lithuania

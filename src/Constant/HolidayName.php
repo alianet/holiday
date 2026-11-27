@@ -17,6 +17,28 @@ final class HolidayName
 {
     public const SUFFIX_COMPENSATORY = '_compensatory';
 
+    // Japan
+    public const JAPAN_CONSTITUTION_DAY = 'japan_constitution_day';
+    public const COMING_OF_AGE_DAY = 'coming_of_age_day';
+    public const JAPAN_FOUNDATION_DAY = 'japan_foundation_day';
+    public const EMPERORS_BIRTHDAY = 'emperors_birthday';
+    public const VERNAL_EQUINOX_DAY = 'vernal_equinox_day';
+    public const GREENERY_DAY = 'greenery_day';
+    public const SHOWA_DAY = 'showa_day';
+    public const JAPAN_CHILDRENS_DAY = 'japan_childrens_day';
+    public const MARINE_DAY = 'marine_day';
+    public const MOUNTAIN_DAY = 'mountain_day';
+    public const RESPECT_FOR_THE_AGED_DAY = 'respect_for_the_aged_day';
+    public const AUTUMNAL_EQUINOX_DAY = 'autumnal_equinox_day';
+    public const SPORTS_DAY = 'sports_day';
+    public const CULTURE_DAY = 'culture_day';
+    public const LABOR_THANKSGIVING_DAY = 'labor_thanksgiving_day';
+    public const STATE_FUNERAL_OF_EMPEROR_SHOWA = 'state_funeral_of_emperor_showa';
+    public const ENTHRONEMENT_CEREMONY_DAY = 'enthronement_ceremony_day';
+    public const ROYAL_WEDDING = 'royal_wedding';
+    public const ENTHRONEMENT_DAY = 'enthronement_day';
+    public const CITIZENS_HOLIDAY = 'citizens_holiday';
+
     // Common
     public const FATHERS_DAY = 'fathers_day';
     public const TYNWALD_DAY = 'tynwald_day';
