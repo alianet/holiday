@@ -26,6 +26,8 @@ class Alberta extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
         if ($year >= 1990) {
             $holidays->add($this->getFamilyDay($year));
         }

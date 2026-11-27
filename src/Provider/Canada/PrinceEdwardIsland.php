@@ -31,6 +31,7 @@ class PrinceEdwardIsland extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
         if ($year >= 2009) {
             $holidays->add($this->getIslanderDay($year));
         }
@@ -50,6 +51,6 @@ class PrinceEdwardIsland extends Canada
             $date = new DateTime(sprintf('Third Monday of %04d-02', $year));
         }
 
-        return Holiday::createFromDateTime(HolidayName::NOVA_SCOTIA_HERITAGE_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::createFromDateTime(HolidayName::ISLANDER_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 }

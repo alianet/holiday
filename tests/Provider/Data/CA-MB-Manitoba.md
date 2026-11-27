@@ -37,15 +37,16 @@
 
 # 2007
 
-| Date       | Name             | Types                        |
-|------------|------------------|------------------------------|
-| 2007-01-01 | new_year         | official, day_off            |
-| 2007-04-06 | good_friday      | official, day_off, religious |
-| 2007-05-21 | victoria_day     | official, day_off            |
-| 2007-07-01 | canada_day       | official, day_off            |
-| 2007-09-03 | labor_day        | official, day_off            |
-| 2007-10-08 | thanksgiving_day | official, day_off            |
-| 2007-12-25 | christmas_day    | official, day_off, religious |
+| Date       | Name                    | Types                           |
+|------------|-------------------------|---------------------------------|
+| 2007-01-01 | new_year                | official, day_off               |
+| 2007-04-06 | good_friday             | official, day_off, religious    |
+| 2007-05-21 | victoria_day            | official, day_off               |
+| 2007-07-01 | canada_day              | official, day_off               |
+| 2007-07-02 | canada_day_compensatory | official, day_off, compensatory |
+| 2007-09-03 | labor_day               | official, day_off               |
+| 2007-10-08 | thanksgiving_day        | official, day_off               |
+| 2007-12-25 | christmas_day           | official, day_off, religious    |
 
 # 2008
 
@@ -70,21 +71,21 @@
 | 2022-05-23 | victoria_day                              | official, day_off               |
 | 2022-07-01 | canada_day                                | official, day_off               |
 | 2022-09-05 | labor_day                                 | official, day_off               |
-| 2022-09-22 | national_day_of_mourning                  | official, day_off, partial_only |
+| 2022-09-19 | national_day_of_mourning                  | official, day_off, partial_only |
 | 2022-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only |
 | 2022-10-10 | thanksgiving_day                          | official, day_off               |
 | 2022-12-25 | christmas_day                             | official, day_off, religious    |
 
 # 2024
 
-| Date       | Name                                      | Types                           |
-|------------|-------------------------------------------|---------------------------------|
-| 2024-01-01 | new_year                                  | official, day_off               |
-| 2024-02-19 | louis_riel_day                            | official, day_off               |
-| 2024-03-29 | good_friday                               | official, day_off, religious    |
-| 2024-05-20 | victoria_day                              | official, day_off               |
-| 2024-07-01 | canada_day                                | official, day_off               |
-| 2024-09-02 | labor_day                                 | official, day_off               |
-| 2024-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only |
-| 2024-10-14 | thanksgiving_day                          | official, day_off               |
-| 2024-12-25 | christmas_day                             | official, day_off, religious    |
+| Date       | Name                                      | Types                        |
+|------------|-------------------------------------------|------------------------------|
+| 2024-01-01 | new_year                                  | official, day_off            |
+| 2024-02-19 | louis_riel_day                            | official, day_off            |
+| 2024-03-29 | good_friday                               | official, day_off, religious |
+| 2024-05-20 | victoria_day                              | official, day_off            |
+| 2024-07-01 | canada_day                                | official, day_off            |
+| 2024-09-02 | labor_day                                 | official, day_off            |
+| 2024-09-30 | national_day_for_truth_and_reconciliation | official, day_off            |
+| 2024-10-14 | thanksgiving_day                          | official, day_off            |
+| 2024-12-25 | christmas_day                             | official, day_off, religious |

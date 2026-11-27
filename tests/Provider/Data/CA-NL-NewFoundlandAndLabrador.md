@@ -14,18 +14,19 @@
 
 # 1917
 
-| Date       | Name                | Types                                      |
-|------------|---------------------|--------------------------------------------|
-| 1917-01-01 | new_year            | official, day_off                          |
-| 1917-04-06 | good_friday         | official, day_off, religious               |
-| 1917-05-21 | victoria_day        | official, government_agencies_closed       |
-| 1917-07-01 | dominion_day        | official, day_off                          |
-| 1917-07-01 | canada_memorial_day | official, day_off                          |
-| 1917-09-03 | labor_day           | official, day_off                          |
-| 1917-10-08 | thanksgiving_day    | official, day_off, partial_only            |
-| 1917-11-11 | remembrance_day     | official, day_off                          |
-| 1917-12-25 | christmas_day       | official, day_off, religious               |
-| 1917-12-26 | boxing_day          | official, day_off, religious, partial_only |
+| Date       | Name                      | Types                                      |
+|------------|---------------------------|--------------------------------------------|
+| 1917-01-01 | new_year                  | official, day_off                          |
+| 1917-04-06 | good_friday               | official, day_off, religious               |
+| 1917-05-21 | victoria_day              | official, government_agencies_closed       |
+| 1917-07-01 | dominion_day              | official, day_off                          |
+| 1917-07-01 | canada_memorial_day       | official, day_off                          |
+| 1917-07-02 | dominion_day_compensatory | official, day_off, compensatory            |
+| 1917-09-03 | labor_day                 | official, day_off                          |
+| 1917-10-08 | thanksgiving_day          | official, day_off, partial_only            |
+| 1917-11-11 | remembrance_day           | official, day_off                          |
+| 1917-12-25 | christmas_day             | official, day_off, religious               |
+| 1917-12-26 | boxing_day                | official, day_off, religious, partial_only |
 
 # 1952
 
@@ -83,7 +84,7 @@
 | 2022-07-01 | canada_day                                | official, day_off                          |
 | 2022-07-01 | canada_memorial_day                       | official, day_off                          |
 | 2022-09-05 | labor_day                                 | official, day_off                          |
-| 2022-09-22 | national_day_of_mourning                  | official, day_off, partial_only            |
+| 2022-09-19 | national_day_of_mourning                  | official, day_off, partial_only            |
 | 2022-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only            |
 | 2022-10-10 | thanksgiving_day                          | official, day_off, partial_only            |
 | 2022-11-11 | remembrance_day                           | official, day_off                          |

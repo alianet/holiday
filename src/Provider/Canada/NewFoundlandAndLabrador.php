@@ -30,6 +30,7 @@ class NewFoundlandAndLabrador extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
         $holidays->add($this->getVictoriaDay($year, HolidayType::GOVERNMENT_AGENCIES_CLOSED));
         if ($year >= 1917) {
             $holidays->add($this->getMemorialDay($year));

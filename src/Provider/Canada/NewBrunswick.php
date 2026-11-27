@@ -31,13 +31,14 @@ class NewBrunswick extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
         if ($year >= 2018) {
             $holidays->add($this->getFamilyDay($year));
         }
         $holidays->add($this->getVictoriaDay($year, HolidayType::SHOPS_CLOSED));
         $holidays->add($this->getNewBrunswickDay($year));
-        $holidays->add($this->getThanksgiving($year, HolidayType::PARTIAL_ONLY));
-        $holidays->add($this->getBoxingDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY));
+        $holidays->add($this->getThanksgiving($year, HolidayType::PARTIAL_ONLY | HolidayType::SHOPS_CLOSED));
+        $holidays->add($this->getBoxingDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY | HolidayType::SHOPS_CLOSED));
 
         return $holidays;
     }

@@ -57,18 +57,19 @@
 
 # 2007
 
-| Date       | Name             | Types                        |
-|------------|------------------|------------------------------|
-| 2007-01-01 | new_year         | official, day_off            |
-| 2007-02-19 | family_day       | official, day_off            |
-| 2007-04-06 | good_friday      | official, day_off, religious |
-| 2007-05-21 | victoria_day     | official, day_off            |
-| 2007-07-01 | canada_day       | official, day_off            |
-| 2007-08-06 | saskatchewan_day | official, day_off            |
-| 2007-09-03 | labor_day        | official, day_off            |
-| 2007-10-08 | thanksgiving_day | official, day_off            |
-| 2007-11-11 | remembrance_day  | official, day_off            |
-| 2007-12-25 | christmas_day    | official, day_off, religious |
+| Date       | Name                    | Types                           |
+|------------|-------------------------|---------------------------------|
+| 2007-01-01 | new_year                | official, day_off               |
+| 2007-02-19 | family_day              | official, day_off               |
+| 2007-04-06 | good_friday             | official, day_off, religious    |
+| 2007-05-21 | victoria_day            | official, day_off               |
+| 2007-07-01 | canada_day              | official, day_off               |
+| 2007-07-02 | canada_day_compensatory | official, day_off, compensatory |
+| 2007-08-06 | saskatchewan_day        | official, day_off               |
+| 2007-09-03 | labor_day               | official, day_off               |
+| 2007-10-08 | thanksgiving_day        | official, day_off               |
+| 2007-11-11 | remembrance_day         | official, day_off               |
+| 2007-12-25 | christmas_day           | official, day_off, religious    |
 
 # 2022
 
@@ -81,7 +82,7 @@
 | 2022-07-01 | canada_day                                | official, day_off               |
 | 2022-08-01 | saskatchewan_day                          | official, day_off               |
 | 2022-09-05 | labor_day                                 | official, day_off               |
-| 2022-09-22 | national_day_of_mourning                  | official, day_off, partial_only |
+| 2022-09-19 | national_day_of_mourning                  | official, day_off, partial_only |
 | 2022-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only |
 | 2022-10-10 | thanksgiving_day                          | official, day_off               |
 | 2022-11-11 | remembrance_day                           | official, day_off               |

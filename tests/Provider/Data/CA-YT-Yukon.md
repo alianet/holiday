@@ -86,7 +86,7 @@
 | 2022-07-01 | canada_day                                | official, day_off                          |
 | 2022-08-15 | discovery_day                             | official, day_off                          |
 | 2022-09-05 | labor_day                                 | official, day_off                          |
-| 2022-09-22 | national_day_of_mourning                  | official, day_off, partial_only            |
+| 2022-09-19 | national_day_of_mourning                  | official, day_off, partial_only            |
 | 2022-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only            |
 | 2022-10-10 | thanksgiving_day                          | official, day_off                          |
 | 2022-11-11 | remembrance_day                           | official, day_off                          |

@@ -30,11 +30,17 @@ class Nunavut extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
         $holidays->add($this->getVictoriaDay($year, HolidayType::DAY_OFF));
         if ($year >= 2000) {
             $holidays->add($this->getNunavutDay($year));
         }
         $holidays->add($this->getCivicHoliday($year));
+
+        if ($year >= 2022) {
+            $holidays->replaceByNameAndDate($this->getNationalDayForTruthAndReconciliation($year));
+        }
 
         return $holidays;
     }
@@ -47,6 +53,6 @@ class Nunavut extends Canada
             $date = sprintf('%04d-07-09', $year);
         }
 
-        return Holiday::create(HolidayName::NUNAVUT_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY);
+        return Holiday::create(HolidayName::NUNAVUT_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF | ($year < 2020 ? HolidayType::PARTIAL_ONLY : HolidayType::OTHER));
     }
 }

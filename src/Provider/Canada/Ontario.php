@@ -27,10 +27,11 @@ class Ontario extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
         if ($year >= 2008) {
             $holidays->add($this->getFamilyDay($year));
         }
-        $holidays->add($this->getVictoriaDay($year, HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY));
+        $holidays->add($this->getVictoriaDay($year, HolidayType::DAY_OFF));
         $holidays->removeByName(HolidayName::REMEMBRANCE_DAY);
         $holidays->add($this->getBoxingDay($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
 

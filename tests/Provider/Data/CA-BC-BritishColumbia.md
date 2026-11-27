@@ -46,12 +46,13 @@
 | Date       | Name                                      | Types                           |
 |------------|-------------------------------------------|---------------------------------|
 | 2022-01-01 | new_year                                  | official, day_off               |
+| 2022-02-21 | family_day                                | official, day_off               |
 | 2022-04-15 | good_friday                               | official, day_off, religious    |
 | 2022-05-23 | victoria_day                              | official, day_off               |
 | 2022-07-01 | canada_day                                | official, day_off               |
 | 2022-08-01 | british_columbia_day                      | official, day_off               |
 | 2022-09-05 | labor_day                                 | official, day_off               |
-| 2022-09-22 | national_day_of_mourning                  | official, day_off, partial_only |
+| 2022-09-19 | national_day_of_mourning                  | official, day_off, partial_only |
 | 2022-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only |
 | 2022-10-10 | thanksgiving_day                          | official, day_off               |
 | 2022-11-11 | remembrance_day                           | official, day_off               |
@@ -62,6 +63,7 @@
 | Date       | Name                                      | Types                        |
 |------------|-------------------------------------------|------------------------------|
 | 2023-01-01 | new_year                                  | official, day_off            |
+| 2023-02-20 | family_day                                | official, day_off            |
 | 2023-04-07 | good_friday                               | official, day_off, religious |
 | 2023-05-22 | victoria_day                              | official, day_off            |
 | 2023-07-01 | canada_day                                | official, day_off            |
@@ -77,6 +79,7 @@
 | Date       | Name                                      | Types                        |
 |------------|-------------------------------------------|------------------------------|
 | 2024-01-01 | new_year                                  | official, day_off            |
+| 2024-02-19 | family_day                                | official, day_off            |
 | 2024-03-29 | good_friday                               | official, day_off, religious |
 | 2024-05-20 | victoria_day                              | official, day_off            |
 | 2024-07-01 | canada_day                                | official, day_off            |

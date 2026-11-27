@@ -15,17 +15,19 @@ namespace Umulmrum\Holiday\Provider\Canada;
 
 use DateTime;
 use Umulmrum\Holiday\Assert\Year;
+use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
+use Umulmrum\Holiday\Constant\Weekday;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CommonHolidaysTrait;
-use Umulmrum\Holiday\Provider\HolidayProviderInterface;
+use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
 use Umulmrum\Holiday\Provider\Religion\ChristianHolidaysTrait;
 
 use function sprintf;
 
-class Canada implements HolidayProviderInterface
+class Canada implements CompensatoryHolidayProviderInterface
 {
     use ChristianHolidaysTrait;
     use CommonHolidaysTrait;
@@ -53,10 +55,20 @@ class Canada implements HolidayProviderInterface
         if ($year >= 2021) {
             $holidays->add($this->getNationalDayForTruthAndReconciliation($year, HolidayType::PARTIAL_ONLY));
         }
-        $holidays->add($this->getThanksgiving($year));
-        $holidays->add($this->getRemembranceDay($year));
+        $holidays->add($this->getThanksgiving($year, HolidayType::PARTIAL_ONLY));
+        $holidays->add($this->getRemembranceDay($year, HolidayType::PARTIAL_ONLY));
 
         return $holidays;
+    }
+
+    public function getCompensatoryDaysCalculators(int $year): array
+    {
+        // Holidays Act: July 2 is the legal holiday when July 1 is Sunday.
+        // Other substitutes depend on working schedules or employer agreements.
+        return [new CompensatoryDaysCalculator(
+            [HolidayName::CANADA_DAY, HolidayName::DOMINION_DAY],
+            weekDaysToStepForward: [Weekday::SUNDAY],
+        )];
     }
 
     protected function getNationalDayOfMourningGeorgeVI(int $year): Holiday
@@ -109,7 +121,7 @@ class Canada implements HolidayProviderInterface
 
     protected function getNationalDayOfMourningElizabethII(int $year): Holiday
     {
-        return Holiday::create(HolidayName::NATIONAL_DAY_OF_MOURNING, sprintf('%04d-09-22', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY);
+        return Holiday::create(HolidayName::NATIONAL_DAY_OF_MOURNING, sprintf('%04d-09-19', $year), HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY);
     }
 
     protected function getNationalDayForTruthAndReconciliation(int $year, int $additionalType = HolidayType::OTHER): Holiday

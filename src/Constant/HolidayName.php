@@ -162,6 +162,9 @@ final class HolidayName
     public const DISCOVERY_DAY = 'discovery_day';
     public const DOMINION_DAY = 'dominion_day';
     public const FAMILY_DAY = 'family_day';
+    public const ISLANDER_DAY = 'islander_day';
+    public const CANADA_DAY_COMPENSATORY = self::CANADA_DAY . self::SUFFIX_COMPENSATORY;
+    public const DOMINION_DAY_COMPENSATORY = self::DOMINION_DAY . self::SUFFIX_COMPENSATORY;
     public const LOUIS_RIEL_DAY = 'louis_riel_day';
     public const NATIONAL_DAY_FOR_TRUTH_AND_RECONCILIATION = 'national_day_for_truth_and_reconciliation';
     public const NATIONAL_DAY_OF_MOURNING = 'national_day_of_mourning';

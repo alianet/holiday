@@ -31,6 +31,8 @@ class Yukon extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
         $holidays->add($this->getVictoriaDay($year, HolidayType::DAY_OFF));
         if ($year >= 2017) {
             $holidays->add($this->getNationalIndigenousPeopleDay($year));

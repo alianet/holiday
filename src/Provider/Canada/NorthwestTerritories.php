@@ -26,6 +26,8 @@ class NorthwestTerritories extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
         $holidays->add($this->getEasterMonday($year, HolidayType::OFFICIAL | HolidayType::GOVERNMENT_AGENCIES_CLOSED));
         $holidays->add($this->getVictoriaDay($year, HolidayType::DAY_OFF));
         if ($year >= 2001) {

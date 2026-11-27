@@ -17,7 +17,7 @@ Jest to robocza rekomendacja produktowa, nie statystyczny ranking.
 | 2 | Japonia (`JP`) | Nowy kraj | Święta ogólnokrajowe, dni zastępcze i wyjątki roczne. Najsilniej uzasadniona danymi PHP luka w obecnej liście krajów. |
 | 3 | Hiszpania — Wyspy Kanaryjskie i Baleary | Uzupełnienie regionów | Dodać kalendarze poszczególnych wysp. Istniejące providery obejmują poziom wspólnot autonomicznych, a README jawnie wyklucza święta wysp. |
 | 4 | Brazylia (`BR`) | Audyt i rozbudowa | Sprawdzić istniejące pokrycie; następnie uzupełnić brakujące stany oraz rozróżnienie świąt i dni fakultatywnych. Duży potencjalny zasięg. |
-| 5 | Kanada (`CA`) | Audyt i poprawki | Zweryfikować prowincje, terytoria, dni zastępcze i różnice sektorowe. README wprost sygnalizuje niedoskonałości obsługi. |
+| 5 | Kanada (`CA`) | Audyt wykonany; dalsze rozszerzenia | Poprawiono reguły prowincji i terytoriów, dodano provider federalny i niedzielny dzień zastępczy Canada Day. Pozostałe dni zastępcze i pełne kalendarze sektora publicznego wymagają kontekstu zatrudnienia; zakres i źródła: [audyt](doc/canada-audit.md). |
 | 6 | Indie (`IN`) | Nowy kraj, etapami | Najpierw wspólna baza, następnie stany. Wyraźnie dokumentować częściowe pokrycie; sam poziom ogólnokrajowy nie wystarczy do pełnego kalendarza regionalnego. |
 | 7 | Chiny (`CN`) | Nowy kraj | Uwzględnić roczne harmonogramy dni wolnych i powiązane pracujące weekendy. Przed wdrożeniem ustalić sposób reprezentowania tych wyjątków w bibliotece. |
 | 8 | Indonezja (`ID`) | Nowy kraj | Święta ogólnokrajowe oraz osobne oznaczenie dodatkowych dni wolnych ogłaszanych na dany rok. |

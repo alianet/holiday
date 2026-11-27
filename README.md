@@ -505,9 +505,20 @@ Territories and employer-specific calendars are excluded.
 
 ### Notes on Canadian Holidays
 
-- Holidays in Canada were hard to grasp while adding (for a non-Canadian). There are multiple levels of flexibility in
-  the holidays (differences betweeen provinces/territories, role of government/private sector, negotiatability of
-  substitue holidays). So the current state surely is not perfect and further proposals are highly welcome.
+`CA` is a shared national calendar with sector-dependent entries marked `PARTIAL_ONLY`.
+All ten provinces and three territories have ISO providers (`CA-AB` through `CA-YT`).
+Use `Provider\Canada\Federal::class` for the Canada Labour Code's general holidays;
+this is distinct from federal public-service agreements and their additional leave.
+
+The provincial calendars retain some sector-specific entries with `PARTIAL_ONLY`.
+In Quebec, Good Friday and Easter Monday are alternatives chosen by the employer;
+both are partial entries. `DAY_OFF` describes the calendar, not an employee's pay eligibility.
+
+Canada Day falling on Sunday adds July 2 with `COMPENSATORY`, preserving July 1
+as the original date, consistent with this library's substitute-day convention.
+Saturday does not automatically produce a substitute. Other substitutes depend on
+work schedules, agreements or jurisdiction-specific conditions and are not generated.
+See the [Canadian audit](doc/canada-audit.md) for sources, corrections and remaining limits.
 
 ### Notes on German Holidays
 

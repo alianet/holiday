@@ -32,9 +32,9 @@
             "Civic Holiday": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
             "Family Day": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
             "Boxing Day (Observed)": "Regional or broader Canadian calendar entry absent from the base CA provider; provincial providers are not tested here.",
-            "Canada Day (Observed)": "The base CA provider has no compensatory calculator; replacement-day correctness is not covered by this shared-identity suite.",
-            "Christmas Day (Observed)": "The base CA provider has no compensatory calculator; replacement-day correctness is not covered by this shared-identity suite.",
-            "New Year's Day (Observed)": "The base CA provider has no compensatory calculator; replacement-day correctness is not covered by this shared-identity suite."
+            "Canada Day (Observed)": "CA generates the statutory Sunday Canada Day substitute only; schedule-dependent replacement dates in this source are outside the shared-identity comparison.",
+            "Christmas Day (Observed)": "CA generates the statutory Sunday Canada Day substitute only; schedule-dependent replacement dates in this source are outside the shared-identity comparison.",
+            "New Year's Day (Observed)": "CA generates the statutory Sunday Canada Day substitute only; schedule-dependent replacement dates in this source are outside the shared-identity comparison."
         },
         "CH": {
             "Karfreitag": "Azure aggregate includes holidays not represented by the base CH provider; no cantonal coverage is claimed.",

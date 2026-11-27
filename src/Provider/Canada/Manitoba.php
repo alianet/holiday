@@ -31,11 +31,16 @@ class Manitoba extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
         if ($year >= 2008) {
             $holidays->add($this->getLouisRielDay($year));
         }
         $holidays->add($this->getVictoriaDay($year, HolidayType::DAY_OFF));
         $holidays->removeByName(HolidayName::REMEMBRANCE_DAY);
+
+        if ($year >= 2024) {
+            $holidays->replaceByNameAndDate($this->getNationalDayForTruthAndReconciliation($year));
+        }
 
         return $holidays;
     }

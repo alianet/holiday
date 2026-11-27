@@ -31,8 +31,14 @@ class BritishColumbia extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
+        $holidays->replaceByNameAndDate($this->getRemembranceDay($year));
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
         $holidays->add($this->getVictoriaDay($year, HolidayType::DAY_OFF));
         $holidays->add($this->getBritishColumbiaDay($year));
+        if ($year >= 2013) {
+            $date = new DateTime(sprintf($year < 2019 ? 'Second Monday of %04d-02' : 'Third Monday of %04d-02', $year));
+            $holidays->add(Holiday::createFromDateTime(HolidayName::FAMILY_DAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        }
         if ($year >= 2023) {
             $holidays->replaceByNameAndDate($this->getNationalDayForTruthAndReconciliation($year, HolidayType::DAY_OFF));
         }

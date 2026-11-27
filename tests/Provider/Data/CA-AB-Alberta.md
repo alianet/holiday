@@ -57,18 +57,19 @@
 
 # 1990
 
-| Date       | Name             | Types                                      |
-|------------|------------------|--------------------------------------------|
-| 1990-01-01 | new_year         | official, day_off                          |
-| 1990-02-19 | family_day       | official, day_off                          |
-| 1990-04-13 | good_friday      | official, day_off, religious               |
-| 1990-05-21 | victoria_day     | official, day_off                          |
-| 1990-07-01 | canada_day       | official, day_off                          |
-| 1990-09-03 | labor_day        | official, day_off                          |
-| 1990-10-08 | thanksgiving_day | official, day_off                          |
-| 1990-11-11 | remembrance_day  | official, day_off                          |
-| 1990-12-25 | christmas_day    | official, day_off, religious               |
-| 1990-12-26 | boxing_day       | official, day_off, religious, partial_only |
+| Date       | Name                    | Types                                      |
+|------------|-------------------------|--------------------------------------------|
+| 1990-01-01 | new_year                | official, day_off                          |
+| 1990-02-19 | family_day              | official, day_off                          |
+| 1990-04-13 | good_friday             | official, day_off, religious               |
+| 1990-05-21 | victoria_day            | official, day_off                          |
+| 1990-07-01 | canada_day              | official, day_off                          |
+| 1990-07-02 | canada_day_compensatory | official, day_off, compensatory            |
+| 1990-09-03 | labor_day               | official, day_off                          |
+| 1990-10-08 | thanksgiving_day        | official, day_off                          |
+| 1990-11-11 | remembrance_day         | official, day_off                          |
+| 1990-12-25 | christmas_day           | official, day_off, religious               |
+| 1990-12-26 | boxing_day              | official, day_off, religious, partial_only |
 
 # 2022
 
@@ -80,7 +81,7 @@
 | 2022-05-23 | victoria_day                              | official, day_off                          |
 | 2022-07-01 | canada_day                                | official, day_off                          |
 | 2022-09-05 | labor_day                                 | official, day_off                          |
-| 2022-09-22 | national_day_of_mourning                  | official, day_off, partial_only            |
+| 2022-09-19 | national_day_of_mourning                  | official, day_off, partial_only            |
 | 2022-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only            |
 | 2022-10-10 | thanksgiving_day                          | official, day_off                          |
 | 2022-11-11 | remembrance_day                           | official, day_off                          |

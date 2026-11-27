@@ -69,6 +69,7 @@
 | 2001-05-21 | victoria_day                   | official, day_off                               |
 | 2001-06-21 | national_indigenous_people_day | official, day_off                               |
 | 2001-07-01 | canada_day                     | official, day_off                               |
+| 2001-07-02 | canada_day_compensatory        | official, day_off, compensatory                 |
 | 2001-08-06 | civic_holiday                  | official, day_off                               |
 | 2001-09-03 | labor_day                      | official, day_off                               |
 | 2001-10-08 | thanksgiving_day               | official, day_off                               |
@@ -104,7 +105,7 @@
 | 2022-07-01 | canada_day                                | official, day_off                               |
 | 2022-08-01 | civic_holiday                             | official, day_off                               |
 | 2022-09-05 | labor_day                                 | official, day_off                               |
-| 2022-09-22 | national_day_of_mourning                  | official, day_off, partial_only                 |
+| 2022-09-19 | national_day_of_mourning                  | official, day_off, partial_only                 |
 | 2022-09-30 | national_day_for_truth_and_reconciliation | official, day_off                               |
 | 2022-10-10 | thanksgiving_day                          | official, day_off                               |
 | 2022-11-11 | remembrance_day                           | official, day_off                               |

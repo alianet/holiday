@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Audit Canadian provincial and territorial calendars: add BC Family Day and its 2019 date change, correct Islander Day and the 2022 mourning date, update Manitoba/Nunavut holiday status, and distinguish sector-dependent holidays. Add Sunday Canada Day substitutes and an explicit federal Labour Code provider.
+
 - Update Brazil's calendar with Black Consciousness Day from 2024 and partial-only Corpus Christi, correct the 2020 election dates, and fix Christmas and Republic Proclamation Day types.
 
 ### Changed

@@ -31,13 +31,14 @@ class Quebec extends Canada
     public function calculateHolidaysForYear(int $year): HolidayList
     {
         $holidays = parent::calculateHolidaysForYear($year);
-        $holidays->add($this->getGoodFriday($year, HolidayType::PARTIAL_ONLY));
+        $holidays->replaceByNameAndDate($this->getThanksgiving($year));
+        $holidays->replaceByNameAndDate($this->getGoodFriday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY));
         $holidays->add($this->getEasterMonday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF | HolidayType::PARTIAL_ONLY));
         if ($year >= 2003) {
-            $holidays->add($this->getNationalPatriotsDay($year));
+            $holidays->add($this->getNationalPatriotsDay($year, HolidayType::DAY_OFF));
         }
         if ($year >= 1925) {
-            $holidays->add($this->getSaintJeanBaptisteDay($year));
+            $holidays->add($this->getSaintJeanBaptisteDay($year, HolidayType::DAY_OFF));
         }
         $holidays->removeByName(HolidayName::REMEMBRANCE_DAY);
 
