@@ -7,9 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.0] - 2026-11-27
+
 ### Added
 
-- Complete US state public-calendar providers for all 50 states and DC, ISO resolution, state-specific substitute days, English/Polish names, and 714 date/identity reference comparisons for 2020–2026.
+- Complete US state public-calendar providers for all 50 states and DC, ISO resolution, state-specific substitute days, translated names, and 714 date/identity reference comparisons for 2020–2026.
+- Historical US state regression tests covering date/name transitions and the introduction or removal of holidays.
 - Polish translations of holiday names, weekdays and holiday types, with built-in `pl` and `pl_PL` locale support.
 - Pinned python-holidays reference calendars for all 50 US states and DC (2020–2026), with actual/observed dates, provenance, offline integrity checks, and local/Docker update commands.
 - Offline reference tests backed by OpenHolidays API, official GOV.UK bank holidays, and Azure Open Datasets, with saved data, source attribution, licenses, and checksums.
@@ -20,17 +23,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Enable strict scalar typing in all project PHP files and enforce declarations with PHP CS Fixer.
-
 - **Breaking:** `IncludeWeekdayFilter`, `IncludeHolidayNameFilter`, and `IncludeTypeFilter` now accept variadic values. Unpack existing arrays with `...$values`; single values remain valid. Parameters are typed (`int` for weekdays/types, `string` for names); invalid types raise `TypeError` under standard PHP typing rules. Out-of-range weekdays raise `InvalidArgumentException`.
-
+- Replace the Symfony Translation development dependency with Symfony Translation Contracts.
+- Extend local Docker QA tooling to PHP 8.6 and install PCOV through PIE.
+- Expand and align English, German, Norwegian, and Polish translation keys.
 - Exclude Docker tooling from distribution archives using `export-ignore`.
+- Ignore local coverage reports and IDE configuration.
 
 ### Fixed
 
+- Validate years in the range 1–9999 and correctly format early years across providers. California's Diwali table is supported only through 2100; later years raise an explicit exception.
+- Calculate Canadian Victoria Day in the requested year.
+- Apply century-specific Julian-to-Gregorian offsets when calculating Orthodox Easter.
+- Correct historical Polish Epiphany coverage and Victory Day dates and day-off classification.
+- Correct historical Victory Day dates and day-off rules in Belarus, the Czech Republic, France, and Ukraine, and include Berlin's one-off holiday in 2025.
+- Use 28 July for Ukrainian Statehood Day before 2024 and 15 July from 2024.
+- Provide explicit translation array types for PHPStan in translation tests.
 - Add Scotland's one-off World Cup bank holiday on 15 June 2026, including its holiday identifier and English and German translations.
+
+### Migration
+
+Existing single-value filter calls remain valid. Unpack arrays when passing multiple values:
+
+```php
+// Before 0.13.0:
+new IncludeWeekdayFilter([Weekday::MONDAY, Weekday::FRIDAY]);
+new IncludeHolidayNameFilter($names);
+new IncludeTypeFilter([HolidayType::DAY_OFF, HolidayType::RELIGIOUS]);
+
+// Since 0.13.0:
+new IncludeWeekdayFilter(Weekday::MONDAY, Weekday::FRIDAY);
+new IncludeHolidayNameFilter(...$names);
+new IncludeTypeFilter(HolidayType::DAY_OFF, HolidayType::RELIGIOUS);
+```
+
+Weekday and type arguments must be integers; holiday names must be strings.
+PHP's scalar coercion still depends on `strict_types` in the calling file.
+Non-coercible argument types raise `TypeError`. Empty weekday selections and
+weekdays outside 0–6 raise `InvalidArgumentException`.
 
 ### Documentation
 
+- Document US state calendar scope, federal/state unions, substitute dates, and the California Diwali year limit.
+- Add Codecov coverage uploads and update badges for `alianet/holiday`.
 - Explain that Azure's dates through 2099 come from a snapshot last modified in December 2020 and do not establish current holiday rules.
 - Document reference test limitations, excluded identities, and the distinction between calendar agreement and regression checks for known discrepancies.
 
