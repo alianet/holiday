@@ -49,6 +49,39 @@
 | 2001-06-12 | declaration_of_sovereignty_day | official, day_off            |
 | 2001-11-07 | october_revolution_day         | official, day_off            |
 
+# 2002
+
+| Date       | Name                                        | Types                           |
+|------------|---------------------------------------------|---------------------------------|
+| 2002-01-01 | new_year                                    | official, day_off               |
+| 2002-01-02 | new_year_holiday                            | official, day_off               |
+| 2002-01-07 | christmas_day                               | official, day_off, religious    |
+| 2002-02-23 | defender_of_the_fatherland_day              | official, day_off               |
+| 2002-02-25 | defender_of_the_fatherland_day_compensatory | official, day_off, compensatory |
+| 2002-03-08 | international_womens_day                    | official, day_off               |
+| 2002-05-01 | spring_and_labour_day                       | official, day_off               |
+| 2002-05-09 | victory_day                                 | official, day_off               |
+| 2002-06-12 | russia_day                                  | official, day_off               |
+| 2002-11-07 | october_revolution_day                      | official, day_off               |
+
+# 2004
+
+| Date       | Name                                | Types                           |
+|------------|-------------------------------------|---------------------------------|
+| 2004-01-01 | new_year                            | official, day_off               |
+| 2004-01-02 | new_year_holiday                    | official, day_off               |
+| 2004-01-07 | christmas_day                       | official, day_off, religious    |
+| 2004-02-23 | defender_of_the_fatherland_day      | official, day_off               |
+| 2004-03-08 | international_womens_day            | official, day_off               |
+| 2004-05-01 | spring_and_labour_day               | official, day_off               |
+| 2004-05-03 | spring_and_labour_day_compensatory  | official, day_off, compensatory |
+| 2004-05-09 | victory_day                         | official, day_off               |
+| 2004-05-10 | victory_day_compensatory            | official, day_off, compensatory |
+| 2004-06-12 | russia_day                          | official, day_off               |
+| 2004-06-14 | russia_day_compensatory             | official, day_off, compensatory |
+| 2004-11-07 | october_revolution_day              | official, day_off               |
+| 2004-11-08 | october_revolution_day_compensatory | official, day_off, compensatory |
+
 # 2005
 
 | Date       | Name                               | Types                           |

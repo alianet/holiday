@@ -22,7 +22,10 @@ use Umulmrum\Holiday\Resolver\IsoResolver;
 use Umulmrum\Holiday\Resolver\MiscResolver;
 use Umulmrum\Holiday\Resolver\ResolverHandler;
 
+use function in_array;
+use function range;
 use function sprintf;
+use function str_starts_with;
 
 final class YearRangeTest extends TestCase
 {
@@ -30,17 +33,52 @@ final class YearRangeTest extends TestCase
     public function testSupportedYears(string $code): void
     {
         $resolver = new ResolverHandler([new IsoResolver(), new MiscResolver()]);
-        // California uses a finite Diwali date table; StateTest separately
-        // verifies that years beyond its supported range fail explicitly.
-        $lastSupportedYear = $code === 'US-CA' ? 2100 : 9999;
+        [$firstSupportedYear, $lastSupportedYear] = self::supportedRange($code);
+        $years = $firstSupportedYear === 1
+            ? [1, 9, 99, 999, 1000, $lastSupportedYear]
+            : range($firstSupportedYear, $lastSupportedYear);
         foreach ($resolver->resolve($code) as $provider) {
-            foreach ([1, 9, 99, 999, 1000, $lastSupportedYear] as $year) {
+            foreach ($years as $year) {
                 foreach ($provider->calculateHolidaysForYear($year) as $holiday) {
                     self::assertMatchesRegularExpression('/^' . sprintf('%04d', $year) . '-\d{2}-\d{2}$/', $holiday->getSimpleDate());
                     self::assertSame($holiday->getSimpleDate(), $holiday->getDate()->format('Y-m-d'));
                 }
             }
         }
+    }
+
+    #[DataProvider('provideUnsupportedYears')]
+    public function testProvidersRejectUnsupportedYears(string $code, int $year): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        (new HolidayCalculator())->calculate($code, $year);
+    }
+
+    /** @return Generator<string, array{string, int}> */
+    public static function provideUnsupportedYears(): Generator
+    {
+        foreach (self::provideProviders() as [$code]) {
+            [$first, $last] = self::supportedRange($code);
+            if ($first > 1) {
+                yield $code . ' before range' => [$code, $first - 1];
+            }
+            if ($last < 9999) {
+                yield $code . ' after range' => [$code, $last + 1];
+            }
+        }
+    }
+
+    /** @return array{int, int} */
+    private static function supportedRange(string $code): array
+    {
+        return match (true) {
+            in_array($code, ['JE', 'GG', 'IM'], true) => [2020, 2027],
+            $code === 'JP' => [1980, 2099],
+            str_starts_with($code, 'ES-') => [2008, 2027],
+            // California uses a finite Diwali date table.
+            $code === 'US-CA' => [1, 2100],
+            default => [1, 9999],
+        };
     }
 
     #[DataProvider('provideProviders')]
@@ -59,6 +97,7 @@ final class YearRangeTest extends TestCase
         }
     }
 
+    /** @return Generator<string, array{string}> */
     public static function provideProviders(): Generator
     {
         foreach (ProviderTest::provideDataForTestProviders() as $data) {

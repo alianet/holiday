@@ -81,6 +81,39 @@
 | 1995-12-25 | christmas_day         | official, day_off, religious    |
 | 1995-12-26 | boxing_day            | official, day_off, religious    |
 
+# 2007
+
+| Date       | Name            | Types                           |
+|------------|-----------------|---------------------------------|
+| 2007-01-01 | new_year        | official, day_off               |
+| 2007-01-26 | australia_day   | official, day_off               |
+| 2007-03-12 | labor_day       | official, day_off               |
+| 2007-04-06 | good_friday     | official, day_off, religious    |
+| 2007-04-07 | easter_saturday | official, day_off, religious    |
+| 2007-04-09 | easter_monday   | official, day_off, religious    |
+| 2007-04-25 | anzac_day       | official, day_off               |
+| 2007-06-11 | kings_birthday  | official, day_off               |
+| 2007-11-06 | melbourne_cup   | official, day_off, partial_only |
+| 2007-12-25 | christmas_day   | official, day_off, religious    |
+| 2007-12-26 | boxing_day      | official, day_off, religious    |
+
+# 2008
+
+| Date       | Name                       | Types                           |
+|------------|----------------------------|---------------------------------|
+| 2008-01-01 | new_year                   | official, day_off               |
+| 2008-01-26 | australia_day              | official, day_off               |
+| 2008-01-28 | australia_day_compensatory | official, day_off, compensatory |
+| 2008-03-10 | labor_day                  | official, day_off               |
+| 2008-03-21 | good_friday                | official, day_off, religious    |
+| 2008-03-22 | easter_saturday            | official, day_off, religious    |
+| 2008-03-24 | easter_monday              | official, day_off, religious    |
+| 2008-04-25 | anzac_day                  | official, day_off               |
+| 2008-06-09 | kings_birthday             | official, day_off               |
+| 2008-11-04 | melbourne_cup              | official, day_off, partial_only |
+| 2008-12-25 | christmas_day              | official, day_off, religious    |
+| 2008-12-26 | boxing_day                 | official, day_off, religious    |
+
 # 2015
 
 | Date       | Name                    | Types                                      |

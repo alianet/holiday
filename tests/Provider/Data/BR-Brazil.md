@@ -1,3 +1,18 @@
+# 1888
+
+| Date       | Name                    | Types                                 |
+|------------|-------------------------|---------------------------------------|
+| 1888-01-01 | new_year                | official, day_off                     |
+| 1888-02-14 | fat_tuesday             | day_off, religious, partial_only      |
+| 1888-02-15 | ash_wednesday           | religious, partial_only, half_day_off |
+| 1888-03-30 | good_friday             | day_off, religious, partial_only      |
+| 1888-05-01 | labor_day               | official, day_off                     |
+| 1888-10-07 | electoral_day_round_one | official, day_off                     |
+| 1888-10-12 | our_lady_of_aparecida   | traditional                           |
+| 1888-10-28 | electoral_day_round_two | official, day_off                     |
+| 1888-11-02 | day_of_the_dead         | official, day_off, religious          |
+| 1888-12-25 | christmas_day           | day_off, religious                    |
+
 # 1889
 
 | Date       | Name                  | Types                                 |
@@ -29,6 +44,23 @@
 | 1890-11-15 | republic_proclamation_day | official, day_off, religious          |
 | 1890-12-25 | christmas_day             | day_off, religious                    |
 
+# 1948
+
+| Date       | Name                      | Types                                 |
+|------------|---------------------------|---------------------------------------|
+| 1948-01-01 | new_year                  | official, day_off                     |
+| 1948-02-10 | fat_tuesday               | day_off, religious, partial_only      |
+| 1948-02-11 | ash_wednesday             | religious, partial_only, half_day_off |
+| 1948-03-26 | good_friday               | day_off, religious, partial_only      |
+| 1948-04-21 | tiradentes                | official, day_off                     |
+| 1948-05-01 | labor_day                 | official, day_off                     |
+| 1948-10-03 | electoral_day_round_one   | official, day_off                     |
+| 1948-10-12 | our_lady_of_aparecida     | traditional                           |
+| 1948-10-31 | electoral_day_round_two   | official, day_off                     |
+| 1948-11-02 | day_of_the_dead           | official, day_off, religious          |
+| 1948-11-15 | republic_proclamation_day | official, day_off, religious          |
+| 1948-12-25 | christmas_day             | day_off, religious                    |
+
 # 1949
 
 | Date       | Name                      | Types                                 |
@@ -44,6 +76,22 @@
 | 1949-11-02 | day_of_the_dead           | official, day_off, religious          |
 | 1949-11-15 | republic_proclamation_day | official, day_off, religious          |
 | 1949-12-25 | christmas_day             | day_off, religious                    |
+
+# 1979
+
+| Date       | Name                      | Types                                 |
+|------------|---------------------------|---------------------------------------|
+| 1979-01-01 | new_year                  | official, day_off                     |
+| 1979-02-27 | fat_tuesday               | day_off, religious, partial_only      |
+| 1979-02-28 | ash_wednesday             | religious, partial_only, half_day_off |
+| 1979-04-13 | good_friday               | day_off, religious, partial_only      |
+| 1979-04-21 | tiradentes                | official, day_off                     |
+| 1979-05-01 | labor_day                 | official, day_off                     |
+| 1979-09-07 | independence_day          | official, day_off                     |
+| 1979-10-12 | our_lady_of_aparecida     | traditional                           |
+| 1979-11-02 | day_of_the_dead           | official, day_off, religious          |
+| 1979-11-15 | republic_proclamation_day | official, day_off, religious          |
+| 1979-12-25 | christmas_day             | day_off, religious                    |
 
 # 1980
 

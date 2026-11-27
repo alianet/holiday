@@ -1,3 +1,32 @@
+# 1948
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1948-01-01 | new_year             | official, partial_only |
+| 1948-02-22 | washingtons_birthday | official, partial_only |
+| 1948-05-30 | memorial_day         | official, partial_only |
+| 1948-07-04 | independence_day     | official, partial_only |
+| 1948-09-06 | labor_day            | official, partial_only |
+| 1948-10-12 | columbus_day         | official, partial_only |
+| 1948-11-11 | armistice_day        | official, partial_only |
+| 1948-11-25 | thanksgiving_day     | official, partial_only |
+| 1948-12-25 | christmas_day        | official, partial_only |
+
+# 1949
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1949-01-01 | new_year             | official, partial_only |
+| 1949-02-22 | washingtons_birthday | official, partial_only |
+| 1949-05-08 | truman_day           | official, partial_only |
+| 1949-05-30 | memorial_day         | official, partial_only |
+| 1949-07-04 | independence_day     | official, partial_only |
+| 1949-09-05 | labor_day            | official, partial_only |
+| 1949-10-12 | columbus_day         | official, partial_only |
+| 1949-11-11 | armistice_day        | official, partial_only |
+| 1949-11-24 | thanksgiving_day     | official, partial_only |
+| 1949-12-25 | christmas_day        | official, partial_only |
+
 # 2020
 
 | Date       | Name                          | Types                                |

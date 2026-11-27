@@ -1,3 +1,50 @@
+# 1856
+
+| Date       | Name        | Types                  |
+|------------|-------------|------------------------|
+| 1856-03-21 | good_friday | official, partial_only |
+
+# 1857
+
+| Date       | Name        | Types                  |
+|------------|-------------|------------------------|
+| 1857-02-24 | mardi_gras  | official, partial_only |
+| 1857-04-10 | good_friday | official, partial_only |
+
+# 2007
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2007-01-01 | new_year                  | official, partial_only               |
+| 2007-01-15 | martin_luther_king_jr_day | official, partial_only               |
+| 2007-02-19 | washingtons_birthday      | official, partial_only               |
+| 2007-02-20 | mardi_gras                | official, partial_only               |
+| 2007-04-06 | good_friday               | official, partial_only               |
+| 2007-05-28 | memorial_day              | official, partial_only               |
+| 2007-07-04 | independence_day          | official, partial_only               |
+| 2007-09-03 | labor_day                 | official, partial_only               |
+| 2007-11-11 | veterans_day              | official, partial_only               |
+| 2007-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2007-11-22 | thanksgiving_day          | official, partial_only               |
+| 2007-12-25 | christmas_day             | official, partial_only               |
+
+# 2008
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2008-01-01 | new_year                  | official, partial_only |
+| 2008-01-21 | martin_luther_king_jr_day | official, partial_only |
+| 2008-02-05 | mardi_gras                | official, partial_only |
+| 2008-02-18 | washingtons_birthday      | official, partial_only |
+| 2008-03-21 | good_friday               | official, partial_only |
+| 2008-05-26 | memorial_day              | official, partial_only |
+| 2008-07-04 | independence_day          | official, partial_only |
+| 2008-09-01 | labor_day                 | official, partial_only |
+| 2008-11-04 | election_day              | official, partial_only |
+| 2008-11-11 | veterans_day              | official, partial_only |
+| 2008-11-27 | thanksgiving_day          | official, partial_only |
+| 2008-12-25 | christmas_day             | official, partial_only |
+
 # 2020
 
 | Date       | Name                          | Types                                |

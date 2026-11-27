@@ -13,6 +13,22 @@
 | 1813-09-09 | genfer_bettag      | official, day_off            |
 | 1813-12-25 | christmas_day      | official, day_off, religious |
 
+# 1814
+
+| Date       | Name                               | Types                        |
+|------------|------------------------------------|------------------------------|
+| 1814-01-01 | new_year                           | official, day_off            |
+| 1814-01-02 | berchtoldstag                      | day_off, traditional         |
+| 1814-04-08 | good_friday                        | official, day_off, religious |
+| 1814-04-11 | easter_monday                      | official, day_off, religious |
+| 1814-05-19 | ascension                          | official, day_off, religious |
+| 1814-05-30 | whit_monday                        | official, day_off, religious |
+| 1814-08-01 | swiss_national_day                 | official                     |
+| 1814-09-04 | swiss_national_day                 | religious                    |
+| 1814-09-08 | genfer_bettag                      | official, day_off            |
+| 1814-12-25 | christmas_day                      | official, day_off, religious |
+| 1814-12-31 | geneva_restoration_of_the_republic | official, day_off            |
+
 # 2020
 
 | Date       | Name                               | Types                        |

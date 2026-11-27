@@ -1,27 +1,26 @@
-# 1929
+# 1920
 
-| Date       | Name                      | Types                                                      |
-|------------|---------------------------|------------------------------------------------------------|
-| 1929-01-01 | new_year                  | official, day_off                                          |
-| 1929-01-06 | epiphany                  | official, day_off, religious                               |
-| 1929-03-19 | saint_josephs_day         | official, religious, no_school, government_agencies_closed |
-| 1929-03-29 | good_friday               | official, day_off, religious, partial_only                 |
-| 1929-03-31 | easter_sunday             | religious                                                  |
-| 1929-04-01 | easter_monday             | official, day_off, religious                               |
-| 1929-05-01 | austrian_states_holiday   | official, day_off                                          |
-| 1929-05-09 | ascension                 | official, day_off, religious                               |
-| 1929-05-19 | whit_sunday               | religious                                                  |
-| 1929-05-20 | whit_monday               | official, day_off, religious                               |
-| 1929-05-30 | corpus_christi            | official, day_off, religious                               |
-| 1929-08-15 | assumption_day            | official, day_off, religious                               |
-| 1929-10-26 | carinthian_plebiscite_day | official, day_off, partial_only                            |
-| 1929-11-01 | all_saints_day            | official, day_off, religious                               |
-| 1929-11-12 | austrian_states_holiday   | official, day_off                                          |
-| 1929-12-08 | immaculate_conception     | official, day_off, religious                               |
-| 1929-12-24 | christmas_eve             | official, day_off, religious, partial_only                 |
-| 1929-12-25 | christmas_day             | official, day_off, religious                               |
-| 1929-12-26 | second_christmas_day      | official, day_off, religious                               |
-| 1929-12-31 | new_years_eve             | official, day_off, partial_only                            |
+| Date       | Name                    | Types                                                      |
+|------------|-------------------------|------------------------------------------------------------|
+| 1920-01-01 | new_year                | official, day_off                                          |
+| 1920-01-06 | epiphany                | official, day_off, religious                               |
+| 1920-03-19 | saint_josephs_day       | official, religious, no_school, government_agencies_closed |
+| 1920-04-02 | good_friday             | official, day_off, religious, partial_only                 |
+| 1920-04-04 | easter_sunday           | religious                                                  |
+| 1920-04-05 | easter_monday           | official, day_off, religious                               |
+| 1920-05-01 | austrian_states_holiday | official, day_off                                          |
+| 1920-05-13 | ascension               | official, day_off, religious                               |
+| 1920-05-23 | whit_sunday             | religious                                                  |
+| 1920-05-24 | whit_monday             | official, day_off, religious                               |
+| 1920-06-03 | corpus_christi          | official, day_off, religious                               |
+| 1920-08-15 | assumption_day          | official, day_off, religious                               |
+| 1920-11-01 | all_saints_day          | official, day_off, religious                               |
+| 1920-11-12 | austrian_states_holiday | official, day_off                                          |
+| 1920-12-08 | immaculate_conception   | official, day_off, religious                               |
+| 1920-12-24 | christmas_eve           | official, day_off, religious, partial_only                 |
+| 1920-12-25 | christmas_day           | official, day_off, religious                               |
+| 1920-12-26 | second_christmas_day    | official, day_off, religious                               |
+| 1920-12-31 | new_years_eve           | official, day_off, partial_only                            |
 
 # 1921
 
@@ -47,3 +46,28 @@
 | 1921-12-25 | christmas_day             | official, day_off, religious                               |
 | 1921-12-26 | second_christmas_day      | official, day_off, religious                               |
 | 1921-12-31 | new_years_eve             | official, day_off, partial_only                            |
+
+# 1929
+
+| Date       | Name                      | Types                                                      |
+|------------|---------------------------|------------------------------------------------------------|
+| 1929-01-01 | new_year                  | official, day_off                                          |
+| 1929-01-06 | epiphany                  | official, day_off, religious                               |
+| 1929-03-19 | saint_josephs_day         | official, religious, no_school, government_agencies_closed |
+| 1929-03-29 | good_friday               | official, day_off, religious, partial_only                 |
+| 1929-03-31 | easter_sunday             | religious                                                  |
+| 1929-04-01 | easter_monday             | official, day_off, religious                               |
+| 1929-05-01 | austrian_states_holiday   | official, day_off                                          |
+| 1929-05-09 | ascension                 | official, day_off, religious                               |
+| 1929-05-19 | whit_sunday               | religious                                                  |
+| 1929-05-20 | whit_monday               | official, day_off, religious                               |
+| 1929-05-30 | corpus_christi            | official, day_off, religious                               |
+| 1929-08-15 | assumption_day            | official, day_off, religious                               |
+| 1929-10-26 | carinthian_plebiscite_day | official, day_off, partial_only                            |
+| 1929-11-01 | all_saints_day            | official, day_off, religious                               |
+| 1929-11-12 | austrian_states_holiday   | official, day_off                                          |
+| 1929-12-08 | immaculate_conception     | official, day_off, religious                               |
+| 1929-12-24 | christmas_eve             | official, day_off, religious, partial_only                 |
+| 1929-12-25 | christmas_day             | official, day_off, religious                               |
+| 1929-12-26 | second_christmas_day      | official, day_off, religious                               |
+| 1929-12-31 | new_years_eve             | official, day_off, partial_only                            |

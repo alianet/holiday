@@ -21,6 +21,54 @@
 | 1945-05-15 | radonitsa                | day_off, religious |
 | 1945-12-25 | christmas_day            | day_off, religious |
 
+# 1947
+
+| Date       | Name                     | Types              |
+|------------|--------------------------|--------------------|
+| 1947-01-01 | new_year                 | official, day_off  |
+| 1947-01-07 | christmas_day            | day_off, religious |
+| 1947-03-08 | international_womens_day | official, day_off  |
+| 1947-04-22 | radonitsa                | day_off, religious |
+| 1947-05-01 | labor_day                | official, day_off  |
+| 1947-05-09 | victory_day              | official, day_off  |
+| 1947-12-25 | christmas_day            | day_off, religious |
+
+# 1948
+
+| Date       | Name                     | Types              |
+|------------|--------------------------|--------------------|
+| 1948-01-01 | new_year                 | official, day_off  |
+| 1948-01-07 | christmas_day            | day_off, religious |
+| 1948-03-08 | international_womens_day | official, day_off  |
+| 1948-05-01 | labor_day                | official, day_off  |
+| 1948-05-09 | victory_day              | official           |
+| 1948-05-11 | radonitsa                | day_off, religious |
+| 1948-12-25 | christmas_day            | day_off, religious |
+
+# 1964
+
+| Date       | Name                     | Types              |
+|------------|--------------------------|--------------------|
+| 1964-01-01 | new_year                 | official, day_off  |
+| 1964-01-07 | christmas_day            | day_off, religious |
+| 1964-03-08 | international_womens_day | official, day_off  |
+| 1964-05-01 | labor_day                | official, day_off  |
+| 1964-05-09 | victory_day              | official           |
+| 1964-05-12 | radonitsa                | day_off, religious |
+| 1964-12-25 | christmas_day            | day_off, religious |
+
+# 1965
+
+| Date       | Name                     | Types              |
+|------------|--------------------------|--------------------|
+| 1965-01-01 | new_year                 | official, day_off  |
+| 1965-01-07 | christmas_day            | day_off, religious |
+| 1965-03-08 | international_womens_day | official, day_off  |
+| 1965-05-01 | labor_day                | official, day_off  |
+| 1965-05-04 | radonitsa                | day_off, religious |
+| 1965-05-09 | victory_day              | official, day_off  |
+| 1965-12-25 | christmas_day            | day_off, religious |
+
 # 1990
 
 | Date       | Name                     | Types              |
@@ -72,6 +120,20 @@
 | 1995-07-27 | belarus_independence_day | official, day_off  |
 | 1995-11-07 | october_revolution_day   | official, day_off  |
 | 1995-12-25 | christmas_day            | day_off, religious |
+
+# 1996
+
+| Date       | Name                     | Types              |
+|------------|--------------------------|--------------------|
+| 1996-01-01 | new_year                 | official, day_off  |
+| 1996-01-07 | christmas_day            | day_off, religious |
+| 1996-03-08 | international_womens_day | official, day_off  |
+| 1996-04-23 | radonitsa                | day_off, religious |
+| 1996-05-01 | labor_day                | official, day_off  |
+| 1996-05-09 | victory_day              | official, day_off  |
+| 1996-07-03 | belarus_independence_day | official, day_off  |
+| 1996-11-07 | october_revolution_day   | official, day_off  |
+| 1996-12-25 | christmas_day            | day_off, religious |
 
 # 2019
 

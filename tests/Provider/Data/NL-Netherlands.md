@@ -1,3 +1,63 @@
+# 1890
+
+| Date       | Name                 | Types                                           |
+|------------|----------------------|-------------------------------------------------|
+| 1890-01-01 | new_year             | official, day_off                               |
+| 1890-04-04 | good_friday          | official, religious, government_agencies_closed |
+| 1890-04-06 | easter_sunday        | official, day_off, religious                    |
+| 1890-04-07 | easter_monday        | official, day_off, religious                    |
+| 1890-05-15 | ascension            | official, day_off, religious                    |
+| 1890-05-25 | whit_sunday          | official, day_off, religious                    |
+| 1890-05-26 | whit_monday          | official, day_off, religious                    |
+| 1890-12-25 | christmas_day        | official, day_off, religious                    |
+| 1890-12-26 | second_christmas_day | official, day_off, religious                    |
+
+# 1891
+
+| Date       | Name                 | Types                                                      |
+|------------|----------------------|------------------------------------------------------------|
+| 1891-01-01 | new_year             | official, day_off                                          |
+| 1891-03-27 | good_friday          | official, religious, government_agencies_closed            |
+| 1891-03-29 | easter_sunday        | official, day_off, religious                               |
+| 1891-03-30 | easter_monday        | official, day_off, religious                               |
+| 1891-05-07 | ascension            | official, day_off, religious                               |
+| 1891-05-17 | whit_sunday          | official, day_off, religious                               |
+| 1891-05-18 | whit_monday          | official, day_off, religious                               |
+| 1891-08-31 | queens_day           | official, day_off, traditional, government_agencies_closed |
+| 1891-12-25 | christmas_day        | official, day_off, religious                               |
+| 1891-12-26 | second_christmas_day | official, day_off, religious                               |
+
+# 1945
+
+| Date       | Name                 | Types                                                      |
+|------------|----------------------|------------------------------------------------------------|
+| 1945-01-01 | new_year             | official, day_off                                          |
+| 1945-03-30 | good_friday          | official, religious, government_agencies_closed            |
+| 1945-04-01 | easter_sunday        | official, day_off, religious                               |
+| 1945-04-02 | easter_monday        | official, day_off, religious                               |
+| 1945-05-10 | ascension            | official, day_off, religious                               |
+| 1945-05-20 | whit_sunday          | official, day_off, religious                               |
+| 1945-05-21 | whit_monday          | official, day_off, religious                               |
+| 1945-08-31 | queens_day           | official, day_off, traditional, government_agencies_closed |
+| 1945-12-25 | christmas_day        | official, day_off, religious                               |
+| 1945-12-26 | second_christmas_day | official, day_off, religious                               |
+
+# 1946
+
+| Date       | Name                 | Types                                                        |
+|------------|----------------------|--------------------------------------------------------------|
+| 1946-01-01 | new_year             | official, day_off                                            |
+| 1946-04-19 | good_friday          | official, religious, government_agencies_closed              |
+| 1946-04-21 | easter_sunday        | official, day_off, religious                                 |
+| 1946-04-22 | easter_monday        | official, day_off, religious                                 |
+| 1946-05-06 | liberation_day       | official, traditional, no_school, government_agencies_closed |
+| 1946-05-30 | ascension            | official, day_off, religious                                 |
+| 1946-06-09 | whit_sunday          | official, day_off, religious                                 |
+| 1946-06-10 | whit_monday          | official, day_off, religious                                 |
+| 1946-08-31 | queens_day           | official, day_off, traditional, government_agencies_closed   |
+| 1946-12-25 | christmas_day        | official, day_off, religious                                 |
+| 1946-12-26 | second_christmas_day | official, day_off, religious                                 |
+
 # 1948
 
 | Date       | Name                 | Types                                                        |
@@ -13,6 +73,22 @@
 | 1948-08-31 | queens_day           | official, day_off, traditional, government_agencies_closed   |
 | 1948-12-25 | christmas_day        | official, day_off, religious                                 |
 | 1948-12-26 | second_christmas_day | official, day_off, religious                                 |
+
+# 1949
+
+| Date       | Name                 | Types                                                        |
+|------------|----------------------|--------------------------------------------------------------|
+| 1949-01-01 | new_year             | official, day_off                                            |
+| 1949-04-15 | good_friday          | official, religious, government_agencies_closed              |
+| 1949-04-17 | easter_sunday        | official, day_off, religious                                 |
+| 1949-04-18 | easter_monday        | official, day_off, religious                                 |
+| 1949-04-30 | queens_day           | official, day_off, traditional, government_agencies_closed   |
+| 1949-05-05 | liberation_day       | official, traditional, no_school, government_agencies_closed |
+| 1949-05-26 | ascension            | official, day_off, religious                                 |
+| 1949-06-05 | whit_sunday          | official, day_off, religious                                 |
+| 1949-06-06 | whit_monday          | official, day_off, religious                                 |
+| 1949-12-25 | christmas_day        | official, day_off, religious                                 |
+| 1949-12-26 | second_christmas_day | official, day_off, religious                                 |
 
 # 1963
 
@@ -46,6 +122,37 @@
 | 1967-12-25 | christmas_day        | official, day_off, religious                                 |
 | 1967-12-26 | second_christmas_day | official, day_off, religious                                 |
 
+# 1968
+
+| Date       | Name                 | Types                                                        |
+|------------|----------------------|--------------------------------------------------------------|
+| 1968-01-01 | new_year             | official, day_off                                            |
+| 1968-04-12 | good_friday          | official, religious, government_agencies_closed              |
+| 1968-04-14 | easter_sunday        | official, day_off, religious                                 |
+| 1968-04-15 | easter_monday        | official, day_off, religious                                 |
+| 1968-04-30 | queens_day           | official, day_off, traditional, government_agencies_closed   |
+| 1968-05-05 | liberation_day       | official, traditional, no_school, government_agencies_closed |
+| 1968-05-23 | ascension            | official, day_off, religious                                 |
+| 1968-06-02 | whit_sunday          | official, day_off, religious                                 |
+| 1968-06-03 | whit_monday          | official, day_off, religious                                 |
+| 1968-12-25 | christmas_day        | official, day_off, religious                                 |
+| 1968-12-26 | second_christmas_day | official, day_off, religious                                 |
+
+# 1969
+
+| Date       | Name                 | Types                                                      |
+|------------|----------------------|------------------------------------------------------------|
+| 1969-01-01 | new_year             | official, day_off                                          |
+| 1969-04-04 | good_friday          | official, religious, government_agencies_closed            |
+| 1969-04-06 | easter_sunday        | official, day_off, religious                               |
+| 1969-04-07 | easter_monday        | official, day_off, religious                               |
+| 1969-04-30 | queens_day           | official, day_off, traditional, government_agencies_closed |
+| 1969-05-15 | ascension            | official, day_off, religious                               |
+| 1969-05-25 | whit_sunday          | official, day_off, religious                               |
+| 1969-05-26 | whit_monday          | official, day_off, religious                               |
+| 1969-12-25 | christmas_day        | official, day_off, religious                               |
+| 1969-12-26 | second_christmas_day | official, day_off, religious                               |
+
 # 1975
 
 | Date       | Name                 | Types                                                        |
@@ -61,6 +168,37 @@
 | 1975-05-19 | whit_monday          | official, day_off, religious                                 |
 | 1975-12-25 | christmas_day        | official, day_off, religious                                 |
 | 1975-12-26 | second_christmas_day | official, day_off, religious                                 |
+
+# 1979
+
+| Date       | Name                 | Types                                                      |
+|------------|----------------------|------------------------------------------------------------|
+| 1979-01-01 | new_year             | official, day_off                                          |
+| 1979-04-13 | good_friday          | official, religious, government_agencies_closed            |
+| 1979-04-15 | easter_sunday        | official, day_off, religious                               |
+| 1979-04-16 | easter_monday        | official, day_off, religious                               |
+| 1979-04-30 | queens_day           | official, day_off, traditional, government_agencies_closed |
+| 1979-05-24 | ascension            | official, day_off, religious                               |
+| 1979-06-03 | whit_sunday          | official, day_off, religious                               |
+| 1979-06-04 | whit_monday          | official, day_off, religious                               |
+| 1979-12-25 | christmas_day        | official, day_off, religious                               |
+| 1979-12-26 | second_christmas_day | official, day_off, religious                               |
+
+# 1980
+
+| Date       | Name                 | Types                                                        |
+|------------|----------------------|--------------------------------------------------------------|
+| 1980-01-01 | new_year             | official, day_off                                            |
+| 1980-04-04 | good_friday          | official, religious, government_agencies_closed              |
+| 1980-04-06 | easter_sunday        | official, day_off, religious                                 |
+| 1980-04-07 | easter_monday        | official, day_off, religious                                 |
+| 1980-04-30 | queens_day           | official, day_off, traditional, government_agencies_closed   |
+| 1980-05-05 | liberation_day       | official, traditional, no_school, government_agencies_closed |
+| 1980-05-15 | ascension            | official, day_off, religious                                 |
+| 1980-05-25 | whit_sunday          | official, day_off, religious                                 |
+| 1980-05-26 | whit_monday          | official, day_off, religious                                 |
+| 1980-12-25 | christmas_day        | official, day_off, religious                                 |
+| 1980-12-26 | second_christmas_day | official, day_off, religious                                 |
 
 # 1989
 
@@ -92,6 +230,22 @@
 | 1990-06-04 | whit_monday          | official, day_off, religious                                 |
 | 1990-12-25 | christmas_day        | official, day_off, religious                                 |
 | 1990-12-26 | second_christmas_day | official, day_off, religious                                 |
+
+# 2013
+
+| Date       | Name                 | Types                                                        |
+|------------|----------------------|--------------------------------------------------------------|
+| 2013-01-01 | new_year             | official, day_off                                            |
+| 2013-03-29 | good_friday          | official, religious, government_agencies_closed              |
+| 2013-03-31 | easter_sunday        | official, day_off, religious                                 |
+| 2013-04-01 | easter_monday        | official, day_off, religious                                 |
+| 2013-04-30 | queens_day           | official, day_off, traditional, government_agencies_closed   |
+| 2013-05-05 | liberation_day       | official, traditional, no_school, government_agencies_closed |
+| 2013-05-09 | ascension            | official, day_off, religious                                 |
+| 2013-05-19 | whit_sunday          | official, day_off, religious                                 |
+| 2013-05-20 | whit_monday          | official, day_off, religious                                 |
+| 2013-12-25 | christmas_day        | official, day_off, religious                                 |
+| 2013-12-26 | second_christmas_day | official, day_off, religious                                 |
 
 # 2014
 

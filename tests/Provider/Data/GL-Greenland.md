@@ -16,6 +16,25 @@
 | 1984-12-26 | second_christmas_day | official, day_off, religious               |
 | 1984-12-31 | new_years_eve        | official                                   |
 
+# 1985
+
+| Date       | Name                       | Types                                      |
+|------------|----------------------------|--------------------------------------------|
+| 1985-01-01 | new_year                   | official, day_off                          |
+| 1985-04-04 | maundy_thursday            | official, day_off, religious               |
+| 1985-04-05 | good_friday                | official, day_off, religious, partial_only |
+| 1985-04-07 | easter_sunday              | religious                                  |
+| 1985-04-08 | easter_monday              | official, day_off, religious               |
+| 1985-05-01 | labor_day                  | official, day_off                          |
+| 1985-05-16 | ascension                  | official, day_off, religious               |
+| 1985-05-26 | whit_sunday                | official, day_off, religious               |
+| 1985-05-27 | whit_monday                | official, day_off, religious               |
+| 1985-06-21 | greenland_national_holiday | official, day_off                          |
+| 1985-12-24 | christmas_eve              | official, day_off, religious               |
+| 1985-12-25 | christmas_day              | official, day_off, religious               |
+| 1985-12-26 | second_christmas_day       | official, day_off, religious               |
+| 1985-12-31 | new_years_eve              | official                                   |
+
 # 2020
 
 | Date       | Name                       | Types                                      |

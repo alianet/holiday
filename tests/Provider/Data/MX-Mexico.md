@@ -20,6 +20,17 @@
 | 1826-09-16 | independence_day                       | official, day_off               |
 | 1826-12-25 | christmas_day                          | official, day_off, religious    |
 
+# 1910
+
+| Date       | Name                                   | Types                                      |
+|------------|----------------------------------------|--------------------------------------------|
+| 1910-01-01 | new_year                               | official, day_off                          |
+| 1910-02-04 | birthday_of_benito_juarez_compensatory | official, day_off, compensatory            |
+| 1910-02-05 | birthday_of_benito_juarez              | official, day_off                          |
+| 1910-09-16 | independence_day                       | official, day_off                          |
+| 1910-12-25 | christmas_day                          | official, day_off, religious               |
+| 1910-12-26 | christmas_day_compensatory             | official, day_off, religious, compensatory |
+
 # 1911
 
 | Date       | Name                                   | Types                           |
@@ -33,6 +44,17 @@
 | 1911-11-20 | revolution_day                         | official, day_off               |
 | 1911-12-25 | christmas_day                          | official, day_off, religious    |
 
+# 1917
+
+| Date       | Name                          | Types                           |
+|------------|-------------------------------|---------------------------------|
+| 1917-01-01 | new_year                      | official, day_off               |
+| 1917-02-05 | birthday_of_benito_juarez     | official, day_off               |
+| 1917-09-16 | independence_day              | official, day_off               |
+| 1917-09-17 | independence_day_compensatory | official, day_off, compensatory |
+| 1917-11-20 | revolution_day                | official, day_off               |
+| 1917-12-25 | christmas_day                 | official, day_off, religious    |
+
 # 1918
 
 | Date       | Name                      | Types                        |
@@ -43,6 +65,21 @@
 | 1918-09-16 | independence_day          | official, day_off            |
 | 1918-11-20 | revolution_day            | official, day_off            |
 | 1918-12-25 | christmas_day             | official, day_off, religious |
+
+# 1922
+
+| Date       | Name                                   | Types                           |
+|------------|----------------------------------------|---------------------------------|
+| 1922-01-01 | new_year                               | official, day_off               |
+| 1922-01-02 | new_year_compensatory                  | official, day_off, compensatory |
+| 1922-02-05 | constitution_day                       | official, day_off               |
+| 1922-02-05 | birthday_of_benito_juarez              | official, day_off               |
+| 1922-02-06 | constitution_day_compensatory          | official, day_off, compensatory |
+| 1922-02-07 | birthday_of_benito_juarez_compensatory | official, day_off, compensatory |
+| 1922-09-15 | independence_day_compensatory          | official, day_off, compensatory |
+| 1922-09-16 | independence_day                       | official, day_off               |
+| 1922-11-20 | revolution_day                         | official, day_off               |
+| 1922-12-25 | christmas_day                          | official, day_off, religious    |
 
 # 1923
 
@@ -56,6 +93,23 @@
 | 1923-09-17 | independence_day_compensatory | official, day_off, compensatory |
 | 1923-11-20 | revolution_day                | official, day_off               |
 | 1923-12-25 | christmas_day                 | official, day_off, religious    |
+
+# 2005
+
+| Date       | Name                                   | Types                                      |
+|------------|----------------------------------------|--------------------------------------------|
+| 2005-01-01 | new_year                               | official, day_off                          |
+| 2005-02-03 | birthday_of_benito_juarez_compensatory | official, day_off, compensatory            |
+| 2005-02-04 | constitution_day_compensatory          | official, day_off, compensatory            |
+| 2005-02-05 | constitution_day                       | official, day_off                          |
+| 2005-02-05 | birthday_of_benito_juarez              | official, day_off                          |
+| 2005-05-01 | labor_day                              | official, day_off                          |
+| 2005-05-02 | labor_day_compensatory                 | official, day_off, compensatory            |
+| 2005-09-16 | independence_day                       | official, day_off                          |
+| 2005-11-20 | revolution_day                         | official, day_off                          |
+| 2005-11-21 | revolution_day_compensatory            | official, day_off, compensatory            |
+| 2005-12-25 | christmas_day                          | official, day_off, religious               |
+| 2005-12-26 | christmas_day_compensatory             | official, day_off, religious, compensatory |
 
 # 2006
 

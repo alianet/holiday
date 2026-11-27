@@ -1,3 +1,195 @@
+# 1871
+
+| Date       | Name             | Types                  |
+|------------|------------------|------------------------|
+| 1871-01-01 | new_year         | official, partial_only |
+| 1871-07-04 | independence_day | official, partial_only |
+| 1871-11-30 | thanksgiving_day | official, partial_only |
+| 1871-12-25 | christmas_day    | official, partial_only |
+
+# 1872
+
+| Date       | Name             | Types                  |
+|------------|------------------|------------------------|
+| 1872-01-01 | new_year         | official, partial_only |
+| 1872-06-11 | kamehameha_day   | official, partial_only |
+| 1872-07-04 | independence_day | official, partial_only |
+| 1872-11-28 | thanksgiving_day | official, partial_only |
+| 1872-12-25 | christmas_day    | official, partial_only |
+
+# 1948
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1948-01-01 | new_year             | official, partial_only |
+| 1948-02-22 | washingtons_birthday | official, partial_only |
+| 1948-05-30 | memorial_day         | official, partial_only |
+| 1948-06-11 | kamehameha_day       | official, partial_only |
+| 1948-07-04 | independence_day     | official, partial_only |
+| 1948-09-06 | labor_day            | official, partial_only |
+| 1948-11-11 | armistice_day        | official, partial_only |
+| 1948-11-25 | thanksgiving_day     | official, partial_only |
+| 1948-12-25 | christmas_day        | official, partial_only |
+
+# 1949
+
+| Date       | Name                                | Types                  |
+|------------|-------------------------------------|------------------------|
+| 1949-01-01 | new_year                            | official, partial_only |
+| 1949-02-22 | washingtons_birthday                | official, partial_only |
+| 1949-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only |
+| 1949-05-30 | memorial_day                        | official, partial_only |
+| 1949-06-11 | kamehameha_day                      | official, partial_only |
+| 1949-07-04 | independence_day                    | official, partial_only |
+| 1949-09-05 | labor_day                           | official, partial_only |
+| 1949-11-11 | armistice_day                       | official, partial_only |
+| 1949-11-24 | thanksgiving_day                    | official, partial_only |
+| 1949-12-25 | christmas_day                       | official, partial_only |
+
+# 1958
+
+| Date       | Name                                | Types                  |
+|------------|-------------------------------------|------------------------|
+| 1958-01-01 | new_year                            | official, partial_only |
+| 1958-02-22 | washingtons_birthday                | official, partial_only |
+| 1958-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only |
+| 1958-05-30 | memorial_day                        | official, partial_only |
+| 1958-06-11 | kamehameha_day                      | official, partial_only |
+| 1958-07-04 | independence_day                    | official, partial_only |
+| 1958-09-01 | labor_day                           | official, partial_only |
+| 1958-11-11 | veterans_day                        | official, partial_only |
+| 1958-11-27 | thanksgiving_day                    | official, partial_only |
+| 1958-12-25 | christmas_day                       | official, partial_only |
+
+# 1959
+
+| Date       | Name                                | Types                  |
+|------------|-------------------------------------|------------------------|
+| 1959-01-01 | new_year                            | official, partial_only |
+| 1959-02-22 | washingtons_birthday                | official, partial_only |
+| 1959-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only |
+| 1959-05-30 | memorial_day                        | official, partial_only |
+| 1959-06-11 | kamehameha_day                      | official, partial_only |
+| 1959-07-04 | independence_day                    | official, partial_only |
+| 1959-08-21 | statehood_day                       | official, partial_only |
+| 1959-09-07 | labor_day                           | official, partial_only |
+| 1959-11-11 | veterans_day                        | official, partial_only |
+| 1959-11-26 | thanksgiving_day                    | official, partial_only |
+| 1959-12-25 | christmas_day                       | official, partial_only |
+
+# 1970
+
+| Date       | Name                                | Types                                |
+|------------|-------------------------------------|--------------------------------------|
+| 1970-01-01 | new_year                            | official, partial_only               |
+| 1970-02-22 | washingtons_birthday                | official, partial_only               |
+| 1970-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only               |
+| 1970-05-30 | memorial_day                        | official, partial_only               |
+| 1970-06-11 | kamehameha_day                      | official, partial_only               |
+| 1970-07-03 | independence_day_compensatory       | official, partial_only, compensatory |
+| 1970-07-04 | independence_day                    | official, partial_only               |
+| 1970-08-21 | statehood_day                       | official, partial_only               |
+| 1970-09-07 | labor_day                           | official, partial_only               |
+| 1970-11-11 | veterans_day                        | official, partial_only               |
+| 1970-11-26 | thanksgiving_day                    | official, partial_only               |
+| 1970-12-25 | christmas_day                       | official, partial_only               |
+
+# 1971
+
+| Date       | Name                                | Types                                |
+|------------|-------------------------------------|--------------------------------------|
+| 1971-01-01 | new_year                            | official, partial_only               |
+| 1971-02-15 | presidents_day                      | official, partial_only               |
+| 1971-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only               |
+| 1971-05-31 | memorial_day                        | official, partial_only               |
+| 1971-06-11 | kamehameha_day                      | official, partial_only               |
+| 1971-07-04 | independence_day                    | official, partial_only               |
+| 1971-07-05 | independence_day_compensatory       | official, partial_only, compensatory |
+| 1971-08-20 | statehood_day                       | official, partial_only               |
+| 1971-09-06 | labor_day                           | official, partial_only               |
+| 1971-10-25 | veterans_day                        | official, partial_only               |
+| 1971-11-25 | thanksgiving_day                    | official, partial_only               |
+| 1971-12-24 | christmas_day_compensatory          | official, partial_only, compensatory |
+| 1971-12-25 | christmas_day                       | official, partial_only               |
+| 1971-12-31 | new_year_compensatory               | official, partial_only, compensatory |
+
+# 2007
+
+| Date       | Name                                | Types                                |
+|------------|-------------------------------------|--------------------------------------|
+| 2007-01-01 | new_year                            | official, partial_only               |
+| 2007-01-15 | martin_luther_king_jr_day           | official, partial_only               |
+| 2007-02-19 | presidents_day                      | official, partial_only               |
+| 2007-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only               |
+| 2007-05-28 | memorial_day                        | official, partial_only               |
+| 2007-06-11 | kamehameha_day                      | official, partial_only               |
+| 2007-07-04 | independence_day                    | official, partial_only               |
+| 2007-08-17 | statehood_day                       | official, partial_only               |
+| 2007-09-03 | labor_day                           | official, partial_only               |
+| 2007-11-11 | veterans_day                        | official, partial_only               |
+| 2007-11-12 | veterans_day_compensatory           | official, partial_only, compensatory |
+| 2007-11-22 | thanksgiving_day                    | official, partial_only               |
+| 2007-12-25 | christmas_day                       | official, partial_only               |
+
+# 2008
+
+| Date       | Name                                | Types                  |
+|------------|-------------------------------------|------------------------|
+| 2008-01-01 | new_year                            | official, partial_only |
+| 2008-01-21 | martin_luther_king_jr_day           | official, partial_only |
+| 2008-02-18 | presidents_day                      | official, partial_only |
+| 2008-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only |
+| 2008-05-26 | memorial_day                        | official, partial_only |
+| 2008-06-11 | kamehameha_day                      | official, partial_only |
+| 2008-07-04 | independence_day                    | official, partial_only |
+| 2008-08-15 | statehood_day                       | official, partial_only |
+| 2008-09-01 | labor_day                           | official, partial_only |
+| 2008-11-04 | election_day                        | official, partial_only |
+| 2008-11-11 | veterans_day                        | official, partial_only |
+| 2008-11-27 | thanksgiving_day                    | official, partial_only |
+| 2008-12-25 | christmas_day                       | official, partial_only |
+
+# 2010
+
+| Date       | Name                                | Types                                |
+|------------|-------------------------------------|--------------------------------------|
+| 2010-01-01 | new_year                            | official, partial_only               |
+| 2010-01-18 | martin_luther_king_jr_day           | official, partial_only               |
+| 2010-02-15 | presidents_day                      | official, partial_only               |
+| 2010-03-26 | prince_jonah_kuhio_kalanianaole_day | official, partial_only               |
+| 2010-05-31 | memorial_day                        | official, partial_only               |
+| 2010-06-11 | kamehameha_day                      | official, partial_only               |
+| 2010-07-04 | independence_day                    | official, partial_only               |
+| 2010-07-05 | independence_day_compensatory       | official, partial_only, compensatory |
+| 2010-08-20 | statehood_day                       | official, partial_only               |
+| 2010-09-06 | labor_day                           | official, partial_only               |
+| 2010-11-02 | election_day                        | official, partial_only               |
+| 2010-11-11 | veterans_day                        | official, partial_only               |
+| 2010-11-25 | thanksgiving_day                    | official, partial_only               |
+| 2010-12-24 | christmas_day_compensatory          | official, partial_only, compensatory |
+| 2010-12-25 | christmas_day                       | official, partial_only               |
+| 2010-12-31 | new_year_compensatory               | official, partial_only, compensatory |
+
+# 2011
+
+| Date       | Name                                             | Types                                |
+|------------|--------------------------------------------------|--------------------------------------|
+| 2011-01-01 | new_year                                         | official, partial_only               |
+| 2011-01-17 | martin_luther_king_jr_day                        | official, partial_only               |
+| 2011-02-21 | presidents_day                                   | official, partial_only               |
+| 2011-03-25 | prince_jonah_kuhio_kalanianaole_day_compensatory | official, partial_only, compensatory |
+| 2011-03-26 | prince_jonah_kuhio_kalanianaole_day              | official, partial_only               |
+| 2011-05-30 | memorial_day                                     | official, partial_only               |
+| 2011-06-10 | kamehameha_day_compensatory                      | official, partial_only, compensatory |
+| 2011-06-11 | kamehameha_day                                   | official, partial_only               |
+| 2011-07-04 | independence_day                                 | official, partial_only               |
+| 2011-08-19 | statehood_day                                    | official, partial_only               |
+| 2011-09-05 | labor_day                                        | official, partial_only               |
+| 2011-11-11 | veterans_day                                     | official, partial_only               |
+| 2011-11-24 | thanksgiving_day                                 | official, partial_only               |
+| 2011-12-25 | christmas_day                                    | official, partial_only               |
+| 2011-12-26 | christmas_day_compensatory                       | official, partial_only, compensatory |
+
 # 2020
 
 | Date       | Name                                | Types                                |

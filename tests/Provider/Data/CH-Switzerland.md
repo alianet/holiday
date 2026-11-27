@@ -8,6 +8,16 @@
 | 1993-09-05 | swiss_national_day | religious                    |
 | 1993-12-25 | christmas_day      | official, day_off, religious |
 
+# 1994
+
+| Date       | Name               | Types                        |
+|------------|--------------------|------------------------------|
+| 1994-01-01 | new_year           | official, day_off            |
+| 1994-05-12 | ascension          | official, day_off, religious |
+| 1994-08-01 | swiss_national_day | official, day_off            |
+| 1994-09-04 | swiss_national_day | religious                    |
+| 1994-12-25 | christmas_day      | official, day_off, religious |
+
 # 2020
 
 | Date       | Name               | Types                        |

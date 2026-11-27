@@ -1,3 +1,68 @@
+# 1975
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1975-01-01 | new_year             | official, partial_only |
+| 1975-02-17 | washingtons_birthday | official, partial_only |
+| 1975-05-26 | memorial_day         | official, partial_only |
+| 1975-07-04 | independence_day     | official, partial_only |
+| 1975-09-01 | labor_day            | official, partial_only |
+| 1975-10-27 | veterans_day         | official, partial_only |
+| 1975-11-27 | thanksgiving_day     | official, partial_only |
+| 1975-12-25 | christmas_day        | official, partial_only |
+
+# 1976
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1976-01-01 | new_year                      | official, partial_only               |
+| 1976-02-15 | susan_b_anthony_day           | official, partial_only               |
+| 1976-02-16 | washingtons_birthday          | official, partial_only               |
+| 1976-05-31 | memorial_day                  | official, partial_only               |
+| 1976-07-04 | independence_day              | official, partial_only               |
+| 1976-07-05 | independence_day_compensatory | official, partial_only, compensatory |
+| 1976-09-06 | labor_day                     | official, partial_only               |
+| 1976-10-25 | veterans_day                  | official, partial_only               |
+| 1976-11-25 | thanksgiving_day              | official, partial_only               |
+| 1976-12-24 | christmas_day_compensatory    | official, partial_only, compensatory |
+| 1976-12-25 | christmas_day                 | official, partial_only               |
+| 1976-12-31 | new_year_compensatory         | official, partial_only, compensatory |
+
+# 2011
+
+| Date       | Name                       | Types                                |
+|------------|----------------------------|--------------------------------------|
+| 2011-01-01 | new_year                   | official, partial_only               |
+| 2011-01-17 | martin_luther_king_jr_day  | official, partial_only               |
+| 2011-02-15 | susan_b_anthony_day        | official, partial_only               |
+| 2011-02-21 | washingtons_birthday       | official, partial_only               |
+| 2011-05-30 | memorial_day               | official, partial_only               |
+| 2011-07-04 | independence_day           | official, partial_only               |
+| 2011-09-05 | labor_day                  | official, partial_only               |
+| 2011-11-11 | veterans_day               | official, partial_only               |
+| 2011-11-24 | thanksgiving_day           | official, partial_only               |
+| 2011-12-25 | christmas_day              | official, partial_only               |
+| 2011-12-26 | christmas_day_compensatory | official, partial_only, compensatory |
+
+# 2012
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2012-01-01 | new_year                  | official, partial_only               |
+| 2012-01-02 | new_year_compensatory     | official, partial_only, compensatory |
+| 2012-01-16 | martin_luther_king_jr_day | official, partial_only               |
+| 2012-02-15 | susan_b_anthony_day       | official, partial_only               |
+| 2012-02-20 | washingtons_birthday      | official, partial_only               |
+| 2012-05-28 | memorial_day              | official, partial_only               |
+| 2012-07-04 | independence_day          | official, partial_only               |
+| 2012-09-03 | labor_day                 | official, partial_only               |
+| 2012-11-11 | veterans_day              | official, partial_only               |
+| 2012-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2012-11-22 | thanksgiving_day          | official, partial_only               |
+| 2012-12-24 | christmas_eve             | official, partial_only               |
+| 2012-12-25 | christmas_day             | official, partial_only               |
+| 2012-12-31 | new_years_eve             | official, partial_only               |
+
 # 2020
 
 | Date       | Name                          | Types                                |

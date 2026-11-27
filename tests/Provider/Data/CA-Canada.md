@@ -1,3 +1,15 @@
+# 1951
+
+| Date       | Name             | Types                        |
+|------------|------------------|------------------------------|
+| 1951-01-01 | new_year         | official, day_off            |
+| 1951-03-23 | good_friday      | official, day_off, religious |
+| 1951-07-01 | dominion_day     | official, day_off            |
+| 1951-09-03 | labor_day        | official, day_off            |
+| 1951-10-08 | thanksgiving_day | official, day_off            |
+| 1951-11-11 | remembrance_day  | official, day_off            |
+| 1951-12-25 | christmas_day    | official, day_off, religious |
+
 # 1952
 
 | Date       | Name                     | Types                        |
@@ -10,6 +22,18 @@
 | 1952-10-13 | thanksgiving_day         | official, day_off            |
 | 1952-11-11 | remembrance_day          | official, day_off            |
 | 1952-12-25 | christmas_day            | official, day_off, religious |
+
+# 1953
+
+| Date       | Name             | Types                        |
+|------------|------------------|------------------------------|
+| 1953-01-01 | new_year         | official, day_off            |
+| 1953-04-03 | good_friday      | official, day_off, religious |
+| 1953-07-01 | dominion_day     | official, day_off            |
+| 1953-09-07 | labor_day        | official, day_off            |
+| 1953-10-12 | thanksgiving_day | official, day_off            |
+| 1953-11-11 | remembrance_day  | official, day_off            |
+| 1953-12-25 | christmas_day    | official, day_off, religious |
 
 # 1982
 
@@ -73,6 +97,19 @@
 | 2022-10-10 | thanksgiving_day                          | official, day_off               |
 | 2022-11-11 | remembrance_day                           | official, day_off               |
 | 2022-12-25 | christmas_day                             | official, day_off, religious    |
+
+# 2023
+
+| Date       | Name                                      | Types                           |
+|------------|-------------------------------------------|---------------------------------|
+| 2023-01-01 | new_year                                  | official, day_off               |
+| 2023-04-07 | good_friday                               | official, day_off, religious    |
+| 2023-07-01 | canada_day                                | official, day_off               |
+| 2023-09-04 | labor_day                                 | official, day_off               |
+| 2023-09-30 | national_day_for_truth_and_reconciliation | official, day_off, partial_only |
+| 2023-10-09 | thanksgiving_day                          | official, day_off               |
+| 2023-11-11 | remembrance_day                           | official, day_off               |
+| 2023-12-25 | christmas_day                             | official, day_off, religious    |
 
 # 2024
 

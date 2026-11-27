@@ -31,6 +31,23 @@
 | 1849-12-25 | christmas_day           | official, day_off, religious               |
 | 1849-12-26 | second_christmas_day    | official, day_off, religious               |
 
+# 1890
+
+| Date       | Name                    | Types                                      |
+|------------|-------------------------|--------------------------------------------|
+| 1890-01-01 | new_year                | official, day_off                          |
+| 1890-04-03 | maundy_thursday         | official, day_off, religious               |
+| 1890-04-04 | good_friday             | official, day_off, religious, partial_only |
+| 1890-04-06 | easter_sunday           | religious                                  |
+| 1890-04-07 | easter_monday           | official, day_off, religious               |
+| 1890-05-02 | general_prayer_day      | official, day_off, religious               |
+| 1890-05-15 | ascension               | official, day_off, religious               |
+| 1890-05-25 | whit_sunday             | official, day_off, religious               |
+| 1890-05-26 | whit_monday             | official, day_off, religious               |
+| 1890-06-05 | danish_national_holiday | official                                   |
+| 1890-12-25 | christmas_day           | official, day_off, religious               |
+| 1890-12-26 | second_christmas_day    | official, day_off, religious               |
+
 # 1891
 
 | Date       | Name                    | Types                                      |
@@ -48,6 +65,40 @@
 | 1891-12-25 | christmas_day           | official, day_off, religious               |
 | 1891-12-26 | second_christmas_day    | official, day_off, religious               |
 
+# 1975
+
+| Date       | Name                    | Types                                      |
+|------------|-------------------------|--------------------------------------------|
+| 1975-01-01 | new_year                | official, day_off                          |
+| 1975-03-27 | maundy_thursday         | official, day_off, religious               |
+| 1975-03-28 | good_friday             | official, day_off, religious, partial_only |
+| 1975-03-30 | easter_sunday           | religious                                  |
+| 1975-03-31 | easter_monday           | official, day_off, religious               |
+| 1975-04-25 | general_prayer_day      | official, day_off, religious               |
+| 1975-05-08 | ascension               | official, day_off, religious               |
+| 1975-05-18 | whit_sunday             | official, day_off, religious               |
+| 1975-05-19 | whit_monday             | official, day_off, religious               |
+| 1975-06-05 | danish_national_holiday | official, half_day_off                     |
+| 1975-12-25 | christmas_day           | official, day_off, religious               |
+| 1975-12-26 | second_christmas_day    | official, day_off, religious               |
+
+# 1976
+
+| Date       | Name                    | Types                                      |
+|------------|-------------------------|--------------------------------------------|
+| 1976-01-01 | new_year                | official, day_off                          |
+| 1976-04-15 | maundy_thursday         | official, day_off, religious               |
+| 1976-04-16 | good_friday             | official, day_off, religious, partial_only |
+| 1976-04-18 | easter_sunday           | religious                                  |
+| 1976-04-19 | easter_monday           | official, day_off, religious               |
+| 1976-05-14 | general_prayer_day      | official, day_off, religious               |
+| 1976-05-27 | ascension               | official, day_off, religious               |
+| 1976-06-05 | danish_national_holiday | official                                   |
+| 1976-06-06 | whit_sunday             | official, day_off, religious               |
+| 1976-06-07 | whit_monday             | official, day_off, religious               |
+| 1976-12-25 | christmas_day           | official, day_off, religious               |
+| 1976-12-26 | second_christmas_day    | official, day_off, religious               |
+
 # 2020
 
 | Date       | Name                    | Types                                      |
@@ -64,6 +115,23 @@
 | 2020-06-05 | danish_national_holiday | official                                   |
 | 2020-12-25 | christmas_day           | official, day_off, religious               |
 | 2020-12-26 | second_christmas_day    | official, day_off, religious               |
+
+# 2023
+
+| Date       | Name                    | Types                                      |
+|------------|-------------------------|--------------------------------------------|
+| 2023-01-01 | new_year                | official, day_off                          |
+| 2023-04-06 | maundy_thursday         | official, day_off, religious               |
+| 2023-04-07 | good_friday             | official, day_off, religious, partial_only |
+| 2023-04-09 | easter_sunday           | religious                                  |
+| 2023-04-10 | easter_monday           | official, day_off, religious               |
+| 2023-05-05 | general_prayer_day      | official, day_off, religious               |
+| 2023-05-18 | ascension               | official, day_off, religious               |
+| 2023-05-28 | whit_sunday             | official, day_off, religious               |
+| 2023-05-29 | whit_monday             | official, day_off, religious               |
+| 2023-06-05 | danish_national_holiday | official                                   |
+| 2023-12-25 | christmas_day           | official, day_off, religious               |
+| 2023-12-26 | second_christmas_day    | official, day_off, religious               |
 
 # 2024
 

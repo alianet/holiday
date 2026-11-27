@@ -1,3 +1,36 @@
+# 2012
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2012-01-01 | new_year                  | official, partial_only               |
+| 2012-01-02 | new_year_compensatory     | official, partial_only, compensatory |
+| 2012-01-16 | martin_luther_king_jr_day | official, partial_only               |
+| 2012-02-20 | washingtons_birthday      | official, partial_only               |
+| 2012-04-06 | good_friday               | official, partial_only               |
+| 2012-05-28 | memorial_day              | official, partial_only               |
+| 2012-07-04 | independence_day          | official, partial_only               |
+| 2012-09-03 | labor_day                 | official, partial_only               |
+| 2012-11-11 | veterans_day              | official, partial_only               |
+| 2012-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2012-11-22 | thanksgiving_day          | official, partial_only               |
+| 2012-12-25 | christmas_day             | official, partial_only               |
+
+# 2013
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2013-01-01 | new_year                  | official, partial_only |
+| 2013-01-21 | martin_luther_king_jr_day | official, partial_only |
+| 2013-02-18 | washingtons_birthday      | official, partial_only |
+| 2013-03-29 | good_friday               | official, partial_only |
+| 2013-05-27 | memorial_day              | official, partial_only |
+| 2013-07-04 | independence_day          | official, partial_only |
+| 2013-09-02 | labor_day                 | official, partial_only |
+| 2013-11-11 | veterans_day              | official, partial_only |
+| 2013-11-28 | thanksgiving_day          | official, partial_only |
+| 2013-12-25 | christmas_day             | official, partial_only |
+| 2013-12-31 | new_years_eve             | official, partial_only |
+
 # 2020
 
 | Date       | Name                          | Types                                |

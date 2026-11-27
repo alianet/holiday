@@ -13,6 +13,22 @@
 | 1961-12-25 | christmas_day        | official, day_off, religious     |
 | 1961-12-26 | second_christmas_day | official, day_off, religious     |
 
+# 1962
+
+| Date       | Name                          | Types                            |
+|------------|-------------------------------|----------------------------------|
+| 1962-01-01 | new_year                      | official, day_off                |
+| 1962-04-20 | good_friday                   | religious, bank                  |
+| 1962-04-23 | easter_monday                 | official, day_off, religious     |
+| 1962-05-31 | ascension                     | official, day_off, religious     |
+| 1962-06-11 | whit_monday                   | official, day_off, religious     |
+| 1962-06-12 | whit_monday                   | official, traditional, no_school |
+| 1962-06-23 | grand_dukes_official_birthday | official, day_off                |
+| 1962-08-15 | assumption_day                | official, day_off, religious     |
+| 1962-11-01 | all_saints_day                | official, day_off, religious     |
+| 1962-12-25 | christmas_day                 | official, day_off, religious     |
+| 1962-12-26 | second_christmas_day          | official, day_off, religious     |
+
 # 2018
 
 | Date       | Name                          | Types                            |
@@ -28,6 +44,23 @@
 | 2018-11-01 | all_saints_day                | official, day_off, religious     |
 | 2018-12-25 | christmas_day                 | official, day_off, religious     |
 | 2018-12-26 | second_christmas_day          | official, day_off, religious     |
+
+# 2019
+
+| Date       | Name                          | Types                            |
+|------------|-------------------------------|----------------------------------|
+| 2019-01-01 | new_year                      | official, day_off                |
+| 2019-04-19 | good_friday                   | religious, bank                  |
+| 2019-04-22 | easter_monday                 | official, day_off, religious     |
+| 2019-05-09 | europe_day                    | official, day_off                |
+| 2019-05-30 | ascension                     | official, day_off, religious     |
+| 2019-06-10 | whit_monday                   | official, day_off, religious     |
+| 2019-06-11 | whit_monday                   | official, traditional, no_school |
+| 2019-06-23 | grand_dukes_official_birthday | official, day_off                |
+| 2019-08-15 | assumption_day                | official, day_off, religious     |
+| 2019-11-01 | all_saints_day                | official, day_off, religious     |
+| 2019-12-25 | christmas_day                 | official, day_off, religious     |
+| 2019-12-26 | second_christmas_day          | official, day_off, religious     |
 
 # 2020
 

@@ -213,6 +213,150 @@
 | 1946-12-26 | second_christmas_day           | day_off, religious |
 | 1946-12-29 | sunday                         | day_off            |
 
+# 1947
+
+| Date       | Name                           | Types              |
+|------------|--------------------------------|--------------------|
+| 1947-01-01 | new_year                       | official, day_off  |
+| 1947-01-05 | sunday                         | day_off            |
+| 1947-01-06 | epiphany                       | day_off, religious |
+| 1947-01-12 | sunday                         | day_off            |
+| 1947-01-19 | sunday                         | day_off            |
+| 1947-01-26 | sunday                         | day_off            |
+| 1947-02-02 | sunday                         | day_off            |
+| 1947-02-09 | sunday                         | day_off            |
+| 1947-02-16 | sunday                         | day_off            |
+| 1947-02-23 | sunday                         | day_off            |
+| 1947-03-02 | sunday                         | day_off            |
+| 1947-03-09 | sunday                         | day_off            |
+| 1947-03-16 | sunday                         | day_off            |
+| 1947-03-19 | saint_josephs_day              | day_off, religious |
+| 1947-03-23 | sunday                         | day_off            |
+| 1947-03-30 | sunday                         | day_off            |
+| 1947-04-06 | sunday                         | day_off            |
+| 1947-04-06 | easter_sunday                  | day_off, religious |
+| 1947-04-07 | easter_monday                  | day_off, religious |
+| 1947-04-13 | sunday                         | day_off            |
+| 1947-04-20 | sunday                         | day_off            |
+| 1947-04-27 | sunday                         | day_off            |
+| 1947-05-01 | labor_day                      | official, day_off  |
+| 1947-05-04 | sunday                         | day_off            |
+| 1947-05-11 | sunday                         | day_off            |
+| 1947-05-15 | ascension                      | day_off, religious |
+| 1947-05-18 | sunday                         | day_off            |
+| 1947-05-25 | sunday                         | day_off            |
+| 1947-06-01 | sunday                         | day_off            |
+| 1947-06-02 | republic_day                   | official, day_off  |
+| 1947-06-05 | corpus_christi                 | day_off, religious |
+| 1947-06-08 | sunday                         | day_off            |
+| 1947-06-15 | sunday                         | day_off            |
+| 1947-06-22 | sunday                         | day_off            |
+| 1947-06-29 | sunday                         | day_off            |
+| 1947-06-29 | feast_of_saints_peter_and_paul | day_off, religious |
+| 1947-07-06 | sunday                         | day_off            |
+| 1947-07-13 | sunday                         | day_off            |
+| 1947-07-20 | sunday                         | day_off            |
+| 1947-07-27 | sunday                         | day_off            |
+| 1947-08-03 | sunday                         | day_off            |
+| 1947-08-10 | sunday                         | day_off            |
+| 1947-08-15 | assumption_day                 | day_off, religious |
+| 1947-08-17 | sunday                         | day_off            |
+| 1947-08-24 | sunday                         | day_off            |
+| 1947-08-31 | sunday                         | day_off            |
+| 1947-09-07 | sunday                         | day_off            |
+| 1947-09-14 | sunday                         | day_off            |
+| 1947-09-21 | sunday                         | day_off            |
+| 1947-09-28 | sunday                         | day_off            |
+| 1947-10-05 | sunday                         | day_off            |
+| 1947-10-12 | sunday                         | day_off            |
+| 1947-10-19 | sunday                         | day_off            |
+| 1947-10-26 | sunday                         | day_off            |
+| 1947-11-01 | all_saints_day                 | day_off, religious |
+| 1947-11-02 | sunday                         | day_off            |
+| 1947-11-09 | sunday                         | day_off            |
+| 1947-11-16 | sunday                         | day_off            |
+| 1947-11-23 | sunday                         | day_off            |
+| 1947-11-30 | sunday                         | day_off            |
+| 1947-12-07 | sunday                         | day_off            |
+| 1947-12-08 | immaculate_conception          | day_off, religious |
+| 1947-12-14 | sunday                         | day_off            |
+| 1947-12-21 | sunday                         | day_off            |
+| 1947-12-25 | christmas_day                  | day_off, religious |
+| 1947-12-26 | second_christmas_day           | day_off, religious |
+| 1947-12-28 | sunday                         | day_off            |
+
+# 1949
+
+| Date       | Name                           | Types              |
+|------------|--------------------------------|--------------------|
+| 1949-01-01 | new_year                       | official, day_off  |
+| 1949-01-02 | sunday                         | day_off            |
+| 1949-01-06 | epiphany                       | day_off, religious |
+| 1949-01-09 | sunday                         | day_off            |
+| 1949-01-16 | sunday                         | day_off            |
+| 1949-01-23 | sunday                         | day_off            |
+| 1949-01-30 | sunday                         | day_off            |
+| 1949-02-06 | sunday                         | day_off            |
+| 1949-02-13 | sunday                         | day_off            |
+| 1949-02-20 | sunday                         | day_off            |
+| 1949-02-27 | sunday                         | day_off            |
+| 1949-03-06 | sunday                         | day_off            |
+| 1949-03-13 | sunday                         | day_off            |
+| 1949-03-19 | saint_josephs_day              | day_off, religious |
+| 1949-03-20 | sunday                         | day_off            |
+| 1949-03-27 | sunday                         | day_off            |
+| 1949-04-03 | sunday                         | day_off            |
+| 1949-04-10 | sunday                         | day_off            |
+| 1949-04-17 | sunday                         | day_off            |
+| 1949-04-17 | easter_sunday                  | day_off, religious |
+| 1949-04-18 | easter_monday                  | day_off, religious |
+| 1949-04-24 | sunday                         | day_off            |
+| 1949-05-01 | sunday                         | day_off            |
+| 1949-05-01 | labor_day                      | official, day_off  |
+| 1949-05-08 | sunday                         | day_off            |
+| 1949-05-15 | sunday                         | day_off            |
+| 1949-05-22 | sunday                         | day_off            |
+| 1949-05-26 | ascension                      | day_off, religious |
+| 1949-05-29 | sunday                         | day_off            |
+| 1949-06-02 | republic_day                   | official, day_off  |
+| 1949-06-05 | sunday                         | day_off            |
+| 1949-06-12 | sunday                         | day_off            |
+| 1949-06-16 | corpus_christi                 | day_off, religious |
+| 1949-06-19 | sunday                         | day_off            |
+| 1949-06-26 | sunday                         | day_off            |
+| 1949-06-29 | feast_of_saints_peter_and_paul | day_off, religious |
+| 1949-07-03 | sunday                         | day_off            |
+| 1949-07-10 | sunday                         | day_off            |
+| 1949-07-17 | sunday                         | day_off            |
+| 1949-07-24 | sunday                         | day_off            |
+| 1949-07-31 | sunday                         | day_off            |
+| 1949-08-07 | sunday                         | day_off            |
+| 1949-08-14 | sunday                         | day_off            |
+| 1949-08-15 | assumption_day                 | day_off, religious |
+| 1949-08-21 | sunday                         | day_off            |
+| 1949-08-28 | sunday                         | day_off            |
+| 1949-09-04 | sunday                         | day_off            |
+| 1949-09-11 | sunday                         | day_off            |
+| 1949-09-18 | sunday                         | day_off            |
+| 1949-09-25 | sunday                         | day_off            |
+| 1949-10-02 | sunday                         | day_off            |
+| 1949-10-09 | sunday                         | day_off            |
+| 1949-10-16 | sunday                         | day_off            |
+| 1949-10-23 | sunday                         | day_off            |
+| 1949-10-30 | sunday                         | day_off            |
+| 1949-11-01 | all_saints_day                 | day_off, religious |
+| 1949-11-06 | sunday                         | day_off            |
+| 1949-11-13 | sunday                         | day_off            |
+| 1949-11-20 | sunday                         | day_off            |
+| 1949-11-27 | sunday                         | day_off            |
+| 1949-12-04 | sunday                         | day_off            |
+| 1949-12-08 | immaculate_conception          | day_off, religious |
+| 1949-12-11 | sunday                         | day_off            |
+| 1949-12-18 | sunday                         | day_off            |
+| 1949-12-25 | sunday                         | day_off            |
+| 1949-12-25 | christmas_day                  | day_off, religious |
+| 1949-12-26 | second_christmas_day           | day_off, religious |
+
 # 1950
 
 | Date       | Name                           | Types              |
@@ -362,6 +506,79 @@
 | 1961-12-26 | second_christmas_day                    | day_off, religious |
 | 1961-12-31 | sunday                                  | day_off            |
 
+# 1976
+
+| Date       | Name                           | Types              |
+|------------|--------------------------------|--------------------|
+| 1976-01-01 | new_year                       | official, day_off  |
+| 1976-01-04 | sunday                         | day_off            |
+| 1976-01-06 | epiphany                       | day_off, religious |
+| 1976-01-11 | sunday                         | day_off            |
+| 1976-01-18 | sunday                         | day_off            |
+| 1976-01-25 | sunday                         | day_off            |
+| 1976-02-01 | sunday                         | day_off            |
+| 1976-02-08 | sunday                         | day_off            |
+| 1976-02-15 | sunday                         | day_off            |
+| 1976-02-22 | sunday                         | day_off            |
+| 1976-02-29 | sunday                         | day_off            |
+| 1976-03-07 | sunday                         | day_off            |
+| 1976-03-14 | sunday                         | day_off            |
+| 1976-03-19 | saint_josephs_day              | day_off, religious |
+| 1976-03-21 | sunday                         | day_off            |
+| 1976-03-28 | sunday                         | day_off            |
+| 1976-04-04 | sunday                         | day_off            |
+| 1976-04-11 | sunday                         | day_off            |
+| 1976-04-18 | sunday                         | day_off            |
+| 1976-04-18 | easter_sunday                  | day_off, religious |
+| 1976-04-19 | easter_monday                  | day_off, religious |
+| 1976-04-25 | sunday                         | day_off            |
+| 1976-04-25 | liberation_day                 | official, day_off  |
+| 1976-05-01 | labor_day                      | official, day_off  |
+| 1976-05-02 | sunday                         | day_off            |
+| 1976-05-09 | sunday                         | day_off            |
+| 1976-05-16 | sunday                         | day_off            |
+| 1976-05-23 | sunday                         | day_off            |
+| 1976-05-27 | ascension                      | day_off, religious |
+| 1976-05-30 | sunday                         | day_off            |
+| 1976-06-02 | republic_day                   | official, day_off  |
+| 1976-06-06 | sunday                         | day_off            |
+| 1976-06-13 | sunday                         | day_off            |
+| 1976-06-17 | corpus_christi                 | day_off, religious |
+| 1976-06-20 | sunday                         | day_off            |
+| 1976-06-27 | sunday                         | day_off            |
+| 1976-06-29 | feast_of_saints_peter_and_paul | day_off, religious |
+| 1976-07-04 | sunday                         | day_off            |
+| 1976-07-11 | sunday                         | day_off            |
+| 1976-07-18 | sunday                         | day_off            |
+| 1976-07-25 | sunday                         | day_off            |
+| 1976-08-01 | sunday                         | day_off            |
+| 1976-08-08 | sunday                         | day_off            |
+| 1976-08-15 | sunday                         | day_off            |
+| 1976-08-15 | assumption_day                 | day_off, religious |
+| 1976-08-22 | sunday                         | day_off            |
+| 1976-08-29 | sunday                         | day_off            |
+| 1976-09-05 | sunday                         | day_off            |
+| 1976-09-12 | sunday                         | day_off            |
+| 1976-09-19 | sunday                         | day_off            |
+| 1976-09-26 | sunday                         | day_off            |
+| 1976-10-03 | sunday                         | day_off            |
+| 1976-10-10 | sunday                         | day_off            |
+| 1976-10-17 | sunday                         | day_off            |
+| 1976-10-24 | sunday                         | day_off            |
+| 1976-10-31 | sunday                         | day_off            |
+| 1976-11-01 | all_saints_day                 | day_off, religious |
+| 1976-11-07 | sunday                         | day_off            |
+| 1976-11-14 | sunday                         | day_off            |
+| 1976-11-21 | sunday                         | day_off            |
+| 1976-11-28 | sunday                         | day_off            |
+| 1976-12-05 | sunday                         | day_off            |
+| 1976-12-08 | immaculate_conception          | day_off, religious |
+| 1976-12-12 | sunday                         | day_off            |
+| 1976-12-19 | sunday                         | day_off            |
+| 1976-12-25 | christmas_day                  | day_off, religious |
+| 1976-12-26 | sunday                         | day_off            |
+| 1976-12-26 | second_christmas_day           | day_off, religious |
+
 # 1977
 
 | Date       | Name                  | Types              |
@@ -433,6 +650,144 @@
 | 1977-12-25 | christmas_day         | day_off, religious |
 | 1977-12-26 | second_christmas_day  | day_off, religious |
 
+# 1978
+
+| Date       | Name                  | Types              |
+|------------|-----------------------|--------------------|
+| 1978-01-01 | sunday                | day_off            |
+| 1978-01-01 | new_year              | official, day_off  |
+| 1978-01-08 | sunday                | day_off            |
+| 1978-01-15 | sunday                | day_off            |
+| 1978-01-22 | sunday                | day_off            |
+| 1978-01-29 | sunday                | day_off            |
+| 1978-02-05 | sunday                | day_off            |
+| 1978-02-12 | sunday                | day_off            |
+| 1978-02-19 | sunday                | day_off            |
+| 1978-02-26 | sunday                | day_off            |
+| 1978-03-05 | sunday                | day_off            |
+| 1978-03-12 | sunday                | day_off            |
+| 1978-03-19 | sunday                | day_off            |
+| 1978-03-26 | sunday                | day_off            |
+| 1978-03-26 | easter_sunday         | day_off, religious |
+| 1978-03-27 | easter_monday         | day_off, religious |
+| 1978-04-02 | sunday                | day_off            |
+| 1978-04-09 | sunday                | day_off            |
+| 1978-04-16 | sunday                | day_off            |
+| 1978-04-23 | sunday                | day_off            |
+| 1978-04-25 | liberation_day        | official, day_off  |
+| 1978-04-30 | sunday                | day_off            |
+| 1978-05-01 | labor_day             | official, day_off  |
+| 1978-05-07 | sunday                | day_off            |
+| 1978-05-14 | sunday                | day_off            |
+| 1978-05-21 | sunday                | day_off            |
+| 1978-05-28 | sunday                | day_off            |
+| 1978-06-04 | sunday                | day_off            |
+| 1978-06-04 | republic_day          | official, day_off  |
+| 1978-06-11 | sunday                | day_off            |
+| 1978-06-18 | sunday                | day_off            |
+| 1978-06-25 | sunday                | day_off            |
+| 1978-07-02 | sunday                | day_off            |
+| 1978-07-09 | sunday                | day_off            |
+| 1978-07-16 | sunday                | day_off            |
+| 1978-07-23 | sunday                | day_off            |
+| 1978-07-30 | sunday                | day_off            |
+| 1978-08-06 | sunday                | day_off            |
+| 1978-08-13 | sunday                | day_off            |
+| 1978-08-15 | assumption_day        | day_off, religious |
+| 1978-08-20 | sunday                | day_off            |
+| 1978-08-27 | sunday                | day_off            |
+| 1978-09-03 | sunday                | day_off            |
+| 1978-09-10 | sunday                | day_off            |
+| 1978-09-17 | sunday                | day_off            |
+| 1978-09-24 | sunday                | day_off            |
+| 1978-10-01 | sunday                | day_off            |
+| 1978-10-08 | sunday                | day_off            |
+| 1978-10-15 | sunday                | day_off            |
+| 1978-10-22 | sunday                | day_off            |
+| 1978-10-29 | sunday                | day_off            |
+| 1978-11-01 | all_saints_day        | day_off, religious |
+| 1978-11-05 | sunday                | day_off            |
+| 1978-11-12 | sunday                | day_off            |
+| 1978-11-19 | sunday                | day_off            |
+| 1978-11-26 | sunday                | day_off            |
+| 1978-12-03 | sunday                | day_off            |
+| 1978-12-08 | immaculate_conception | day_off, religious |
+| 1978-12-10 | sunday                | day_off            |
+| 1978-12-17 | sunday                | day_off            |
+| 1978-12-24 | sunday                | day_off            |
+| 1978-12-25 | christmas_day         | day_off, religious |
+| 1978-12-26 | second_christmas_day  | day_off, religious |
+| 1978-12-31 | sunday                | day_off            |
+
+# 1984
+
+| Date       | Name                  | Types              |
+|------------|-----------------------|--------------------|
+| 1984-01-01 | sunday                | day_off            |
+| 1984-01-01 | new_year              | official, day_off  |
+| 1984-01-08 | sunday                | day_off            |
+| 1984-01-15 | sunday                | day_off            |
+| 1984-01-22 | sunday                | day_off            |
+| 1984-01-29 | sunday                | day_off            |
+| 1984-02-05 | sunday                | day_off            |
+| 1984-02-12 | sunday                | day_off            |
+| 1984-02-19 | sunday                | day_off            |
+| 1984-02-26 | sunday                | day_off            |
+| 1984-03-04 | sunday                | day_off            |
+| 1984-03-11 | sunday                | day_off            |
+| 1984-03-18 | sunday                | day_off            |
+| 1984-03-25 | sunday                | day_off            |
+| 1984-04-01 | sunday                | day_off            |
+| 1984-04-08 | sunday                | day_off            |
+| 1984-04-15 | sunday                | day_off            |
+| 1984-04-22 | sunday                | day_off            |
+| 1984-04-22 | easter_sunday         | day_off, religious |
+| 1984-04-23 | easter_monday         | day_off, religious |
+| 1984-04-25 | liberation_day        | official, day_off  |
+| 1984-04-29 | sunday                | day_off            |
+| 1984-05-01 | labor_day             | official, day_off  |
+| 1984-05-06 | sunday                | day_off            |
+| 1984-05-13 | sunday                | day_off            |
+| 1984-05-20 | sunday                | day_off            |
+| 1984-05-27 | sunday                | day_off            |
+| 1984-06-03 | sunday                | day_off            |
+| 1984-06-03 | republic_day          | official, day_off  |
+| 1984-06-10 | sunday                | day_off            |
+| 1984-06-17 | sunday                | day_off            |
+| 1984-06-24 | sunday                | day_off            |
+| 1984-07-01 | sunday                | day_off            |
+| 1984-07-08 | sunday                | day_off            |
+| 1984-07-15 | sunday                | day_off            |
+| 1984-07-22 | sunday                | day_off            |
+| 1984-07-29 | sunday                | day_off            |
+| 1984-08-05 | sunday                | day_off            |
+| 1984-08-12 | sunday                | day_off            |
+| 1984-08-15 | assumption_day        | day_off, religious |
+| 1984-08-19 | sunday                | day_off            |
+| 1984-08-26 | sunday                | day_off            |
+| 1984-09-02 | sunday                | day_off            |
+| 1984-09-09 | sunday                | day_off            |
+| 1984-09-16 | sunday                | day_off            |
+| 1984-09-23 | sunday                | day_off            |
+| 1984-09-30 | sunday                | day_off            |
+| 1984-10-07 | sunday                | day_off            |
+| 1984-10-14 | sunday                | day_off            |
+| 1984-10-21 | sunday                | day_off            |
+| 1984-10-28 | sunday                | day_off            |
+| 1984-11-01 | all_saints_day        | day_off, religious |
+| 1984-11-04 | sunday                | day_off            |
+| 1984-11-11 | sunday                | day_off            |
+| 1984-11-18 | sunday                | day_off            |
+| 1984-11-25 | sunday                | day_off            |
+| 1984-12-02 | sunday                | day_off            |
+| 1984-12-08 | immaculate_conception | day_off, religious |
+| 1984-12-09 | sunday                | day_off            |
+| 1984-12-16 | sunday                | day_off            |
+| 1984-12-23 | sunday                | day_off            |
+| 1984-12-25 | christmas_day         | day_off, religious |
+| 1984-12-26 | second_christmas_day  | day_off, religious |
+| 1984-12-30 | sunday                | day_off            |
+
 # 1985
 
 | Date       | Name                  | Types              |
@@ -501,6 +856,216 @@
 | 1985-12-25 | christmas_day         | day_off, religious |
 | 1985-12-26 | second_christmas_day  | day_off, religious |
 | 1985-12-29 | sunday                | day_off            |
+
+# 1996
+
+| Date       | Name                  | Types              |
+|------------|-----------------------|--------------------|
+| 1996-01-01 | new_year              | official, day_off  |
+| 1996-01-06 | epiphany              | day_off, religious |
+| 1996-01-07 | sunday                | day_off            |
+| 1996-01-14 | sunday                | day_off            |
+| 1996-01-21 | sunday                | day_off            |
+| 1996-01-28 | sunday                | day_off            |
+| 1996-02-04 | sunday                | day_off            |
+| 1996-02-11 | sunday                | day_off            |
+| 1996-02-18 | sunday                | day_off            |
+| 1996-02-25 | sunday                | day_off            |
+| 1996-03-03 | sunday                | day_off            |
+| 1996-03-10 | sunday                | day_off            |
+| 1996-03-17 | sunday                | day_off            |
+| 1996-03-24 | sunday                | day_off            |
+| 1996-03-31 | sunday                | day_off            |
+| 1996-04-07 | sunday                | day_off            |
+| 1996-04-07 | easter_sunday         | day_off, religious |
+| 1996-04-08 | easter_monday         | day_off, religious |
+| 1996-04-14 | sunday                | day_off            |
+| 1996-04-21 | sunday                | day_off            |
+| 1996-04-25 | liberation_day        | official, day_off  |
+| 1996-04-28 | sunday                | day_off            |
+| 1996-05-01 | labor_day             | official, day_off  |
+| 1996-05-05 | sunday                | day_off            |
+| 1996-05-12 | sunday                | day_off            |
+| 1996-05-19 | sunday                | day_off            |
+| 1996-05-26 | sunday                | day_off            |
+| 1996-06-02 | sunday                | day_off            |
+| 1996-06-02 | republic_day          | official, day_off  |
+| 1996-06-09 | sunday                | day_off            |
+| 1996-06-16 | sunday                | day_off            |
+| 1996-06-23 | sunday                | day_off            |
+| 1996-06-30 | sunday                | day_off            |
+| 1996-07-07 | sunday                | day_off            |
+| 1996-07-14 | sunday                | day_off            |
+| 1996-07-21 | sunday                | day_off            |
+| 1996-07-28 | sunday                | day_off            |
+| 1996-08-04 | sunday                | day_off            |
+| 1996-08-11 | sunday                | day_off            |
+| 1996-08-15 | assumption_day        | day_off, religious |
+| 1996-08-18 | sunday                | day_off            |
+| 1996-08-25 | sunday                | day_off            |
+| 1996-09-01 | sunday                | day_off            |
+| 1996-09-08 | sunday                | day_off            |
+| 1996-09-15 | sunday                | day_off            |
+| 1996-09-22 | sunday                | day_off            |
+| 1996-09-29 | sunday                | day_off            |
+| 1996-10-06 | sunday                | day_off            |
+| 1996-10-13 | sunday                | day_off            |
+| 1996-10-20 | sunday                | day_off            |
+| 1996-10-27 | sunday                | day_off            |
+| 1996-11-01 | all_saints_day        | day_off, religious |
+| 1996-11-03 | sunday                | day_off            |
+| 1996-11-10 | sunday                | day_off            |
+| 1996-11-17 | sunday                | day_off            |
+| 1996-11-24 | sunday                | day_off            |
+| 1996-12-01 | sunday                | day_off            |
+| 1996-12-08 | sunday                | day_off            |
+| 1996-12-08 | immaculate_conception | day_off, religious |
+| 1996-12-15 | sunday                | day_off            |
+| 1996-12-22 | sunday                | day_off            |
+| 1996-12-25 | christmas_day         | day_off, religious |
+| 1996-12-26 | second_christmas_day  | day_off, religious |
+| 1996-12-29 | sunday                | day_off            |
+
+# 1997
+
+| Date       | Name                  | Types              |
+|------------|-----------------------|--------------------|
+| 1997-01-01 | new_year              | official, day_off  |
+| 1997-01-05 | sunday                | day_off            |
+| 1997-01-06 | epiphany              | day_off, religious |
+| 1997-01-07 | tricolour_day         | official           |
+| 1997-01-12 | sunday                | day_off            |
+| 1997-01-19 | sunday                | day_off            |
+| 1997-01-26 | sunday                | day_off            |
+| 1997-02-02 | sunday                | day_off            |
+| 1997-02-09 | sunday                | day_off            |
+| 1997-02-16 | sunday                | day_off            |
+| 1997-02-23 | sunday                | day_off            |
+| 1997-03-02 | sunday                | day_off            |
+| 1997-03-09 | sunday                | day_off            |
+| 1997-03-16 | sunday                | day_off            |
+| 1997-03-23 | sunday                | day_off            |
+| 1997-03-30 | sunday                | day_off            |
+| 1997-03-30 | easter_sunday         | day_off, religious |
+| 1997-03-31 | easter_monday         | day_off, religious |
+| 1997-04-06 | sunday                | day_off            |
+| 1997-04-13 | sunday                | day_off            |
+| 1997-04-20 | sunday                | day_off            |
+| 1997-04-25 | liberation_day        | official, day_off  |
+| 1997-04-27 | sunday                | day_off            |
+| 1997-05-01 | labor_day             | official, day_off  |
+| 1997-05-04 | sunday                | day_off            |
+| 1997-05-11 | sunday                | day_off            |
+| 1997-05-18 | sunday                | day_off            |
+| 1997-05-25 | sunday                | day_off            |
+| 1997-06-01 | sunday                | day_off            |
+| 1997-06-01 | republic_day          | official, day_off  |
+| 1997-06-08 | sunday                | day_off            |
+| 1997-06-15 | sunday                | day_off            |
+| 1997-06-22 | sunday                | day_off            |
+| 1997-06-29 | sunday                | day_off            |
+| 1997-07-06 | sunday                | day_off            |
+| 1997-07-13 | sunday                | day_off            |
+| 1997-07-20 | sunday                | day_off            |
+| 1997-07-27 | sunday                | day_off            |
+| 1997-08-03 | sunday                | day_off            |
+| 1997-08-10 | sunday                | day_off            |
+| 1997-08-15 | assumption_day        | day_off, religious |
+| 1997-08-17 | sunday                | day_off            |
+| 1997-08-24 | sunday                | day_off            |
+| 1997-08-31 | sunday                | day_off            |
+| 1997-09-07 | sunday                | day_off            |
+| 1997-09-14 | sunday                | day_off            |
+| 1997-09-21 | sunday                | day_off            |
+| 1997-09-28 | sunday                | day_off            |
+| 1997-10-05 | sunday                | day_off            |
+| 1997-10-12 | sunday                | day_off            |
+| 1997-10-19 | sunday                | day_off            |
+| 1997-10-26 | sunday                | day_off            |
+| 1997-11-01 | all_saints_day        | day_off, religious |
+| 1997-11-02 | sunday                | day_off            |
+| 1997-11-09 | sunday                | day_off            |
+| 1997-11-16 | sunday                | day_off            |
+| 1997-11-23 | sunday                | day_off            |
+| 1997-11-30 | sunday                | day_off            |
+| 1997-12-07 | sunday                | day_off            |
+| 1997-12-08 | immaculate_conception | day_off, religious |
+| 1997-12-14 | sunday                | day_off            |
+| 1997-12-21 | sunday                | day_off            |
+| 1997-12-25 | christmas_day         | day_off, religious |
+| 1997-12-26 | second_christmas_day  | day_off, religious |
+| 1997-12-28 | sunday                | day_off            |
+
+# 2000
+
+| Date       | Name                  | Types              |
+|------------|-----------------------|--------------------|
+| 2000-01-01 | new_year              | official, day_off  |
+| 2000-01-02 | sunday                | day_off            |
+| 2000-01-06 | epiphany              | day_off, religious |
+| 2000-01-07 | tricolour_day         | official           |
+| 2000-01-09 | sunday                | day_off            |
+| 2000-01-16 | sunday                | day_off            |
+| 2000-01-23 | sunday                | day_off            |
+| 2000-01-30 | sunday                | day_off            |
+| 2000-02-06 | sunday                | day_off            |
+| 2000-02-13 | sunday                | day_off            |
+| 2000-02-20 | sunday                | day_off            |
+| 2000-02-27 | sunday                | day_off            |
+| 2000-03-05 | sunday                | day_off            |
+| 2000-03-12 | sunday                | day_off            |
+| 2000-03-19 | sunday                | day_off            |
+| 2000-03-26 | sunday                | day_off            |
+| 2000-04-02 | sunday                | day_off            |
+| 2000-04-09 | sunday                | day_off            |
+| 2000-04-16 | sunday                | day_off            |
+| 2000-04-23 | sunday                | day_off            |
+| 2000-04-23 | easter_sunday         | day_off, religious |
+| 2000-04-24 | easter_monday         | day_off, religious |
+| 2000-04-25 | liberation_day        | official, day_off  |
+| 2000-04-30 | sunday                | day_off            |
+| 2000-05-01 | labor_day             | official, day_off  |
+| 2000-05-07 | sunday                | day_off            |
+| 2000-05-14 | sunday                | day_off            |
+| 2000-05-21 | sunday                | day_off            |
+| 2000-05-28 | sunday                | day_off            |
+| 2000-06-04 | sunday                | day_off            |
+| 2000-06-04 | republic_day          | official, day_off  |
+| 2000-06-11 | sunday                | day_off            |
+| 2000-06-18 | sunday                | day_off            |
+| 2000-06-25 | sunday                | day_off            |
+| 2000-07-02 | sunday                | day_off            |
+| 2000-07-09 | sunday                | day_off            |
+| 2000-07-16 | sunday                | day_off            |
+| 2000-07-23 | sunday                | day_off            |
+| 2000-07-30 | sunday                | day_off            |
+| 2000-08-06 | sunday                | day_off            |
+| 2000-08-13 | sunday                | day_off            |
+| 2000-08-15 | assumption_day        | day_off, religious |
+| 2000-08-20 | sunday                | day_off            |
+| 2000-08-27 | sunday                | day_off            |
+| 2000-09-03 | sunday                | day_off            |
+| 2000-09-10 | sunday                | day_off            |
+| 2000-09-17 | sunday                | day_off            |
+| 2000-09-24 | sunday                | day_off            |
+| 2000-10-01 | sunday                | day_off            |
+| 2000-10-08 | sunday                | day_off            |
+| 2000-10-15 | sunday                | day_off            |
+| 2000-10-22 | sunday                | day_off            |
+| 2000-10-29 | sunday                | day_off            |
+| 2000-11-01 | all_saints_day        | day_off, religious |
+| 2000-11-05 | sunday                | day_off            |
+| 2000-11-12 | sunday                | day_off            |
+| 2000-11-19 | sunday                | day_off            |
+| 2000-11-26 | sunday                | day_off            |
+| 2000-12-03 | sunday                | day_off            |
+| 2000-12-08 | immaculate_conception | day_off, religious |
+| 2000-12-10 | sunday                | day_off            |
+| 2000-12-17 | sunday                | day_off            |
+| 2000-12-24 | sunday                | day_off            |
+| 2000-12-25 | christmas_day         | day_off, religious |
+| 2000-12-26 | second_christmas_day  | day_off, religious |
+| 2000-12-31 | sunday                | day_off            |
 
 # 2001
 

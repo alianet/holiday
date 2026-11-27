@@ -1,3 +1,65 @@
+# 1970
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1970-01-01 | new_year                      | official, partial_only               |
+| 1970-05-30 | memorial_day                  | official, partial_only               |
+| 1970-07-03 | independence_day_compensatory | official, partial_only, compensatory |
+| 1970-07-04 | independence_day              | official, partial_only               |
+| 1970-09-07 | labor_day                     | official, partial_only               |
+| 1970-11-11 | veterans_day                  | official, partial_only               |
+| 1970-11-26 | thanksgiving_day              | official, partial_only               |
+| 1970-11-27 | presidents_day                | official, partial_only               |
+| 1970-12-25 | christmas_day                 | official, partial_only               |
+
+# 1971
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1971-01-01 | new_year                      | official, partial_only               |
+| 1971-05-31 | memorial_day                  | official, partial_only               |
+| 1971-07-04 | independence_day              | official, partial_only               |
+| 1971-07-05 | independence_day_compensatory | official, partial_only, compensatory |
+| 1971-09-06 | labor_day                     | official, partial_only               |
+| 1971-10-11 | columbus_day                  | official, partial_only               |
+| 1971-10-25 | veterans_day                  | official, partial_only               |
+| 1971-11-25 | thanksgiving_day              | official, partial_only               |
+| 1971-11-26 | presidents_day                | official, partial_only               |
+| 1971-12-24 | christmas_day_compensatory    | official, partial_only, compensatory |
+| 1971-12-25 | christmas_day                 | official, partial_only               |
+| 1971-12-31 | new_year_compensatory         | official, partial_only, compensatory |
+
+# 2018
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2018-01-01 | new_year                  | official, partial_only               |
+| 2018-01-15 | martin_luther_king_jr_day | official, partial_only               |
+| 2018-05-28 | memorial_day              | official, partial_only               |
+| 2018-07-04 | independence_day          | official, partial_only               |
+| 2018-09-03 | labor_day                 | official, partial_only               |
+| 2018-10-08 | columbus_day              | official, partial_only               |
+| 2018-11-11 | veterans_day              | official, partial_only               |
+| 2018-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2018-11-22 | thanksgiving_day          | official, partial_only               |
+| 2018-11-23 | presidents_day            | official, partial_only               |
+| 2018-12-25 | christmas_day             | official, partial_only               |
+
+# 2019
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2019-01-01 | new_year                  | official, partial_only |
+| 2019-01-21 | martin_luther_king_jr_day | official, partial_only |
+| 2019-05-27 | memorial_day              | official, partial_only |
+| 2019-07-04 | independence_day          | official, partial_only |
+| 2019-09-02 | labor_day                 | official, partial_only |
+| 2019-10-14 | indigenous_peoples_day    | official, partial_only |
+| 2019-11-11 | veterans_day              | official, partial_only |
+| 2019-11-28 | thanksgiving_day          | official, partial_only |
+| 2019-11-29 | presidents_day            | official, partial_only |
+| 2019-12-25 | christmas_day             | official, partial_only |
+
 # 2020
 
 | Date       | Name                          | Types                                |

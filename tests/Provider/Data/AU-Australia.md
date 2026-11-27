@@ -75,6 +75,21 @@
 | 1946-12-25 | christmas_day              | official, day_off, religious    |
 | 1946-12-26 | boxing_day                 | official, day_off, religious    |
 
+# 2021
+
+| Date       | Name                       | Types                                      |
+|------------|----------------------------|--------------------------------------------|
+| 2021-01-01 | new_year                   | official, day_off                          |
+| 2021-01-26 | australia_day              | official, day_off                          |
+| 2021-04-02 | good_friday                | official, day_off, religious               |
+| 2021-04-05 | easter_monday              | official, day_off, religious               |
+| 2021-04-25 | anzac_day                  | official, day_off                          |
+| 2021-06-14 | kings_birthday             | official, day_off                          |
+| 2021-12-25 | christmas_day              | official, day_off, religious               |
+| 2021-12-26 | boxing_day                 | official, day_off, religious               |
+| 2021-12-27 | christmas_day_compensatory | official, day_off, religious, compensatory |
+| 2021-12-28 | boxing_day_compensatory    | official, day_off, religious, compensatory |
+
 # 2022
 
 | Date       | Name                       | Types                                      |
@@ -90,6 +105,20 @@
 | 2022-12-25 | christmas_day              | official, day_off, religious               |
 | 2022-12-26 | boxing_day                 | official, day_off, religious               |
 | 2022-12-27 | christmas_day_compensatory | official, day_off, religious, compensatory |
+
+# 2023
+
+| Date       | Name                  | Types                           |
+|------------|-----------------------|---------------------------------|
+| 2023-01-01 | new_year              | official, day_off               |
+| 2023-01-02 | new_year_compensatory | official, day_off, compensatory |
+| 2023-01-26 | australia_day         | official, day_off               |
+| 2023-04-07 | good_friday           | official, day_off, religious    |
+| 2023-04-10 | easter_monday         | official, day_off, religious    |
+| 2023-04-25 | anzac_day             | official, day_off               |
+| 2023-06-12 | kings_birthday        | official, day_off               |
+| 2023-12-25 | christmas_day         | official, day_off, religious    |
+| 2023-12-26 | boxing_day            | official, day_off, religious    |
 
 # 2024
 

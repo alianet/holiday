@@ -14,6 +14,17 @@
 | 1951-12-25 | christmas_day        | official, day_off, religious |
 | 1951-12-26 | second_christmas_day | official, day_off, religious |
 
+# 1952
+
+| Date       | Name                 | Types                        |
+|------------|----------------------|------------------------------|
+| 1952-01-01 | new_year             | official, day_off            |
+| 1952-04-14 | easter_monday        | official, day_off, religious |
+| 1952-05-01 | labor_day            | official, day_off            |
+| 1952-05-09 | victory_day          | official, day_off            |
+| 1952-12-25 | christmas_day        | official, day_off, religious |
+| 1952-12-26 | second_christmas_day | official, day_off, religious |
+
 # 1987
 
 | Date       | Name                 | Types                        |

@@ -1,3 +1,143 @@
+# 1958
+
+| Date       | Name             | Types                  |
+|------------|------------------|------------------------|
+| 1958-01-01 | new_year         | official, partial_only |
+| 1958-05-30 | memorial_day     | official, partial_only |
+| 1958-07-04 | independence_day | official, partial_only |
+| 1958-09-01 | labor_day        | official, partial_only |
+| 1958-11-11 | veterans_day     | official, partial_only |
+| 1958-11-27 | thanksgiving_day | official, partial_only |
+| 1958-12-25 | christmas_day    | official, partial_only |
+
+# 1959
+
+| Date       | Name                    | Types                                |
+|------------|-------------------------|--------------------------------------|
+| 1959-01-01 | new_year                | official, partial_only               |
+| 1959-02-12 | lincolns_birthday       | official, partial_only               |
+| 1959-03-30 | sewards_day             | official, partial_only               |
+| 1959-05-30 | memorial_day            | official, partial_only               |
+| 1959-07-04 | independence_day        | official, partial_only               |
+| 1959-09-07 | labor_day               | official, partial_only               |
+| 1959-10-18 | alaska_day              | official, partial_only               |
+| 1959-10-19 | alaska_day_compensatory | official, partial_only, compensatory |
+| 1959-11-11 | veterans_day            | official, partial_only               |
+| 1959-11-26 | thanksgiving_day        | official, partial_only               |
+| 1959-12-25 | christmas_day           | official, partial_only               |
+
+# 1970
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1970-01-01 | new_year                      | official, partial_only               |
+| 1970-02-12 | lincolns_birthday             | official, partial_only               |
+| 1970-03-30 | sewards_day                   | official, partial_only               |
+| 1970-05-30 | memorial_day                  | official, partial_only               |
+| 1970-07-03 | independence_day_compensatory | official, partial_only, compensatory |
+| 1970-07-04 | independence_day              | official, partial_only               |
+| 1970-09-07 | labor_day                     | official, partial_only               |
+| 1970-10-18 | alaska_day                    | official, partial_only               |
+| 1970-10-19 | alaska_day_compensatory       | official, partial_only, compensatory |
+| 1970-11-11 | veterans_day                  | official, partial_only               |
+| 1970-11-26 | thanksgiving_day              | official, partial_only               |
+| 1970-12-25 | christmas_day                 | official, partial_only               |
+
+# 1971
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1971-01-01 | new_year                      | official, partial_only               |
+| 1971-02-12 | lincolns_birthday             | official, partial_only               |
+| 1971-02-15 | washingtons_birthday          | official, partial_only               |
+| 1971-03-29 | sewards_day                   | official, partial_only               |
+| 1971-05-31 | memorial_day                  | official, partial_only               |
+| 1971-07-04 | independence_day              | official, partial_only               |
+| 1971-07-05 | independence_day_compensatory | official, partial_only, compensatory |
+| 1971-09-06 | labor_day                     | official, partial_only               |
+| 1971-10-11 | columbus_day                  | official, partial_only               |
+| 1971-10-18 | alaska_day                    | official, partial_only               |
+| 1971-10-25 | veterans_day                  | official, partial_only               |
+| 1971-11-25 | thanksgiving_day              | official, partial_only               |
+| 1971-12-24 | christmas_day_compensatory    | official, partial_only, compensatory |
+| 1971-12-25 | christmas_day                 | official, partial_only               |
+| 1971-12-31 | new_year_compensatory         | official, partial_only, compensatory |
+
+# 1989
+
+| Date       | Name                           | Types                                |
+|------------|--------------------------------|--------------------------------------|
+| 1989-01-01 | new_year                       | official, partial_only               |
+| 1989-01-02 | new_year_compensatory          | official, partial_only, compensatory |
+| 1989-02-12 | lincolns_birthday              | official, partial_only               |
+| 1989-02-13 | lincolns_birthday_compensatory | official, partial_only, compensatory |
+| 1989-02-20 | washingtons_birthday           | official, partial_only               |
+| 1989-03-27 | sewards_day                    | official, partial_only               |
+| 1989-05-29 | memorial_day                   | official, partial_only               |
+| 1989-07-04 | independence_day               | official, partial_only               |
+| 1989-09-04 | labor_day                      | official, partial_only               |
+| 1989-10-09 | columbus_day                   | official, partial_only               |
+| 1989-10-18 | alaska_day                     | official, partial_only               |
+| 1989-11-10 | veterans_day_compensatory      | official, partial_only, compensatory |
+| 1989-11-11 | veterans_day                   | official, partial_only               |
+| 1989-11-23 | thanksgiving_day               | official, partial_only               |
+| 1989-12-25 | christmas_day                  | official, partial_only               |
+
+# 1990
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 1990-01-01 | new_year                  | official, partial_only               |
+| 1990-01-15 | martin_luther_king_jr_day | official, partial_only               |
+| 1990-02-19 | presidents_day            | official, partial_only               |
+| 1990-03-26 | sewards_day               | official, partial_only               |
+| 1990-05-28 | memorial_day              | official, partial_only               |
+| 1990-07-04 | independence_day          | official, partial_only               |
+| 1990-09-03 | labor_day                 | official, partial_only               |
+| 1990-10-08 | columbus_day              | official, partial_only               |
+| 1990-10-18 | alaska_day                | official, partial_only               |
+| 1990-11-11 | veterans_day              | official, partial_only               |
+| 1990-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 1990-11-22 | thanksgiving_day          | official, partial_only               |
+| 1990-12-25 | christmas_day             | official, partial_only               |
+
+# 2014
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2014-01-01 | new_year                  | official, partial_only               |
+| 2014-01-20 | martin_luther_king_jr_day | official, partial_only               |
+| 2014-02-17 | presidents_day            | official, partial_only               |
+| 2014-03-31 | sewards_day               | official, partial_only               |
+| 2014-05-26 | memorial_day              | official, partial_only               |
+| 2014-07-04 | independence_day          | official, partial_only               |
+| 2014-09-01 | labor_day                 | official, partial_only               |
+| 2014-10-13 | columbus_day              | official, partial_only               |
+| 2014-10-17 | alaska_day_compensatory   | official, partial_only, compensatory |
+| 2014-10-18 | alaska_day                | official, partial_only               |
+| 2014-11-11 | veterans_day              | official, partial_only               |
+| 2014-11-27 | thanksgiving_day          | official, partial_only               |
+| 2014-12-25 | christmas_day             | official, partial_only               |
+
+# 2015
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 2015-01-01 | new_year                      | official, partial_only               |
+| 2015-01-19 | martin_luther_king_jr_day     | official, partial_only               |
+| 2015-02-16 | presidents_day                | official, partial_only               |
+| 2015-03-30 | sewards_day                   | official, partial_only               |
+| 2015-05-25 | memorial_day                  | official, partial_only               |
+| 2015-07-03 | independence_day_compensatory | official, partial_only, compensatory |
+| 2015-07-04 | independence_day              | official, partial_only               |
+| 2015-09-07 | labor_day                     | official, partial_only               |
+| 2015-10-12 | indigenous_peoples_day        | official, partial_only               |
+| 2015-10-18 | alaska_day                    | official, partial_only               |
+| 2015-10-19 | alaska_day_compensatory       | official, partial_only, compensatory |
+| 2015-11-11 | veterans_day                  | official, partial_only               |
+| 2015-11-26 | thanksgiving_day              | official, partial_only               |
+| 2015-12-25 | christmas_day                 | official, partial_only               |
+
 # 2020
 
 | Date       | Name                          | Types                                |

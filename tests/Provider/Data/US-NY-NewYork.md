@@ -1,3 +1,145 @@
+# 1970
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1970-01-01 | new_year                      | official, partial_only               |
+| 1970-02-22 | washingtons_birthday          | official, partial_only               |
+| 1970-05-30 | memorial_day                  | official, partial_only               |
+| 1970-07-03 | independence_day_compensatory | official, partial_only, compensatory |
+| 1970-07-04 | independence_day              | official, partial_only               |
+| 1970-09-07 | labor_day                     | official, partial_only               |
+| 1970-10-12 | columbus_day                  | official, partial_only               |
+| 1970-11-11 | veterans_day                  | official, partial_only               |
+| 1970-11-26 | thanksgiving_day              | official, partial_only               |
+| 1970-12-25 | christmas_day                 | official, partial_only               |
+
+# 1971
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1971-01-01 | new_year                      | official, partial_only               |
+| 1971-02-12 | lincolns_birthday             | official, partial_only               |
+| 1971-02-15 | washingtons_birthday          | official, partial_only               |
+| 1971-05-31 | memorial_day                  | official, partial_only               |
+| 1971-07-04 | independence_day              | official, partial_only               |
+| 1971-07-05 | independence_day_compensatory | official, partial_only, compensatory |
+| 1971-09-06 | labor_day                     | official, partial_only               |
+| 1971-10-11 | columbus_day                  | official, partial_only               |
+| 1971-10-25 | veterans_day                  | official, partial_only               |
+| 1971-11-25 | thanksgiving_day              | official, partial_only               |
+| 1971-12-24 | christmas_day_compensatory    | official, partial_only, compensatory |
+| 1971-12-25 | christmas_day                 | official, partial_only               |
+| 1971-12-31 | new_year_compensatory         | official, partial_only, compensatory |
+
+# 2003
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2003-01-01 | new_year                  | official, partial_only |
+| 2003-01-20 | martin_luther_king_jr_day | official, partial_only |
+| 2003-02-12 | lincolns_birthday         | official, partial_only |
+| 2003-02-17 | washingtons_birthday      | official, partial_only |
+| 2003-05-26 | memorial_day              | official, partial_only |
+| 2003-07-04 | independence_day          | official, partial_only |
+| 2003-09-01 | labor_day                 | official, partial_only |
+| 2003-10-13 | columbus_day              | official, partial_only |
+| 2003-11-11 | veterans_day              | official, partial_only |
+| 2003-11-27 | thanksgiving_day          | official, partial_only |
+| 2003-12-25 | christmas_day             | official, partial_only |
+
+# 2004
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 2004-01-01 | new_year                      | official, partial_only               |
+| 2004-01-19 | martin_luther_king_jr_day     | official, partial_only               |
+| 2004-02-12 | lincolns_birthday             | official, partial_only               |
+| 2004-02-15 | susan_b_anthony_day           | official, partial_only               |
+| 2004-02-16 | washingtons_birthday          | official, partial_only               |
+| 2004-05-31 | memorial_day                  | official, partial_only               |
+| 2004-07-04 | independence_day              | official, partial_only               |
+| 2004-07-05 | independence_day_compensatory | official, partial_only, compensatory |
+| 2004-09-06 | labor_day                     | official, partial_only               |
+| 2004-10-11 | columbus_day                  | official, partial_only               |
+| 2004-11-11 | veterans_day                  | official, partial_only               |
+| 2004-11-25 | thanksgiving_day              | official, partial_only               |
+| 2004-12-24 | christmas_day_compensatory    | official, partial_only, compensatory |
+| 2004-12-25 | christmas_day                 | official, partial_only               |
+| 2004-12-31 | new_year_compensatory         | official, partial_only, compensatory |
+
+# 2007
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2007-01-01 | new_year                  | official, partial_only               |
+| 2007-01-15 | martin_luther_king_jr_day | official, partial_only               |
+| 2007-02-12 | lincolns_birthday         | official, partial_only               |
+| 2007-02-15 | susan_b_anthony_day       | official, partial_only               |
+| 2007-02-19 | washingtons_birthday      | official, partial_only               |
+| 2007-05-28 | memorial_day              | official, partial_only               |
+| 2007-07-04 | independence_day          | official, partial_only               |
+| 2007-09-03 | labor_day                 | official, partial_only               |
+| 2007-10-08 | columbus_day              | official, partial_only               |
+| 2007-11-11 | veterans_day              | official, partial_only               |
+| 2007-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2007-11-22 | thanksgiving_day          | official, partial_only               |
+| 2007-12-25 | christmas_day             | official, partial_only               |
+
+# 2008
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2008-01-01 | new_year                  | official, partial_only |
+| 2008-01-21 | martin_luther_king_jr_day | official, partial_only |
+| 2008-02-12 | lincolns_birthday         | official, partial_only |
+| 2008-02-15 | susan_b_anthony_day       | official, partial_only |
+| 2008-02-18 | washingtons_birthday      | official, partial_only |
+| 2008-05-26 | memorial_day              | official, partial_only |
+| 2008-07-04 | independence_day          | official, partial_only |
+| 2008-09-01 | labor_day                 | official, partial_only |
+| 2008-10-13 | columbus_day              | official, partial_only |
+| 2008-11-04 | election_day              | official, partial_only |
+| 2008-11-11 | veterans_day              | official, partial_only |
+| 2008-11-27 | thanksgiving_day          | official, partial_only |
+| 2008-12-25 | christmas_day             | official, partial_only |
+
+# 2014
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2014-01-01 | new_year                  | official, partial_only |
+| 2014-01-20 | martin_luther_king_jr_day | official, partial_only |
+| 2014-02-12 | lincolns_birthday         | official, partial_only |
+| 2014-02-15 | susan_b_anthony_day       | official, partial_only |
+| 2014-02-17 | washingtons_birthday      | official, partial_only |
+| 2014-05-26 | memorial_day              | official, partial_only |
+| 2014-07-04 | independence_day          | official, partial_only |
+| 2014-09-01 | labor_day                 | official, partial_only |
+| 2014-10-13 | columbus_day              | official, partial_only |
+| 2014-11-04 | election_day              | official, partial_only |
+| 2014-11-11 | veterans_day              | official, partial_only |
+| 2014-11-27 | thanksgiving_day          | official, partial_only |
+| 2014-12-25 | christmas_day             | official, partial_only |
+
+# 2015
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 2015-01-01 | new_year                      | official, partial_only               |
+| 2015-01-19 | martin_luther_king_jr_day     | official, partial_only               |
+| 2015-02-12 | lincolns_birthday             | official, partial_only               |
+| 2015-02-15 | susan_b_anthony_day           | official, partial_only               |
+| 2015-02-16 | washingtons_birthday          | official, partial_only               |
+| 2015-05-25 | memorial_day                  | official, partial_only               |
+| 2015-07-03 | independence_day_compensatory | official, partial_only, compensatory |
+| 2015-07-04 | independence_day              | official, partial_only               |
+| 2015-09-07 | labor_day                     | official, partial_only               |
+| 2015-10-12 | columbus_day                  | official, partial_only               |
+| 2015-11-03 | election_day                  | official, partial_only               |
+| 2015-11-11 | veterans_day                  | official, partial_only               |
+| 2015-11-26 | thanksgiving_day              | official, partial_only               |
+| 2015-12-25 | christmas_day                 | official, partial_only               |
+
 # 2020
 
 | Date       | Name                          | Types                                |

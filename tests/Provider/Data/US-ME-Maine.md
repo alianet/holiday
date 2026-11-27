@@ -1,3 +1,121 @@
+# 1893
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1893-01-01 | new_year             | official, partial_only |
+| 1893-02-22 | washingtons_birthday | official, partial_only |
+| 1893-05-30 | memorial_day         | official, partial_only |
+| 1893-07-04 | independence_day     | official, partial_only |
+| 1893-11-30 | thanksgiving_day     | official, partial_only |
+| 1893-12-25 | christmas_day        | official, partial_only |
+
+# 1894
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1894-01-01 | new_year             | official, partial_only |
+| 1894-02-22 | washingtons_birthday | official, partial_only |
+| 1894-04-19 | patriots_day         | official, partial_only |
+| 1894-05-30 | memorial_day         | official, partial_only |
+| 1894-07-04 | independence_day     | official, partial_only |
+| 1894-09-03 | labor_day            | official, partial_only |
+| 1894-11-29 | thanksgiving_day     | official, partial_only |
+| 1894-12-25 | christmas_day        | official, partial_only |
+
+# 1968
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1968-01-01 | new_year             | official, partial_only |
+| 1968-02-22 | washingtons_birthday | official, partial_only |
+| 1968-04-19 | patriots_day         | official, partial_only |
+| 1968-05-30 | memorial_day         | official, partial_only |
+| 1968-07-04 | independence_day     | official, partial_only |
+| 1968-09-02 | labor_day            | official, partial_only |
+| 1968-11-11 | veterans_day         | official, partial_only |
+| 1968-11-28 | thanksgiving_day     | official, partial_only |
+| 1968-12-25 | christmas_day        | official, partial_only |
+
+# 1969
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1969-01-01 | new_year             | official, partial_only |
+| 1969-02-22 | washingtons_birthday | official, partial_only |
+| 1969-04-21 | patriots_day         | official, partial_only |
+| 1969-05-30 | memorial_day         | official, partial_only |
+| 1969-07-04 | independence_day     | official, partial_only |
+| 1969-09-01 | labor_day            | official, partial_only |
+| 1969-11-11 | veterans_day         | official, partial_only |
+| 1969-11-27 | thanksgiving_day     | official, partial_only |
+| 1969-12-25 | christmas_day        | official, partial_only |
+
+# 1970
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1970-01-01 | new_year                      | official, partial_only               |
+| 1970-02-22 | washingtons_birthday          | official, partial_only               |
+| 1970-04-20 | patriots_day                  | official, partial_only               |
+| 1970-05-30 | memorial_day                  | official, partial_only               |
+| 1970-07-03 | independence_day_compensatory | official, partial_only, compensatory |
+| 1970-07-04 | independence_day              | official, partial_only               |
+| 1970-09-07 | labor_day                     | official, partial_only               |
+| 1970-11-11 | veterans_day                  | official, partial_only               |
+| 1970-11-26 | thanksgiving_day              | official, partial_only               |
+| 1970-12-25 | christmas_day                 | official, partial_only               |
+
+# 1971
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1971-01-01 | new_year                      | official, partial_only               |
+| 1971-02-15 | washingtons_birthday          | official, partial_only               |
+| 1971-04-19 | patriots_day                  | official, partial_only               |
+| 1971-05-31 | memorial_day                  | official, partial_only               |
+| 1971-07-04 | independence_day              | official, partial_only               |
+| 1971-07-05 | independence_day_compensatory | official, partial_only, compensatory |
+| 1971-09-06 | labor_day                     | official, partial_only               |
+| 1971-10-11 | columbus_day                  | official, partial_only               |
+| 1971-10-25 | veterans_day                  | official, partial_only               |
+| 1971-11-25 | thanksgiving_day              | official, partial_only               |
+| 1971-12-24 | christmas_day_compensatory    | official, partial_only, compensatory |
+| 1971-12-25 | christmas_day                 | official, partial_only               |
+| 1971-12-31 | new_year_compensatory         | official, partial_only, compensatory |
+
+# 2018
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2018-01-01 | new_year                  | official, partial_only               |
+| 2018-01-15 | martin_luther_king_jr_day | official, partial_only               |
+| 2018-02-19 | washingtons_birthday      | official, partial_only               |
+| 2018-04-16 | patriots_day              | official, partial_only               |
+| 2018-05-28 | memorial_day              | official, partial_only               |
+| 2018-07-04 | independence_day          | official, partial_only               |
+| 2018-09-03 | labor_day                 | official, partial_only               |
+| 2018-10-08 | columbus_day              | official, partial_only               |
+| 2018-11-11 | veterans_day              | official, partial_only               |
+| 2018-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2018-11-22 | thanksgiving_day          | official, partial_only               |
+| 2018-12-25 | christmas_day             | official, partial_only               |
+
+# 2019
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2019-01-01 | new_year                  | official, partial_only |
+| 2019-01-21 | martin_luther_king_jr_day | official, partial_only |
+| 2019-02-18 | washingtons_birthday      | official, partial_only |
+| 2019-04-15 | patriots_day              | official, partial_only |
+| 2019-05-27 | memorial_day              | official, partial_only |
+| 2019-07-04 | independence_day          | official, partial_only |
+| 2019-09-02 | labor_day                 | official, partial_only |
+| 2019-10-14 | indigenous_peoples_day    | official, partial_only |
+| 2019-11-11 | veterans_day              | official, partial_only |
+| 2019-11-28 | thanksgiving_day          | official, partial_only |
+| 2019-12-25 | christmas_day             | official, partial_only |
+
 # 2020
 
 | Date       | Name                          | Types                                |

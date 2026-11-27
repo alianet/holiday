@@ -96,6 +96,16 @@
 | 1948-05-02 | labor_day                                  | official, day_off            |
 | 1948-05-09 | victory_day                                | official                     |
 
+# 1964
+
+| Date       | Name                                       | Types                        |
+|------------|--------------------------------------------|------------------------------|
+| 1964-01-01 | new_year                                   | official, day_off            |
+| 1964-01-07 | christmas_day                              | official, day_off, religious |
+| 1964-05-01 | day_of_international_solidarity_of_workers | official, day_off            |
+| 1964-05-02 | labor_day                                  | official, day_off            |
+| 1964-05-09 | victory_day                                | official                     |
+
 # 1965
 
 | Date       | Name                                       | Types                        |
@@ -182,6 +192,24 @@
 | 1994-05-09 | victory_day                                | official, day_off            |
 | 1994-06-19 | whit_sunday                                | official, day_off, religious |
 | 1994-08-24 | ukraine_independence_day                   | official, day_off            |
+
+# 1995
+
+| Date       | Name                                       | Types                                      |
+|------------|--------------------------------------------|--------------------------------------------|
+| 1995-01-01 | new_year                                   | official, day_off                          |
+| 1995-01-02 | new_year_compensatory                      | official, day_off, compensatory            |
+| 1995-01-07 | christmas_day                              | official, day_off, religious               |
+| 1995-01-09 | christmas_day_compensatory                 | official, day_off, religious, compensatory |
+| 1995-03-08 | international_womens_day                   | official, day_off                          |
+| 1995-04-23 | easter_sunday                              | official, day_off, religious               |
+| 1995-04-24 | easter_sunday_compensatory                 | official, day_off, religious, compensatory |
+| 1995-05-01 | day_of_international_solidarity_of_workers | official, day_off                          |
+| 1995-05-02 | labor_day                                  | official, day_off                          |
+| 1995-05-09 | victory_day                                | official, day_off                          |
+| 1995-06-11 | whit_sunday                                | official, day_off, religious               |
+| 1995-06-12 | whit_sunday_compensatory                   | official, day_off, religious, compensatory |
+| 1995-08-24 | ukraine_independence_day                   | official, day_off                          |
 
 # 1996
 
@@ -371,6 +399,46 @@
 | 2018-10-14 | defenders_of_ukraine_day              | official, day_off                          |
 | 2018-10-15 | defenders_of_ukraine_day_compensatory | official, day_off, compensatory            |
 | 2018-12-25 | christmas_day                         | official, religious                        |
+
+# 2019
+
+| Date       | Name                                  | Types                                      |
+|------------|---------------------------------------|--------------------------------------------|
+| 2019-01-01 | new_year                              | official, day_off                          |
+| 2019-01-07 | christmas_day                         | official, day_off, religious               |
+| 2019-03-08 | international_womens_day              | official, day_off                          |
+| 2019-04-28 | easter_sunday                         | official, day_off, religious               |
+| 2019-04-29 | easter_sunday_compensatory            | official, day_off, religious, compensatory |
+| 2019-05-01 | labor_day                             | official, day_off                          |
+| 2019-05-09 | day_of_victory_over_nazism            | official, day_off                          |
+| 2019-06-16 | whit_sunday                           | official, day_off, religious               |
+| 2019-06-17 | whit_sunday_compensatory              | official, day_off, religious, compensatory |
+| 2019-06-28 | ukraine_constitution_day              | official, day_off                          |
+| 2019-08-24 | ukraine_independence_day              | official, day_off                          |
+| 2019-08-26 | ukraine_independence_day_compensatory | official, day_off, compensatory            |
+| 2019-10-14 | defenders_of_ukraine_day              | official, day_off                          |
+| 2019-12-25 | christmas_day                         | official, day_off, religious               |
+
+# 2021
+
+| Date       | Name                                    | Types                                      |
+|------------|-----------------------------------------|--------------------------------------------|
+| 2021-01-01 | new_year                                | official, day_off                          |
+| 2021-01-07 | christmas_day                           | official, day_off, religious               |
+| 2021-03-08 | international_womens_day                | official, day_off                          |
+| 2021-05-01 | labor_day                               | official, day_off                          |
+| 2021-05-02 | easter_sunday                           | official, day_off, religious               |
+| 2021-05-03 | easter_sunday_compensatory              | official, day_off, religious, compensatory |
+| 2021-05-04 | labor_day_compensatory                  | official, day_off, compensatory            |
+| 2021-05-09 | day_of_victory_over_nazism              | official, day_off                          |
+| 2021-05-10 | day_of_victory_over_nazism_compensatory | official, day_off, compensatory            |
+| 2021-06-20 | whit_sunday                             | official, day_off, religious               |
+| 2021-06-21 | whit_sunday_compensatory                | official, day_off, religious, compensatory |
+| 2021-06-28 | ukraine_constitution_day                | official, day_off                          |
+| 2021-08-24 | ukraine_independence_day                | official, day_off                          |
+| 2021-10-14 | defenders_of_ukraine_day                | official, day_off                          |
+| 2021-12-25 | christmas_day                           | official, day_off, religious               |
+| 2021-12-27 | christmas_day_compensatory              | official, day_off, religious, compensatory |
 
 # 2022
 

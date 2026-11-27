@@ -1,3 +1,45 @@
+# 1865
+
+| Date       | Name             | Types                  |
+|------------|------------------|------------------------|
+| 1865-12-07 | thanksgiving_day | official, partial_only |
+
+# 1866
+
+| Date       | Name                     | Types                  |
+|------------|--------------------------|------------------------|
+| 1866-04-30 | confederate_memorial_day | official, partial_only |
+| 1866-11-29 | thanksgiving_day         | official, partial_only |
+
+# 1985
+
+| Date       | Name                     | Types                  |
+|------------|--------------------------|------------------------|
+| 1985-01-01 | new_year                 | official, partial_only |
+| 1985-02-18 | washingtons_birthday     | official, partial_only |
+| 1985-04-29 | confederate_memorial_day | official, partial_only |
+| 1985-05-27 | memorial_day             | official, partial_only |
+| 1985-07-04 | independence_day         | official, partial_only |
+| 1985-09-02 | labor_day                | official, partial_only |
+| 1985-11-11 | veterans_day             | official, partial_only |
+| 1985-11-28 | thanksgiving_day         | official, partial_only |
+| 1985-12-25 | christmas_day            | official, partial_only |
+
+# 1986
+
+| Date       | Name                                                 | Types                  |
+|------------|------------------------------------------------------|------------------------|
+| 1986-01-01 | new_year                                             | official, partial_only |
+| 1986-01-20 | dr_martin_luther_king_jr_and_robert_e_lees_birthdays | official, partial_only |
+| 1986-02-17 | washingtons_birthday                                 | official, partial_only |
+| 1986-04-28 | confederate_memorial_day                             | official, partial_only |
+| 1986-05-26 | memorial_day                                         | official, partial_only |
+| 1986-07-04 | independence_day                                     | official, partial_only |
+| 1986-09-01 | labor_day                                            | official, partial_only |
+| 1986-11-11 | veterans_day                                         | official, partial_only |
+| 1986-11-27 | thanksgiving_day                                     | official, partial_only |
+| 1986-12-25 | christmas_day                                        | official, partial_only |
+
 # 2020
 
 | Date       | Name                                                 | Types                                |

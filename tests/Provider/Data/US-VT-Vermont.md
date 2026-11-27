@@ -1,3 +1,51 @@
+# 1799
+
+| Date       | Name                  | Types                  |
+|------------|-----------------------|------------------------|
+| 1799-08-16 | bennington_battle_day | official, partial_only |
+
+# 1800
+
+| Date       | Name                  | Types                  |
+|------------|-----------------------|------------------------|
+| 1800-03-04 | town_meeting_day      | official, partial_only |
+| 1800-08-16 | bennington_battle_day | official, partial_only |
+
+# 1970
+
+| Date       | Name                               | Types                                |
+|------------|------------------------------------|--------------------------------------|
+| 1970-01-01 | new_year                           | official, partial_only               |
+| 1970-02-22 | washingtons_birthday               | official, partial_only               |
+| 1970-03-03 | town_meeting_day                   | official, partial_only               |
+| 1970-05-30 | memorial_day                       | official, partial_only               |
+| 1970-07-03 | independence_day_compensatory      | official, partial_only, compensatory |
+| 1970-07-04 | independence_day                   | official, partial_only               |
+| 1970-08-16 | bennington_battle_day              | official, partial_only               |
+| 1970-08-17 | bennington_battle_day_compensatory | official, partial_only, compensatory |
+| 1970-09-07 | labor_day                          | official, partial_only               |
+| 1970-11-11 | veterans_day                       | official, partial_only               |
+| 1970-11-26 | thanksgiving_day                   | official, partial_only               |
+| 1970-12-25 | christmas_day                      | official, partial_only               |
+
+# 1971
+
+| Date       | Name                          | Types                                |
+|------------|-------------------------------|--------------------------------------|
+| 1971-01-01 | new_year                      | official, partial_only               |
+| 1971-02-15 | presidents_day                | official, partial_only               |
+| 1971-03-02 | town_meeting_day              | official, partial_only               |
+| 1971-05-31 | memorial_day                  | official, partial_only               |
+| 1971-07-04 | independence_day              | official, partial_only               |
+| 1971-07-05 | independence_day_compensatory | official, partial_only, compensatory |
+| 1971-08-16 | bennington_battle_day         | official, partial_only               |
+| 1971-09-06 | labor_day                     | official, partial_only               |
+| 1971-10-25 | veterans_day                  | official, partial_only               |
+| 1971-11-25 | thanksgiving_day              | official, partial_only               |
+| 1971-12-24 | christmas_day_compensatory    | official, partial_only, compensatory |
+| 1971-12-25 | christmas_day                 | official, partial_only               |
+| 1971-12-31 | new_year_compensatory         | official, partial_only, compensatory |
+
 # 2020
 
 | Date       | Name                               | Types                                |

@@ -36,6 +36,30 @@
 | 1981-10-28 | turkish_republic_day                   | official, half_day_off |
 | 1981-10-29 | turkish_republic_day                   | official, day_off      |
 
+# 1982
+
+| Date       | Name                                   | Types                  |
+|------------|----------------------------------------|------------------------|
+| 1982-01-01 | new_year                               | official, day_off      |
+| 1982-04-23 | national_sovereignty_and_childrens_day | official, day_off      |
+| 1982-05-01 | labor_day                              | official, day_off      |
+| 1982-05-19 | commemoration_of_atatuerk_day          | official, day_off      |
+| 1982-08-30 | turkish_victory_day                    | official, day_off      |
+| 1982-10-28 | turkish_republic_day                   | official, half_day_off |
+| 1982-10-29 | turkish_republic_day                   | official, day_off      |
+
+# 2014
+
+| Date       | Name                                   | Types                  |
+|------------|----------------------------------------|------------------------|
+| 2014-01-01 | new_year                               | official, day_off      |
+| 2014-04-23 | national_sovereignty_and_childrens_day | official, day_off      |
+| 2014-05-01 | labor_day                              | official, day_off      |
+| 2014-05-19 | commemoration_of_atatuerk_day          | official, day_off      |
+| 2014-08-30 | turkish_victory_day                    | official, day_off      |
+| 2014-10-28 | turkish_republic_day                   | official, half_day_off |
+| 2014-10-29 | turkish_republic_day                   | official, day_off      |
+
 # 2016
 
 | Date       | Name                                   | Types                  |
@@ -60,15 +84,3 @@
 | 2017-08-30 | turkish_victory_day                    | official, day_off      |
 | 2017-10-28 | turkish_republic_day                   | official, half_day_off |
 | 2017-10-29 | turkish_republic_day                   | official, day_off      |
-
-# 2014
-
-| Date       | Name                                   | Types                  |
-|------------|----------------------------------------|------------------------|
-| 2014-01-01 | new_year                               | official, day_off      |
-| 2014-04-23 | national_sovereignty_and_childrens_day | official, day_off      |
-| 2014-05-01 | labor_day                              | official, day_off      |
-| 2014-05-19 | commemoration_of_atatuerk_day          | official, day_off      |
-| 2014-08-30 | turkish_victory_day                    | official, day_off      |
-| 2014-10-28 | turkish_republic_day                   | official, half_day_off |
-| 2014-10-29 | turkish_republic_day                   | official, day_off      |

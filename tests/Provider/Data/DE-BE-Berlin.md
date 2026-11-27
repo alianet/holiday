@@ -57,3 +57,84 @@
 | 2020-12-25 | christmas_day             | official, day_off, religious |
 | 2020-12-26 | second_christmas_day      | official, day_off, religious |
 | 2020-12-31 | new_years_eve             | official, bank               |
+
+# 2021
+
+| Date       | Name                      | Types                        |
+|------------|---------------------------|------------------------------|
+| 2021-01-01 | new_year                  | official, day_off            |
+| 2021-03-08 | international_womens_day  | official, day_off            |
+| 2021-04-02 | good_friday               | official, day_off, religious |
+| 2021-04-05 | easter_monday             | official, day_off, religious |
+| 2021-05-01 | labor_day                 | official, day_off            |
+| 2021-05-13 | ascension                 | official, day_off, religious |
+| 2021-05-23 | whit_sunday               | official, religious          |
+| 2021-05-24 | whit_monday               | official, day_off, religious |
+| 2021-10-03 | german_unity_day          | official, day_off            |
+| 2021-10-31 | reformation_day           | official, religious          |
+| 2021-11-17 | repentance_and_prayer_day | official, religious          |
+| 2021-12-24 | christmas_eve             | religious, bank              |
+| 2021-12-25 | christmas_day             | official, day_off, religious |
+| 2021-12-26 | second_christmas_day      | official, day_off, religious |
+| 2021-12-31 | new_years_eve             | official, bank               |
+
+# 2024
+
+| Date       | Name                      | Types                        |
+|------------|---------------------------|------------------------------|
+| 2024-01-01 | new_year                  | official, day_off            |
+| 2024-03-08 | international_womens_day  | official, day_off            |
+| 2024-03-29 | good_friday               | official, day_off, religious |
+| 2024-04-01 | easter_monday             | official, day_off, religious |
+| 2024-05-01 | labor_day                 | official, day_off            |
+| 2024-05-09 | ascension                 | official, day_off, religious |
+| 2024-05-19 | whit_sunday               | official, religious          |
+| 2024-05-20 | whit_monday               | official, day_off, religious |
+| 2024-10-03 | german_unity_day          | official, day_off            |
+| 2024-10-31 | reformation_day           | official, religious          |
+| 2024-11-20 | repentance_and_prayer_day | official, religious          |
+| 2024-12-24 | christmas_eve             | religious, bank              |
+| 2024-12-25 | christmas_day             | official, day_off, religious |
+| 2024-12-26 | second_christmas_day      | official, day_off, religious |
+| 2024-12-31 | new_years_eve             | official, bank               |
+
+# 2025
+
+| Date       | Name                      | Types                        |
+|------------|---------------------------|------------------------------|
+| 2025-01-01 | new_year                  | official, day_off            |
+| 2025-03-08 | international_womens_day  | official, day_off            |
+| 2025-04-18 | good_friday               | official, day_off, religious |
+| 2025-04-21 | easter_monday             | official, day_off, religious |
+| 2025-05-01 | labor_day                 | official, day_off            |
+| 2025-05-08 | victory_in_europe_day     | day_off                      |
+| 2025-05-29 | ascension                 | official, day_off, religious |
+| 2025-06-08 | whit_sunday               | official, religious          |
+| 2025-06-09 | whit_monday               | official, day_off, religious |
+| 2025-10-03 | german_unity_day          | official, day_off            |
+| 2025-10-31 | reformation_day           | official, religious          |
+| 2025-11-19 | repentance_and_prayer_day | official, religious          |
+| 2025-12-24 | christmas_eve             | religious, bank              |
+| 2025-12-25 | christmas_day             | official, day_off, religious |
+| 2025-12-26 | second_christmas_day      | official, day_off, religious |
+| 2025-12-31 | new_years_eve             | official, bank               |
+
+# 2026
+
+| Date       | Name                      | Types                        |
+|------------|---------------------------|------------------------------|
+| 2026-01-01 | new_year                  | official, day_off            |
+| 2026-03-08 | international_womens_day  | official, day_off            |
+| 2026-04-03 | good_friday               | official, day_off, religious |
+| 2026-04-06 | easter_monday             | official, day_off, religious |
+| 2026-05-01 | labor_day                 | official, day_off            |
+| 2026-05-14 | ascension                 | official, day_off, religious |
+| 2026-05-24 | whit_sunday               | official, religious          |
+| 2026-05-25 | whit_monday               | official, day_off, religious |
+| 2026-10-03 | german_unity_day          | official, day_off            |
+| 2026-10-31 | reformation_day           | official, religious          |
+| 2026-11-18 | repentance_and_prayer_day | official, religious          |
+| 2026-12-24 | christmas_eve             | religious, bank              |
+| 2026-12-25 | christmas_day             | official, day_off, religious |
+| 2026-12-26 | second_christmas_day      | official, day_off, religious |
+| 2026-12-31 | new_years_eve             | official, bank               |

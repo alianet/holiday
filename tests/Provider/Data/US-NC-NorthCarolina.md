@@ -1,3 +1,68 @@
+# 1974
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1974-01-01 | new_year             | official, partial_only |
+| 1974-02-18 | washingtons_birthday | official, partial_only |
+| 1974-04-12 | good_friday          | official, partial_only |
+| 1974-05-27 | memorial_day         | official, partial_only |
+| 1974-07-04 | independence_day     | official, partial_only |
+| 1974-09-02 | labor_day            | official, partial_only |
+| 1974-10-28 | veterans_day         | official, partial_only |
+| 1974-11-28 | thanksgiving_day     | official, partial_only |
+| 1974-12-25 | christmas_day        | official, partial_only |
+
+# 1975
+
+| Date       | Name                   | Types                  |
+|------------|------------------------|------------------------|
+| 1975-01-01 | new_year               | official, partial_only |
+| 1975-02-17 | washingtons_birthday   | official, partial_only |
+| 1975-03-28 | good_friday            | official, partial_only |
+| 1975-05-26 | memorial_day           | official, partial_only |
+| 1975-07-04 | independence_day       | official, partial_only |
+| 1975-09-01 | labor_day              | official, partial_only |
+| 1975-10-27 | veterans_day           | official, partial_only |
+| 1975-11-27 | thanksgiving_day       | official, partial_only |
+| 1975-11-28 | day_after_thanksgiving | official, partial_only |
+| 1975-12-25 | christmas_day          | official, partial_only |
+
+# 2012
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2012-01-01 | new_year                  | official, partial_only               |
+| 2012-01-02 | new_year_compensatory     | official, partial_only, compensatory |
+| 2012-01-16 | martin_luther_king_jr_day | official, partial_only               |
+| 2012-02-20 | washingtons_birthday      | official, partial_only               |
+| 2012-04-06 | good_friday               | official, partial_only               |
+| 2012-05-28 | memorial_day              | official, partial_only               |
+| 2012-07-04 | independence_day          | official, partial_only               |
+| 2012-09-03 | labor_day                 | official, partial_only               |
+| 2012-11-11 | veterans_day              | official, partial_only               |
+| 2012-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2012-11-22 | thanksgiving_day          | official, partial_only               |
+| 2012-11-23 | day_after_thanksgiving    | official, partial_only               |
+| 2012-12-25 | christmas_day             | official, partial_only               |
+
+# 2013
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2013-01-01 | new_year                  | official, partial_only |
+| 2013-01-21 | martin_luther_king_jr_day | official, partial_only |
+| 2013-02-18 | washingtons_birthday      | official, partial_only |
+| 2013-03-29 | good_friday               | official, partial_only |
+| 2013-05-27 | memorial_day              | official, partial_only |
+| 2013-07-04 | independence_day          | official, partial_only |
+| 2013-09-02 | labor_day                 | official, partial_only |
+| 2013-11-11 | veterans_day              | official, partial_only |
+| 2013-11-28 | thanksgiving_day          | official, partial_only |
+| 2013-11-29 | day_after_thanksgiving    | official, partial_only |
+| 2013-12-24 | christmas_eve             | official, partial_only |
+| 2013-12-25 | christmas_day             | official, partial_only |
+| 2013-12-26 | day_after_christmas       | official, partial_only |
+
 # 2020
 
 | Date       | Name                             | Types                                |

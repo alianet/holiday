@@ -23,6 +23,30 @@
 | 1968-12-26 | second_christmas_day      | official, day_off, religious     |
 | 1968-12-31 | new_years_eve             | official, bank                   |
 
+# 1969
+
+| Date       | Name                      | Types                            |
+|------------|---------------------------|----------------------------------|
+| 1969-01-01 | new_year                  | official, day_off                |
+| 1969-01-06 | epiphany                  | day_off, religious               |
+| 1969-04-04 | good_friday               | official, day_off, religious     |
+| 1969-04-07 | easter_monday             | official, day_off, religious     |
+| 1969-05-01 | labor_day                 | official, day_off                |
+| 1969-05-15 | ascension                 | official, day_off, religious     |
+| 1969-05-25 | whit_sunday               | official, religious              |
+| 1969-05-26 | whit_monday               | official, day_off, religious     |
+| 1969-06-05 | corpus_christi            | day_off, religious               |
+| 1969-06-17 | german_unity_day          | official, day_off                |
+| 1969-08-08 | augsburger_friedensfest   | day_off, partial_only            |
+| 1969-08-15 | assumption_day            | day_off, religious, partial_only |
+| 1969-10-31 | reformation_day           | official, religious              |
+| 1969-11-01 | all_saints_day            | day_off, religious               |
+| 1969-11-19 | repentance_and_prayer_day | official, day_off, religious     |
+| 1969-12-24 | christmas_eve             | religious, bank                  |
+| 1969-12-25 | christmas_day             | official, day_off, religious     |
+| 1969-12-26 | second_christmas_day      | official, day_off, religious     |
+| 1969-12-31 | new_years_eve             | official, bank                   |
+
 # 2016
 
 | Date       | Name                      | Types                            |

@@ -1,3 +1,131 @@
+# 1926
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1926-01-01 | new_year             | official, partial_only |
+| 1926-02-22 | washingtons_birthday | official, partial_only |
+| 1926-05-30 | memorial_day         | official, partial_only |
+| 1926-07-04 | independence_day     | official, partial_only |
+| 1926-09-06 | labor_day            | official, partial_only |
+| 1926-11-25 | thanksgiving_day     | official, partial_only |
+| 1926-12-25 | christmas_day        | official, partial_only |
+
+# 1927
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1927-01-01 | new_year             | official, partial_only |
+| 1927-02-22 | washingtons_birthday | official, partial_only |
+| 1927-05-30 | memorial_day         | official, partial_only |
+| 1927-06-20 | west_virginia_day    | official, partial_only |
+| 1927-07-04 | independence_day     | official, partial_only |
+| 1927-09-05 | labor_day            | official, partial_only |
+| 1927-11-24 | thanksgiving_day     | official, partial_only |
+| 1927-12-25 | christmas_day        | official, partial_only |
+
+# 1970
+
+| Date       | Name                           | Types                                |
+|------------|--------------------------------|--------------------------------------|
+| 1970-01-01 | new_year                       | official, partial_only               |
+| 1970-02-22 | washingtons_birthday           | official, partial_only               |
+| 1970-05-30 | memorial_day                   | official, partial_only               |
+| 1970-06-19 | west_virginia_day_compensatory | official, partial_only, compensatory |
+| 1970-06-20 | west_virginia_day              | official, partial_only               |
+| 1970-07-03 | independence_day_compensatory  | official, partial_only, compensatory |
+| 1970-07-04 | independence_day               | official, partial_only               |
+| 1970-09-07 | labor_day                      | official, partial_only               |
+| 1970-10-12 | columbus_day                   | official, partial_only               |
+| 1970-11-11 | veterans_day                   | official, partial_only               |
+| 1970-11-26 | thanksgiving_day               | official, partial_only               |
+| 1970-12-25 | christmas_day                  | official, partial_only               |
+
+# 1971
+
+| Date       | Name                           | Types                                |
+|------------|--------------------------------|--------------------------------------|
+| 1971-01-01 | new_year                       | official, partial_only               |
+| 1971-02-15 | presidents_day                 | official, partial_only               |
+| 1971-05-31 | memorial_day                   | official, partial_only               |
+| 1971-06-20 | west_virginia_day              | official, partial_only               |
+| 1971-06-21 | west_virginia_day_compensatory | official, partial_only, compensatory |
+| 1971-07-04 | independence_day               | official, partial_only               |
+| 1971-07-05 | independence_day_compensatory  | official, partial_only, compensatory |
+| 1971-09-06 | labor_day                      | official, partial_only               |
+| 1971-10-11 | columbus_day                   | official, partial_only               |
+| 1971-10-25 | veterans_day                   | official, partial_only               |
+| 1971-11-25 | thanksgiving_day               | official, partial_only               |
+| 1971-12-24 | christmas_day_compensatory     | official, partial_only, compensatory |
+| 1971-12-25 | christmas_day                  | official, partial_only               |
+| 1971-12-31 | new_year_compensatory          | official, partial_only, compensatory |
+
+# 1974
+
+| Date       | Name              | Types                  |
+|------------|-------------------|------------------------|
+| 1974-01-01 | new_year          | official, partial_only |
+| 1974-02-18 | presidents_day    | official, partial_only |
+| 1974-05-27 | memorial_day      | official, partial_only |
+| 1974-06-20 | west_virginia_day | official, partial_only |
+| 1974-07-04 | independence_day  | official, partial_only |
+| 1974-09-02 | labor_day         | official, partial_only |
+| 1974-10-14 | columbus_day      | official, partial_only |
+| 1974-10-28 | veterans_day      | official, partial_only |
+| 1974-11-28 | thanksgiving_day  | official, partial_only |
+| 1974-12-25 | christmas_day     | official, partial_only |
+
+# 1975
+
+| Date       | Name                   | Types                  |
+|------------|------------------------|------------------------|
+| 1975-01-01 | new_year               | official, partial_only |
+| 1975-02-17 | presidents_day         | official, partial_only |
+| 1975-05-26 | memorial_day           | official, partial_only |
+| 1975-06-20 | west_virginia_day      | official, partial_only |
+| 1975-07-04 | independence_day       | official, partial_only |
+| 1975-09-01 | labor_day              | official, partial_only |
+| 1975-10-13 | columbus_day           | official, partial_only |
+| 1975-10-27 | veterans_day           | official, partial_only |
+| 1975-11-27 | thanksgiving_day       | official, partial_only |
+| 1975-11-28 | day_after_thanksgiving | official, partial_only |
+| 1975-12-25 | christmas_day          | official, partial_only |
+
+# 2007
+
+| Date       | Name                      | Types                                |
+|------------|---------------------------|--------------------------------------|
+| 2007-01-01 | new_year                  | official, partial_only               |
+| 2007-01-15 | martin_luther_king_jr_day | official, partial_only               |
+| 2007-02-19 | presidents_day            | official, partial_only               |
+| 2007-05-28 | memorial_day              | official, partial_only               |
+| 2007-06-20 | west_virginia_day         | official, partial_only               |
+| 2007-07-04 | independence_day          | official, partial_only               |
+| 2007-09-03 | labor_day                 | official, partial_only               |
+| 2007-10-08 | columbus_day              | official, partial_only               |
+| 2007-11-11 | veterans_day              | official, partial_only               |
+| 2007-11-12 | veterans_day_compensatory | official, partial_only, compensatory |
+| 2007-11-22 | thanksgiving_day          | official, partial_only               |
+| 2007-11-23 | day_after_thanksgiving    | official, partial_only               |
+| 2007-12-25 | christmas_day             | official, partial_only               |
+
+# 2008
+
+| Date       | Name                      | Types                  |
+|------------|---------------------------|------------------------|
+| 2008-01-01 | new_year                  | official, partial_only |
+| 2008-01-21 | martin_luther_king_jr_day | official, partial_only |
+| 2008-02-18 | presidents_day            | official, partial_only |
+| 2008-05-26 | memorial_day              | official, partial_only |
+| 2008-06-20 | west_virginia_day         | official, partial_only |
+| 2008-07-04 | independence_day          | official, partial_only |
+| 2008-09-01 | labor_day                 | official, partial_only |
+| 2008-10-13 | columbus_day              | official, partial_only |
+| 2008-11-04 | election_day              | official, partial_only |
+| 2008-11-11 | veterans_day              | official, partial_only |
+| 2008-11-27 | thanksgiving_day          | official, partial_only |
+| 2008-11-28 | day_after_thanksgiving    | official, partial_only |
+| 2008-12-25 | christmas_day             | official, partial_only |
+
 # 2020
 
 | Date       | Name                           | Types                                |

@@ -1,3 +1,91 @@
+# 1974
+
+| Date       | Name                 | Types                  |
+|------------|----------------------|------------------------|
+| 1974-01-01 | new_year             | official, partial_only |
+| 1974-02-18 | washingtons_birthday | official, partial_only |
+| 1974-05-27 | memorial_day         | official, partial_only |
+| 1974-07-04 | independence_day     | official, partial_only |
+| 1974-09-02 | labor_day            | official, partial_only |
+| 1974-10-28 | veterans_day         | official, partial_only |
+| 1974-11-28 | thanksgiving_day     | official, partial_only |
+| 1974-12-25 | christmas_day        | official, partial_only |
+
+# 1975
+
+| Date       | Name                   | Types                  |
+|------------|------------------------|------------------------|
+| 1975-01-01 | new_year               | official, partial_only |
+| 1975-02-17 | washingtons_birthday   | official, partial_only |
+| 1975-05-26 | memorial_day           | official, partial_only |
+| 1975-07-04 | independence_day       | official, partial_only |
+| 1975-09-01 | labor_day              | official, partial_only |
+| 1975-10-27 | veterans_day           | official, partial_only |
+| 1975-11-27 | thanksgiving_day       | official, partial_only |
+| 1975-11-28 | day_after_thanksgiving | official, partial_only |
+| 1975-12-25 | christmas_day          | official, partial_only |
+
+# 1985
+
+| Date       | Name                   | Types                  |
+|------------|------------------------|------------------------|
+| 1985-01-01 | new_year               | official, partial_only |
+| 1985-02-18 | washingtons_birthday   | official, partial_only |
+| 1985-05-27 | memorial_day           | official, partial_only |
+| 1985-07-04 | independence_day       | official, partial_only |
+| 1985-09-02 | labor_day              | official, partial_only |
+| 1985-11-11 | veterans_day           | official, partial_only |
+| 1985-11-28 | thanksgiving_day       | official, partial_only |
+| 1985-11-29 | day_after_thanksgiving | official, partial_only |
+| 1985-12-25 | christmas_day          | official, partial_only |
+
+# 1986
+
+| Date       | Name                                      | Types                  |
+|------------|-------------------------------------------|------------------------|
+| 1986-01-01 | new_year                                  | official, partial_only |
+| 1986-01-20 | dr_martin_luther_king_jr_civil_rights_day | official, partial_only |
+| 1986-02-17 | washingtons_birthday                      | official, partial_only |
+| 1986-05-26 | memorial_day                              | official, partial_only |
+| 1986-07-04 | independence_day                          | official, partial_only |
+| 1986-09-01 | labor_day                                 | official, partial_only |
+| 1986-11-11 | veterans_day                              | official, partial_only |
+| 1986-11-27 | thanksgiving_day                          | official, partial_only |
+| 1986-11-28 | day_after_thanksgiving                    | official, partial_only |
+| 1986-12-25 | christmas_day                             | official, partial_only |
+
+# 2007
+
+| Date       | Name                                      | Types                                |
+|------------|-------------------------------------------|--------------------------------------|
+| 2007-01-01 | new_year                                  | official, partial_only               |
+| 2007-01-15 | dr_martin_luther_king_jr_civil_rights_day | official, partial_only               |
+| 2007-02-19 | washingtons_birthday                      | official, partial_only               |
+| 2007-05-28 | memorial_day                              | official, partial_only               |
+| 2007-07-04 | independence_day                          | official, partial_only               |
+| 2007-09-03 | labor_day                                 | official, partial_only               |
+| 2007-11-11 | veterans_day                              | official, partial_only               |
+| 2007-11-12 | veterans_day_compensatory                 | official, partial_only, compensatory |
+| 2007-11-22 | thanksgiving_day                          | official, partial_only               |
+| 2007-11-23 | day_after_thanksgiving                    | official, partial_only               |
+| 2007-12-25 | christmas_day                             | official, partial_only               |
+
+# 2008
+
+| Date       | Name                                      | Types                  |
+|------------|-------------------------------------------|------------------------|
+| 2008-01-01 | new_year                                  | official, partial_only |
+| 2008-01-21 | dr_martin_luther_king_jr_civil_rights_day | official, partial_only |
+| 2008-02-18 | washingtons_birthday                      | official, partial_only |
+| 2008-05-26 | memorial_day                              | official, partial_only |
+| 2008-07-04 | independence_day                          | official, partial_only |
+| 2008-09-01 | labor_day                                 | official, partial_only |
+| 2008-11-04 | election_day                              | official, partial_only |
+| 2008-11-11 | veterans_day                              | official, partial_only |
+| 2008-11-27 | thanksgiving_day                          | official, partial_only |
+| 2008-11-28 | day_after_thanksgiving                    | official, partial_only |
+| 2008-12-25 | christmas_day                             | official, partial_only |
+
 # 2020
 
 | Date       | Name                                      | Types                                |

@@ -15,6 +15,24 @@
 | 1847-09-06 | bettagsmontag      | day_off, religious                           |
 | 1847-12-25 | christmas_day      | official, day_off, religious                 |
 
+# 1848
+
+| Date       | Name                                   | Types                                        |
+|------------|----------------------------------------|----------------------------------------------|
+| 1848-01-01 | new_year                               | official, day_off                            |
+| 1848-01-02 | berchtoldstag                          | official, day_off, traditional, partial_only |
+| 1848-03-01 | jahrestag_ausrufung_republik_neuenburg | official, day_off                            |
+| 1848-04-21 | good_friday                            | official, day_off, religious                 |
+| 1848-04-24 | easter_monday                          | day_off, religious                           |
+| 1848-05-01 | labor_day                              | official, day_off                            |
+| 1848-06-01 | ascension                              | official, day_off, religious                 |
+| 1848-06-12 | whit_monday                            | day_off, religious                           |
+| 1848-06-22 | corpus_christi                         | official, day_off, religious, partial_only   |
+| 1848-08-01 | swiss_national_day                     | official                                     |
+| 1848-09-03 | swiss_national_day                     | religious                                    |
+| 1848-09-04 | bettagsmontag                          | day_off, religious                           |
+| 1848-12-25 | christmas_day                          | official, day_off, religious                 |
+
 # 2016
 
 | Date       | Name                                   | Types                                        |

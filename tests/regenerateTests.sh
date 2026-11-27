@@ -11,18 +11,18 @@ tests/console test:generate Wed -y 2019
 tests/console test:generate Thu -y 2019
 tests/console test:generate Fri -y 2019
 tests/console test:generate Sat -y 2019
-tests/console test:generate AU -y 1926 -y 1927 -y 1936 -y 1937 -y 1945 -y 1946 -y 2022 -y 2024
+tests/console test:generate AU -y 1926 -y 1927 -y 1936 -y 1937 -y 1945 -y 1946 -y 2021 -y 2022 -y 2023 -y 2024
 tests/console test:generate AU-ACT -y 1926 -y 2007 -y 2008 -y 2017 -y 2018 -y 2020 -y 2021 -y 2024
 tests/console test:generate AU-NSW -y 2024
 tests/console test:generate AU-NT -y 1926 -y 2020 -y 2021 -y 2024
 tests/console test:generate AU-QLD -y 2011 -y 2012 -y 2013 -y 2015 -y 2016 -y 2024
 tests/console test:generate AU-SA -y 1909 -y 1910 -y 1972 -y 1973 -y 1991 -y 1992 -y 1993 -y 2005 -y 2006 -y 2024
 tests/console test:generate AU-TAS -y 1918 -y 1919 -y 1989 -y 1990 -y 1991 -y 1992 -y 2024
-tests/console test:generate AU-VIC -y 1936 -y 1937 -y 1946 -y 1994 -y 1995 -y 2015 -y 2016 -y 2019 -y 2020 -y 2021 -y 2024
+tests/console test:generate AU-VIC -y 1936 -y 1937 -y 1946 -y 1994 -y 1995 -y 2007 -y 2008 -y 2015 -y 2016 -y 2019 -y 2020 -y 2021 -y 2024
 tests/console test:generate AU-WA -y 1926 -y 2010 -y 2011 -y 2012 -y 2013 -y 2024
-tests/console test:generate AT -y 1918 -y 1919 -y 1934 -y 1960 -y 1965 -y 1967
+tests/console test:generate AT -y 1918 -y 1919 -y 1933 -y 1934 -y 1944 -y 1945 -y 1960 -y 1964 -y 1965 -y 1966 -y 1967
 tests/console test:generate AT-1 -y 2020
-tests/console test:generate AT-2 -y 1929 -y 1921
+tests/console test:generate AT-2 -y 1920 -y 1921 -y 1929
 tests/console test:generate AT-3 -y 2020
 tests/console test:generate AT-4 -y 2003 -y 2004
 tests/console test:generate AT-5 -y 2020
@@ -30,11 +30,11 @@ tests/console test:generate AT-6 -y 2020
 tests/console test:generate AT-7 -y 2020
 tests/console test:generate AT-8 -y 2020
 tests/console test:generate AT-9 -y 2020
-tests/console test:generate BY -y 1944 -y 1945 -y 1990 -y 1991 -y 1994 -y 1995 -y 2019 -y 2020 -y 2024
-tests/console test:generate BE -y 1865 -y 1866 -y 1890 -y 1973 -y 1975 -y 1990 -y 1998 -y 2020
+tests/console test:generate BY -y 1944 -y 1945 -y 1947 -y 1948 -y 1964 -y 1965 -y 1990 -y 1991 -y 1994 -y 1995 -y 1996 -y 2019 -y 2020 -y 2024
+tests/console test:generate BE -y 1865 -y 1866 -y 1889 -y 1890 -y 1972 -y 1973 -y 1974 -y 1975 -y 1989 -y 1990 -y 1997 -y 1998 -y 2020
 tests/console test:generate BG -y 2016 -y 2017 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024
-tests/console test:generate BR -y 1889 -y 1890 -y 1949 -y 1980 -y 2020
-tests/console test:generate CA -y 1952 -y 1982 -y 1983 -y 2020 -y 2021 -y 2022 -y 2024
+tests/console test:generate BR -y 1888 -y 1889 -y 1890 -y 1948 -y 1949 -y 1979 -y 1980 -y 2020
+tests/console test:generate CA -y 1951 -y 1952 -y 1953 -y 1982 -y 1983 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024
 tests/console test:generate CA-AB -y 1952 -y 1982 -y 1983 -y 1989 -y 1990 -y 2022 -y 2024
 tests/console test:generate CA-BC -y 1952 -y 1982 -y 1983 -y 2022 -y 2023 -y 2024
 tests/console test:generate CA-MB -y 1952 -y 1982 -y 1983 -y 2007 -y 2008 -y 2022 -y 2024
@@ -48,55 +48,81 @@ tests/console test:generate CA-PE -y 1952 -y 1982 -y 1983 -y 2008 -y 2009 -y 201
 tests/console test:generate CA-QC -y 1924 -y 1925 -y 1952 -y 1982 -y 1983 -y 2002 -y 2003 -y 2022 -y 2024
 tests/console test:generate CA-SK -y 1952 -y 1982 -y 1983 -y 2006 -y 2007 -y 2022 -y 2024
 tests/console test:generate CA-YT -y 1952 -y 1982 -y 1983 -y 2016 -y 2017 -y 2022 -y 2023 -y 2024
-tests/console test:generate CZ -y 1950 -y 1951 -y 1987 -y 1988 -y 1989 -y 1990 -y 1991 -y 1992 -y 1999 -y 2000 -y 2015 -y 2016 -y 2024
-tests/console test:generate DK -y 1848 -y 1849 -y 1891 -y 2020 -y 2024
+tests/console test:generate CZ -y 1950 -y 1951 -y 1952 -y 1987 -y 1988 -y 1989 -y 1990 -y 1991 -y 1992 -y 1999 -y 2000 -y 2015 -y 2016 -y 2024
+tests/console test:generate DK -y 1848 -y 1849 -y 1890 -y 1891 -y 1975 -y 1976 -y 2020 -y 2023 -y 2024
 tests/console test:generate EE -y 1997 -y 1998 -y 2024
-tests/console test:generate FI -y 1950 -y 1955 -y 1991 -y 2024
-tests/console test:generate FR -y 2004 -y 2019
+tests/console test:generate FI -y 1950 -y 1954 -y 1955 -y 1972 -y 1973 -y 1991 -y 1992 -y 2024
+tests/console test:generate FR -y 1952 -y 1953 -y 1958 -y 1959 -y 1964 -y 1965 -y 1966 -y 1981 -y 1982 -y 2003 -y 2004 -y 2007 -y 2008 -y 2019
 tests/console test:generate FR-57 -y 2004 -y 2019
 tests/console test:generate FR-67 -y 2004 -y 2019
 tests/console test:generate FR-68 -y 2004 -y 2019
+tests/console test:generate FR-BL -y 2019
 tests/console test:generate FR-GF -y 2004 -y 2019
 tests/console test:generate FR-GUA -y 2004 -y 2019
 tests/console test:generate FR-LRE -y 2004 -y 2019
+tests/console test:generate FR-MF -y 2019
 tests/console test:generate FR-MQ -y 2004 -y 2019
-tests/console test:generate DE -y 1970 -y 2019
+tests/console test:generate FR-YT -y 2019
+tests/console test:generate DE -y 1953 -y 1954 -y 1970 -y 1989 -y 1990 -y 1991 -y 1994 -y 1995 -y 2016 -y 2017 -y 2018 -y 2019
 tests/console test:generate DE-BB -y 2018
-tests/console test:generate DE-BE -y 2018 -y 2019 -y 2020
+tests/console test:generate DE-BE -y 2018 -y 2019 -y 2020 -y 2021 -y 2024 -y 2025 -y 2026
 tests/console test:generate DE-BW -y 2009 -y 2013 -y 2016
-tests/console test:generate DE-BY -y 1968 -y 2016
-tests/console test:generate DE-HB -y 2019
+tests/console test:generate DE-BY -y 1968 -y 1969 -y 2016
+tests/console test:generate DE-HB -y 2017 -y 2018 -y 2019
 tests/console test:generate DE-HE -y 2016
-tests/console test:generate DE-HH -y 2019
+tests/console test:generate DE-HH -y 2017 -y 2018 -y 2019
 tests/console test:generate DE-MV -y 2020
-tests/console test:generate DE-NI -y 2021
+tests/console test:generate DE-NI -y 2017 -y 2018 -y 2021
 tests/console test:generate DE-NW -y 2022
 tests/console test:generate DE-RP -y 2023
-tests/console test:generate DE-SH -y 2019
+tests/console test:generate DE-SH -y 2017 -y 2018 -y 2019
 tests/console test:generate DE-SL -y 2024
 tests/console test:generate DE-SN -y 2016 -y 2017
 tests/console test:generate DE-ST -y 2025
-tests/console test:generate DE-TH -y 2018 -y 2025
-tests/console test:generate GL -y 1984 -y 2020
+tests/console test:generate DE-TH -y 2018 -y 2019 -y 2025
+tests/console test:generate GL -y 1984 -y 1985 -y 2020
+tests/console test:generate JE -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate GG -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate IM -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
 tests/console test:generate IS -y 2024 -y 2025
-tests/console test:generate IE -y 1870 -y 1902 -y 1974 -y 2011 -y 2019 -y 2020 -y 2025 -y 2030
-tests/console test:generate IT -y 1911 -y 1945 -y 1946 -y 1950 -y 1961 -y 1977 -y 1985 -y 2001 -y 2011 -y 2020
+tests/console test:generate IE -y 1870 -y 1871 -y 1902 -y 1903 -y 1973 -y 1974 -y 1976 -y 1977 -y 1993 -y 1994 -y 2011 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2025 -y 2030
+tests/console test:generate IT -y 1911 -y 1945 -y 1946 -y 1947 -y 1949 -y 1950 -y 1961 -y 1976 -y 1977 -y 1978 -y 1984 -y 1985 -y 1996 -y 1997 -y 2000 -y 2001 -y 2011 -y 2020
 tests/console test:generate IT-32 -y 2020
+tests/console test:generate JP -y 1980 -y 1985 -y 1986 -y 1988 -y 1989 -y 1990 -y 1993 -y 1995 -y 1996 -y 1999 -y 2000 -y 2002 -y 2003 -y 2006 -y 2007 -y 2015 -y 2016 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2026 -y 2099
 tests/console test:generate LV -y 1989 -y 1990 -y 2024
 tests/console test:generate FL -y 2020
 tests/console test:generate LT -y 1989 -y 1990 -y 1991 -y 2019 -y 2020 -y 2024
-tests/console test:generate LU -y 1961 -y 2018 -y 2020
-tests/console test:generate MX -y 1825 -y 1826 -y 1911 -y 1918 -y 1923 -y 2006 -y 2010 -y 2020 -y 2021 -y 2022 -y 2021,2022
-tests/console test:generate NL -y 1948 -y 1963 -y 1967 -y 1975 -y 1989 -y 1990 -y 2014 -y 2020
+tests/console test:generate LU -y 1961 -y 1962 -y 2018 -y 2019 -y 2020
+tests/console test:generate MX -y 1825 -y 1826 -y 1910 -y 1911 -y 1917 -y 1918 -y 1922 -y 1923 -y 2005 -y 2006 -y 2010 -y 2020 -y 2021 -y 2022 -y 2021,2022
+tests/console test:generate NL -y 1890 -y 1891 -y 1945 -y 1946 -y 1948 -y 1949 -y 1963 -y 1967 -y 1968 -y 1969 -y 1975 -y 1979 -y 1980 -y 1989 -y 1990 -y 2013 -y 2014 -y 2020
 tests/console test:generate NO -y 2024
-tests/console test:generate PL -y 1918 -y 1919 -y 1945 -y 1947 -y 2011 -y 2020 -y 2025 -y 2026
+tests/console test:generate PL -y 1918 -y 1919 -y 1922 -y 1923 -y 1924 -y 1925 -y 1936 -y 1937 -y 1944 -y 1945 -y 1946 -y 1947 -y 1950 -y 1951 -y 1960 -y 1961 -y 1988 -y 1989 -y 1990 -y 1991 -y 1992 -y 2010 -y 2011 -y 2014 -y 2015 -y 2020 -y 2024 -y 2025 -y 2026
 tests/console test:generate PT -y 1974 -y 1975 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2020
 tests/console test:generate PT-20 -y 1980 -y 1981 -y 2024
 tests/console test:generate PT-30 -y 1978 -y 1979 -y 2001 -y 2002 -y 2024
-tests/console test:generate RU -y 1990 -y 1991 -y 1992 -y 2001 -y 2005 -y 2006 -y 2020
-tests/console test:generate ES -y 1892 -y 1940 -y 2020
+tests/console test:generate RU -y 1990 -y 1991 -y 1992 -y 2001 -y 2002 -y 2004 -y 2005 -y 2006 -y 2020
+tests/console test:generate ES -y 1888 -y 1889 -y 1891 -y 1892 -y 1939 -y 1940 -y 1977 -y 1978 -y 1982 -y 1983 -y 1988 -y 1989 -y 2020
+tests/console test:generate ES-AN -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-AR -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-AS -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-CB -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-CE -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-CL -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-CM -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-CN -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-CT -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-EX -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-GA -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-IB -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-MC -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-MD -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-ML -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-NC -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-PV -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-RI -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate ES-VC -y 2008 -y 2009 -y 2010 -y 2011 -y 2012 -y 2013 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
 tests/console test:generate SE -y 2024 -y 2025
-tests/console test:generate CH -y 1993 -y 2020
+tests/console test:generate CH -y 1993 -y 1994 -y 2020
 tests/console test:generate CH-AG -y 2017 -y 2020
 tests/console test:generate CH-AI -y 2020
 tests/console test:generate CH-AR -y 2017 -y 2020
@@ -104,12 +130,12 @@ tests/console test:generate CH-BE -y 2020
 tests/console test:generate CH-BL -y 2020
 tests/console test:generate CH-BS -y 2020
 tests/console test:generate CH-FR -y 2020
-tests/console test:generate CH-GE -y 1813 -y 2020
+tests/console test:generate CH-GE -y 1813 -y 1814 -y 2020
 tests/console test:generate CH-GL -y 2020
 tests/console test:generate CH-GR -y 2020
 tests/console test:generate CH-JU -y 2020
 tests/console test:generate CH-LU -y 2020
-tests/console test:generate CH-NE -y 1847 -y 2016 -y 2017 -y 2020
+tests/console test:generate CH-NE -y 1847 -y 1848 -y 2016 -y 2017 -y 2020
 tests/console test:generate CH-NW -y 2020
 tests/console test:generate CH-OW -y 2020
 tests/console test:generate CH-SG -y 2020
@@ -123,60 +149,62 @@ tests/console test:generate CH-VD -y 2020
 tests/console test:generate CH-VS -y 2020
 tests/console test:generate CH-ZG -y 2020
 tests/console test:generate CH-ZH -y 2020
-tests/console test:generate TR -y 1962 -y 1963 -y 1981 -y 2016 -y 2017 -y 2014
-tests/console test:generate UA -y 1897 -y 1898 -y 1917 -y 1918 -y 1927 -y 1928 -y 1929 -y 1930 -y 1944 -y 1945 -y 1947 -y 1948 -y 1965 -y 1966 -y 1990 -y 1991 -y 1992 -y 1993 -y 1994 -y 1996 -y 1997 -y 1998 -y 1999 -y 2000 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2022 -y 2023 -y 2024
-tests/console test:generate GB -y 1964 -y 1968 -y 1969 -y 1973 -y 1977 -y 1981 -y 1995 -y 1999 -y 2002 -y 2011 -y 2012 -y 2020 -y 2022 -y 2023 -y 2024
+tests/console test:generate TR -y 1962 -y 1963 -y 1981 -y 1982 -y 2014 -y 2016 -y 2017
+tests/console test:generate UA -y 1897 -y 1898 -y 1917 -y 1918 -y 1927 -y 1928 -y 1929 -y 1930 -y 1944 -y 1945 -y 1947 -y 1948 -y 1964 -y 1965 -y 1966 -y 1990 -y 1991 -y 1992 -y 1993 -y 1994 -y 1995 -y 1996 -y 1997 -y 1998 -y 1999 -y 2000 -y 2014 -y 2015 -y 2016 -y 2017 -y 2018 -y 2019 -y 2021 -y 2022 -y 2023 -y 2024
+tests/console test:generate GB -y 1964 -y 1965 -y 1967 -y 1968 -y 1969 -y 1970 -y 1972 -y 1973 -y 1974 -y 1976 -y 1977 -y 1978 -y 1980 -y 1981 -y 1982 -y 1994 -y 1995 -y 1996 -y 1998 -y 1999 -y 2000 -y 2001 -y 2002 -y 2003 -y 2010 -y 2011 -y 2012 -y 2013 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024
+tests/console test:generate GB-ENG -y 1964 -y 1965 -y 1967 -y 1968 -y 1969 -y 1970 -y 1972 -y 1973 -y 1974 -y 1976 -y 1977 -y 1978 -y 1980 -y 1981 -y 1982 -y 1994 -y 1995 -y 1996 -y 1998 -y 1999 -y 2000 -y 2001 -y 2002 -y 2003 -y 2010 -y 2011 -y 2012 -y 2013 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024
+tests/console test:generate GB-WLS -y 1964 -y 1965 -y 1967 -y 1968 -y 1969 -y 1970 -y 1972 -y 1973 -y 1974 -y 1976 -y 1977 -y 1978 -y 1980 -y 1981 -y 1982 -y 1994 -y 1995 -y 1996 -y 1998 -y 1999 -y 2000 -y 2001 -y 2002 -y 2003 -y 2010 -y 2011 -y 2012 -y 2013 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024
 tests/console test:generate GB-NIR -y 2014 -y 2018 -y 2020 -y 2024
-tests/console test:generate GB-SCT -y 1967 -y 1968 -y 1973 -y 1977 -y 1981 -y 1995 -y 1999 -y 2006 -y 2011 -y 2012 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024
-tests/console test:generate US -y 1868 -y 1879 -y 1892 -y 1894 -y 1938 -y 1968 -y 1971 -y 1986 -y 2010 -y 2011 -y 2021 -y 2022 -y 2021,2022
-tests/console test:generate US-AK -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-AL -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-AR -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-AZ -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-CA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-CO -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-CT -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-DC -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-DE -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-FL -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-GA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-HI -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-IA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-ID -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-IL -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-IN -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-KS -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-KY -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-LA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-MA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-MD -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-ME -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-MI -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-MN -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-MO -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-MS -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-MT -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-NC -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate GB-SCT -y 1967 -y 1968 -y 1969 -y 1972 -y 1973 -y 1974 -y 1976 -y 1977 -y 1978 -y 1980 -y 1981 -y 1982 -y 1995 -y 1998 -y 1999 -y 2000 -y 2006 -y 2007 -y 2010 -y 2011 -y 2012 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026 -y 2027
+tests/console test:generate US -y 1867 -y 1868 -y 1878 -y 1879 -y 1884 -y 1885 -y 1891 -y 1892 -y 1893 -y 1894 -y 1937 -y 1938 -y 1953 -y 1954 -y 1967 -y 1968 -y 1970 -y 1971 -y 1977 -y 1978 -y 1985 -y 1986 -y 2010 -y 2011 -y 2021 -y 2022 -y 2021,2022
+tests/console test:generate US-AK -y 1958 -y 1959 -y 1970 -y 1971 -y 1989 -y 1990 -y 2014 -y 2015 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-AL -y 1865 -y 1866 -y 1889 -y 1890 -y 1970 -y 1971 -y 1985 -y 1986 -y 1999 -y 2000 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-AR -y 1970 -y 1971 -y 1985 -y 1986 -y 2017 -y 2018 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-AZ -y 1970 -y 1971 -y 1985 -y 1986 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-CA -y 1970 -y 1971 -y 1974 -y 1975 -y 1994 -y 1995 -y 2008 -y 2009 -y 2010 -y 2013 -y 2014 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-CO -y 1970 -y 1971 -y 2000 -y 2001 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-CT -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-DC -y 1936 -y 1937 -y 1970 -y 1971 -y 2004 -y 2005 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-DE -y 1974 -y 1975 -y 1989 -y 1990 -y 2007 -y 2008 -y 2009 -y 2010 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-FL -y 1974 -y 1975 -y 2010 -y 2011 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-GA -y 1865 -y 1866 -y 1970 -y 1971 -y 1985 -y 1986 -y 2011 -y 2012 -y 2015 -y 2016 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-HI -y 1871 -y 1872 -y 1948 -y 1949 -y 1958 -y 1959 -y 1970 -y 1971 -y 2007 -y 2008 -y 2010 -y 2011 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-IA -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-ID -y 1970 -y 1971 -y 1985 -y 1986 -y 2005 -y 2006 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-IL -y 1970 -y 1971 -y 1977 -y 1978 -y 2007 -y 2008 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-IN -y 1970 -y 1971 -y 2005 -y 2006 -y 2007 -y 2008 -y 2009 -y 2010 -y 2014 -y 2015 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-KS -y 2012 -y 2013 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-KY -y 2012 -y 2013 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-LA -y 1856 -y 1857 -y 2007 -y 2008 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-MA -y 1893 -y 1894 -y 1968 -y 1969 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-MD -y 1936 -y 1937 -y 1970 -y 1971 -y 2007 -y 2008 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-ME -y 1893 -y 1894 -y 1968 -y 1969 -y 1970 -y 1971 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-MI -y 2007 -y 2008 -y 2012 -y 2013 -y 2016 -y 2017 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-MN -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-MO -y 1948 -y 1949 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-MS -y 1865 -y 1866 -y 1985 -y 1986 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-MT -y 1970 -y 1971 -y 2007 -y 2008 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-NC -y 1974 -y 1975 -y 2012 -y 2013 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
 tests/console test:generate US-ND -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-NE -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-NH -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-NJ -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-NM -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-NV -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-NY -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-OH -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-OK -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-OR -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-PA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-RI -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-SC -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-SD -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-TN -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-TX -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-UT -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-VA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-VT -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-WA -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-WI -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-WV -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
-tests/console test:generate US-WY -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-NE -y 1874 -y 1875 -y 1970 -y 1971 -y 1988 -y 1989 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-NH -y 1974 -y 1975 -y 1985 -y 1986 -y 2007 -y 2008 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-NJ -y 1970 -y 1971 -y 2007 -y 2008 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-NM -y 1970 -y 1971 -y 2018 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-NV -y 1932 -y 1933 -y 1999 -y 2000 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-NY -y 1970 -y 1971 -y 2003 -y 2004 -y 2007 -y 2008 -y 2014 -y 2015 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-OH -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-OK -y 1970 -y 1971 -y 1974 -y 1975 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-OR -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-PA -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-RI -y 1947 -y 1948 -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-SC -y 1865 -y 1866 -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-SD -y 1936 -y 1937 -y 1969 -y 1970 -y 1989 -y 1990 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-TN -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-TX -y 1873 -y 1874 -y 1875 -y 1930 -y 1931 -y 1970 -y 1971 -y 1972 -y 1973 -y 1974 -y 1975 -y 1979 -y 1980 -y 1981 -y 1999 -y 2000 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-UT -y 1848 -y 1849 -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-VA -y 1936 -y 1937 -y 1970 -y 1971 -y 1974 -y 1975 -y 1982 -y 1983 -y 1999 -y 2000 -y 2019 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-VT -y 1799 -y 1800 -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-WA -y 1970 -y 1971 -y 2013 -y 2014 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-WI -y 1975 -y 1976 -y 2011 -y 2012 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-WV -y 1926 -y 1927 -y 1970 -y 1971 -y 1974 -y 1975 -y 2007 -y 2008 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026
+tests/console test:generate US-WY -y 1970 -y 1971 -y 2020 -y 2021 -y 2022 -y 2023 -y 2024 -y 2025 -y 2026

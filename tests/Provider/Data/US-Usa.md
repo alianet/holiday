@@ -1,3 +1,11 @@
+# 1867
+
+| Date       | Name             | Types                        |
+|------------|------------------|------------------------------|
+| 1867-01-01 | new_year         | official, day_off            |
+| 1867-07-04 | independence_day | official, day_off            |
+| 1867-12-25 | christmas_day    | official, day_off, religious |
+
 # 1868
 
 | Date       | Name                          | Types                           |
@@ -8,6 +16,15 @@
 | 1868-07-04 | independence_day              | official, day_off               |
 | 1868-12-25 | christmas_day                 | official, day_off, religious    |
 
+# 1878
+
+| Date       | Name             | Types                        |
+|------------|------------------|------------------------------|
+| 1878-01-01 | new_year         | official, day_off            |
+| 1878-05-30 | memorial_day     | official, day_off            |
+| 1878-07-04 | independence_day | official, day_off            |
+| 1878-12-25 | christmas_day    | official, day_off, religious |
+
 # 1879
 
 | Date       | Name                 | Types                        |
@@ -17,6 +34,40 @@
 | 1879-05-30 | memorial_day         | official, day_off            |
 | 1879-07-04 | independence_day     | official, day_off            |
 | 1879-12-25 | christmas_day        | official, day_off, religious |
+
+# 1884
+
+| Date       | Name                 | Types                        |
+|------------|----------------------|------------------------------|
+| 1884-01-01 | new_year             | official, day_off            |
+| 1884-02-22 | washingtons_birthday | official, day_off            |
+| 1884-05-30 | memorial_day         | official, day_off            |
+| 1884-07-04 | independence_day     | official, day_off            |
+| 1884-12-25 | christmas_day        | official, day_off, religious |
+
+# 1885
+
+| Date       | Name                          | Types                           |
+|------------|-------------------------------|---------------------------------|
+| 1885-01-01 | new_year                      | official, day_off               |
+| 1885-02-22 | washingtons_birthday          | official, day_off               |
+| 1885-05-30 | memorial_day                  | official, day_off               |
+| 1885-07-03 | independence_day_compensatory | official, day_off, compensatory |
+| 1885-07-04 | independence_day              | official, day_off               |
+| 1885-11-26 | thanksgiving_day              | official, day_off               |
+| 1885-12-25 | christmas_day                 | official, day_off, religious    |
+
+# 1891
+
+| Date       | Name                          | Types                           |
+|------------|-------------------------------|---------------------------------|
+| 1891-01-01 | new_year                      | official, day_off               |
+| 1891-02-22 | washingtons_birthday          | official, day_off               |
+| 1891-05-30 | memorial_day                  | official, day_off               |
+| 1891-07-03 | independence_day_compensatory | official, day_off, compensatory |
+| 1891-07-04 | independence_day              | official, day_off               |
+| 1891-11-26 | thanksgiving_day              | official, day_off               |
+| 1891-12-25 | christmas_day                 | official, day_off, religious    |
 
 # 1892
 
@@ -31,6 +82,18 @@
 | 1892-12-25 | christmas_day              | official, day_off, religious               |
 | 1892-12-26 | christmas_day_compensatory | official, day_off, religious, compensatory |
 
+# 1893
+
+| Date       | Name                  | Types                           |
+|------------|-----------------------|---------------------------------|
+| 1893-01-01 | new_year              | official, day_off               |
+| 1893-01-02 | new_year_compensatory | official, day_off, compensatory |
+| 1893-02-22 | washingtons_birthday  | official, day_off               |
+| 1893-05-30 | memorial_day          | official, day_off               |
+| 1893-07-04 | independence_day      | official, day_off               |
+| 1893-11-23 | thanksgiving_day      | official, day_off               |
+| 1893-12-25 | christmas_day         | official, day_off, religious    |
+
 # 1894
 
 | Date       | Name                 | Types                        |
@@ -42,6 +105,21 @@
 | 1894-09-03 | labor_day            | official, day_off            |
 | 1894-11-22 | thanksgiving_day     | official, day_off            |
 | 1894-12-25 | christmas_day        | official, day_off, religious |
+
+# 1937
+
+| Date       | Name                          | Types                                      |
+|------------|-------------------------------|--------------------------------------------|
+| 1937-01-01 | new_year                      | official, day_off                          |
+| 1937-02-22 | washingtons_birthday          | official, day_off                          |
+| 1937-05-30 | memorial_day                  | official, day_off                          |
+| 1937-07-04 | independence_day              | official, day_off                          |
+| 1937-07-05 | independence_day_compensatory | official, day_off, compensatory            |
+| 1937-09-06 | labor_day                     | official, day_off                          |
+| 1937-11-25 | thanksgiving_day              | official, day_off                          |
+| 1937-12-24 | christmas_day_compensatory    | official, day_off, religious, compensatory |
+| 1937-12-25 | christmas_day                 | official, day_off, religious               |
+| 1937-12-31 | new_year_compensatory         | official, day_off, compensatory            |
 
 # 1938
 
@@ -57,6 +135,50 @@
 | 1938-12-25 | christmas_day              | official, day_off, religious               |
 | 1938-12-26 | christmas_day_compensatory | official, day_off, religious, compensatory |
 
+# 1953
+
+| Date       | Name                          | Types                           |
+|------------|-------------------------------|---------------------------------|
+| 1953-01-01 | new_year                      | official, day_off               |
+| 1953-02-22 | washingtons_birthday          | official, day_off               |
+| 1953-05-30 | memorial_day                  | official, day_off               |
+| 1953-07-03 | independence_day_compensatory | official, day_off, compensatory |
+| 1953-07-04 | independence_day              | official, day_off               |
+| 1953-09-07 | labor_day                     | official, day_off               |
+| 1953-11-11 | armistice_day                 | official, day_off               |
+| 1953-11-26 | thanksgiving_day              | official, day_off               |
+| 1953-12-25 | christmas_day                 | official, day_off, religious    |
+
+# 1954
+
+| Date       | Name                          | Types                                      |
+|------------|-------------------------------|--------------------------------------------|
+| 1954-01-01 | new_year                      | official, day_off                          |
+| 1954-02-22 | washingtons_birthday          | official, day_off                          |
+| 1954-05-30 | memorial_day                  | official, day_off                          |
+| 1954-07-04 | independence_day              | official, day_off                          |
+| 1954-07-05 | independence_day_compensatory | official, day_off, compensatory            |
+| 1954-09-06 | labor_day                     | official, day_off                          |
+| 1954-11-11 | veterans_day                  | official, day_off                          |
+| 1954-11-25 | thanksgiving_day              | official, day_off                          |
+| 1954-12-24 | christmas_day_compensatory    | official, day_off, religious, compensatory |
+| 1954-12-25 | christmas_day                 | official, day_off, religious               |
+| 1954-12-31 | new_year_compensatory         | official, day_off, compensatory            |
+
+# 1967
+
+| Date       | Name                  | Types                           |
+|------------|-----------------------|---------------------------------|
+| 1967-01-01 | new_year              | official, day_off               |
+| 1967-01-02 | new_year_compensatory | official, day_off, compensatory |
+| 1967-02-22 | washingtons_birthday  | official, day_off               |
+| 1967-05-30 | memorial_day          | official, day_off               |
+| 1967-07-04 | independence_day      | official, day_off               |
+| 1967-09-04 | labor_day             | official, day_off               |
+| 1967-11-11 | veterans_day          | official, day_off               |
+| 1967-11-23 | thanksgiving_day      | official, day_off               |
+| 1967-12-25 | christmas_day         | official, day_off, religious    |
+
 # 1968
 
 | Date       | Name                 | Types                        |
@@ -70,6 +192,21 @@
 | 1968-11-11 | veterans_day         | official, day_off            |
 | 1968-11-28 | thanksgiving_day     | official, day_off            |
 | 1968-12-25 | christmas_day        | official, day_off, religious |
+
+# 1970
+
+| Date       | Name                          | Types                           |
+|------------|-------------------------------|---------------------------------|
+| 1970-01-01 | new_year                      | official, day_off               |
+| 1970-02-22 | washingtons_birthday          | official, day_off               |
+| 1970-05-30 | memorial_day                  | official, day_off               |
+| 1970-07-03 | independence_day_compensatory | official, day_off, compensatory |
+| 1970-07-04 | independence_day              | official, day_off               |
+| 1970-09-07 | labor_day                     | official, day_off               |
+| 1970-10-12 | columbus_day                  | official, day_off               |
+| 1970-11-11 | veterans_day                  | official, day_off               |
+| 1970-11-26 | thanksgiving_day              | official, day_off               |
+| 1970-12-25 | christmas_day                 | official, day_off, religious    |
 
 # 1971
 
@@ -87,6 +224,51 @@
 | 1971-12-24 | christmas_day_compensatory    | official, day_off, religious, compensatory |
 | 1971-12-25 | christmas_day                 | official, day_off, religious               |
 | 1971-12-31 | new_year_compensatory         | official, day_off, compensatory            |
+
+# 1977
+
+| Date       | Name                       | Types                                      |
+|------------|----------------------------|--------------------------------------------|
+| 1977-01-01 | new_year                   | official, day_off                          |
+| 1977-02-21 | washingtons_birthday       | official, day_off                          |
+| 1977-05-30 | memorial_day               | official, day_off                          |
+| 1977-07-04 | independence_day           | official, day_off                          |
+| 1977-09-05 | labor_day                  | official, day_off                          |
+| 1977-10-10 | columbus_day               | official, day_off                          |
+| 1977-10-24 | veterans_day               | official, day_off                          |
+| 1977-11-24 | thanksgiving_day           | official, day_off                          |
+| 1977-12-25 | christmas_day              | official, day_off, religious               |
+| 1977-12-26 | christmas_day_compensatory | official, day_off, religious, compensatory |
+
+# 1978
+
+| Date       | Name                      | Types                           |
+|------------|---------------------------|---------------------------------|
+| 1978-01-01 | new_year                  | official, day_off               |
+| 1978-01-02 | new_year_compensatory     | official, day_off, compensatory |
+| 1978-02-20 | washingtons_birthday      | official, day_off               |
+| 1978-05-29 | memorial_day              | official, day_off               |
+| 1978-07-04 | independence_day          | official, day_off               |
+| 1978-09-04 | labor_day                 | official, day_off               |
+| 1978-10-09 | columbus_day              | official, day_off               |
+| 1978-11-10 | veterans_day_compensatory | official, day_off, compensatory |
+| 1978-11-11 | veterans_day              | official, day_off               |
+| 1978-11-23 | thanksgiving_day          | official, day_off               |
+| 1978-12-25 | christmas_day             | official, day_off, religious    |
+
+# 1985
+
+| Date       | Name                 | Types                        |
+|------------|----------------------|------------------------------|
+| 1985-01-01 | new_year             | official, day_off            |
+| 1985-02-18 | washingtons_birthday | official, day_off            |
+| 1985-05-27 | memorial_day         | official, day_off            |
+| 1985-07-04 | independence_day     | official, day_off            |
+| 1985-09-02 | labor_day            | official, day_off            |
+| 1985-10-14 | columbus_day         | official, day_off            |
+| 1985-11-11 | veterans_day         | official, day_off            |
+| 1985-11-28 | thanksgiving_day     | official, day_off            |
+| 1985-12-25 | christmas_day        | official, day_off, religious |
 
 # 1986
 

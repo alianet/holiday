@@ -39,6 +39,27 @@
 | 1866-11-15 | belgian_kings_feast | traditional, government_agencies_closed |
 | 1866-12-25 | christmas_day       | official, day_off, religious            |
 
+# 1889
+
+| Date       | Name                | Types                                   |
+|------------|---------------------|-----------------------------------------|
+| 1889-01-01 | new_year            | official, day_off                       |
+| 1889-01-06 | epiphany            | religious                               |
+| 1889-02-14 | valentines_day      | religious                               |
+| 1889-04-21 | easter_sunday       | official, day_off, religious            |
+| 1889-04-22 | easter_monday       | official, day_off, religious            |
+| 1889-05-01 | labor_day           | official, day_off                       |
+| 1889-05-30 | ascension           | official, day_off, religious            |
+| 1889-06-09 | whit_sunday         | religious                               |
+| 1889-06-10 | whit_monday         | official, day_off, religious            |
+| 1889-08-15 | assumption_day      | official, day_off, religious            |
+| 1889-10-31 | halloween           | religious                               |
+| 1889-11-01 | all_saints_day      | official, day_off, religious            |
+| 1889-11-02 | all_souls_day       | religious                               |
+| 1889-11-11 | armistice_day       | official, day_off                       |
+| 1889-11-15 | belgian_kings_feast | traditional, government_agencies_closed |
+| 1889-12-25 | christmas_day       | official, day_off, religious            |
+
 # 1890
 
 | Date       | Name                     | Types                                   |
@@ -60,6 +81,28 @@
 | 1890-11-11 | armistice_day            | official, day_off                       |
 | 1890-11-15 | belgian_kings_feast      | traditional, government_agencies_closed |
 | 1890-12-25 | christmas_day            | official, day_off, religious            |
+
+# 1972
+
+| Date       | Name                     | Types                                   |
+|------------|--------------------------|-----------------------------------------|
+| 1972-01-01 | new_year                 | official, day_off                       |
+| 1972-01-06 | epiphany                 | religious                               |
+| 1972-02-14 | valentines_day           | religious                               |
+| 1972-04-02 | easter_sunday            | official, day_off, religious            |
+| 1972-04-03 | easter_monday            | official, day_off, religious            |
+| 1972-05-01 | labor_day                | official, day_off                       |
+| 1972-05-11 | ascension                | official, day_off, religious            |
+| 1972-05-21 | whit_sunday              | religious                               |
+| 1972-05-22 | whit_monday              | official, day_off, religious            |
+| 1972-07-21 | belgian_national_holiday | official, day_off                       |
+| 1972-08-15 | assumption_day           | official, day_off, religious            |
+| 1972-10-31 | halloween                | religious                               |
+| 1972-11-01 | all_saints_day           | official, day_off, religious            |
+| 1972-11-02 | all_souls_day            | religious                               |
+| 1972-11-11 | armistice_day            | official, day_off                       |
+| 1972-11-15 | belgian_kings_feast      | traditional, government_agencies_closed |
+| 1972-12-25 | christmas_day            | official, day_off, religious            |
 
 # 1973
 
@@ -83,6 +126,29 @@
 | 1973-11-11 | armistice_day                | official, day_off                       |
 | 1973-11-15 | belgian_kings_feast          | traditional, government_agencies_closed |
 | 1973-12-25 | christmas_day                | official, day_off, religious            |
+
+# 1974
+
+| Date       | Name                         | Types                                   |
+|------------|------------------------------|-----------------------------------------|
+| 1974-01-01 | new_year                     | official, day_off                       |
+| 1974-01-06 | epiphany                     | religious                               |
+| 1974-02-14 | valentines_day               | religious                               |
+| 1974-04-14 | easter_sunday                | official, day_off, religious            |
+| 1974-04-15 | easter_monday                | official, day_off, religious            |
+| 1974-05-01 | labor_day                    | official, day_off                       |
+| 1974-05-23 | ascension                    | official, day_off, religious            |
+| 1974-06-02 | whit_sunday                  | religious                               |
+| 1974-06-03 | whit_monday                  | official, day_off, religious            |
+| 1974-07-11 | day_of_the_flemish_community | traditional, partial_only               |
+| 1974-07-21 | belgian_national_holiday     | official, day_off                       |
+| 1974-08-15 | assumption_day               | official, day_off, religious            |
+| 1974-10-31 | halloween                    | religious                               |
+| 1974-11-01 | all_saints_day               | official, day_off, religious            |
+| 1974-11-02 | all_souls_day                | religious                               |
+| 1974-11-11 | armistice_day                | official, day_off                       |
+| 1974-11-15 | belgian_kings_feast          | traditional, government_agencies_closed |
+| 1974-12-25 | christmas_day                | official, day_off, religious            |
 
 # 1975
 
@@ -108,6 +174,30 @@
 | 1975-11-15 | belgian_kings_feast          | traditional, government_agencies_closed |
 | 1975-12-25 | christmas_day                | official, day_off, religious            |
 
+# 1989
+
+| Date       | Name                         | Types                                   |
+|------------|------------------------------|-----------------------------------------|
+| 1989-01-01 | new_year                     | official, day_off                       |
+| 1989-01-06 | epiphany                     | religious                               |
+| 1989-02-14 | valentines_day               | religious                               |
+| 1989-03-26 | easter_sunday                | official, day_off, religious            |
+| 1989-03-27 | easter_monday                | official, day_off, religious            |
+| 1989-05-01 | labor_day                    | official, day_off                       |
+| 1989-05-04 | ascension                    | official, day_off, religious            |
+| 1989-05-14 | whit_sunday                  | religious                               |
+| 1989-05-15 | whit_monday                  | official, day_off, religious            |
+| 1989-07-11 | day_of_the_flemish_community | traditional, partial_only               |
+| 1989-07-21 | belgian_national_holiday     | official, day_off                       |
+| 1989-08-15 | assumption_day               | official, day_off, religious            |
+| 1989-09-27 | french_community_day         | traditional, partial_only               |
+| 1989-10-31 | halloween                    | religious                               |
+| 1989-11-01 | all_saints_day               | official, day_off, religious            |
+| 1989-11-02 | all_souls_day                | religious                               |
+| 1989-11-11 | armistice_day                | official, day_off                       |
+| 1989-11-15 | belgian_kings_feast          | traditional, government_agencies_closed |
+| 1989-12-25 | christmas_day                | official, day_off, religious            |
+
 # 1990
 
 | Date       | Name                                 | Types                                   |
@@ -132,6 +222,31 @@
 | 1990-11-15 | day_of_the_german_speaking_community | traditional, partial_only               |
 | 1990-11-15 | belgian_kings_feast                  | traditional, government_agencies_closed |
 | 1990-12-25 | christmas_day                        | official, day_off, religious            |
+
+# 1997
+
+| Date       | Name                                 | Types                                   |
+|------------|--------------------------------------|-----------------------------------------|
+| 1997-01-01 | new_year                             | official, day_off                       |
+| 1997-01-06 | epiphany                             | religious                               |
+| 1997-02-14 | valentines_day                       | religious                               |
+| 1997-03-30 | easter_sunday                        | official, day_off, religious            |
+| 1997-03-31 | easter_monday                        | official, day_off, religious            |
+| 1997-05-01 | labor_day                            | official, day_off                       |
+| 1997-05-08 | ascension                            | official, day_off, religious            |
+| 1997-05-18 | whit_sunday                          | religious                               |
+| 1997-05-19 | whit_monday                          | official, day_off, religious            |
+| 1997-07-11 | day_of_the_flemish_community         | traditional, partial_only               |
+| 1997-07-21 | belgian_national_holiday             | official, day_off                       |
+| 1997-08-15 | assumption_day                       | official, day_off, religious            |
+| 1997-09-27 | french_community_day                 | traditional, partial_only               |
+| 1997-10-31 | halloween                            | religious                               |
+| 1997-11-01 | all_saints_day                       | official, day_off, religious            |
+| 1997-11-02 | all_souls_day                        | religious                               |
+| 1997-11-11 | armistice_day                        | official, day_off                       |
+| 1997-11-15 | day_of_the_german_speaking_community | traditional, partial_only               |
+| 1997-11-15 | belgian_kings_feast                  | traditional, government_agencies_closed |
+| 1997-12-25 | christmas_day                        | official, day_off, religious            |
 
 # 1998
 
