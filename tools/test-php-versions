@@ -6,7 +6,7 @@ script_directory=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 results=''
 failed=0
 
-while IFS= read -r version; do
+while IFS= read -r version || [ -n "${version}" ]; do
     [ -n "${version}" ] || continue
     if "${script_directory}/test-php-version" "${version}"; then
         result=PASS

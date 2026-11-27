@@ -4,15 +4,19 @@ FROM php:${PHP_VERSION}-cli AS development
 
 COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends unzip libxml2-dev libonig-dev \
+RUN --mount=type=bind,from=ghcr.io/php/pie:bin,source=/pie,target=/usr/local/bin/pie \
+    apt-get update \
+    && apt-get install -y --no-install-recommends unzip libtool libxml2-dev libonig-dev \
     && for extension in dom mbstring xml xmlwriter; do \
         if ! php -r "exit(extension_loaded('$extension') ? 0 : 1);"; then \
             docker-php-ext-install -j"$(nproc)" "$extension" || exit 1; \
         fi; \
     done \
-    && pecl install pcov \
-    && docker-php-ext-enable pcov \
+    && pcov_package=pecl/pcov \
+    && if php -r 'exit(PHP_MAJOR_VERSION === 8 && PHP_MINOR_VERSION === 6 ? 0 : 1);'; then \
+        pcov_package=pecl/pcov:dev-issue-php86a2; \
+    fi \
+    && pie install --no-interaction --no-cache "$pcov_package" \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
