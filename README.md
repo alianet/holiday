@@ -366,7 +366,7 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 - Poland
 - Portugal (incl. Azores, Madeira, without municipal holidays)
 - Russia
-- Spain (17 autonomous communities, Ceuta and Melilla; regional calendars for 2008–2027, excluding municipal and island holidays)
+- Spain (17 autonomous communities, Ceuta and Melilla; regional calendars for 2008–2027, plus nine island calendars for 2008–2027)
 - Sweden
 - Switzerland (incl. Aargau, Appenzell-Ausserrhoden, Appenzell-Innerrhoden, Basel Landschaft, Basel Stadt, Bern, Fribourg, Geneva, Glarus, Grisons, Jura, Lucerne, Neuchatel, Nidwalden, Obwalden, Schaffhausen, Schwyz, Solothurn, St Gallen, Thurgau, Ticino, Uri, Valais, Vaud, Zuerich, Zug)
 - Turkey (without Islamic holidays yet)
@@ -456,6 +456,21 @@ Aran variant of the Catalan calendar are excluded. This also excludes holidays
 classified as local in Ceuta, Melilla and Navarre, even where they apply broadly.
 The Canary Islands provider consequently has 11 entries before island holidays.
 See the [source notes](tests/Reference/Spain/README.md) for provenance and updates.
+
+For **2008–2027**, named providers `ElHierro`, `Fuerteventura`, `GranCanaria`,
+`LaGomera`, `LaPalma`, `Lanzarote`, `LaGraciosa`, `Tenerife` and `Formentera`
+add the published island holidays to the regional calendar. Other years throw
+`InvalidArgumentException`. These islands have no separate ISO mapping:
+
+```php
+$holidays = $calculator->calculate(\Umulmrum\Holiday\Provider\Spain\Tenerife::class, 2026);
+```
+
+Canary municipal holidays remain excluded; Formentera includes its two local
+holidays. Mallorca, Menorca and Ibiza retain the shared `BalearicIslands`
+calendar because local holidays vary by municipality and parish. See the
+[island source notes](tests/Reference/Spain/Islands.md) for dates and scope.
+
 
 ### Notes on US state holidays
 

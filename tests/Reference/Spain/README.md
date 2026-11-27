@@ -62,3 +62,5 @@ Run the offline builder, update the supported-year message, README and test
 coverage, and run PHPUnit and PHPStan. Review the generated PHP diff against BOE
 before accepting it. Changing source dates must be a deliberate reviewed change;
 the library output must never be used to regenerate the source annex snapshot.
+
+For the separate named island providers covering 2008–2027, see [Islands.md](Islands.md).

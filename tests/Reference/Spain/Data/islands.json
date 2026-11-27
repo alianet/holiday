@@ -1,0 +1,1402 @@
+{
+  "2008": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-20",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-06",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ]
+  },
+  "2009": {
+    "ElHierro": [
+      {
+        "date": "07-04",
+        "name": "descent_of_our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-19",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-05",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2010": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-18",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-04",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2011": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-03",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "05-30",
+        "name": "saint_ferdinand_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2012": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-21",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-08",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "09-29",
+        "name": "saint_michael_day",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2013": {
+    "ElHierro": [
+      {
+        "date": "07-06",
+        "name": "descent_of_our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-20",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-09",
+        "name": "our_lady_of_the_pine_compensatory",
+        "compensatory": true
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-08",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_the_volcanoes_compensatory",
+        "compensatory": true
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_the_volcanoes_compensatory",
+        "compensatory": true
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ]
+  },
+  "2014": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-19",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-06",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-03",
+        "name": "our_lady_of_candelaria_compensatory",
+        "compensatory": true
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "05-30",
+        "name": "saint_ferdinand_day",
+        "compensatory": false
+      },
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2015": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-18",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-05",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2016": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-03",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ]
+  },
+  "2017": {
+    "ElHierro": [
+      {
+        "date": "07-01",
+        "name": "descent_of_our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-09",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "05-30",
+        "name": "saint_ferdinand_day",
+        "compensatory": false
+      },
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2018": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-14",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-09",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "09-29",
+        "name": "saint_michael_day",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2019": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-20",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-09",
+        "name": "our_lady_of_the_pine_compensatory",
+        "compensatory": true
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-07",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_sorrows_compensatory",
+        "compensatory": true
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_sorrows_compensatory",
+        "compensatory": true
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ]
+  },
+  "2020": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-18",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-05",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "09-07",
+        "name": "descent_of_our_lady_of_socorro",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_sorrows",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2021": {
+    "ElHierro": [
+      {
+        "date": "07-03",
+        "name": "descent_of_our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-17",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-04",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2022": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-03",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "05-30",
+        "name": "saint_ferdinand_day",
+        "compensatory": false
+      },
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2023": {
+    "ElHierro": [
+      {
+        "date": "09-25",
+        "name": "our_lady_of_the_kings_compensatory",
+        "compensatory": true
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-09",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-26",
+        "name": "second_christmas_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2024": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-20",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-09",
+        "name": "our_lady_of_the_pine_compensatory",
+        "compensatory": true
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-07",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_the_volcanoes_compensatory",
+        "compensatory": true
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-16",
+        "name": "our_lady_of_the_volcanoes_compensatory",
+        "compensatory": true
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2025": {
+    "ElHierro": [
+      {
+        "date": "07-05",
+        "name": "descent_of_our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-19",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-06",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-03",
+        "name": "our_lady_of_candelaria_compensatory",
+        "compensatory": true
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "05-30",
+        "name": "saint_ferdinand_day",
+        "compensatory": false
+      },
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2026": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-18",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-05",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "07-25",
+        "name": "saint_james_day",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  },
+  "2027": {
+    "ElHierro": [
+      {
+        "date": "09-24",
+        "name": "our_lady_of_the_kings",
+        "compensatory": false
+      }
+    ],
+    "Fuerteventura": [
+      {
+        "date": "09-17",
+        "name": "our_lady_of_la_pena",
+        "compensatory": false
+      }
+    ],
+    "GranCanaria": [
+      {
+        "date": "09-08",
+        "name": "our_lady_of_the_pine",
+        "compensatory": false
+      }
+    ],
+    "LaGomera": [
+      {
+        "date": "10-04",
+        "name": "our_lady_of_guadalupe",
+        "compensatory": false
+      }
+    ],
+    "LaPalma": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      }
+    ],
+    "Lanzarote": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Tenerife": [
+      {
+        "date": "02-02",
+        "name": "our_lady_of_candelaria",
+        "compensatory": false
+      }
+    ],
+    "LaGraciosa": [
+      {
+        "date": "09-15",
+        "name": "our_lady_of_the_volcanoes",
+        "compensatory": false
+      }
+    ],
+    "Formentera": [
+      {
+        "date": "08-05",
+        "name": "our_lady_of_the_snows",
+        "compensatory": false
+      },
+      {
+        "date": "12-03",
+        "name": "saint_francis_xavier_day",
+        "compensatory": false
+      }
+    ]
+  }
+}

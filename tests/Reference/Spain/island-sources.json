@@ -1,0 +1,250 @@
+{
+  "canarySources": [
+    {
+      "year": 2008,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-18306",
+      "documentSha256": "6f521c1c8d520edd3d3629d619f94f42ad1b7beddeaa7dc72b447231e6e3285f",
+      "documentUrl": "https://www.boe.es/boe/dias/2007/10/20/pdfs/A42708-42709.pdf"
+    },
+    {
+      "year": 2009,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-18411",
+      "documentSha256": "5ec573b1936e787cd80ae360f6170ec4df18e79f3561713cdde1e5667ee25393",
+      "documentUrl": "https://www.boe.es/boe/dias/2008/11/15/pdfs/A45391-45392.pdf"
+    },
+    {
+      "year": 2010,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-18477",
+      "documentSha256": "00cb3f128e066ba230827bc42a07f51f24f2c2d5d7c9ee5295f26634507fa91a",
+      "documentUrl": "https://www.boe.es/boe/dias/2009/11/20/pdfs/BOE-A-2009-18477.pdf"
+    },
+    {
+      "year": 2011,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-15722",
+      "documentSha256": "5674795badeb875f71156f909b88fe83be95b721b875511effb2c072a5ffbab0",
+      "documentUrl": "https://www.boe.es/boe/dias/2010/10/15/pdfs/BOE-A-2010-15722.pdf"
+    },
+    {
+      "year": 2012,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-16116",
+      "documentSha256": "d24e68c58879beec36097bb4fa93731dc123cd4c5233d49f54e8102dc7126649",
+      "documentUrl": "https://www.boe.es/boe/dias/2011/10/14/pdfs/BOE-A-2011-16116.pdf"
+    },
+    {
+      "year": 2013,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13644",
+      "documentSha256": "e392801a69673577d6ddb070968e2c33cd92d0922f96a503cd6dac61f91bae85",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-13644"
+    },
+    {
+      "year": 2014,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-12147",
+      "documentSha256": "906219b46d389c277d4d4b4d310977418d844a89fb7d6647ae5a0c5e98332418",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-12147"
+    },
+    {
+      "year": 2015,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-10823",
+      "documentSha256": "b50d6c4506a6ca6aecfb97f00c5f36f1b3e9ea2b464a2597820deba1d61e02d6",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-10823"
+    },
+    {
+      "year": 2016,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-11348",
+      "documentSha256": "82babd63d293174b8c45f84e3583c6c9cbae3a45861b117e3876e7cf27d8e4bf",
+      "documentUrl": "https://www.boe.es/boe/dias/2015/10/22/pdfs/BOE-A-2015-11348.pdf"
+    },
+    {
+      "year": 2017,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-9244",
+      "documentSha256": "9a6ddc881ef4365259c0054cc058d5dd44d4398d81ef6d82a2195bc64684b2ff",
+      "documentUrl": "https://www.boe.es/boe/dias/2016/10/08/pdfs/BOE-A-2016-9244.pdf"
+    },
+    {
+      "year": 2018,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-11639",
+      "documentSha256": "9e298d10e9d381d9f15cb345365faf9cd1137a19514f97edc0976d1ebc7b0d26",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-11639"
+    },
+    {
+      "year": 2019,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-14369",
+      "documentSha256": "16910811f91f0918206450f84b313b35af5cee0b3a9041e16859fc1ffa003923",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-14369"
+    },
+    {
+      "year": 2020,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-14552",
+      "documentSha256": "f310191245abbf8bd18f5f2395533ddd1d841d611810db634ba17a0aac6b85bf",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-14552"
+    },
+    {
+      "year": 2021,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-13343",
+      "documentSha256": "aa844af6471fd0d814787f20e60c5bec02838415d4acdc617a96654ac611aaba",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-13343"
+    },
+    {
+      "year": 2022,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17113",
+      "documentSha256": "ecc225f1de2c51bd6e93e2e9b70016926205f8ee397b910b1904e9d24b4353b9",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-17113"
+    },
+    {
+      "year": 2023,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-16755",
+      "documentSha256": "fe4448170ed7fa5a8085b9252c57bc19f5a040728146e75c20d687069004d532",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-16755"
+    },
+    {
+      "year": 2024,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22014",
+      "documentSha256": "7da8453082c313adef2aa284c7c5e98e00eed54fe05496b8d3188d7a6be94fa8",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-22014"
+    },
+    {
+      "year": 2025,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21316",
+      "documentSha256": "fc3047c47560edd4d28d015ddf371baad66846881a7205c80307f82b454b7300",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-21316"
+    },
+    {
+      "year": 2026,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21667",
+      "documentSha256": "7728567f2742abae91e208870e17c77d16b969696a4ff382c91ec62d9d94f709",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21667"
+    },
+    {
+      "year": 2027,
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21254",
+      "documentSha256": "68d2842296d03c8f00388fbb79c237750efd58568f92981536a073a410cc0bc4",
+      "documentUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21254"
+    }
+  ],
+  "formenteraSources": [
+    {
+      "year": 2008,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2008-13185/",
+      "documentSha256": "d3aa859b393c97b2576913b5e8cc07b5f4fe757dcd84d7609060a5f2f6dda100",
+      "documentUrl": "https://boib.caib.es/pdf/2007174/mp7.pdf"
+    },
+    {
+      "year": 2009,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2009-13187/",
+      "documentSha256": "3bb5d34630a3447093ed7797a7ae3b2ab004e95dc35f136a2f4e817c63eec9a3",
+      "documentUrl": "https://boib.caib.es/pdf/2008153/mp21.pdf"
+    },
+    {
+      "year": 2010,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2010-15273/",
+      "documentSha256": "f677014bb2b4e82bd625686fbfd2d5b5b6d7e1d6adb990ed287c20d4399a4754",
+      "documentUrl": "https://boib.caib.es/pdf/2009157/mp27.pdf"
+    },
+    {
+      "year": 2011,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2011-20385/",
+      "documentSha256": "18cc23c6da855c9bbc174a4f07d1818444862a4273a1ff4218010c81de0aa1fe",
+      "documentUrl": "https://boib.caib.es/pdf/2010164/mp42.pdf"
+    },
+    {
+      "year": 2012,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2012-36650/",
+      "documentSha256": "b2e4338c8fc7fc56eabaf287e1462081b269791cd9c37db96567618bfd6a88c3",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/archivopub.do?ctrl=MCRST402ZI111904&id=111904"
+    },
+    {
+      "year": 2013,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2013-51696/",
+      "documentSha256": "fe468cf3d7bffe935b63cb7de1d417b244148e379ca84d3670fd1081dd146d33",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/ano_2013-51696/"
+    },
+    {
+      "year": 2014,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2014-60709/",
+      "documentSha256": "9a897e6dd2f642d37c6cf022d75db81db55d01f9991f9454383fd93022ac9a53",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/ano_2014-60709/"
+    },
+    {
+      "year": 2015,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2015-69238/",
+      "documentSha256": "f23b1e94cd4129622326d7213335990c76ca5d58375b266fcc1957791a03c810",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/archivopub.do?ctrl=MCRST402ZI181862&id=181862"
+    },
+    {
+      "year": 2016,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2016-79378/",
+      "documentSha256": "32d5f35cee820e43fbfd9105892ab7362c42028e6588853b6a9c7a4ba1f8ea03",
+      "documentUrl": "https://www.caib.es/eboibfront/pdf/VisPdf?action=VisEdicte&idDocument=933978&lang=es"
+    },
+    {
+      "year": 2017,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2017/",
+      "documentSha256": "2461d3f44f32771743a1295c2cfed9b3d07288235c543994b8e74ed1b991cb20",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/archivopub.do?ctrl=MCRST402ZI215594&id=215594"
+    },
+    {
+      "year": 2018,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/ano_2018/",
+      "documentSha256": "0f737ca764152d3d16143e73e4a11d52ec7a707bc6e36df1cc8eb5b66fcb4e89",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/ano_2018/"
+    },
+    {
+      "year": 2019,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2019/",
+      "documentSha256": "c84dac175e95e8661631d300c6bd03ce5ced4009eaa9ca417a1a003f3d58b6ad",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/aao_2019/"
+    },
+    {
+      "year": 2020,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2020/",
+      "documentSha256": "23e42bb1994dc081f7d88bf622eab769f6b9349f70549e634496e50a104418af",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/aao_2020/"
+    },
+    {
+      "year": 2021,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2021/",
+      "documentSha256": "bc43e5b754cb938e666cb06ba7278536c614b3f7372b7785fd7fd22deff4ac4b",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/aao_2021/"
+    },
+    {
+      "year": 2022,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2022/",
+      "documentSha256": "4a8a93279620f3b0bbeb1e2d036f21cf9a15a8d0d24ea6ed2f88e65f013cb935",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/aao_2022/"
+    },
+    {
+      "year": 2023,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2023/",
+      "documentSha256": "8d6e3342bbb6297c6394b959ffc2cbbc1b407508e967247d55e2be029ca06fca",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/archivopub.do?ctrl=MCRST402ZI398609&id=398609"
+    },
+    {
+      "year": 2024,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2024/",
+      "documentSha256": "fd72da16c81f723afae1c6a8a05d1fb389cddeee449bb9c69219970e2b1eb74b",
+      "documentUrl": "https://www.caib.es/eboibfront/pdf/es/2023/140/1146877"
+    },
+    {
+      "year": 2025,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2025/",
+      "documentSha256": "5aeb8b750fc798bebb335bb7cd84b2579559cb3bb6bf2b73cc22265c5d2aa7cf",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/archivopub.do?ctrl=MCRST402ZI480507&id=480507"
+    },
+    {
+      "year": 2026,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2026/",
+      "documentSha256": "d5e38802800dfb7c8db2b457e5334bbb79095f565d74e730b4868a3f3868e4cd",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/aao_2026/"
+    },
+    {
+      "year": 2027,
+      "url": "https://www.caib.es/sites/calendarilaboral/es/aao_2027/",
+      "documentSha256": "5afb60170570b7509b4238eda4edb3fb4ee6c0bee01f1ea9985caf4337b3fdbe",
+      "documentUrl": "https://www.caib.es/sites/calendarilaboral/es/aao_2027/"
+    }
+  ],
+  "territorialScope": {
+    "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/centros-fincas/graciosa/ficha-tecnica.html",
+    "note": "La Graciosa is within Teguise, Lanzarote; before separate naming in BOE, its calendar follows Lanzarote."
+  }
+}

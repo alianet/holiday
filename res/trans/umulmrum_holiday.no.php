@@ -12,6 +12,26 @@ declare(strict_types=1);
  */
 
 return [
+    'descent_of_our_lady_of_socorro' => 'Bajada for Vår Frue av Socorro',
+    'descent_of_our_lady_of_the_kings' => 'Bajada for Vår Frue av kongene',
+    'our_lady_of_candelaria_compensatory' => 'Vår Frue av Candelaria (kompensasjon)',
+    'our_lady_of_sorrows' => 'Vår Frue av smertene',
+    'our_lady_of_sorrows_compensatory' => 'Vår Frue av smertene (kompensasjon)',
+    'our_lady_of_the_kings_compensatory' => 'Vår Frue av kongene (kompensasjon)',
+    'our_lady_of_the_pine_compensatory' => 'Vår Frue av furuen (kompensasjon)',
+    'our_lady_of_the_volcanoes_compensatory' => 'Vår Frue av vulkanene (kompensasjon)',
+    'saint_ferdinand_day' => 'Ferdinand-dagen',
+    'saint_michael_day' => 'Mikkelsmesse',
+
+    'our_lady_of_the_kings' => 'Vår Frue av kongene',
+    'our_lady_of_la_pena' => 'Vår Frue av La Peña',
+    'our_lady_of_the_pine' => 'Vår Frue av furuen',
+    'our_lady_of_guadalupe' => 'Vår Frue av Guadalupe',
+    'our_lady_of_the_snows' => 'Vår Frue av snøen',
+    'our_lady_of_the_volcanoes' => 'Vår Frue av vulkanene',
+    'our_lady_of_candelaria' => 'Vår Frue av Candelaria',
+    'saint_francis_xavier_day' => 'Frans Xavier-dagen',
+
     'japan_constitution_day' => 'Japans grunnlovsdag',
     'japan_constitution_day_compensatory' => 'Japans grunnlovsdag (erstatningsfridag)',
     'coming_of_age_day' => 'Myndighetsdagen',

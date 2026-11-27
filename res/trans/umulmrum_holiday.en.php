@@ -12,6 +12,26 @@ declare(strict_types=1);
  */
 
 return [
+    'descent_of_our_lady_of_socorro' => 'Descent of Our Lady of Socorro',
+    'descent_of_our_lady_of_the_kings' => 'Descent of Our Lady of the Kings',
+    'our_lady_of_candelaria_compensatory' => 'Our Lady of Candelaria (compensatory)',
+    'our_lady_of_sorrows' => 'Our Lady of Sorrows',
+    'our_lady_of_sorrows_compensatory' => 'Our Lady of Sorrows (compensatory)',
+    'our_lady_of_the_kings_compensatory' => 'Our Lady of the Kings (compensatory)',
+    'our_lady_of_the_pine_compensatory' => 'Our Lady of the Pine (compensatory)',
+    'our_lady_of_the_volcanoes_compensatory' => 'Our Lady of the Volcanoes (compensatory)',
+    'saint_ferdinand_day' => 'Saint Ferdinand’s Day',
+    'saint_michael_day' => 'Saint Michael’s Day',
+
+    'our_lady_of_the_kings' => 'Our Lady of the Kings',
+    'our_lady_of_la_pena' => 'Our Lady of La Peña',
+    'our_lady_of_the_pine' => 'Our Lady of the Pine',
+    'our_lady_of_guadalupe' => 'Our Lady of Guadalupe',
+    'our_lady_of_the_snows' => 'Our Lady of the Snows',
+    'our_lady_of_the_volcanoes' => 'Our Lady of the Volcanoes',
+    'our_lady_of_candelaria' => 'Our Lady of Candelaria',
+    'saint_francis_xavier_day' => 'Saint Francis Xavier’s Day',
+
     'japan_constitution_day' => 'Constitution Memorial Day',
     'japan_constitution_day_compensatory' => 'Constitution Memorial Day (compensatory)',
     'coming_of_age_day' => 'Coming of Age Day',

@@ -13,6 +13,26 @@ declare(strict_types=1);
  */
 
 return [
+    'descent_of_our_lady_of_socorro' => 'Bajada Matki Bożej z Socorro',
+    'descent_of_our_lady_of_the_kings' => 'Bajada Matki Bożej Królewskiej',
+    'our_lady_of_candelaria_compensatory' => 'Matki Bożej z Candelarii (dzień zastępczy)',
+    'our_lady_of_sorrows' => 'Matki Bożej Bolesnej',
+    'our_lady_of_sorrows_compensatory' => 'Matki Bożej Bolesnej (dzień zastępczy)',
+    'our_lady_of_the_kings_compensatory' => 'Matki Bożej Królewskiej (dzień zastępczy)',
+    'our_lady_of_the_pine_compensatory' => 'Matki Bożej Sosnowej (dzień zastępczy)',
+    'our_lady_of_the_volcanoes_compensatory' => 'Matki Bożej od Wulkanów (dzień zastępczy)',
+    'saint_ferdinand_day' => 'Świętego Ferdynanda',
+    'saint_michael_day' => 'Świętego Michała Archanioła',
+
+    'our_lady_of_the_kings' => 'Matki Bożej Królewskiej',
+    'our_lady_of_la_pena' => 'Matki Bożej z La Peña',
+    'our_lady_of_the_pine' => 'Matki Bożej Sosnowej',
+    'our_lady_of_guadalupe' => 'Matki Bożej z Guadalupe',
+    'our_lady_of_the_snows' => 'Matki Bożej Śnieżnej',
+    'our_lady_of_the_volcanoes' => 'Matki Bożej od Wulkanów',
+    'our_lady_of_candelaria' => 'Matki Bożej z Candelarii',
+    'saint_francis_xavier_day' => 'Świętego Franciszka Ksawerego',
+
     'japan_constitution_day' => 'Dzień Pamięci Konstytucji Japonii',
     'japan_constitution_day_compensatory' => 'Dzień Pamięci Konstytucji Japonii (dzień zastępczy)',
     'coming_of_age_day' => 'Dzień Pełnoletności',

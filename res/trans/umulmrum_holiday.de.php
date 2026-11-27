@@ -12,6 +12,26 @@ declare(strict_types=1);
  */
 
 return [
+    'descent_of_our_lady_of_socorro' => 'Bajada Unserer Lieben Frau von Socorro',
+    'descent_of_our_lady_of_the_kings' => 'Bajada Unserer Lieben Frau der Könige',
+    'our_lady_of_candelaria_compensatory' => 'Unsere Liebe Frau von Candelaria (Ersatztermin)',
+    'our_lady_of_sorrows' => 'Unsere Liebe Frau der Schmerzen',
+    'our_lady_of_sorrows_compensatory' => 'Unsere Liebe Frau der Schmerzen (Ersatztermin)',
+    'our_lady_of_the_kings_compensatory' => 'Unsere Liebe Frau der Könige (Ersatztermin)',
+    'our_lady_of_the_pine_compensatory' => 'Unsere Liebe Frau von der Pinie (Ersatztermin)',
+    'our_lady_of_the_volcanoes_compensatory' => 'Unsere Liebe Frau von den Vulkanen (Ersatztermin)',
+    'saint_ferdinand_day' => 'Tag des heiligen Ferdinand',
+    'saint_michael_day' => 'Tag des heiligen Michael',
+
+    'our_lady_of_the_kings' => 'Unsere Liebe Frau der Könige',
+    'our_lady_of_la_pena' => 'Unsere Liebe Frau von La Peña',
+    'our_lady_of_the_pine' => 'Unsere Liebe Frau von der Pinie',
+    'our_lady_of_guadalupe' => 'Unsere Liebe Frau von Guadalupe',
+    'our_lady_of_the_snows' => 'Unsere Liebe Frau vom Schnee',
+    'our_lady_of_the_volcanoes' => 'Unsere Liebe Frau von den Vulkanen',
+    'our_lady_of_candelaria' => 'Unsere Liebe Frau von Candelaria',
+    'saint_francis_xavier_day' => 'Tag des heiligen Franz Xaver',
+
     'japan_constitution_day' => 'Japanischer Verfassungsgedenktag',
     'japan_constitution_day_compensatory' => 'Japanischer Verfassungsgedenktag (Ersatzruhetag)',
     'coming_of_age_day' => 'Tag der Volljährigkeit',
