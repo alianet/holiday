@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Move the ISO provider map to `IsoProviderMap::MAP` and remove manual initialization from `IsoResolver`.
+
+- Replace `DateProviderInterface` and `DateProvider` with PSR-20 `ClockInterface` and `SystemClock`; rename the `ICalendarFormatter` constructor argument `dateProvider` to `clock` and return immutable dates from the clock.
+
+- Type `HolidayCalculatorInterface::calculate()` provider/year arguments and align validation tests: incompatible argument types raise `TypeError`, while invalid array elements, unresolved providers, and out-of-range years raise `InvalidArgumentException`.
+
+- Remove the shared `Assert` trait; keep year-array validation in `HolidayCalculator` and weekday validation in `IncludeWeekdayFilter`, preserving their exceptions and messages.
+
 ## [0.13.0] - 2026-11-27
 
 ### Added
