@@ -609,6 +609,19 @@ QA builds share a persistent BuildKit cache for Composer downloads and limit HTT
 downloads to two concurrent requests. Failed installs are retried twice, after
 15 and 30 seconds, to handle temporary download errors such as HTTP 429.
 
+To open an interactive Docker shell with a selected PHP version:
+
+```bash
+./tools/php-shell 8.4
+```
+
+This builds the `development` image with Composer and the required PHP extensions,
+then opens Bash in `/app` with the project mounted from your working directory.
+Changes made inside the container persist locally, with your user's file ownership.
+Run `composer install` inside the shell if dependencies are needed. Supported PHP
+versions come from `tools/php-versions`. The container is removed on exit; the image
+is cached for subsequent runs.
+
 ### Adding Tests
 
 Provide tests inside `tests/Provider/...` that ideally cover all edge cases. This can be done as follows:

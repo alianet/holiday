@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+set -eu
+
+script_directory=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+project_directory=$(CDPATH= cd -- "${script_directory}/.." && pwd)
+versions_file="${script_directory}/php-versions"
+version=${1:-}
+
+if [ "$#" -ne 1 ] || ! grep -Fxq -- "${version}" "${versions_file}"; then
+    supported_versions=$(awk 'BEGIN { separator = "" } { printf "%s%s", separator, $0; separator = ", " } END { print "" }' "${versions_file}")
+    printf 'Usage: %s <PHP version>\nSupported versions: %s\n' "$0" "${supported_versions}" >&2
+    exit 2
+fi
+
+image="holiday-development:${version}"
+
+docker build \
+    --file "${project_directory}/docker/php/Dockerfile" \
+    --target development \
+    --build-arg "PHP_VERSION=${version}" \
+    --tag "${image}" \
+    "${project_directory}"
+
+terminal_options=(-i)
+if [ -t 0 ] && [ -t 1 ]; then
+    terminal_options+=(-t)
+fi
+
+exec docker run --rm "${terminal_options[@]}" \
+    --user "$(id -u):$(id -g)" \
+    --env HOME=/tmp \
+    --env COMPOSER_HOME=/tmp/composer \
+    --mount "type=bind,source=${project_directory},target=/app" \
+    --workdir /app \
+    "${image}" bash
