@@ -4,9 +4,10 @@ Stan planu: 27 listopada 2026 r. Punktem odniesienia jest zakres opisany w READM
 oraz istniejące providery i mapowania ISO.
 
 Plan obejmuje nowe kraje, odrębne terytoria, kalendarze religijne oraz uzupełnianie
-istniejących kalendarzy. Kolejność łączy potencjalny zasięg wśród programistów PHP,
-domykanie obecnej obsługi i przewidywany zakres prac. Jest rekomendacją
-produktową, a nie statystycznym rankingiem popularności PHP w krajach.
+istniejących kalendarzy. Kolejność uwzględnia udokumentowane zapotrzebowanie, domykanie obecnej obsługi,
+dostępność oficjalnych źródeł i koszt utrzymania. Gdy brak danych o popycie,
+pozostaje on niezmierzony; nie wnioskujemy o popularności PHP z geografii.
+Jest to robocza rekomendacja produktowa, nie statystyczny ranking.
 
 ## Kolejność implementacji
 
@@ -27,7 +28,7 @@ produktową, a nie statystycznym rankingiem popularności PHP w krajach.
 | 13 | Wyspy Owcze (`FO`), Wyspy Alandzkie (`AX`) | Nowe kalendarze | Rozszerzenie obecnej obsługi Danii i Finlandii. Grenlandia ma już osobny provider. |
 | 14 | Filipiny (`PH`), Wietnam (`VN`), Malezja (`MY`) | Nowe kraje | Kolejna fala rozszerzenia Azji. Kolejność w grupie ustalić według zgłoszeń użytkowników i dostępności wiarygodnych źródeł. |
 | 15 | Argentyna (`AR`), Kolumbia (`CO`), Chile (`CL`) | Nowe kraje | Rozszerzenie Ameryki Łacińskiej po dopracowaniu Brazylii. Kolejność w grupie pozostaje do ustalenia. |
-| 16 | Pozostałe brytyjskie terytoria zamorskie, np. Bermudy (`BM`) i Kajmany (`KY`) | Nowe kalendarze | Osobne providery według rzeczywistego zapotrzebowania; nie stosować automatycznie kalendarza UK. |
+| 16 | Brytyjskie terytoria zamorskie — osobna kolejka OT | Audyt zakończony, wdrożenia zaplanowane | Kolejno BM, KY, AI, FK, GI, VG, MS, SH-HL, SH-AC, GS, następnie zadania źródłowe TC, PN, SH-TA, IO. Szczegóły, lata i warunki poniżej; brak providerów i mapowań nie uległ zmianie. |
 
 Pozycje obejmujące grupę terytoriów można dzielić na osobne wdrożenia.
 Kolejność należy aktualizować po audycie zakresu prac oraz na podstawie zgłoszeń
@@ -159,3 +160,46 @@ dat do GB-SCT. To początkowy rejestr potwierdzonych luk, nie pełny spis Szkocj
 - UK-HISTORY: rozszerzyć niezależny audyt przed 2019, w szczególności początki
   New Year/2 January/Boxing Day oraz historyczne proklamacje. Obecne poprawki
   historyczne nie stanowią pełnej gwarancji pokrycia tych lat.
+
+
+## Terytoria UK i wyspy lokalne — konkretna kolejka po audycie
+
+[Audyt z 27.11.2026](doc/uk-territories-calendar-audit.md) zawiera stan kodu,
+status jurysdykcji, oficjalne źródła, dostępne roczniki i koszty utrzymania.
+Popyt dla każdego z poniższych obszarów jest **niezmierzony**. Kolejność wynika
+obecnie z jakości źródeł i kosztu; zgłoszenia użytkowników z określonym sektorem
+i latami mogą ją zmienić. Pozycja 16 w ogólnej kolejce oznacza tę ścieżkę,
+nie zbiorcze wdrożenie wszystkich terytoriów. Domknięcie GG/IM i audyty
+Alderney/Sark z pozycji 1 pozostają osobnymi pracami.
+
+Każdy wiersz to osobne zadanie. Warunki **K** z audytu są obowiązkowe:
+kompletne źródła dla deklarowanych lat i lokalna podstawa prawna, niezależne
+oczekiwania roczne, testy dat/typów/zastępstw/wyjątków, właściwe ISO, ograniczenie
+lat, tłumaczenia, README oraz procedura aktualizacji. Nie dziedziczyć kalendarza
+GB ani automatycznych praw do dnia wolnego. Plan nie deklaruje nowej obsługi.
+
+| Kolejność | Zadanie | Lata pierwszego wdrożenia | Szczególne kryterium ukończenia poza K |
+|---|---|---|---|
+| OT-1 | OT-BM — Bermudy | 2026–2027 | Uzgodnienie Act 1947 z GN0334/2024, oba roczniki i kolizje grudnia 2027. |
+| OT-2 | OT-KY — Kajmany | 2026 | Potwierdzony wspólny zakres trzech wysp; Thanksgiving wyłączony z public holidays. |
+| OT-3 | OT-AI — Anguilla | 2026 | Uzasadnione lokalnie przesunięcia, w tym piątek 18 grudnia; brak mechanicznej reguły GB. |
+| OT-4 | OT-FK — Falklandy | 2026–2029 | Rozdzielenie dni publicznych i zamknięć administracji; kolizje trzech dni Bożego Narodzenia. |
+| OT-5 | OT-GI — Gibraltar, poza grupą wysp | 2026; osobne rozszerzenie 2027 | Finalne potwierdzenie daty monarchy dla każdego wydawanego roku; 2027 pozostaje warunkowy. |
+| OT-6 | OT-VG — Brytyjskie Wyspy Dziewicze | 2026 | Proklamacja SI 94/2025, jednorazowy 30 czerwca, potwierdzony zakres terytorialny. |
+| OT-7 | OT-MS — Montserrat | 2026 | Roczna tabela uzgodniona z późniejszymi SRO, w tym 22/2026; typy i zastępstwa sobotnie. |
+| OT-8 | OT-HL — Święta Helena | 2026 | SH-HL, rozróżnienie government/public holidays po zmianie 2024; bez ogólnego aliasu SH. |
+| OT-9 | OT-AC — Ascension | 2026, po pozyskaniu pełnej listy | SH-AC, akt dotyczący Ascension Day i pełny rocznik, własne zastępstwa. |
+| OT-10 | OT-GS — Georgia Południowa i Sandwich Południowy | 2025–2026 | Obie deklaracje Commissioner, własne nazwy i odbiorcy, niezależność od FK. |
+| OT-11 | OT-TC — Turks i Caicos | Docelowo 2026 | Najpierw pełny Act 16/2025 i oficjalne daty/proklamacje; dopiero po ich uzgodnieniu provider. |
+| OT-12 | OT-PN — Pitcairn | Docelowo 2026 | Najpierw odczyt polityki June 2024, potwierdzenie aktualności, odbiorców i pełnego 2026. |
+| OT-13 | OT-TA — Tristan da Cunha | Docelowo 2026 | Najpierw lokalne prawo, kompletna lista administracji i zasięg grupy; dopiero potem SH-TA. |
+| OT-14 | OT-IO — badanie BIOT | Audyt roku 2026; brak wystarczających dowodów do wdrożenia | Ustalenie skuteczności umowy UK–Mauritius, aktualnego ISO, kalendarza i adresatów; ukończenie przez udokumentowaną decyzję wdrożyć/odroczyć. |
+
+Równoległa kolejka lokalnego audytu UK: **UK-ISL-ORK → UK-ISL-ZET →
+UK-ISL-ELS → UK-ISL-OTHER**, każde dla **2026–2027**. Zakresy i kryteria
+podaje audyt: Orkady (rada), Szetlandy (w tym decyzja o dodatkowym dniu 2026),
+Hebrydy Zewnętrzne (różnice lokalne), następnie Skye/Mull/Islay/Arran/Bute.
+Wdrożenie wymaga potwierdzonej różnicy i odbiorcy; sam kalendarz szkolny nie
+wystarcza. Nie stwierdzono potrzeby nowych powszechnych providerów Isle of
+Wight, Scilly, Anglesey ani Rathlin. Brak lokalnego mapowania rady szkockiej
+może obecnie uruchomić fallback do GB, co nie oznacza poprawnej lokalnej obsługi.
