@@ -34,8 +34,11 @@ final readonly class GetHolidaysForMonth
      *
      * @throws InvalidArgumentException if an invalid value for $holidayProviders was given
      */
-    public function __invoke($holidayProviders, int $year, int $month): HolidayList
-    {
+    public function __invoke(
+        array|HolidayProviderInterface|string $holidayProviders,
+        int $year,
+        int $month
+    ): HolidayList {
         $holidayList = $this->holidayCalculator->calculate($holidayProviders, $year);
         $startDate = $this->createDisplayDateFromString("{$year}-{$month}-01");
         $lastDayOfMonth = (int) $startDate->format('t');

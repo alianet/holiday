@@ -18,6 +18,8 @@ use InvalidArgumentException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use stdClass;
+use Throwable;
+use TypeError;
 use Umulmrum\Holiday\HolidayCalculator;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
@@ -99,75 +101,46 @@ final class HolidayCalculatorTest extends HolidayTestCase
         $this->expectNotToPerformAssertions();
     }
 
+    /** @param class-string<Throwable> $exception */
     #[DataProvider('provideDataForTestThrowExceptionOnInvalidArgument')]
     #[Test]
-    public function itThrowsExceptionOnInvalidArguments(mixed $holidayProviders, mixed $years): void
+    public function itThrowsExceptionOnInvalidArguments(mixed $holidayProviders, mixed $years, string $exception): void
     {
         $this->givenHolidayCalculator();
-        $this->thenExpectInvalidArgumentException();
+        $this->expectException($exception);
         // @phpstan-ignore argument.type, argument.type (Intentionally invalid input to test exception handling.)
         $this->holidayCalculator->calculate($holidayProviders, $years);
     }
 
     public static function provideDataForTestThrowExceptionOnInvalidArgument(): Generator
     {
-        yield [
-            null,
-            2020,
-        ];
+        yield 'null provider' => [null, 2020, TypeError::class];
 
-        yield [
-            1,
-            2020,
-        ];
+        yield 'integer provider' => [1, 2020, TypeError::class];
 
-        yield [
-            'no class name',
-            2020,
-        ];
+        yield 'unknown class' => ['no class name', 2020, InvalidArgumentException::class];
 
-        yield [
-            HolidayCalculator::class,
-            2020,
-        ];
+        yield 'class is not a provider' => [HolidayCalculator::class, 2020, InvalidArgumentException::class];
 
-        yield [
-            new stdClass(),
-            2020,
-        ];
+        yield 'object is not a provider' => [new stdClass(), 2020, TypeError::class];
 
-        yield [
-            [
-                Germany::class,
-                new stdClass(),
-            ],
-            2020,
-        ];
+        yield 'invalid provider in array' => [[Germany::class, new stdClass()], 2020, InvalidArgumentException::class];
 
-        yield [
-            Belgium::class,
-            'string',
-        ];
+        yield 'string year' => [Belgium::class, 'string', TypeError::class];
 
-        yield [
-            Belgium::class,
-            null,
-        ];
+        yield 'numeric string year' => [Belgium::class, '2020', TypeError::class];
 
-        yield [
-            Belgium::class,
-            false,
-        ];
+        yield 'null year' => [Belgium::class, null, TypeError::class];
 
-        yield [
-            Belgium::class,
-            [2020, 'foo'],
-        ];
-    }
+        yield 'boolean year' => [Belgium::class, false, TypeError::class];
 
-    private function thenExpectInvalidArgumentException(): void
-    {
-        $this->expectException(InvalidArgumentException::class);
+        yield 'invalid year in array' => [Belgium::class, [2020, 'foo'], InvalidArgumentException::class];
+
+        yield 'numeric string in year array' => [Belgium::class, [2020, '2021'], InvalidArgumentException::class];
+
+        yield 'year below range' => [Belgium::class, 0, InvalidArgumentException::class];
+
+        yield 'year above range' => [Belgium::class, 10000, InvalidArgumentException::class];
     }
 
     #[Test]

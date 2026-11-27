@@ -7,6 +7,7 @@ namespace Umulmrum\Holiday\Helper;
 use DateInterval;
 use DateTimeImmutable;
 use DateTimeInterface;
+use Exception;
 use InvalidArgumentException;
 use Umulmrum\Holiday\HolidayCalculator;
 use Umulmrum\Holiday\HolidayCalculatorInterface;
@@ -22,10 +23,13 @@ final readonly class GetGracePeriod
      *
      * @param HolidayProviderInterface|HolidayProviderInterface[]|string|string[] $holidayProviders
      *
-     * @throws InvalidArgumentException
+     * @throws InvalidArgumentException|Exception
      */
-    public function __invoke($holidayProviders, DateTimeImmutable $firstDay, int $numberOfDays): DateTimeInterface
-    {
+    public function __invoke(
+        array|HolidayProviderInterface|string $holidayProviders,
+        DateTimeImmutable $firstDay,
+        int $numberOfDays
+    ): DateTimeInterface {
         $workingDate = clone $firstDay;
         $year = (int) $workingDate->format('Y');
         $holidays = $this->holidayCalculator->calculate($holidayProviders, $year);

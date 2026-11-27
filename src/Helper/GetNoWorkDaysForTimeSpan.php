@@ -42,8 +42,12 @@ final readonly class GetNoWorkDaysForTimeSpan
      *
      * @throws InvalidArgumentException if an invalid value for $holidayProviders was given or $lastDay is before $firstDay
      */
-    public function __invoke($holidayProviders, DateTime $firstDay, DateTime $lastDay, array $noWorkWeekdayProviders = []): HolidayList
-    {
+    public function __invoke(
+        array|HolidayProviderInterface|string $holidayProviders,
+        DateTime $firstDay,
+        DateTime $lastDay,
+        array $noWorkWeekdayProviders = []
+    ): HolidayList {
         if ($lastDay < $firstDay) {
             throw new InvalidArgumentException('lastDay must not be before firstDay');
         }

@@ -14,23 +14,21 @@ declare(strict_types=1);
 namespace Umulmrum\Holiday;
 
 use InvalidArgumentException;
-use Umulmrum\Holiday\Assert\Assert;
 use Umulmrum\Holiday\Assert\Year;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\CompensatoryHolidayProviderInterface;
+use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 use Umulmrum\Holiday\Resolver\ClassNameResolver;
 use Umulmrum\Holiday\Resolver\IsoResolver;
 use Umulmrum\Holiday\Resolver\MiscResolver;
 use Umulmrum\Holiday\Resolver\ResolverHandler;
 use Umulmrum\Holiday\Resolver\ResolverHandlerInterface;
 
-use function is_array;
 use function is_int;
+use function print_r;
 
 final class HolidayCalculator implements HolidayCalculatorInterface
 {
-    use Assert;
-
     private ResolverHandlerInterface $resolverHandler;
 
     public function __construct(?ResolverHandlerInterface $resolverHandler = null)
@@ -38,7 +36,7 @@ final class HolidayCalculator implements HolidayCalculatorInterface
         $this->resolverHandler = $resolverHandler ?? new ResolverHandler([new ClassNameResolver(), new IsoResolver(), new MiscResolver()]);
     }
 
-    public function calculate($holidayProviders, $years): HolidayList
+    public function calculate(array|HolidayProviderInterface|string $holidayProviders, array|int $years): HolidayList
     {
         $finalYears = $this->interpretYears($years);
         foreach ($finalYears as $year) {
@@ -66,20 +64,20 @@ final class HolidayCalculator implements HolidayCalculatorInterface
      *
      * @return int[]
      *
-     * * @throws InvalidArgumentException
+     * @throws InvalidArgumentException
      */
-    private function interpretYears($years): array
+    private function interpretYears(array|int $years): array
     {
         if (is_int($years)) {
             return [$years];
         }
 
-        if (is_array($years)) {
-            $this->assertIntArray($years);
-
-            return $years;
+        foreach ($years as $year) {
+            if (!is_int($year)) {
+                throw new InvalidArgumentException('array of int expected, got: ' . print_r($years, true));
+            }
         }
 
-        throw new InvalidArgumentException('Year needs to be either int or an array of int');
+        return $years;
     }
 }

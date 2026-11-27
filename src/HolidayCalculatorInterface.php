@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Umulmrum\Holiday;
 
 use InvalidArgumentException;
+use TypeError;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
 
@@ -27,7 +28,8 @@ interface HolidayCalculatorInterface
      *
      * @return HolidayList order is not guaranteed; use filters to sort the list afterwards
      *
-     * @throws InvalidArgumentException if an invalid value for $holidayProviders was given
+     * @throws InvalidArgumentException if a provider cannot be resolved or a year value is invalid
+     * @throws TypeError                if an argument has an incompatible type
      */
-    public function calculate($holidayProviders, $years): HolidayList;
+    public function calculate(array|HolidayProviderInterface|string $holidayProviders, array|int $years): HolidayList;
 }

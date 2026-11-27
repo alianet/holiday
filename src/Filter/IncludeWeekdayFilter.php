@@ -14,10 +14,11 @@ declare(strict_types=1);
 namespace Umulmrum\Holiday\Filter;
 
 use InvalidArgumentException;
-use Umulmrum\Holiday\Assert\Assert;
+use Umulmrum\Holiday\Constant\Weekday;
 use Umulmrum\Holiday\Model\Holiday;
 
 use function array_flip;
+use function sprintf;
 
 /**
  * IncludeWeekdayFilter retains all holidays that are on a weekday passed as constructor argument.
@@ -25,8 +26,6 @@ use function array_flip;
  */
 final class IncludeWeekdayFilter extends AbstractFilter
 {
-    use Assert;
-
     /**
      * @var array<int, array-key>
      */
@@ -37,9 +36,18 @@ final class IncludeWeekdayFilter extends AbstractFilter
      */
     public function __construct(int ...$weekdays)
     {
-        $this->assertArrayNotEmpty($weekdays);
+        if ($weekdays === []) {
+            throw new InvalidArgumentException('array must not be empty');
+        }
         foreach ($weekdays as $weekday) {
-            $this->assertWeekday($weekday);
+            if ($weekday < Weekday::SUNDAY || $weekday > Weekday::SATURDAY) {
+                throw new InvalidArgumentException(sprintf(
+                    'Invalid weekday "%s". Expected value between %s and %s.',
+                    $weekday,
+                    Weekday::SUNDAY,
+                    Weekday::SATURDAY,
+                ));
+            }
         }
         $this->weekdays = array_flip($weekdays);
     }

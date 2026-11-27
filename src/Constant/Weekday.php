@@ -37,7 +37,7 @@ final class Weekday
     public const SATURDAY = 6;
 
     /** @var string[] */
-    public static $NAME = [
+    public static array $NAME = [
         self::SUNDAY => HolidayName::SUNDAY,
         self::MONDAY => HolidayName::MONDAY,
         self::TUESDAY => HolidayName::TUESDAY,

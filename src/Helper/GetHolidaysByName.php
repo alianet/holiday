@@ -34,8 +34,13 @@ final readonly class GetHolidaysByName
      *
      * @throws InvalidArgumentException if an invalid value for $holidayProviders or $years was given
      */
-    public function __invoke($holidayProviders, $years, string $holidayName): HolidayList
-    {
-        return $this->holidayCalculator->calculate($holidayProviders, $years)->filter(new IncludeHolidayNameFilter($holidayName));
+    public function __invoke(
+        array|HolidayProviderInterface|string $holidayProviders,
+        array|int $years,
+        string $holidayName
+    ): HolidayList {
+        return $this->holidayCalculator
+            ->calculate($holidayProviders, $years)
+            ->filter(new IncludeHolidayNameFilter($holidayName));
     }
 }

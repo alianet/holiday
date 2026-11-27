@@ -72,8 +72,12 @@ class Holiday
 
     public function getDate(?DateTimeZone $dateTimeZone = null): DateTimeImmutable
     {
-        // @phpstan-ignore-next-line
-        return DateTimeImmutable::createFromFormat(static::CREATE_DATE_FORMAT, $this->simpleDate, $dateTimeZone);
+        $date = DateTimeImmutable::createFromFormat(static::CREATE_DATE_FORMAT, $this->simpleDate, $dateTimeZone);
+        if (false === $date) {
+            throw new InvalidArgumentException('Invalid date format.');
+        }
+
+        return $date;
     }
 
     public function getType(): int

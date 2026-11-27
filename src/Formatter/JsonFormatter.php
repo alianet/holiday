@@ -56,7 +56,14 @@ final class JsonFormatter implements HolidayFormatterInterface
     }
 
     /**
-     * @return mixed[]
+     * @return array{
+     *     name: string,
+     *     translatedName: string,
+     *     timestamp: int,
+     *     formattedDate: string,
+     *     type: int,
+     *     formattedType: string[]
+     * }
      */
     private function getEvent(Holiday $holiday): array
     {
