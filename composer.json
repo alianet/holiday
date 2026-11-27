@@ -20,7 +20,8 @@
         }
     ],
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "psr/clock": "^1.0"
     },
     "require-dev": {
         "ext-json": "*",

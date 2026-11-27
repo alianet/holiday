@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace Umulmrum\Holiday\Test\Formatter;
 
-use DateTime;
+use DateTimeImmutable;
 use Generator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Umulmrum\Holiday\Formatter\ICalendarFormatter;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
-use Umulmrum\Holiday\Test\DateProviderStub;
+use Umulmrum\Holiday\Test\FrozenClock;
 use Umulmrum\Holiday\Test\HolidayTestCase;
 use Umulmrum\Holiday\Test\TranslatorStub;
 
@@ -70,7 +70,7 @@ final class ICalendarFormatterTest extends HolidayTestCase
             new HolidayList(),
             "BEGIN:VCALENDAR\r\n"
             . "VERSION:2.0\r\n"
-            . "PRODID:umulmrum/holiday\r\n"
+            . "PRODID:alianet/holiday\r\n"
             . "CALSCALE:GREGORIAN\r\n"
             . "END:VCALENDAR\r\n",
         ];
@@ -81,7 +81,7 @@ final class ICalendarFormatterTest extends HolidayTestCase
             ]),
             "BEGIN:VCALENDAR\r\n"
             . "VERSION:2.0\r\n"
-            . "PRODID:umulmrum/holiday\r\n"
+            . "PRODID:alianet/holiday\r\n"
             . "CALSCALE:GREGORIAN\r\n"
             . "BEGIN:VEVENT\r\n"
             . "UID:name-2016-03-11\r\n"
@@ -104,7 +104,7 @@ final class ICalendarFormatterTest extends HolidayTestCase
 
     private function givenICalendarFormatter(): void
     {
-        $this->subject = new ICalendarFormatter(new TranslatorStub(), new DateProviderStub(new DateTime('20160808T120342')));
+        $this->subject = new ICalendarFormatter(new TranslatorStub(), new FrozenClock(new DateTimeImmutable('20160808T120342')));
     }
 
     private function givenICalendarFormatterWithoutArguments(): void
@@ -136,7 +136,7 @@ final class ICalendarFormatterTest extends HolidayTestCase
          * Don't use minutes and seconds to minimize test brittleness - we just assume that the correct time is printed
          * if the rest of the date is current. We already tested correctness of date formatting above.
          */
-        $now = (new DateTime('now'))->format('Ymd\TH');
+        $now = (new DateTimeImmutable('now'))->format('Ymd\TH');
 
         self::assertStringContainsString('DTSTAMP:' . $now, $this->actualResult);
         self::assertStringContainsString('CREATED:' . $now, $this->actualResult);

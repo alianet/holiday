@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 namespace Umulmrum\Holiday\Test;
 
-use DateTime;
-use Umulmrum\Holiday\Helper\DateProviderInterface;
+use DateTimeImmutable;
+use Psr\Clock\ClockInterface;
 
-final readonly class DateProviderStub implements DateProviderInterface
+final readonly class FrozenClock implements ClockInterface
 {
-    public function __construct(private DateTime $dateTime) {}
+    public function __construct(private DateTimeImmutable $dateTime) {}
 
-    public function getCurrentDate(): DateTime
+    public function now(): DateTimeImmutable
     {
         return $this->dateTime;
     }

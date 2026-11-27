@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the umulmrum/holiday package.
+ * This file is part of the alianet/holiday package.
  *
  * (c) Stefan Kruppa
  *
@@ -13,12 +13,13 @@ declare(strict_types=1);
 
 namespace Umulmrum\Holiday\Helper;
 
-use DateTime;
+use DateTimeImmutable;
+use Psr\Clock\ClockInterface;
 
-final class DateProvider implements DateProviderInterface
+final class SystemClock implements ClockInterface
 {
-    public function getCurrentDate(): DateTime
+    public function now(): DateTimeImmutable
     {
-        return new DateTime('now');
+        return new DateTimeImmutable('now');
     }
 }

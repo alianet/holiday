@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace Umulmrum\Holiday\Formatter;
 
-use Umulmrum\Holiday\Helper\DateProvider;
-use Umulmrum\Holiday\Helper\DateProviderInterface;
+use Psr\Clock\ClockInterface;
+use Umulmrum\Holiday\Helper\SystemClock;
 use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Model\HolidayList;
 use Umulmrum\Holiday\Translator\NullTranslator;
@@ -28,7 +28,7 @@ final readonly class ICalendarFormatter implements HolidayFormatterInterface
 
     public function __construct(
         private TranslatorInterface $translator = new NullTranslator(),
-        private DateProviderInterface $dateProvider = new DateProvider(),
+        private ClockInterface $clock = new SystemClock(),
         private ?string $locale = null,
     ) {}
 
@@ -55,14 +55,14 @@ final readonly class ICalendarFormatter implements HolidayFormatterInterface
         return implode(self::LINE_ENDING, [
             'BEGIN:VCALENDAR',
             'VERSION:2.0',
-            'PRODID:umulmrum/holiday',
+            'PRODID:alianet/holiday',
             'CALSCALE:GREGORIAN',
         ]);
     }
 
     private function getEvent(Holiday $holiday): string
     {
-        $dtstamp = $this->dateProvider->getCurrentDate();
+        $dtstamp = $this->clock->now();
 
         return implode(self::LINE_ENDING, [
             'BEGIN:VEVENT',
