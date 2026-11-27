@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of the umulmrum/holiday package.
+ * This file is part of the alianet/holiday package.
  *
  * (c) Stefan Kruppa
  *
