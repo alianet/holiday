@@ -44,7 +44,12 @@
     "scripts": {
         "cs": "php vendor/bin/php-cs-fixer fix --verbose",
         "test": "php vendor/bin/phpunit --coverage-text --show-uncovered-for-coverage-text",
-        "analyze": "php -dmemory_limit=-1 vendor/bin/phpstan"
+        "analyze": "php -dmemory_limit=-1 vendor/bin/phpstan",
+        "check": [
+            "@cs",
+            "@analyze",
+            "@test"
+        ]
     },
     "config": {
         "sort-packages": true
