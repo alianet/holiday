@@ -41,6 +41,7 @@ final readonly class GetHolidaysByName
     ): HolidayList {
         return $this->holidayCalculator
             ->calculate($holidayProviders, $years)
-            ->filter(new IncludeHolidayNameFilter($holidayName));
+            ->filter(new IncludeHolidayNameFilter($holidayName))
+        ;
     }
 }

@@ -23,7 +23,7 @@ final readonly class GetGracePeriod
      *
      * @param HolidayProviderInterface|HolidayProviderInterface[]|string|string[] $holidayProviders
      *
-     * @throws InvalidArgumentException|Exception
+     * @throws Exception|InvalidArgumentException
      */
     public function __invoke(
         array|HolidayProviderInterface|string $holidayProviders,

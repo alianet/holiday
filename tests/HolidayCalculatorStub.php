@@ -12,7 +12,7 @@ final readonly class HolidayCalculatorStub implements HolidayCalculatorInterface
 {
     public function __construct(private HolidayList $holidayList) {}
 
-    public function calculate(HolidayProviderInterface|string|array $holidayProviders, array|int $years): HolidayList
+    public function calculate(array|HolidayProviderInterface|string $holidayProviders, array|int $years): HolidayList
     {
         return $this->holidayList;
     }
