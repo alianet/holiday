@@ -35,13 +35,11 @@
         "providerOnly": []
     },
     "GB-2002": {
-        "reason": "For the 2002 jubilee Azure lists spring holiday on 27 May and golden jubilee on 3 June, while the provider uses 4 June and 2 June. These two calendars disagree and neither is accepted as authoritative here.",
+        "reason": "Royal proclamation L-56043-1001 appoints 3 June Jubilee and 4 June Spring in England and Wales. Azure retains 27 May Spring; provider corrected following the official proclamation (2026-11-27).",
         "referenceOnly": [
-            "2002-05-27 spring_bank_holiday",
-            "2002-06-03 golden_jubilee_bank_holiday"
+            "2002-05-27 spring_bank_holiday"
         ],
         "providerOnly": [
-            "2002-06-02 golden_jubilee_bank_holiday",
             "2002-06-04 spring_bank_holiday"
         ]
     },
@@ -400,5 +398,136 @@
         "providerOnly": [
             "2004-06-06 sweden_national_day"
         ]
+    },
+    "IE-2000": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2000-01-03 new_year_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2001": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2001-03-19 saint_patricks_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2002": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2002-03-18 saint_patricks_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2004": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2004-12-27 christmas_day_compensatory",
+            "2004-12-28 second_christmas_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2005": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2005-01-03 new_year_compensatory",
+            "2005-12-27 christmas_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2006": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2006-01-02 new_year_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2007": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2007-03-19 saint_patricks_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2009": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2009-12-28 second_christmas_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2010": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2010-12-27 christmas_day_compensatory",
+            "2010-12-28 second_christmas_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2011": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2011-01-03 new_year_compensatory",
+            "2011-12-27 christmas_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2012": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2012-01-02 new_year_compensatory",
+            "2012-03-19 saint_patricks_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2013": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2013-03-18 saint_patricks_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2015": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2015-12-28 second_christmas_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2016": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2016-12-27 christmas_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2017": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2017-01-02 new_year_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2018": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2018-03-19 saint_patricks_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2019": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2019-03-18 saint_patricks_day_compensatory"
+        ],
+        "providerOnly": []
+    },
+    "IE-2020": {
+        "reason": "Azure includes observed bank closure days. WRC states no legal entitlement to the next working day off; IE now models public holiday dates. See tests/Reference/Ireland/README.md (verified 2026-11-27).",
+        "referenceOnly": [
+            "2020-12-28 second_christmas_day_compensatory"
+        ],
+        "providerOnly": []
     }
 }

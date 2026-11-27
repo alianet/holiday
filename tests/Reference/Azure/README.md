@@ -200,3 +200,9 @@ docker run --rm --network none --user "$(id -u):$(id -g)" \
 
 The ordinary `development` and `qa` targets remain PHP-only; existing CI test runs
 use committed JSON and do not install Python.
+
+The UK/Ireland audit of 2026-11-27 resolved the provider's incorrect 2002
+Jubilee date using the royal proclamation. The remaining Azure Spring-date
+error is recorded exactly. IE observed-day differences are also recorded exactly:
+WRC public holiday rules do not establish a national Monday substitute.
+See [Irish source notes](../Ireland/README.md). Source data remains unchanged.

@@ -58,8 +58,8 @@
 | 1977-01-03 | new_year_compensatory       | official, day_off, compensatory            |
 | 1977-04-08 | good_friday                 | official, day_off, religious               |
 | 1977-04-11 | easter_monday               | official, day_off, religious               |
-| 1977-05-30 | spring_bank_holiday         | official, day_off                          |
-| 1977-07-07 | silver_jubilee_bank_holiday | official, day_off                          |
+| 1977-06-06 | spring_bank_holiday         | official, day_off                          |
+| 1977-06-07 | silver_jubilee_bank_holiday | official, day_off                          |
 | 1977-08-29 | summer_bank_holiday         | official, day_off                          |
 | 1977-12-25 | christmas_day               | official, day_off, religious               |
 | 1977-12-26 | boxing_day                  | official, day_off, religious               |
@@ -118,7 +118,7 @@
 | 2002-03-29 | good_friday                 | official, day_off, religious |
 | 2002-04-01 | easter_monday               | official, day_off, religious |
 | 2002-05-06 | may_day                     | official, day_off            |
-| 2002-06-02 | golden_jubilee_bank_holiday | official, day_off            |
+| 2002-06-03 | golden_jubilee_bank_holiday | official, day_off            |
 | 2002-06-04 | spring_bank_holiday         | official, day_off            |
 | 2002-08-26 | summer_bank_holiday         | official, day_off            |
 | 2002-12-25 | christmas_day               | official, day_off, religious |

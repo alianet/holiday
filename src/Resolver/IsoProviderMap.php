@@ -226,6 +226,8 @@ final class IsoProviderMap
 
         // United Kingdom
         'GB' => Provider\UnitedKingdom\UnitedKingdom::class,
+        'GB-ENG' => Provider\UnitedKingdom\England::class,
+        'GB-WLS' => Provider\UnitedKingdom\Wales::class,
         'GB-NIR' => Provider\UnitedKingdom\NorthernIreland::class,
         'GB-SCT' => Provider\UnitedKingdom\Scotland::class,
 

@@ -7,8 +7,6 @@
 | 1967-01-03 | new_year_compensatory | official, day_off, compensatory |
 | 1967-03-24 | good_friday           | official, day_off, religious    |
 | 1967-05-01 | may_day               | official, day_off               |
-| 1967-05-15 | whit_monday           | official, day_off, religious    |
-| 1967-05-29 | spring_bank_holiday   | official, day_off               |
 | 1967-08-07 | summer_bank_holiday   | official, day_off               |
 | 1967-12-25 | christmas_day         | official, day_off, religious    |
 | 1967-12-26 | boxing_day            | official, day_off, religious    |
@@ -22,7 +20,6 @@
 | 1968-03-15 | sterling_crisis     | official, bank               |
 | 1968-04-12 | good_friday         | official, day_off, religious |
 | 1968-05-06 | may_day             | official, day_off            |
-| 1968-05-27 | spring_bank_holiday | official, day_off            |
 | 1968-08-05 | summer_bank_holiday | official, day_off            |
 | 1968-12-25 | christmas_day       | official, day_off, religious |
 | 1968-12-26 | boxing_day          | official, day_off, religious |
@@ -35,7 +32,6 @@
 | 1973-01-02 | new_year_holiday         | official, day_off            |
 | 1973-04-20 | good_friday              | official, day_off, religious |
 | 1973-05-07 | may_day                  | official, day_off            |
-| 1973-05-28 | spring_bank_holiday      | official, day_off            |
 | 1973-08-06 | summer_bank_holiday      | official, day_off            |
 | 1973-11-14 | wedding_of_anne_and_mark | official, day_off            |
 | 1973-12-25 | christmas_day            | official, day_off, religious |
@@ -51,8 +47,7 @@
 | 1977-01-04 | new_year_holiday_compensatory | official, day_off, compensatory            |
 | 1977-04-08 | good_friday                   | official, day_off, religious               |
 | 1977-05-02 | may_day                       | official, day_off                          |
-| 1977-05-30 | spring_bank_holiday           | official, day_off                          |
-| 1977-07-07 | silver_jubilee_bank_holiday   | official, day_off                          |
+| 1977-06-06 | silver_jubilee_bank_holiday   | official, day_off                          |
 | 1977-08-01 | summer_bank_holiday           | official, day_off                          |
 | 1977-12-25 | christmas_day                 | official, day_off, religious               |
 | 1977-12-26 | boxing_day                    | official, day_off, religious               |

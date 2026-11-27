@@ -21,7 +21,13 @@ use Umulmrum\Holiday\Provider\France\BasRhin;
 use Umulmrum\Holiday\Provider\Germany\BadenWuerttemberg;
 use Umulmrum\Holiday\Provider\Germany\Germany;
 use Umulmrum\Holiday\Provider\HolidayProviderInterface;
+use Umulmrum\Holiday\Provider\Ireland\Ireland;
 use Umulmrum\Holiday\Provider\Italy\Italy;
+use Umulmrum\Holiday\Provider\UnitedKingdom\England;
+use Umulmrum\Holiday\Provider\UnitedKingdom\NorthernIreland;
+use Umulmrum\Holiday\Provider\UnitedKingdom\Scotland;
+use Umulmrum\Holiday\Provider\UnitedKingdom\UnitedKingdom;
+use Umulmrum\Holiday\Provider\UnitedKingdom\Wales;
 use Umulmrum\Holiday\Resolver\IsoResolver;
 use Umulmrum\Holiday\Test\HolidayTestCase;
 
@@ -41,6 +47,10 @@ final class IsoResolverTest extends HolidayTestCase
 
     public static function provideDataForResolveProviders(): Generator
     {
+        foreach (['GB' => UnitedKingdom::class, 'GB-ENG' => England::class, 'GB-WLS' => Wales::class, 'GB-SCT' => Scotland::class, 'GB-NIR' => NorthernIreland::class, 'IE' => Ireland::class] as $code => $class) {
+            yield $code => [$code, new $class()];
+        }
+
         yield 'country' => [
             'DE',
             new Germany(),

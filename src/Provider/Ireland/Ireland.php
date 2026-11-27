@@ -15,7 +15,6 @@ namespace Umulmrum\Holiday\Provider\Ireland;
 
 use DateTime;
 use Umulmrum\Holiday\Assert\Year;
-use Umulmrum\Holiday\Compensatory\CompensatoryDaysCalculator;
 use Umulmrum\Holiday\Constant\HolidayName;
 use Umulmrum\Holiday\Constant\HolidayType;
 use Umulmrum\Holiday\Model\Holiday;
@@ -37,13 +36,16 @@ class Ireland implements CompensatoryHolidayProviderInterface
 
         $holidays = new HolidayList();
         $holidays->add($this->getNewYear($year, HolidayType::DAY_OFF));
+        if ($year === 2022) {
+            $holidays->add(Holiday::create('national_day_of_commemoration', '2022-03-18', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        }
         if ($year >= 2023) {
             $holidays->add($this->getStBrigidsDayHoliday($year, HolidayType::DAY_OFF));
         }
         if ($year >= 1903) {
             $holidays->add($this->getSaintPatricksDay($year));
         }
-        $holidays->add($this->getGoodFriday($year, HolidayType::OFFICIAL | HolidayType::BANK | HolidayType::NO_SCHOOL));
+        $holidays->add($this->getGoodFriday($year, HolidayType::BANK | HolidayType::NO_SCHOOL));
         $holidays->add($this->getEasterMonday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
 
         if ($year >= 1994) {
@@ -116,15 +118,7 @@ class Ireland implements CompensatoryHolidayProviderInterface
 
     public function getCompensatoryDaysCalculators(int $year): array
     {
-        return [
-            new CompensatoryDaysCalculator(
-                [
-                    HolidayName::NEW_YEAR,
-                    HolidayName::SAINT_PATRICKS_DAY,
-                    HolidayName::CHRISTMAS_DAY,
-                    HolidayName::SECOND_CHRISTMAS_DAY,
-                ],
-            ),
-        ];
+        // WRC: a weekend public holiday does not create a right to Monday off.
+        return [];
     }
 }

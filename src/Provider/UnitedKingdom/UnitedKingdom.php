@@ -109,7 +109,9 @@ class UnitedKingdom implements CompensatoryHolidayProviderInterface
     protected function getSpringBankHolidays(int $year): HolidayList
     {
         $holidayList = new HolidayList();
-        if ($year === 2022) {
+        if ($year === 1977) {
+            $holidayList->add(Holiday::create(HolidayName::SPRING_BANK_HOLIDAY, '1977-06-06', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        } elseif ($year === 2022) {
             $holidayList->add(Holiday::create(HolidayName::SPRING_BANK_HOLIDAY, '2022-06-02', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
             $holidayList->add(Holiday::create(HolidayName::PLATINUM_JUBILEE_BANK_HOLIDAY, '2022-06-03', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         } elseif ($year === 2012) {
@@ -117,7 +119,7 @@ class UnitedKingdom implements CompensatoryHolidayProviderInterface
             $holidayList->add(Holiday::create(HolidayName::DIAMOND_JUBILEE_BANK_HOLIDAY, '2012-06-05', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         } elseif ($year === 2002) {
             $holidayList->add(Holiday::create(HolidayName::SPRING_BANK_HOLIDAY, '2002-06-04', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
-            $holidayList->add(Holiday::create(HolidayName::GOLDEN_JUBILEE_BANK_HOLIDAY, '2002-06-02', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+            $holidayList->add(Holiday::create(HolidayName::GOLDEN_JUBILEE_BANK_HOLIDAY, '2002-06-03', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         } else {
             $date = (new DateTime(sprintf('Last Monday of %04d-05', $year)))->format(Holiday::DISPLAY_DATE_FORMAT);
             $holidayList->add(Holiday::create(HolidayName::SPRING_BANK_HOLIDAY, $date, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
@@ -128,7 +130,7 @@ class UnitedKingdom implements CompensatoryHolidayProviderInterface
 
     protected function getSilverJubileeBankHoliday(): Holiday
     {
-        return Holiday::create(HolidayName::SILVER_JUBILEE_BANK_HOLIDAY, '1977-07-07', HolidayType::OFFICIAL | HolidayType::DAY_OFF);
+        return Holiday::create(HolidayName::SILVER_JUBILEE_BANK_HOLIDAY, '1977-06-07', HolidayType::OFFICIAL | HolidayType::DAY_OFF);
     }
 
     protected function getWeddingOfCharlesAndDiana(): Holiday

@@ -62,3 +62,27 @@ All other holiday identities, including substitute-day suffixes, are compared.
 
 These tests validate the observed bank holiday calendar, not every classification
 bit or historical dates outside the recorded coverage.
+
+## Jurisdiction audit (2026-11-27)
+
+England (`GB-ENG`, `England`) and Wales (`GB-WLS`, `Wales`) inherit the existing
+`UnitedKingdom` rules. All three codes now run against the same independent feed
+for 2019–2028, and a separate equality test compares dates, names and type masks
+including original weekend entries. GB keeps its England-and-Wales meaning.
+The existing feed and its original retrieval metadata are retained.
+
+Jurisdiction-specific corroboration:
+
+- [nidirect](https://www.nidirect.gov.uk/articles/bank-holidays): Northern Ireland directs readers to the GOV.UK calendar. GB-NIR includes St Patrick's Day and Battle of the Boyne, with weekend substitutes.
+- [Scottish Government](https://www.gov.scot/publications/bank-holidays/): confirms Scotland-wide dates, including 15 June 2026; local holidays and actual bank closures are different calendars.
+- [Hansard, 27 January 1977](https://hansard.parliament.uk/Commons/1977-01-27/debates/d431b4e2-f65f-48cc-9367-dac0fefdc28d/MayDay1978): Scottish last-Monday-in-May holiday starts in 1978. Earlier inherited Whit Monday/Spring entries removed.
+- [Hansard, 25 January 1978](https://hansard.parliament.uk/lords/1978-01-25/debates/f597ec92-84ba-4023-ada8-7be83c64b245/WrittenAnswers): Scottish 1977 Silver Jubilee on 6 June.
+- [Hansard, 14 November 1979](https://hansard.parliament.uk/commons/1979-11-14/debates/68a02849-b498-4564-84b7-035751fbf645/RoyalVisit%281977%29): 7 June 1977 additional holiday in Northern Ireland.
+- [Royal proclamation for 2002](https://www.thegazette.co.uk/notice/L-56043-1001): 3 June additional Jubilee holiday, 4 June replacing 27 May in England, Wales and Northern Ireland. Corrected 2 June to 3 June.
+
+Full annual verification is limited to 2019–2028. Historical fixes are targeted;
+legacy rules outside that window are not an exhaustive historical calendar.
+Future extraordinary proclamations require maintenance. New Year collisions
+(2022/2023/2028), Christmas/Boxing Day collisions (2021/2022/2027), NI weekend
+holidays, 2020 May movement, 2022 Jubilee/funeral, 2023 coronation and Scotland's
+2026 exception are covered by complete independent lists.

@@ -367,11 +367,37 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 - Switzerland (incl. Aargau, Appenzell-Ausserrhoden, Appenzell-Innerrhoden, Basel Landschaft, Basel Stadt, Bern, Fribourg, Geneva, Glarus, Grisons, Jura, Lucerne, Neuchatel, Nidwalden, Obwalden, Schaffhausen, Schwyz, Solothurn, St Gallen, Thurgau, Ticino, Uri, Valais, Vaud, Zuerich, Zug)
 - Turkey (without Islamic holidays yet)
 - Ukraine
-- United Kingdom (incl. England, Northern Ireland, Scotland (without local holidays), Wales; mainland only yet)
+- United Kingdom (England and Wales, Scotland-wide bank holidays, Northern Ireland; local holidays excluded)
 - USA (federal calendar, all 50 states and Washington, DC; state calendars follow python-holidays public-holiday scope)
 
 To create your own holiday providers have a look at the existing code, it should be self-explanatory. I will happily
 merge pull requests to support more countries (see below).
+
+### United Kingdom and Ireland
+
+| Code | Provider | Scope |
+|---|---|---|
+| GB | `UnitedKingdom\UnitedKingdom` | Existing England-and-Wales base calendar, retained for compatibility |
+| GB-ENG | `UnitedKingdom\England` | England |
+| GB-WLS | `UnitedKingdom\Wales` | Wales, sharing England's rules |
+| GB-SCT | `UnitedKingdom\Scotland` | Scotland-wide bank holidays, excluding local holidays |
+| GB-NIR | `UnitedKingdom\NorthernIreland` | Northern Ireland |
+| IE | `Ireland\Ireland` | Ireland, an independent country |
+
+Provider names are relative to `Umulmrum\Holiday\Provider`. GB does not combine
+all UK jurisdictions. Dependencies of the Crown and overseas territories require
+their own calendars; they are outside these providers. Unimplemented regional
+codes still use the resolver's country fallback.
+
+UK observed dates are independently checked for **2019–2028**, including weekend
+substitutions and exceptional holidays. Original weekend entries remain alongside
+substitutes. See [UK provenance and historical audit limits](tests/Reference/GovUk/README.md).
+Ireland has no automatic Monday substitute for a weekend public holiday; employee
+benefits depend on working arrangements. The 18 March 2022 exception and February
+holiday from 2023 are included. Good Friday remains a bank/school entry, without
+public-holiday or day-off status. See [Irish reference scope](tests/Reference/Ireland/README.md)
+for 2021–2026 and the 2030 Friday-rule check. General support for year numbers
+1–9999 does not imply historical completeness or knowledge of future proclamations.
 
 ### Notes on Spanish regional holidays
 

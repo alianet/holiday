@@ -71,7 +71,7 @@ final class GovUkReferenceTest extends HolidayTestCase
         $source = self::readJson(__DIR__ . '/source.json');
         self::assertIsArray($source['years']);
         self::assertNotEmpty($source['years']);
-        foreach (['england-and-wales' => 'GB', 'scotland' => 'GB-SCT', 'northern-ireland' => 'GB-NIR'] as $division => $provider) {
+        foreach (['GB' => 'england-and-wales', 'GB-ENG' => 'england-and-wales', 'GB-WLS' => 'england-and-wales', 'GB-SCT' => 'scotland', 'GB-NIR' => 'northern-ireland'] as $provider => $division) {
             foreach ($source['years'] as $year) {
                 self::assertIsInt($year);
 

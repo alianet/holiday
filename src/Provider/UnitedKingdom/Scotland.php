@@ -46,12 +46,11 @@ class Scotland extends UnitedKingdom
         if ($year === 2023) {
             $holidays->add($this->getCoronationOfCharlesAndCamilla());
         }
-        if ($year <= 1967) {
-            $holidays->add($this->getWhitMonday($year, HolidayType::OFFICIAL | HolidayType::DAY_OFF));
+        if ($year >= 1978) {
+            $holidays->addAll($this->getSpringBankHolidays($year));
         }
-        $holidays->addAll($this->getSpringBankHolidays($year));
         if ($year === 1977) {
-            $holidays->add($this->getSilverJubileeBankHoliday());
+            $holidays->add(Holiday::create(HolidayName::SILVER_JUBILEE_BANK_HOLIDAY, '1977-06-06', HolidayType::OFFICIAL | HolidayType::DAY_OFF));
         }
         if ($year === 1981) {
             $holidays->add($this->getWeddingOfCharlesAndDiana());
