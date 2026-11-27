@@ -19,7 +19,7 @@ use function preg_match;
 use function strlen;
 
 /**
- * IsoResolver resolves holiday providers that are given by their ISO-3166-1 ALPHA-2 or ISO-3166-2 code, see isoData.php
+ * IsoResolver resolves holiday providers that are given by their ISO-3166-1 ALPHA-2 or ISO-3166-2 code, see IsoProviderMap
  * for the list of supported countries and regions. If an ISO-3166-2 region (code with a dash) that is not implemented
  * is given, a fallback to the ISO-3166 country is performed. There can be different reasons for the fallback and you
  * should check if this behaviour is correct for your use case:
@@ -31,22 +31,14 @@ final class IsoResolver implements ProviderResolverInterface
 {
     private const MAX_CODE_LENGTH = 7;
 
-    /** @var string[] */
-    private static $MAP;
-
-    private bool $initialized = false;
-
     public function resolveHolidayProvider(string $identifier): ?HolidayProviderInterface
     {
         if (strlen($identifier) > self::MAX_CODE_LENGTH) {
             return null;
         }
-        $this->init();
-        if (isset(self::$MAP[$identifier])) {
-            /** @var HolidayProviderInterface $provider */
-            $provider = new self::$MAP[$identifier]();
-
-            return $provider;
+        $providerClass = IsoProviderMap::MAP[$identifier] ?? null;
+        if ($providerClass !== null) {
+            return new $providerClass();
         }
 
         if (preg_match('#^([A-Z]{2})-#', $identifier, $matches)) {
@@ -54,20 +46,5 @@ final class IsoResolver implements ProviderResolverInterface
         }
 
         return null;
-    }
-
-    /**
-     * Initializes the resolver. This is done lazily to avoid having to instantiate the large array if it isn't used.
-     */
-    private function init(): void
-    {
-        if ($this->initialized) {
-            return;
-        }
-        $this->initialized = true;
-
-        /** @var array<string, string> $isoData */
-        $isoData = include __DIR__ . '/isoData.php';
-        self::$MAP = $isoData;
     }
 }

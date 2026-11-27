@@ -187,7 +187,7 @@ calculated. There are more ways, and complete customization is also possible - l
     ```
     
     Use ISO-3166-1 country codes or ISO-3166-2 region codes e.g. if your application already uses them to simplify integration
-    and decoupling of the Holiday lib. The list of supported countries and regions can be found in `src/Resolver/isoData.php`.
+    and decoupling of the Holiday lib. The list of supported countries and regions can be found in `src/Resolver/IsoProviderMap.php`.
     There is a fallback to the base country in case the region code is not found - see the comment in the `IsoResolver`
     class for details.
 
@@ -642,7 +642,7 @@ Reuse the image and installed dependencies for subsequent updates.
 - Add a provider for that country or region inside `src/Provider/...`.
 - Should you need to add country-specific holiday names, add those to `Constant\HolidayName` and provide
   English translations inside `umulmrum_holiday.en.php`.
-- Lookup the ISO code for your country or region and add it to `Resolver\isoData.php`. If you add a provider that does
+- Lookup the ISO code for your country or region and add it to `IsoProviderMap::MAP`. If you add a provider that does
   NOT add country data, please add it to the list in the `MiscResolver` class.
 - If the country provides any form of substitute/compensatory holidays in case a holiday occurs on a weekend, proceed as
   follows:
