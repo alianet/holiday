@@ -92,10 +92,13 @@ final class IsoProviderMap
         'FR-57' => Provider\France\Moselle::class,
         'FR-67' => Provider\France\BasRhin::class,
         'FR-68' => Provider\France\HautRhin::class,
+        'FR-BL' => Provider\France\SaintBarthelemy::class,
         'FR-GF' => Provider\France\FrenchGuiana::class,
         'FR-GUA' => Provider\France\Guadeloupe::class,
         'FR-LRE' => Provider\France\Reunion::class,
+        'FR-MF' => Provider\France\SaintMartin::class,
         'FR-MQ' => Provider\France\Martinique::class,
+        'FR-YT' => Provider\France\Mayotte::class,
 
         // Germany
         'DE' => Provider\Germany\Germany::class,

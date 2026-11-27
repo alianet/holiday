@@ -346,7 +346,7 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 - Denmark
 - Estonia
 - Finland
-- France (incl. Bas-Rhin, French Guiana, Guadeloupe, Haut-Rhin, Martinique, Moselle, Reunion)
+- France (incl. Bas-Rhin, French Guiana, Guadeloupe, Haut-Rhin, Martinique, Mayotte (`FR-YT`), Moselle, Reunion, Saint-Barthélemy (`FR-BL`), Saint-Martin (`FR-MF`))
 - Germany (incl. Baden-Wuerttemberg, Bavaria, Berlin, Brandenburg, Bremen, Hamburg, Hesse, Lower Saxony, Mecklenburg-Vorpommern, North-rhine Westphalia, Rhineland Palatinate, Saarland, Saxony, Saxony-Anhalt, Schleswig-Holstein, Thuringia)
 - Greenland
 - Iceland

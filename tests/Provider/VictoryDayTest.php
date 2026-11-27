@@ -50,7 +50,7 @@ final class VictoryDayTest extends HolidayTestCase
         }
 
         // The public holiday was restored in October 1981, and first fell in 1982.
-        foreach (['FR', 'FR-67', 'FR-68', 'FR-57', 'FR-GF', 'FR-GUA', 'FR-MQ', 'FR-LRE'] as $provider) {
+        foreach (['FR', 'FR-67', 'FR-68', 'FR-57', 'FR-GF', 'FR-GUA', 'FR-MQ', 'FR-LRE', 'FR-YT', 'FR-BL', 'FR-MF'] as $provider) {
             foreach ([1944, 1945, 1952, 1953, 1958, 1959, 1964, 1965, 1966, 1980, 1981, 1982, 2025] as $year) {
                 $dayOff = ($year >= 1953 && $year <= 1958) || $year === 1965 || $year >= 1982;
 
