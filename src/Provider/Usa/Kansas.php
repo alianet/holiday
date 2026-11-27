@@ -1,0 +1,22 @@
+<?php
+
+/*
+ * This file is part of the alianet/holiday package.
+ *
+ * (c) Mariusz Kaczanowski
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Umulmrum\Holiday\Provider\Usa;
+
+final class Kansas extends State
+{
+    protected function populateStateHolidays(): void
+    {
+        if ($this->year >= 2013) {
+            $this->christmasEve();
+        }
+    }
+}

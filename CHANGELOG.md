@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Complete US state public-calendar providers for all 50 states and DC, ISO resolution, state-specific substitute days, English/Polish names, and 714 date/identity reference comparisons for 2020–2026.
 - Polish translations of holiday names, weekdays and holiday types, with built-in `pl` and `pl_PL` locale support.
 - Pinned python-holidays reference calendars for all 50 US states and DC (2020–2026), with actual/observed dates, provenance, offline integrity checks, and local/Docker update commands.
 - Offline reference tests backed by OpenHolidays API, official GOV.UK bank holidays, and Azure Open Datasets, with saved data, source attribution, licenses, and checksums.

@@ -19,8 +19,11 @@ final class YearRangeTest extends TestCase
     public function testSupportedYears(string $code): void
     {
         $resolver = new ResolverHandler([new IsoResolver(), new MiscResolver()]);
+        // California uses a finite Diwali date table; StateTest separately
+        // verifies that years beyond its supported range fail explicitly.
+        $lastSupportedYear = $code === 'US-CA' ? 2100 : 9999;
         foreach ($resolver->resolve($code) as $provider) {
-            foreach ([1, 9, 99, 999, 1000, 9999] as $year) {
+            foreach ([1, 9, 99, 999, 1000, $lastSupportedYear] as $year) {
                 foreach ($provider->calculateHolidaysForYear($year) as $holiday) {
                     self::assertMatchesRegularExpression('/^' . sprintf('%04d', $year) . '-\d{2}-\d{2}$/', $holiday->getSimpleDate());
                     self::assertSame($holiday->getSimpleDate(), $holiday->getDate()->format('Y-m-d'));

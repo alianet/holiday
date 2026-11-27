@@ -42,11 +42,31 @@ php vendor/bin/phpunit tests/Reference/Usa
 ```
 
 PHP checks the saved snapshot's checksum, coverage, dates and structure offline,
-without Python. Python tests check export determinism, sample state-specific dates,
+without Python. It also resolves all 51 ISO providers and compares full date/identity
+sets for actual and observed calendars in all seven years (714 cases). Python tests check export determinism, sample state-specific dates,
 the New Year boundary and preservation of saved files on invalid configuration.
-**There are no PHP state providers yet**, so these tests do not assert agreement
-between state calendars and the PHP library. The existing `Usa` provider remains
-federal-only. The files provide reference material for implementing state providers.
+The state providers calculate dates in PHP; production code does not load this
+snapshot or invoke Python. Each named provider contains its own state rules and
+common-calendar overrides. The shared `State` base provides date helpers, common
+holidays and observed-day mechanics. Providers reuse `CommonHolidaysTrait`,
+`ChristianHolidaysTrait` and `UsaHolidaysTrait` for shared dates; the state-calendar
+classification is applied when registering each holiday. `Internal` contains only the lunar-date table and adapter for the compensatory-day
+interface. Providers use `HolidayName` constants; display names live in translations. `names.json` explicitly maps upstream English labels to
+library identifiers. Combined upstream labels on the same date are split into
+individual identities; spelling aliases are normalized and duplicates removed.
+Observed labels map to the library's `_compensatory` suffix. The Washington birthday
+rule used in Georgia and Indiana deliberately retains its original identifier,
+matching upstream's label while the resulting entry has the `COMPENSATORY` flag.
+
+Rules were adapted from the same python-holidays release used to export this data.
+These comparisons detect porting errors and regressions, but do not independently
+verify that upstream reflects every state law. No external differences are ignored.
+State classifications represent limited-scope public/government calendars, not
+private-sector time-off entitlements; reference comparisons check dates and names,
+while targeted unit tests check classifications and provider combinations.
+`US` continues to resolve to the existing federal provider. Historical years outside
+the reference window are not comprehensively verified. California's Diwali table
+supports dates through 2100; later years fail explicitly instead of omitting Diwali.
 
 Python-holidays is MIT licensed; see [LICENSE.python-holidays](LICENSE.python-holidays).
 Official state calendars should be consulted when implementing or resolving rules.

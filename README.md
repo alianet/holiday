@@ -359,10 +359,41 @@ Currently only the Gregorian calendar is supported, for years from 1 to 9999 (in
 - Turkey (without Islamic holidays yet)
 - Ukraine
 - United Kingdom (incl. England, Northern Ireland, Scotland (without local holidays), Wales; mainland only yet)
-- USA (federal holidays only yet)
+- USA (federal calendar, all 50 states and Washington, DC; state calendars follow python-holidays public-holiday scope)
 
 To create your own holiday providers have a look at the existing code, it should be self-explanatory. I will happily
 merge pull requests to support more countries (see below).
+
+### Notes on US state holidays
+
+`US` retains the existing federal provider. Use `US-CA`, `US-TX`, etc. for a complete
+state public calendar, or `US-DC` for Washington, DC. Named providers such as
+`Provider\Usa\California` and `Provider\Usa\Texas` are also available.
+
+```php
+$calculator = new \Umulmrum\Holiday\HolidayCalculator();
+$state = $calculator->calculate('US-CA', 2026);
+$combined = $calculator->calculate(['US', 'US-CA'], 2026);
+```
+
+A state calendar is complete within its public-holiday scope; it does not require
+adding `US`. Passing both requests a union, which keeps federal holidays even when
+absent from the state calendar. Matching date/identifier pairs are deduplicated.
+Each provider applies its own substitute-day rules before calendars are combined.
+State-specific rules live in the named provider classes. Their shared `State` base
+provides common holidays, date helpers and substitute-day calculations. Shared dates
+come from `CommonHolidaysTrait`, `ChristianHolidaysTrait` and `UsaHolidaysTrait`;
+providers retain the year limits, state exceptions and observed-day rules.
+Calling `calculateHolidaysForYear()` directly returns original dates; use the
+`HolidayCalculator` to include substitute days.
+
+State calendars follow the public category of python-holidays 0.109, including its
+historical rules and naming conventions. They are marked `OFFICIAL` and `PARTIAL_ONLY`;
+the upstream public category alone does not establish universal `DAY_OFF` entitlement
+or `GOVERNMENT_AGENCIES_CLOSED`. Substitute dates additionally have `COMPENSATORY`. Reference coverage is 2020–2026; earlier/later rules have not
+been comprehensively checked against official state calendars. California's Diwali
+uses a lunar-date table through 2100 and explicitly rejects years after 2100.
+Territories and employer-specific calendars are excluded.
 
 ### Notes on Canadian Holidays
 
@@ -558,12 +589,12 @@ php tests/console test:reference:azure:update
 ```
 
 The [US state reference calendars](tests/Reference/Usa/README.md) cover all 50 states
-and DC for 2020–2026 using pinned MIT-licensed `python-holidays` data. They include
-actual and observed dates. Updating requires the Python dependencies bundled in the
-Docker target; offline PHP tests check snapshot integrity and coverage. State
-providers are not implemented yet, so this suite does not compare state holidays
-with the PHP library. Update this source separately with
-`php tests/console test:reference:usa:update`.
+and DC for 2020–2026 using pinned MIT-licensed `python-holidays` data. There are 714
+full-calendar comparisons of dates and holiday identities: actual dates and calendars
+including substitute dates for every state/year. PHP rules are adapted from that
+same upstream implementation; these are regression comparisons, not independent
+verification against each state's legislation. Tests run offline without Python.
+Update this source with `php tests/console test:reference:usa:update`.
 
 #### Reference data with Docker
 

@@ -20,7 +20,9 @@ use Umulmrum\Holiday\Model\Holiday;
 use Umulmrum\Holiday\Test\HolidayTestCase;
 use Umulmrum\Holiday\Translator\Translator;
 
+use function array_keys;
 use function implode;
+use function in_array;
 
 final class TranslatorTest extends HolidayTestCase
 {
@@ -60,8 +62,11 @@ final class TranslatorTest extends HolidayTestCase
         ];
 
         yield ['sunday', 'pl', 'Niedziela'];
+
         yield ['christmas_day', 'pl_PL', 'Boże Narodzenie'];
+
         yield ['constitution_day', 'pl', 'Święto Konstytucji 3 Maja'];
+
         yield ['polish_armed_forces_day', 'pl', 'Święto Wojska Polskiego'];
 
         yield [
@@ -104,15 +109,27 @@ final class TranslatorTest extends HolidayTestCase
     }
 
     #[Test]
-    public function itShouldProvidePolishTranslationsForAllEnglishKeys(): void
+    #[DataProvider('getTranslationLocales')]
+    public function itShouldProvideTranslationsForAllEnglishKeys(string $locale): void
     {
+        /** @var array<string, string> $english */
         $english = require __DIR__ . '/../../res/trans/umulmrum_holiday.en.php';
-        $polish = require __DIR__ . '/../../res/trans/umulmrum_holiday.pl.php';
-        $translator = new Translator('pl', false);
-        $translator->addTranslations('pl', $polish);
+
+        /** @var array<string, string> $translations */
+        $translations = require __DIR__ . '/../../res/trans/umulmrum_holiday.' . $locale . '.php';
+        self::assertEqualsCanonicalizing(array_keys($english), array_keys($translations));
+        $translator = new Translator($locale, false);
+        $translator->addTranslations($locale, $translations);
 
         foreach ($english as $key => $translation) {
             self::assertNotSame('', $translator->translate($key), $key);
+        }
+    }
+
+    public static function getTranslationLocales(): Generator
+    {
+        foreach (['en', 'de', 'no', 'pl'] as $locale) {
+            yield $locale => [$locale];
         }
     }
 
@@ -143,7 +160,7 @@ final class TranslatorTest extends HolidayTestCase
                 continue;
             }
             self::assertIsString($value);
-            if ($value === $this->translator->translate($value, 'en')) {
+            if (in_array($this->translator->translate($value, 'en'), ['', $value], true)) {
                 $this->notFoundTranslations[] = $value;
             }
         }
